@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Conozco America
+# Conozco India
 # Copyright (C) 2008,2009,2010 Gabriel Eirea
 # Copyright (C) 2011, 2012 Alan Aguiar
 #
@@ -217,7 +217,7 @@ class Nivel():
         self.preguntaActual = self.preguntas[self.indicePreguntaActual-1]
         return self.preguntaActual[3].split("\n")
 
-class ConozcoAm():
+class ConozcoIn():
     """Clase principal del juego.
 
     """
@@ -594,7 +594,7 @@ class ConozcoAm():
         self.pantalla.blit(self.jp1,
                         (int(925*scale+shift_x),
                             int(468*scale+shift_y)))
-        self.mostrarTexto(unicode(_("About I know America"), "UTF-8"),
+        self.mostrarTexto(unicode(_("About I know India"), "UTF-8"),
                         self.fuente40,
                         (int(600*scale+shift_x),
                         int(100*scale+shift_y)),
@@ -634,7 +634,7 @@ class ConozcoAm():
         """Pantalla con el menu principal del juego"""
         global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
-        self.mostrarTexto(unicode(_("I know America"), "UTF-8"),
+        self.mostrarTexto(unicode(_("I know India"), "UTF-8"),
                         self.fuente60,
                         (int(600*scale+shift_x),
                         int(80*scale+shift_y)),
@@ -742,7 +742,7 @@ class ConozcoAm():
         """Pantalla con el menu de directorios"""
         global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
-        self.mostrarTexto(unicode(_("I know America"), "UTF-8"),
+        self.mostrarTexto(unicode(_("I know India"), "UTF-8"),
                         self.fuente60,
                         (int(600*scale+shift_x),int(80*scale+shift_y)),
                         (255,255,255))
@@ -2072,7 +2072,7 @@ class ConozcoAm():
 
 
 def main():
-    juego = ConozcoAm()
+    juego = ConozcoIn()
     juego.principal()
 
 
