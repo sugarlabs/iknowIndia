@@ -1,9 +1,9 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Conozco India
+# Conozco America
 # Copyright (C) 2008,2009,2010 Gabriel Eirea
-# Copyright (C) 2011 Alan Aguiar
+# Copyright (C) 2011, 2012 Alan Aguiar
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -29,6 +29,7 @@ import os
 import pygame
 import gtk
 import time
+import imp
 from gettext import gettext as _
 
 # constantes
@@ -54,20 +55,11 @@ ABARRA_A = DXPANEL-40
 CAMINORECURSOS = "recursos"
 CAMINOCOMUN = "comun"
 CAMINOFUENTES = "fuentes"
-CAMINODATOS = _("datos/en")
+CAMINODATOS = "datos"
 CAMINOIMAGENES = "imagenes"
 CAMINOSONIDOS = "sonidos"
-ARCHIVODEPTOS = "departamentos.txt"
-ARCHIVOLUGARES = "ciudades.txt"
-ARCHIVONIVELES = "niveles.txt"
-ARCHIVOEXPLORACIONES = "exploraciones.txt"
-ARCHIVORIOS = "rios.txt"
-ARCHIVORUTAS = "rutas.txt"
-ARCHIVOCUCHILLAS = "cuchillas.txt"
-ARCHIVOCREDITOS = "creditos.txt"
-ARCHIVOPRESENTACION = "presentacion.txt"
-ARCHIVONOMBRE = _("nombreEN.txt")
-ARCHIVOESTADISTICAS = "estadisticas.txt"
+ARCHIVONIVELES = "levels"
+ARCHIVOEXPLORACIONES = "explorations"
 COLORNOMBREDEPTO = (10,10,10)
 COLORNOMBRECAPITAL = (10,10,10)
 COLORNOMBRERIO = (10,10,10)
@@ -212,9 +204,9 @@ class Nivel():
         self.preguntaActual = self.preguntas[self.indicePreguntaActual]
         self.sufijoActual = random.randint(1,len(listaSufijos))-1
         self.prefijoActual = random.randint(1,len(listaPrefijos))-1
-        lineas = listaPrefijos[self.prefijoActual].split("\\")
-        lineas.extend(self.preguntaActual[0].split("\\"))
-        lineas.extend(listaSufijos[self.sufijoActual].split("\\"))
+        lineas = listaPrefijos[self.prefijoActual].split("\n")
+        lineas.extend(self.preguntaActual[0].split("\n"))
+        lineas.extend(listaSufijos[self.sufijoActual].split("\n"))
         self.indicePreguntaActual = self.indicePreguntaActual+1
         if self.indicePreguntaActual == len(self.preguntas):
             self.indicePreguntaActual = 0
@@ -223,9 +215,9 @@ class Nivel():
     def devolverAyuda(self):
         """Devuelve la linea de ayuda"""
         self.preguntaActual = self.preguntas[self.indicePreguntaActual-1]
-        return self.preguntaActual[3].split("\\")
+        return self.preguntaActual[3].split("\n")
 
-class ConozcoIn():
+class ConozcoAm():
     """Clase principal del juego.
 
     """
@@ -237,118 +229,114 @@ class ConozcoIn():
         textrect.center = posicion
         self.pantalla.blit(text, textrect)
 
-    def cargarDepartamentos(self):
-        """Carga las imagenes y los datos de los departamentos"""
-        self.deptos = self.cargarImagen("deptos.png")
-        self.deptosLineas = self.cargarImagen("deptosLineas.png")
-        self.listaDeptos = list()
-        # falta sanitizar manejo de archivo
-        f = open(os.path.join(self.camino_datos,ARCHIVODEPTOS),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            [nombreDepto,claveColor,posx,posy,rotacion] = \
-                linea.strip().split("|")
-            nuevoDepto = Zona(self.deptos,
-                            unicode(nombreDepto,'iso-8859-1'),
-                            claveColor,1,(posx,posy),rotacion)
-            self.listaDeptos.append(nuevoDepto)
-            linea = f.readline()
-        f.close()
+    def loadInfo(self):
+        """Carga las imagenes y los datos de cada pais"""
+        r_path = os.path.join(self.camino_datos, self.directorio + '.py')
+        a_path = os.path.abspath(r_path)
+        f = None
+        try:
+            f = imp.load_source(self.directorio, a_path)
+        except:
+            print _('Cannot open %s') % self.directorio
 
-    def cargarRios(self):
-        """Carga las imagenes y los datos de los rios"""
-        self.rios = self.cargarImagen("rios.png")
-        self.riosDetectar = self.cargarImagen("riosDetectar.png")
-        self.listaRios = list()
-        # falta sanitizar manejo de archivo
-        f = open(os.path.join(self.camino_datos,ARCHIVORIOS),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            [nombreRio,claveColor,posx,posy,rotacion] = \
-                linea.strip().split("|")
-            nuevoRio = Zona(self.riosDetectar,
-                            unicode(nombreRio,'iso-8859-1'),
-                            claveColor,3,(posx,posy),rotacion)
-            self.listaRios.append(nuevoRio)
-            linea = f.readline()
-        f.close()
+        if f:
+            lugares = []
+            if hasattr(f, 'CAPITALS'):
+                lugares = lugares + f.CAPITALS
+            if hasattr(f, 'CITIES'):
+                lugares = lugares + f.CITIES
+            if hasattr(f, 'HILLS'):
+                lugares = lugares + f.HILLS
+            self.listaLugares = list()
+            for c in lugares:
+                #nombreLugar = c[0]
+                nombreLugar = unicode(c[0], 'UTF-8')
+                posx = c[1]
+                posy = c[2]
+                tipo = c[3]
+                incx = c[4]
+                incy = c[5]
+                if tipo == 0:
+                    simbolo = self.simboloCapitalN
+                elif tipo == 1:
+                    simbolo = self.simboloCapitalD
+                elif tipo == 2:
+                    simbolo = self.simboloCiudad
+                elif tipo == 5:
+                    simbolo = self.simboloCerro
+                else:
+                    simbolo = self.simboloCiudad
 
-    def cargarRutas(self):
-        """Carga las imagenes y los datos de las rutas"""
-        self.rutas = self.cargarImagen("rutas.png")
-        self.rutasDetectar = self.cargarImagen("rutasDetectar.png")
-        self.listaRutas = list()
-        # falta sanitizar manejo de archivo
-        f = open(os.path.join(self.camino_datos,ARCHIVORUTAS),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            [nombreRuta,claveColor,posx,posy,rotacion] = \
-                linea.strip().split("|")
-            nuevaRuta = Zona(self.rutasDetectar,
-                            unicode(nombreRuta,'iso-8859-1'),
-                            claveColor,6,(posx,posy),rotacion)
-            self.listaRutas.append(nuevaRuta)
-            linea = f.readline()
-        f.close()
-
-    def cargarCuchillas(self):
-        """Carga las imagenes y los datos de las cuchillas"""
-        self.cuchillas = self.cargarImagen("cuchillas.png")
-        self.cuchillasDetectar = self.cargarImagen("cuchillasDetectar.png")
-        self.listaCuchillas = list()
-        # falta sanitizar manejo de archivo
-        f = open(os.path.join(self.camino_datos,ARCHIVOCUCHILLAS),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            [nombreCuchilla,claveColor,posx,posy,rotacion] = \
-                linea.strip().split("|")
-            nuevaCuchilla = Zona(self.cuchillasDetectar,
-                                unicode(nombreCuchilla,'iso-8859-1'),
-                                claveColor,4,(posx,posy),rotacion)
-            self.listaCuchillas.append(nuevaCuchilla)
-            linea = f.readline()
-        f.close()
-
-    def cargarLugares(self):
-        """Carga los datos de las ciudades y otros puntos de interes"""
-        self.listaLugares = list()
-        # falta sanitizar manejo de archivo
-        f = open(os.path.join(self.camino_datos,ARCHIVOLUGARES),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            [nombreLugar,posx,posy,tipo,incx,incy] = \
-                linea.strip().split("|")
-            if int(tipo) == 0:
-                simbolo = self.simboloCapitalN
-            elif int(tipo) == 1:
-                simbolo = self.simboloCapitalD
-            elif int(tipo) == 2:
-                simbolo = self.simboloCiudad
-            elif int(tipo) == 5:
-                simbolo = self.simboloCerro
-            else:
-                simbolo = self.simboloCiudad
-            nuevoLugar = Punto(unicode(nombreLugar,'iso-8859-1'),
-                            int(tipo),simbolo,
+                nuevoLugar = Punto(nombreLugar, tipo, simbolo,
                             (posx,posy),(incx,incy))
-            self.listaLugares.append(nuevoLugar)
-            linea = f.readline()
-        f.close()
+                self.listaLugares.append(nuevoLugar)
+
+            if hasattr(f, 'STATES'):
+                self.deptos = self.cargarImagen("deptos.png")
+                self.deptosLineas = self.cargarImagen("deptosLineas.png")
+                self.listaDeptos = list()
+                for d in f.STATES:
+                    #nombreDepto = d[0]
+                    nombreDepto = unicode(d[0], 'UTF-8')
+                    claveColor = d[1]
+                    posx = d[2]
+                    posy = d[3]
+                    rotacion = d[4]
+                    nuevoDepto = Zona(self.deptos, nombreDepto,
+                                    claveColor,1,(posx,posy),rotacion)
+                    self.listaDeptos.append(nuevoDepto)
+
+            if hasattr(f, 'CUCHILLAS'):
+                self.cuchillas = self.cargarImagen("cuchillas.png")
+                self.cuchillasDetectar = self.cargarImagen("cuchillasDetectar.png")
+                self.listaCuchillas = list()
+                for c in f.CUCHILLAS:
+                    #nombreCuchilla = c[0]
+                    nombreCuchilla = unicode(c[0], 'UTF-8')
+                    claveColor = c[1]
+                    posx = c[2]
+                    posy = c[3]
+                    rotacion = c[4]
+                    nuevaCuchilla = Zona(self.cuchillasDetectar, nombreCuchilla,
+                                    claveColor,4,(posx,posy),rotacion)
+                    self.listaCuchillas.append(nuevaCuchilla)
+
+            if hasattr(f, 'RIVERS'):
+                self.rios = self.cargarImagen("rios.png")
+                self.riosDetectar = self.cargarImagen("riosDetectar.png")
+                self.listaRios = list()
+                for r in f.RIVERS:
+                    #nombreRio = r[0]
+                    nombreRio = unicode(r[0], 'UTF-8')
+                    claveColor = r[1]
+                    posx = r[2]
+                    posy = r[3]
+                    rotacion = r[4]
+                    nuevoRio = Zona(self.riosDetectar, nombreRio,
+                                    claveColor,3,(posx,posy),rotacion)
+                    self.listaRios.append(nuevoRio)
+
+            if hasattr(f, 'ROUTES'):
+                self.rutas = self.cargarImagen("rutas.png")
+                self.rutasDetectar = self.cargarImagen("rutasDetectar.png")
+                self.listaRutas = list()
+                for r in f.ROUTES:
+                    #nombreRuta = r[0]
+                    nombreRuta = unicode(r[0], 'UTF-8')
+                    claveColor = r[1]
+                    posx = r[2]
+                    posy = r[3]
+                    rotacion = r[4]
+                    nuevaRuta = Zona(self.rutasDetectar, nombreRuta,
+                                claveColor,6,(posx,posy),rotacion)
+                    self.listaRutas.append(nuevaRuta)
+            self.lista_estadisticas = list()
+            if hasattr(f, 'STATS'):
+                for e in f.STATS:
+                    p1 = unicode(e[0], 'UTF-8')
+                    p2 = unicode(e[1], 'UTF-8')
+                    self.lista_estadisticas.append((p1, p2))
+
 
     def cargarListaDirectorios(self):
         """Carga la lista de directorios con los distintos mapas"""
@@ -357,81 +345,73 @@ class ConozcoIn():
         listaTemp = os.listdir(CAMINORECURSOS)
         listaTemp.sort()
         for d in listaTemp:
-            if d == "comun":
-                pass
-            else:
-                self.listaDirectorios.append(d)
-                f = open(os.path.join(CAMINORECURSOS,d,ARCHIVONOMBRE),"r")
-                linea = f.readline()
-                self.listaNombreDirectorios.append(\
-                    unicode(linea.strip(),'iso-8859-1'))
-                f.close()
+            if not (d == 'comun'):
+                r_path = os.path.join(CAMINORECURSOS, d, 'datos', d + '.py')
+                a_path = os.path.abspath(r_path)
+                f = None
+                try:
+                    f = imp.load_source(d, a_path)
+                except:
+                    print _('Cannot open %s') % d
+                if f:
+                    name = unicode(f.NAME, 'UTF-8')
+                    self.listaNombreDirectorios.append(name)
+                    self.listaDirectorios.append(d)
 
-    def cargarNiveles(self):
-        """Carga los niveles del archivo de configuracion"""
-        self.listaNiveles = list()
+    def loadCommons(self):
+                
         self.listaPrefijos = list()
         self.listaSufijos = list()
         self.listaCorrecto = list()
         self.listaMal = list()
         self.listaDespedidasB = list()
         self.listaDespedidasM = list()
-        # falta sanitizar manejo de archivo
-        f = open(os.path.join(self.camino_datos,ARCHIVONIVELES),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            if linea[0] == "[":
-                # empieza nivel
-                nombreNivel = linea.strip("[]\n")
-                nombreNivel = unicode(nombreNivel,'iso-8859-1')
-                nuevoNivel = Nivel(nombreNivel)
-                self.listaNiveles.append(nuevoNivel)
-                linea = f.readline()
-                continue
-            if linea.find("=") == -1:
-                linea = f.readline()
-                continue
-            [var,valor] = linea.strip().split("=")
-            if var.startswith("Prefijo"):
-                self.listaPrefijos.append(
-                    unicode(valor.strip(),'iso-8859-1'))
-            elif var.startswith("Sufijo"):
-                self.listaSufijos.append(
-                    unicode(valor.strip(),'iso-8859-1'))
-            elif var.startswith("Correcto"):
-                self.listaCorrecto.append(
-                    unicode(valor.strip(),'iso-8859-1'))
-            elif var.startswith("Mal"):
-                self.listaMal.append(
-                    unicode(valor.strip(),'iso-8859-1'))
-            elif var.startswith("DespedidaB"):
-                self.listaDespedidasB.append(
-                    unicode(valor.strip(),'iso-8859-1'))
-            elif var.startswith("DespedidaM"):
-                self.listaDespedidasM.append(
-                    unicode(valor.strip(),'iso-8859-1'))
-            elif var.startswith("dibujoInicial"):
-                listaDibujos = valor.split(",")
-                for i in listaDibujos:
-                    nuevoNivel.dibujoInicial.append(i.strip())
-            elif var.startswith("nombreInicial"):
-                listaNombres = valor.split(",")
-                for i in listaNombres:
-                    nuevoNivel.nombreInicial.append(i.strip())
-            elif var.startswith("Pregunta"):
-                [texto,tipo,respuesta,ayuda] = valor.split("|")
-                nuevoNivel.preguntas.append(
-                    (unicode(texto.strip(),'iso-8859-1'),
-                    int(tipo),
-                    unicode(respuesta.strip(),'iso-8859-1'),
-                    unicode(ayuda.strip(),'iso-8859-1')))
-            linea = f.readline()
-        f.close()
-        self.indiceNivelActual = 0
-        self.numeroNiveles = len(self.listaNiveles)
+        self.listaPresentacion = list()
+        self.listaCreditos = list()
+        
+
+        r_path = os.path.join(CAMINORECURSOS, CAMINOCOMUN, 'datos', 'commons.py')
+        a_path = os.path.abspath(r_path)
+        f = None
+        try:
+            f = imp.load_source('commons', a_path)
+        except:
+            print _('Cannot open %s') % 'commons'
+
+        if f:
+            if hasattr(f, 'PREFIX'):
+                for e in f.PREFIX:
+                    e1 = unicode(e, 'UTF-8')
+                    self.listaPrefijos.append(e1)
+            if hasattr(f, 'SUFIX'):
+                for e in f.SUFIX:
+                    e1 = unicode(e, 'UTF-8')
+                    self.listaSufijos.append(e1)  
+            if hasattr(f, 'CORRECT'):
+                for e in f.CORRECT:
+                    e1 = unicode(e, 'UTF-8')
+                    self.listaCorrecto.append(e1)
+            if hasattr(f, 'WRONG'):
+                for e in f.WRONG:
+                    e1 = unicode(e, 'UTF-8')
+                    self.listaMal.append(e1)
+            if hasattr(f, 'BYE_C'):
+                for e in f.BYE_C:
+                    e1 = unicode(e, 'UTF-8')
+                    self.listaDespedidasB.append(e1)
+            if hasattr(f, 'BYE_W'):
+                for e in f.BYE_W:
+                    e1 = unicode(e, 'UTF-8')
+                    self.listaDespedidasM.append(e1)
+            if hasattr(f, 'PRESENTATION'):
+                for e in f.PRESENTATION:
+                    e1 = unicode(e, 'UTF-8')
+                    self.listaPresentacion.append(e1)
+            if hasattr(f, 'CREDITS'):
+                for e in f.CREDITS:
+                    e1 = unicode(e, 'UTF-8')
+                    self.listaCreditos.append(e1)
+
         self.numeroSufijos = len(self.listaSufijos)
         self.numeroPrefijos = len(self.listaPrefijos)
         self.numeroCorrecto = len(self.listaCorrecto)
@@ -439,41 +419,166 @@ class ConozcoIn():
         self.numeroDespedidasB = len(self.listaDespedidasB)
         self.numeroDespedidasM = len(self.listaDespedidasM)
 
+    def cargarNiveles(self):
+        """Carga los niveles del archivo de configuracion"""
+        self.listaNiveles = list()
+
+        r_path = os.path.join(self.camino_datos, ARCHIVONIVELES + '.py')
+        a_path = os.path.abspath(r_path)
+        f = None
+        try:
+            f = imp.load_source(ARCHIVONIVELES, a_path)
+        except:
+            print _('Cannot open %s') % ARCHIVONIVELES
+
+        if f:
+            if hasattr(f, 'LEVELS'):
+                for ln in f.LEVELS:
+                    index = ln[0]
+                    nombreNivel = unicode(ln[1], 'UTF-8')
+                    nuevoNivel = Nivel(nombreNivel)
+
+                    listaDibujos = ln[2]
+                    for i in listaDibujos:
+                        nuevoNivel.dibujoInicial.append(i.strip())
+
+                    listaNombres = ln[3]
+                    for i in listaNombres:
+                        nuevoNivel.nombreInicial.append(i.strip())
+
+                    listpreguntas = ln[4]
+
+                    if (index == 2):
+                        for i in listpreguntas:
+                            tipo = 2
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            texto = _('the city of\n%s') % respuesta
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
+                    elif (index == 7):
+                        for i in listpreguntas:
+                            tipo = 1
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            texto = _('the department of\n%s') % respuesta
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
+                    elif (index == 8):
+                        for i in listpreguntas:
+                            tipo = 1
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            texto = _('the province of\n%s') % respuesta
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
+                    elif (index == 9):
+                        for i in listpreguntas:
+                            tipo = 1
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            texto = _('the district of\n%s') % respuesta
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
+                    elif (index == 10):
+                        for i in listpreguntas:
+                            tipo = 1
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            texto = _('the state of\n%s') % respuesta
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
+                    elif (index == 11):
+                        for i in listpreguntas:
+                            tipo = 1
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            texto = _('the region of\n%s') % respuesta
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
+                    elif (index == 12):
+                        for i in listpreguntas:
+                            tipo = 1
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            texto = _('the parish of\n%s') % respuesta
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
+                    elif (index == 6):
+                        for i in listpreguntas:
+                            tipo = 1
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            texto = _('the municipality of\n%s') % respuesta
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
+                    elif (index == 4):
+                        for i in listpreguntas:
+                            tipo = 3
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            texto = _('the %s') % respuesta
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
+                    elif (index == 1):
+                        for i in listpreguntas:
+                            texto = unicode(i[0], 'UTF-8')
+                            tipo = i[1]
+                            respuesta = unicode(i[2], 'UTF-8')
+                            ayuda = unicode(i[3], 'UTF-8')
+
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
+                    self.listaNiveles.append(nuevoNivel)
+
+
+        self.indiceNivelActual = 0
+        self.numeroNiveles = len(self.listaNiveles)
+
+
     def cargarExploraciones(self):
         """Carga los niveles de exploracion del archivo de configuracion"""
         self.listaExploraciones = list()
-        # falta sanitizar manejo de archivo
-        f = open(os.path.join(self.camino_datos,ARCHIVOEXPLORACIONES),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            if linea[0] == "[":
-                # empieza nivel
-                nombreNivel = linea.strip("[]\n")
-                nuevoNivel = Nivel(nombreNivel)
-                self.listaExploraciones.append(nuevoNivel)
-                linea = f.readline()
-                continue
-            if linea.find("=") == -1:
-                linea = f.readline()
-                continue
-            [var,valor] = linea.strip().split("=")
-            if var.startswith("dibujoInicial"):
-                listaDibujos = valor.split(",")
-                for i in listaDibujos:
-                    nuevoNivel.dibujoInicial.append(i.strip())
-            elif var.startswith("nombreInicial"):
-                listaNombres = valor.split(",")
-                for i in listaNombres:
-                    nuevoNivel.nombreInicial.append(i.strip())
-            elif var.startswith("elementosActivos"):
-                listaNombres = valor.split(",")
-                for i in listaNombres:
-                    nuevoNivel.elementosActivos.append(i.strip())
-            linea = f.readline()
-        f.close()
+
+        r_path = os.path.join(self.camino_datos, ARCHIVOEXPLORACIONES + '.py')
+        a_path = os.path.abspath(r_path)
+        f = None
+        try:
+            f = imp.load_source(ARCHIVOEXPLORACIONES, a_path)
+        except:
+            print _('Cannot open %s') % ARCHIVOEXPLORACIONES
+
+        if f:
+            if hasattr(f, 'EXPLORATIONS'):
+                for e in f.EXPLORATIONS:
+                    #nombreNivel = e[0]
+                    nombreNivel= unicode(e[0], 'UTF-8')
+                    nuevoNivel = Nivel(nombreNivel)
+
+                    listaDibujos = e[1]
+                    for i in listaDibujos:
+                        nuevoNivel.dibujoInicial.append(i.strip())
+
+                    listaNombres = e[2]
+                    for i in listaNombres:
+                        nuevoNivel.nombreInicial.append(i.strip())
+
+                    listaNombres = e[3]
+                    for i in listaNombres:
+                        nuevoNivel.elementosActivos.append(i.strip())
+
+                    self.listaExploraciones.append(nuevoNivel)
+
         self.numeroExploraciones = len(self.listaExploraciones)
 
     def pantallaAcercaDe(self):
@@ -489,24 +594,20 @@ class ConozcoIn():
         self.pantalla.blit(self.jp1,
                         (int(925*scale+shift_x),
                             int(468*scale+shift_y)))
-        self.mostrarTexto(unicode(_("About I know India"), "UTF-8"),
+        self.mostrarTexto(unicode(_("About I know America"), "UTF-8"),
                         self.fuente40,
                         (int(600*scale+shift_x),
                         int(100*scale+shift_y)),
                         (255,255,255))
-        # falta sanitizar acceso a archivo
-        f = open(os.path.join(CAMINORECURSOS,
-                            CAMINOCOMUN,
-                            CAMINODATOS,
-                            ARCHIVOCREDITOS),"r")
+
         yLinea = int(200*scale+shift_y)
-        for linea in f:
+        for linea in self.listaCreditos:
             self.mostrarTexto(linea.strip(),
                             self.fuente32,
                             (int(600*scale+shift_x),yLinea),
                             (155,155,255))
             yLinea = yLinea + int(40*scale)
-        f.close()
+
         self.mostrarTexto(_("Press any key to return"),
                         self.fuente32,
                         (int(600*scale+shift_x),
@@ -514,6 +615,10 @@ class ConozcoIn():
                         (255,155,155))
         pygame.display.flip()
         while 1:
+            # Pump GTK messages.
+            while gtk.events_pending():
+                gtk.main_iteration()
+
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
@@ -529,7 +634,7 @@ class ConozcoIn():
         """Pantalla con el menu principal del juego"""
         global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
-        self.mostrarTexto(unicode(_("I know India"), "UTF-8"),
+        self.mostrarTexto(unicode(_("I know America"), "UTF-8"),
                         self.fuente60,
                         (int(600*scale+shift_x),
                         int(80*scale+shift_y)),
@@ -590,6 +695,10 @@ class ConozcoIn():
                         (100,200,100))
         pygame.display.flip()
         while 1:
+            # Pump GTK messages.
+            while gtk.events_pending():
+                gtk.main_iteration()
+
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape: volver
@@ -633,7 +742,7 @@ class ConozcoIn():
         """Pantalla con el menu de directorios"""
         global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
-        self.mostrarTexto(unicode(_("I know India"), "UTF-8"),
+        self.mostrarTexto(unicode(_("I know America"), "UTF-8"),
                         self.fuente60,
                         (int(600*scale+shift_x),int(80*scale+shift_y)),
                         (255,255,255))
@@ -730,6 +839,10 @@ class ConozcoIn():
             pygame.display.flip()
             cambiarPagina = False
             while not cambiarPagina:
+                # Pump GTK messages.
+                while gtk.events_pending():
+                    gtk.main_iteration()
+
                 for event in wait_events():
                     if event.type == pygame.KEYDOWN:
                         if event.key == 27: # escape: salir
@@ -806,14 +919,20 @@ class ConozcoIn():
         return imagen
 
     def __init__(self):
-        """Esta es la inicializacion del juego"""
+        pass
+
+
+    def loadAll(self):
         global scale, shift_x, shift_y, xo_resolution
         pygame.init()
+        pygame.display.init()
         # crear pantalla
         self.anchoPantalla = gtk.gdk.screen_width()
         self.altoPantalla = gtk.gdk.screen_height()
-        self.pantalla = pygame.display.set_mode((self.anchoPantalla,
-                                                self.altoPantalla))
+        #self.pantalla = pygame.display.set_mode((self.anchoPantalla,
+        #                                        self.altoPantalla))
+        self.pantalla = pygame.display.get_surface()
+        pygame.display.flip()
         if self.anchoPantalla==1200 and self.altoPantalla==900:
             xo_resolution = True
             scale = 1
@@ -866,7 +985,7 @@ class ConozcoIn():
         self.sound = True
         try:
             self.click = pygame.mixer.Sound(os.path.join(\
-                            self.camino_sonidos,"junggle_btn045.wav"))
+                            self.camino_sonidos,"junggle_btn117.wav"))
             self.click.set_volume(0.2)
         except:
             self.sound = False
@@ -974,20 +1093,9 @@ class ConozcoIn():
                                             CAMINODATOS)
         self.fondo = self.cargarImagen("fondo.png")
         self.bandera = self.cargarImagen("bandera.png")
-        self.cargarDepartamentos()
-        try:
-            self.cargarRios()
-        except:
-            pass
-        try:
-            self.cargarRutas()
-        except:
-            pass
-        try:
-            self.cargarCuchillas()
-        except:
-            pass
-        self.cargarLugares()
+
+        self.loadInfo()
+
         self.cargarNiveles()
         self.cargarExploraciones()
 
@@ -1042,10 +1150,8 @@ class ConozcoIn():
         # primero averiguar tipo
         if nivel.preguntaActual[1] == 1: # DEPTO
             # buscar depto correcto
-            encontrado = False
             for d in self.listaDeptos:
                 if d.nombre == respCorrecta:
-                    encontrado = True
                     break
             if d.estaAca(pos):
                 d.mostrarNombre(self.pantalla,
@@ -1057,10 +1163,8 @@ class ConozcoIn():
                 return False
         elif nivel.preguntaActual[1] == 2: # CAPITAL o CIUDAD
             # buscar lugar correcto
-            encontrado = False
             for l in self.listaLugares:
                 if l.nombre == respCorrecta:
-                    encontrado = True
                     break
             if l.estaAca(pos):
                 l.mostrarNombre(self.pantalla,
@@ -1072,10 +1176,8 @@ class ConozcoIn():
                 return False
         if nivel.preguntaActual[1] == 3: # RIO
             # buscar rio correcto
-            encontrado = False
             for d in self.listaRios:
                 if d.nombre == respCorrecta:
-                    encontrado = True
                     break
             if d.estaAca(pos):
                 d.mostrarNombre(self.pantalla,
@@ -1087,10 +1189,8 @@ class ConozcoIn():
                 return False
         if nivel.preguntaActual[1] == 4: # CUCHILLA
             # buscar cuchilla correcta
-            encontrado = False
             for d in self.listaCuchillas:
                 if d.nombre == respCorrecta:
-                    encontrado = True
                     break
             if d.estaAca(pos):
                 d.mostrarNombre(self.pantalla,
@@ -1102,10 +1202,8 @@ class ConozcoIn():
                 return False
         elif nivel.preguntaActual[1] == 5: # CERRO
             # buscar lugar correcto
-            encontrado = False
             for l in self.listaLugares:
                 if l.nombre == respCorrecta:
-                    encontrado = True
                     break
             if l.estaAca(pos):
                 l.mostrarNombre(self.pantalla,
@@ -1117,10 +1215,8 @@ class ConozcoIn():
                 return False
         if nivel.preguntaActual[1] == 6: # RUTA
             # buscar ruta correcta
-            encontrado = False
             for d in self.listaRutas:
                 if d.nombre == respCorrecta:
-                    encontrado = True
                     break
             if d.estaAca(pos):
                 d.mostrarNombre(self.pantalla,
@@ -1212,6 +1308,10 @@ class ConozcoIn():
         pygame.display.flip()
         # lazo principal de espera por acciones del usuario
         while 1:
+            # Pump GTK messages.
+            while gtk.events_pending():
+                gtk.main_iteration()
+
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape: salir
@@ -1398,7 +1498,7 @@ class ConozcoIn():
                 self.listaSufijos,self.listaPrefijos)
         self.mostrarGlobito(self.lineasPregunta)
         # barra puntaje
-        rect = pygame.draw.rect(self.pantalla, (0,0,0),
+        pygame.draw.rect(self.pantalla, (0,0,0),
                                 (int(XBARRA_P*scale+shift_x),
                                 int((YBARRA_P-350)*scale+shift_y),
                                 int(ABARRA_P*scale),
@@ -1408,7 +1508,7 @@ class ConozcoIn():
             int(YBARRA_P+10)*scale+shift_y), COLORBARRA_P)
         # barra avance
         unidad = ABARRA_A / TOTALAVANCE
-        rect = pygame.draw.rect(self.pantalla, (0,0,0),
+        pygame.draw.rect(self.pantalla, (0,0,0),
                                 (int(XBARRA_A*scale+shift_x),
                                 int(YBARRA_A*scale+shift_y),
                                 int(ABARRA_A*scale),
@@ -1427,8 +1527,14 @@ class ConozcoIn():
         self.otorgado = False
         self.estadodespedida = 0
         self.primera = False
+        self.avanceNivel = 0
+        pygame.time.set_timer(EVENTORESPUESTA,0)
         # leer eventos y ver si la respuesta es correcta
         while 1:
+            # Pump GTK messages.
+            while gtk.events_pending():
+                gtk.main_iteration()
+
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape: salir
@@ -1468,7 +1574,7 @@ class ConozcoIn():
                                         int(self.puntos*5*scale)
                                         )
                                         )
-                                rect = pygame.draw.rect(self.pantalla, (0,0,0),
+                                pygame.draw.rect(self.pantalla, (0,0,0),
                                     (int(XBARRA_P*scale+shift_x),
                                     int((YBARRA_P-350)*scale+shift_y),
                                     int(ABARRA_P*scale),
@@ -1516,7 +1622,7 @@ class ConozcoIn():
                                             int(ABARRA_P*scale)
                                             )
                                             )
-                            rect = pygame.draw.rect(self.pantalla, (0,0,0),
+                            pygame.draw.rect(self.pantalla, (0,0,0),
                                                 (int(XBARRA_A*scale+shift_x),
                                                 int(YBARRA_A*scale+shift_y),
                                                 int(ABARRA_A*scale),
@@ -1542,7 +1648,7 @@ class ConozcoIn():
                                         int(ABARRA_P*scale)
                                         )
                                         )
-                        rect = pygame.draw.rect(self.pantalla, (0,0,0),
+                        pygame.draw.rect(self.pantalla, (0,0,0),
                                             (int(XBARRA_A*scale+shift_x),
                                             int((YBARRA_A)*scale+shift_y),
                                             int(ABARRA_A*scale),
@@ -1566,11 +1672,11 @@ class ConozcoIn():
                         if self.puntos == 70:
                             self.lineasPregunta =  self.listaDespedidasB[\
                                 random.randint(1,self.numeroDespedidasB)-1]\
-                                .split("\\")
+                                .split("\n")
                         else:
                             self.lineasPregunta =  self.listaDespedidasM[\
                                 random.randint(1,self.numeroDespedidasM)-1]\
-                                .split("\\")
+                                .split("\n")
                         self.mostrarGlobito(self.lineasPregunta)
                         pygame.time.set_timer(EVENTODESPEGUE,
                                             TIEMPORESPUESTA*2)
@@ -1643,21 +1749,14 @@ class ConozcoIn():
         pygame.display.flip()
         # esperar o no esperar, esa es la cuestion
         time.sleep(0.5)
-        # cargo el texto de la presentacion
-        self.listaPresentacion = list()
-        f = open(os.path.join(CAMINORECURSOS,
-                              CAMINOCOMUN,
-                              CAMINODATOS,ARCHIVOPRESENTACION),"r")
-        for linea in f:
-            self.listaPresentacion.append(unicode(linea,'iso-8859-1'))
-        f.close()
+
 
         # comienzo animacion
         self.pantalla.blit(self.globo1,
                         (int(180*scale+shift_x),int(260*scale+shift_y)))
         yLinea = int(330*scale+shift_y)
         # hola amigos
-        lineas = self.listaPresentacion[0].split("\\")
+        lineas = self.listaPresentacion[0].split("\n")
         for l in lineas:
             text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
             textrect = text.get_rect()
@@ -1670,6 +1769,10 @@ class ConozcoIn():
         terminar = False
         pygame.time.set_timer(EVENTORESPUESTA, 2000)
         while 1:
+            # Pump GTK messages.
+            while gtk.events_pending():
+                gtk.main_iteration()
+
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
@@ -1688,8 +1791,8 @@ class ConozcoIn():
         self.pantalla.blit(self.globo1,
                         (int(180*scale+shift_x),int(260*scale+shift_y)))
         yLinea = int(315*scale+shift_y)
-        # mañana tengo...
-        lineas = self.listaPresentacion[1].split("\\")
+        # maÃ±ana tengo...
+        lineas = self.listaPresentacion[1].split("\n")
         for l in lineas:
             text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
             textrect = text.get_rect()
@@ -1700,6 +1803,10 @@ class ConozcoIn():
         terminar = False
         pygame.time.set_timer(EVENTORESPUESTA, 2000)
         while 1:
+            # Pump GTK messages.
+            while gtk.events_pending():
+                gtk.main_iteration()
+
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
@@ -1722,6 +1829,10 @@ class ConozcoIn():
         terminar = False
         pygame.time.set_timer(EVENTORESPUESTA, 2000)
         while 1:
+            # Pump GTK messages.
+            while gtk.events_pending():
+                gtk.main_iteration()
+
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
@@ -1754,7 +1865,7 @@ class ConozcoIn():
                         (int(160*scale+shift_x),int(240*scale+shift_y)))
         yLinea = int(310*scale+shift_y)
         # y no se nada
-        lineas = self.listaPresentacion[2].split("\\")
+        lineas = self.listaPresentacion[2].split("\n")
         for l in lineas:
             text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
             textrect = text.get_rect()
@@ -1765,6 +1876,10 @@ class ConozcoIn():
         terminar = False
         pygame.time.set_timer(EVENTORESPUESTA, 1000)
         while 1:
+            # Pump GTK messages.
+            while gtk.events_pending():
+                gtk.main_iteration()
+
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
@@ -1785,7 +1900,7 @@ class ConozcoIn():
                         (int(570*scale+shift_x),int(260*scale+shift_y)))
         yLinea = int(330*scale+shift_y)
         # que hago
-        lineas = self.listaPresentacion[3].split("\\")
+        lineas = self.listaPresentacion[3].split("\n")
         for l in lineas:
             text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
             textrect = text.get_rect()
@@ -1796,6 +1911,10 @@ class ConozcoIn():
         terminar = False
         pygame.time.set_timer(EVENTORESPUESTA, 2000)
         while 1:
+            # Pump GTK messages.
+            while gtk.events_pending():
+                gtk.main_iteration()
+
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
@@ -1828,7 +1947,7 @@ class ConozcoIn():
                         (int(160*scale+shift_x),int(240*scale+shift_y)))
         yLinea = int(310*scale+shift_y)
         # te puedo pedir
-        lineas = self.listaPresentacion[4].split("\\")
+        lineas = self.listaPresentacion[4].split("\n")
         for l in lineas:
             text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
             textrect = text.get_rect()
@@ -1841,6 +1960,10 @@ class ConozcoIn():
         terminar = False
         pygame.time.set_timer(EVENTORESPUESTA, 1500)
         while 1:
+            # Pump GTK messages.
+            while gtk.events_pending():
+                gtk.main_iteration()
+
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
@@ -1860,7 +1983,7 @@ class ConozcoIn():
                         (int(160*scale+shift_x),int(240*scale+shift_y)))
         yLinea = int(310*scale+shift_y)
         # me ayudas
-        lineas = self.listaPresentacion[5].split("\\")
+        lineas = self.listaPresentacion[5].split("\n")
         for l in lineas:
             text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
             textrect = text.get_rect()
@@ -1871,6 +1994,10 @@ class ConozcoIn():
         terminar = False
         pygame.time.set_timer(EVENTORESPUESTA, 2000)
         while 1:
+            # Pump GTK messages.
+            while gtk.events_pending():
+                gtk.main_iteration()
+
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
@@ -1892,7 +2019,13 @@ class ConozcoIn():
         """Este es el loop principal del juego"""
         global scale, shift_x, shift_y
         pygame.time.set_timer(EVENTOREFRESCO,TIEMPOREFRESCO)
+
+        self.loadAll()
+
+        self.loadCommons()
+
         self.presentacion()
+
         self.paginaDir = 0
         while 1:
             self.pantallaDirectorios() # seleccion de mapa
@@ -1923,29 +2056,23 @@ class ConozcoIn():
                     self.pantalla.blit(self.bandera,
                                     (int((XMAPAMAX+47)*scale+shift_x),
                                     int(155*scale+shift_y)))
-                    f = open(os.path.join(CAMINORECURSOS,
-                                        self.directorio,
-                                        CAMINODATOS,ARCHIVOESTADISTICAS),"r")
                     yLinea = int(YTEXTO*scale) + shift_y + \
                                 self.fuente9.get_height()
-                    linea = f.readline()
-                    while linea:
-                        [parte1,parte2] = linea.strip().split("|")
-                        text1 = self.fuente9.render(parte1, 1, COLORESTADISTICAS1)
+                    for par in self.lista_estadisticas:
+                        text1 = self.fuente9.render(par[0], 1, COLORESTADISTICAS1)
                         self.pantalla.blit(text1,
                                 ((XMAPAMAX+10)*scale+shift_x, yLinea))
-                        text2 = self.fuente9.render(parte2, 1, COLORESTADISTICAS2)
+                        text2 = self.fuente9.render(par[1], 1, COLORESTADISTICAS2)
                         self.pantalla.blit(text2,
                                 ((XMAPAMAX+135)*scale+shift_x, yLinea))
                         yLinea = yLinea+self.fuente9.get_height()+int(5*scale)
-                        linea = f.readline()
-                    f.close()
+
                     pygame.display.flip()
                     self.explorarNombres()
 
 
 def main():
-    juego = ConozcoIn()
+    juego = ConozcoAm()
     juego.principal()
 
 

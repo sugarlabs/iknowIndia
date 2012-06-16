@@ -1,9 +1,36 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from olpcgames import activity
+import sugargame
+import sugargame.canvas
+from sugar.activity import activity
 
-class Activity(activity.PyGameActivity):
-	game_name = 'conozcoin'
-	game_title = 'Conozco India'
-	game_size = (1200,900)
+import conozcoam
+
+class Activity(activity.Activity):
+
+    def __init__(self, handle):
+
+        activity.Activity.__init__(self, handle)
+
+        self.actividad = conozcoam.ConozcoAm()
+
+        self._pygamecanvas = sugargame.canvas.PygameCanvas(self)
+
+        self.set_canvas(self._pygamecanvas)
+
+        self._pygamecanvas.grab_focus()
+
+        self._pygamecanvas.run_pygame(self.actividad.principal)
+
+
+    def read_file(self, file_path):
+        pass
+        #self.actividad.read_file(file_path)
+        
+    def write_file(self, file_path):
+        pass
+        #self.actividad.write_file(file_path)
+
+
+
