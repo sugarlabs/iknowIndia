@@ -1,8 +1,0 @@
-# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# cuchillas
-Hill of Haedo|254|331|247|65
-Hill of Santa Ana|253|507|228|-45
-Hill Grande|252|496|601|65
-Hill Grande del Durazno|251|355|544|0
-Hill Grande Inferior|250|291|660|0
-Hill Negra|249|425|179|45
