@@ -1,0 +1,46 @@
+# ESTADOS||||0
+Andhra Pradesh|254|303|599|45
+Arunachal Pradesh|253|686|247|30
+Assam|252|653|300|30
+Bihar|251|478|335|0
+Chhattisgarh|250|375|459|60
+Goa|249|160|620|0
+Guyarat|248|123|393|-30
+Hariana|247|238|233|0
+Himachal Pradesh|246|263|156|0
+Jammu y Cachemira|245|244|48|0
+Jharkhand|244|472|386|30
+Karnataka|243|206|653|0
+Kerala|242|223|763|-60
+Madhya Pradesh|241|278|409|0
+Maharastra|240|213|508|30
+Manipur|239|686|346|0
+Megalaya|238|612|327|0
+Mizorán|237|665|394|0
+Nagaland|236|696|306|0
+Orissa|235|444|477|40
+Panyab|234|217|185|0
+Rajastán|233|166|305|0
+Sikkim|232|541|271|90
+Tamil Nadu|231|280|756|60
+Tripura|230|630|375|0
+Uttar Pradesh|229|351|300|-30
+Uttaranchal|228|308|206|0
+Bengala Occidental|227|530|401|0
+# UNION
+Is. Andamán y Nicobar|226|658|766|90
+#Chandigarh|225|||0
+Dadra y Nagar Haveli|224|140|483|0
+#Damán y Diu|223|||0
+Laquedivas|222|78|768|90
+#Pondicherry|221|||0
+Delhi|220|255|246|0
+# PAISES
+Afghanistán|219|62|57|45
+Pakistán|218|90|197|45
+China|217|550|112|0
+Nepal|216|428|257|-30
+Bután|215|593|274|0
+Bangladesh|214|582|364|0
+Birmania|213|741|418|90
+Sri Lanka|212|345|855|0

@@ -1,0 +1,7 @@
+[Activity]
+name = Conozco India
+activity_version = 1
+bundle_id = org.ceibaljam.conozcoindia
+icon = india
+exec = sugar-activity activity.Activity
+license = GPLv3

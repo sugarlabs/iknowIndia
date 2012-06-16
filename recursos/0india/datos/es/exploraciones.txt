@@ -1,0 +1,29 @@
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial = 
+elementosActivos = deptos
+
+[Capitales departamentales]
+dibujoInicial = lineasDepto, capitales
+nombreInicial = 
+elementosActivos = capitales
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = 
+elementosActivos = capitales, ciudades
+
+[Cursos de agua]
+dibujoInicial = rios
+nombreInicial = 
+elementosActivos = rios
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+elementosActivos = cuchillas, cerros
+
+[Rutas]
+dibujoInicial = rutas, capitales
+nombreInicial = capitales
+elementosActivos = rutas

@@ -1,0 +1,28 @@
+Río Arapey Chico|252|232|176|0
+Río Arapey Grande|253|254|199|15
+Río Cebollatí|236|624|601|45
+Río Cuareim|254|316|52|-45
+Río Daymán|251|191|295|-20
+Río Negro|245|288|524|20
+Río Olimar Chico|227|538|589|10
+Río Olimar Grande|228|604|554|-6
+Río Queguay Chico|249|208|365|10
+Río Queguay|250|106|382|0
+Río Rosario|242|176|735|90
+Río San José|230|280|725|-65
+Río San Juan|243|125|742|25
+Río San Salvador|244|95|652|-30
+Río Santa Lucía|240|380|733|15
+Río Sta Lucía Chico|229|357|710|40
+Río Tacuarembó|239|476|332|-90
+Río Tacuarí|237|718|472|0
+Río Uruguay|248|44|436|90
+Río Yaguarón|238|742|417|-50
+Río Yi|241|340|614|-15
+Río de la Plata|247|202|849|-15
+Océano Atlántico|246|696|816|45
+Laguna Merín|235|744|533|50
+Laguna Negra|234|711|687|0
+Laguna de Castillos|233|676|732|0
+Laguna de Rocha|232|619|798|0
+Laguna del Sauce|231|506|836|0

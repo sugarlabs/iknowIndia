@@ -1,0 +1,28 @@
+Arapey Chico River|252|232|176|0
+Arapey Grande River|253|254|199|15
+Cebollatí River|236|624|601|45
+Cuareim River|254|316|52|-45
+Daymán River|251|191|295|-20
+Negro River|245|288|524|20
+Olimar Chico River|227|538|589|10
+Olimar Grande River|228|604|554|-6
+Queguay Chico River|249|208|365|10
+Queguay River|250|106|382|0
+Rosario River|242|176|735|90
+San José River|230|280|725|-65
+San Juan River|243|125|742|25
+San Salvador River|244|95|652|-30
+Santa Lucía River|240|380|733|15
+Sta Lucía Chico River|229|357|710|40
+Tacuarembó River|239|476|332|-90
+Tacuarí River|237|718|472|0
+Uruguay River|248|44|436|90
+Yaguarón River|238|742|417|-50
+Yi River|241|340|614|-15
+Río de la Plata|247|202|849|-15
+Atlantic Ocean|246|696|816|45
+Merín Lagoon|235|744|533|50
+Negra Lagoon|234|711|687|0
+Castillos Lagoon|233|676|732|0
+Rocha Lagoon|232|619|798|0
+Sauce Lagoon|231|506|836|0

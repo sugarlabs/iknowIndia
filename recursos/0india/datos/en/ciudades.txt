@@ -1,0 +1,87 @@
+# capitales
+Artigas|293|65|1|35|-10
+Salto|91|237|1|30|0
+Paysandú|77|396|1|50|0
+Fray Bentos|51|562|1|55|4
+Rivera|446|162|1|30|-10
+Tacuarembó|376|299|1|60|0
+Mercedes|86|582|1|50|0
+Colonia del Sacramento|120|784|1|10|15
+Trinidad|245|619|1|42|0
+San José de Mayo|277|757|1|50|12
+Durazno|309|593|1|0|-12
+Florida|351|715|1|40|0
+Canelones|341|798|1|50|0
+Montevideo|355|847|0|0|18
+Melo|632|400|1|30|0
+Treinta y Tres|605|559|1|62|0
+Minas|499|755|1|35|0
+Rocha|618|774|1|15|-14
+Maldonado|532|853|1|55|0
+# ciudades
+Aiguá|558|726|2|30|0
+Ansina|466|328|2|0|12
+Atlántida|397|830|2|35|10
+Baltasar Brum|183|132|2|0|12
+Bella Unión|144|37|2|0|-10
+Belén|107|180|2|30|10
+Cardona|172|680|2|40|0
+Carmelo|54|709|2|40|0
+Castillos|689|715|2|0|-12
+Casupá|434|706|2|40|0
+Cebollatí|693|567|2|0|12
+Cerro Chato|494|550|2|57|0
+Chuy|739|640|2|15|-15
+Constitución|104|210|2|60|0
+Dolores|45|635|2|36|0
+Fraile Muerto|558|447|2|62|0
+Guichón|181|422|2|30|-10
+J. Batlle y Ordóñez|504|602|2|0|12
+J. Pedro Varela|585|600|2|0|-12
+José E. Rodó|143|650|2|0|12
+Juan Lacaze|154|776|2|53|-2
+La Coronilla|732|666|2|5|10
+La Paloma|633|803|2|30|12
+Las Piedras|348|822|2|0|12
+Lascano|636|638|2|0|12
+Libertad|281|812|2|40|0
+Minas de Corrales|467|280|2|60|12
+Nueva Helvecia|202|746|2|30|-12
+Nueva Palmira|36|690|2|56|-10
+Nuevo Berlín|86|525|2|55|0
+Ombúes de Lavalle|108|692|2|80|0
+Palmitas|112|620|2|40|0
+Pan de Azúcar|494|831|2|65|-5
+Pando|384|822|2|15|-12
+Paso de los Toros|297|490|2|0|-12
+Piriápolis|487|852|2|0|10
+Pueblo del Carmen|396|562|2|83|0
+Punta del Este|534|862|2|5|15
+Quebracho|94|353|2|40|-12
+Rosario|182|756|2|35|5
+Río Branco|753|453|2|-15|12
+San Carlos|537|839|2|55|0
+San Gregorio de Polanco|407|443|2|0|-12
+San Ramón|388|746|2|40|-12
+Santa Clara de Olimar|531|512|2|95|0
+Santa Lucía|326|781|2|45|5
+Sarandí Grande|325|643|2|70|0
+Sarandí del Yi|437|587|2|0|12
+Tala|410|761|2|25|0
+Tarariras|146|754|2|0|-12
+Tomás Gomensoro|172|78|2|20|12
+Tranqueras|404|202|2|50|0
+Vergara|677|499|2|40|0
+Vichadero|573|318|2|35|12
+Young|142|481|2|30|0
+# cerros
+Cerro de Montevideo|341|849|5|0|15
+Cerro Pan de Azúcar|488|838|5|87|0
+Cerro Verdún|474|752|5|-5|15
+Cerro Arequita|482|729|5|0|-15
+Cerro Catedral|572|752|5|5|15
+Cerro de las Animas|476|820|5|0|-15
+Cerros de Batoví|364|335|5|0|14
+Cerro Bonito|566|304|5|0|14
+Cerro del Medio|444|282|5|0|14
+Cerro Chato|485|546|5|5|-15

@@ -1,0 +1,9 @@
+Autor: Alan Aguiar
+Enviar correcciones, comentarios o sugerencias a: alanjas@hotmail.com
+
+Este programa es software libre y desarrollado por la comunidad
+Por más información visitá http://ceibaljam.org
+
+Este programa esta basado en Conozco Uruguay (Autor: Gabriel Eirea)
+Sonidos bajados de freesound.org: btn045.wav gentileza de junggle.
+Fuente: Share-Regular.ttf bajada de urbanfonts.com
