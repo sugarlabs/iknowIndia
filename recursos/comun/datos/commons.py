@@ -5,7 +5,7 @@ from gettext import gettext as _
 
 PRESENTATION = [
     _('Hello friends...'),
-    _('...tomorrow I have a\ntest about America...'),
+    _('...tomorrow I have a\ntest about India...'),
     _('...and I know nothing!!!'),
     _('...what I do???'),
     _('I can ask you something?'),
