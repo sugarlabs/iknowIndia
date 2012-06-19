@@ -689,7 +689,7 @@ class ConozcoIn():
                         (int(610*scale+shift_x),
                             int(801*scale+shift_y),
                             int(590*scale),int(48*scale)))
-        self.mostrarTexto(_("Return"),
+        self.mostrarTexto(_("Exit"),
                         self.fuente40,
                         (int(900*scale+shift_x),int(825*scale+shift_y)),
                         (100,200,100))
@@ -952,16 +952,7 @@ class ConozcoIn():
         self.camino_imagenes = os.path.join(CAMINORECURSOS,
                                             CAMINOCOMUN,
                                             CAMINOIMAGENES)
-        # fondo presentacion
-        self.fondo1 = self.cargarImagen("fondo1.png")
-        self.fondo2 = self.cargarImagen("fondo2.png")
-        # JP presentacion
-        self.jpp1 = self.cargarImagen("jpp1.png")
-        self.jpp2 = self.cargarImagen("jpp2.png")
-        # globo
-        self.globo1 = self.cargarImagen("globo1.png")
-        self.globo2 = pygame.transform.flip(self.globo1, True, False)
-        self.globo3 = self.cargarImagen("globo3.png")
+
         # JP para el juego
         self.jp1 = self.cargarImagen("jp1.png")
         # Ojos JP
@@ -1761,6 +1752,7 @@ class ConozcoIn():
             self.elegir_directorio = False
             self.pantallaInicial()
             if self.elegir_directorio: # volver a seleccionar mapa
+                sys.exit()
                 break
             # dibujar fondo y panel
             self.pantalla.blit(self.fondo, (shift_x, shift_y))
