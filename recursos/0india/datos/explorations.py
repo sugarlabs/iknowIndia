@@ -3,14 +3,14 @@
 from gettext import gettext as _
 
 EXP1 = [
-    _('Departments'),
+    _('States'),
     ['lineasDepto'],
     [],
     ['deptos']
 ]
 
 EXP2 = [
-    _('Departmental capitals'),
+    _('State capitals'),
     ['lineasDepto', 'capitales'],
     [],
     ['capitales']
@@ -37,5 +37,5 @@ EXP5 = [
     ['rutas']
 ]
 
-EXPLORATIONS = [EXP1, EXP2, EXP3, EXP4, EXP5]
+EXPLORATIONS = [EXP1, EXP2]
 
