@@ -37,5 +37,5 @@ EXP5 = [
     ['rutas']
 ]
 
-EXPLORATIONS = [EXP1, EXP2]
+EXPLORATIONS = [EXP1, EXP2, EXP3]
 
