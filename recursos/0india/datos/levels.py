@@ -96,7 +96,6 @@ LEVEL3 = [
         ['lineasDepto', 'capitales', 'ciudades'],
         [],
 [
-
     (_('New Delhi'), _('Is in %s') % _('New Delhi')),
     (_('Hyderabad'), _('Is in %s') % _('Andhra Pradesh')),
     (_('Itanagar'), _('Is in %s') % _('Arunachal Pradesh')),
@@ -130,35 +129,29 @@ LEVEL3 = [
     (_('Daman'), _('Is in %s') % _('Daman and Diu')),
     (_('Kavaratti'), _('Is in %s') % _('Lakshadweep')),
     (_('Pondicherry'), _('Is in %s') % _('Pondicherry')),
-    
     (_('Amarnath'), _('Is in %s') % _('Jammu and Kashmir')),
     (_('Leh'), _('Is in %s') % _('Jammu and Kashmir')),
     (_('Gulmarg'), _('Is in %s') % _('Jammu and Kashmir')),
     (_('Pahalgam'), _('Is in %s') % _('Jammu and Kashmir')),
     (_('Vaishno Devi'), _('Is in %s') % _('Jammu and Kashmir')),
     (_('Patni Top'), _('Is in %s') % _('Jammu and Kashmir')),
-    
     (_('Chamba'), _('Is in %s') % _('Himachal Pradesh')),
     (_('Manali'), _('Is in %s') % _('Himachal Pradesh')),
     (_('Dharamshala'), _('Is in %s') % _('Himachal Pradesh')),
     (_('Kullu'), _('Is in %s') % _('Himachal Pradesh')),
     (_('Kufri'), _('Is in %s') % _('Himachal Pradesh')),
-    
     (_('Amritsar'), _('Is in %s') % _('Punjab')),
     (_('Atari'), _('Is in %s') % _('Punjab')),
     (_('Bathinda'), _('Is in %s') % _('Punjab')),
-    
     (_('Kurukshetra'), _('Is in %s') % _('Haryana')),
     (_('Panipat'), _('Is in %s') % _('Haryana')),
     (_('Surajkund'), _('Is in %s') % _('Haryana')),
-    
     (_('Kedarnath'), _('Is in %s') % _('Uttarakhand')),
     (_('Badrinath'), _('Is in %s') % _('Uttarakhand')),
     (_('Mussoorie'), _('Is in %s') % _('Uttarakhand')),
     (_('Rishikesh'), _('Is in %s') % _('Uttarakhand')),
     (_('Haridwar'), _('Is in %s') % _('Uttarakhand')),
     (_('Nainital'), _('Is in %s') % _('Uttarakhand')),
-    
     (_('Sravasti'), _('Is in %s') % _('Uttar Pradesh')),
     (_('Ayodhya'), _('Is in %s') % _('Uttar Pradesh')),
     (_('Mathura'), _('Is in %s') % _('Uttar Pradesh')),
@@ -167,25 +160,20 @@ LEVEL3 = [
     (_('Sarnath'), _('Is in %s') % _('Uttar Pradesh')),
     (_('Varanasi'), _('Is in %s') % _('Uttar Pradesh')),
     (_('Allahabad'), _('Is in %s') % _('Uttar Pradesh')),
-    
     (_('Tezpur'), _('Is in %s') % _('Assam')),
     (_('Guwahati'), _('Is in %s') % _('Assam')),
-    
     (_('Kalimpong'), _('Is in %s') % _('West Bengal')),
     (_('Darjeeling'), _('Is in %s') % _('West Bengal')),
     (_('Murshidabad'), _('Is in %s') % _('West Bengal')),
     (_('Shantiniketan'), _('Is in %s') % _('West Bengal')),
     (_('Digha'), _('Is in %s') % _('West Bengal')),
-    
     (_('Hazaribag'), _('Is in %s') % _('Jharkhand')),
-    
     (_('Vaishali'), _('Is in %s') % _('Bihar')),
     (_('Bihar-Sharif'), _('Is in %s') % _('Bihar')),
     (_('Nalanda'), _('Is in %s') % _('Bihar')),
     (_('Rajgir'), _('Is in %s') % _('Bihar')),
     (_('Gaya'), _('Is in %s') % _('Bihar')),
     (_('Bodhgaya'), _('Is in %s') % _('Bihar')),
-    
     (_('Pillani'), _('Is in %s') % _('Rajasthan')),
     (_('Deeg'), _('Is in %s') % _('Rajasthan')),
     (_('Bikaner'), _('Is in %s') % _('Rajasthan')),
@@ -199,7 +187,6 @@ LEVEL3 = [
     (_('Chittaurgarh'), _('Is in %s') % _('Rajasthan')),
     (_('Mount Abu'), _('Is in %s') % _('Rajasthan')),
     (_('Udaipur'), _('Is in %s') % _('Rajasthan')),
-    
     (_('Gwalior'), _('Is in %s') % _('Madhya Pradesh')),
     (_('Shivpuri'), _('Is in %s') % _('Madhya Pradesh')),
     (_('Orchna'), _('Is in %s') % _('Madhya Pradesh')),
@@ -212,17 +199,14 @@ LEVEL3 = [
     (_('Pachmarhi'), _('Is in %s') % _('Madhya Pradesh')),
     (_('Jabalpur'), _('Is in %s') % _('Madhya Pradesh')),
     (_('Amarkantak'), _('Is in %s') % _('Madhya Pradesh')),
-    
     (_('Ambikapur'), _('Is in %s') % _('Chhattisgarh')),
     (_('Chitrakote Falls'), _('Is in %s') % _('Chhattisgarh')),
-    
     (_('Hirakud Dam'), _('Is in %s') % _('Orissa')),
     (_('Cuttak'), _('Is in %s') % _('Orissa')),
     (_('Paradwip'), _('Is in %s') % _('Orissa')),
     (_('Konarak'), _('Is in %s') % _('Orissa')),
     (_('Puri'), _('Is in %s') % _('Orissa')),
     (_('Gopalpur'), _('Is in %s') % _('Orissa')),
-    
     (_('Bhuj'), _('Is in %s') % _('Gujarat')),
     (_('Kandla'), _('Is in %s') % _('Gujarat')),
     (_('Lothal'), _('Is in %s') % _('Gujarat')),
@@ -236,7 +220,6 @@ LEVEL3 = [
     (_('Palitana'), _('Is in %s') % _('Gujarat')),
     (_('Bhavnagar'), _('Is in %s') % _('Gujarat')),
     (_('Saputara'), _('Is in %s') % _('Gujarat')),
-    
     (_('Malghat'), _('Is in %s') % _('Maharashtra')),
     (_('Wardha'), _('Is in %s') % _('Maharashtra')),
     (_('Sewagram'), _('Is in %s') % _('Maharashtra')),
@@ -253,7 +236,6 @@ LEVEL3 = [
     (_('Mahabaleshwar'), _('Is in %s') % _('Maharashtra')),
     (_('Ganpatipule'), _('Is in %s') % _('Maharashtra')),
     (_('Panhala'), _('Is in %s') % _('Maharashtra')),
-    
     (_('Warangal'), _('Is in %s') % _('Andhra Pradesh')),
     (_('Visakhapatnam'), _('Is in %s') % _('Andhra Pradesh')),
     (_('Bhadrachalan'), _('Is in %s') % _('Andhra Pradesh')),
@@ -261,9 +243,7 @@ LEVEL3 = [
     (_('Srisailam'), _('Is in %s') % _('Andhra Pradesh')),
     (_('Lepakshi'), _('Is in %s') % _('Andhra Pradesh')),
     (_('Tirupati'), _('Is in %s') % _('Andhra Pradesh')),
-    
     (_('Vasco da Gama'), _('Is in %s') % _('Goa')),
-    
     (_('Bider'), _('Is in %s') % _('Karnataka')),
     (_('Gulbarga'), _('Is in %s') % _('Karnataka')),
     (_('Bijapur'), _('Is in %s') % _('Karnataka')),
@@ -276,14 +256,12 @@ LEVEL3 = [
     (_('Halebid'), _('Is in %s') % _('Karnataka')),
     (_('Belur'), _('Is in %s') % _('Karnataka')),
     (_('Mysore'), _('Is in %s') % _('Karnataka')),
-    
     (_('Kozhikode'), _('Is in %s') % _('Kerala')),
     (_('Kochi'), _('Is in %s') % _('Kerala')),
     (_('Alappuzha'), _('Is in %s') % _('Kerala')),
     (_('Munnar'), _('Is in %s') % _('Kerala')),
     (_('Thekkadi'), _('Is in %s') % _('Kerala')),
     (_('Periyar'), _('Is in %s') % _('Kerala')),
-    
     (_('Kanchipuram'), _('Is in %s') % _('Tamil Nadu')),
     (_('Mamallpuram'), _('Is in %s') % _('Tamil Nadu')),
     (_('Chidambaram'), _('Is in %s') % _('Tamil Nadu')),
@@ -296,8 +274,7 @@ LEVEL3 = [
     (_('Madurai'), _('Is in %s') % _('Tamil Nadu')),
     (_('Kovalam'), _('Is in %s') % _('Tamil Nadu')),
     (_('Kanniyakumari'), _('Is in %s') % _('Tamil Nadu')),
-    (_('Rameswaram'), _('Is in %s') % _('Tamil Nadu'))
-    
+    (_('Rameswaram'), _('Is in %s') % _('Tamil Nadu'))    
 ]
 ]
 
