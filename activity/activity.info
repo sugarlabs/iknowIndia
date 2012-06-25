@@ -1,6 +1,6 @@
 [Activity]
 name = I know India
-activity_version = 1
+activity_version = 2
 bundle_id = org.ceibaljam.conozcoindia
 icon = india
 exec = sugar-activity activity.Activity
