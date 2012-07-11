@@ -7,22 +7,21 @@ PRESENTATION = [
     _('Hello friends...'),
     _('...tomorrow I have a\ntest about India...'),
     _('...and I know nothing!!!'),
-    _('...what I do???'),
-    _('I can ask you something?'),
-    _('Can you help me?')
+    _('...what do I do???'),
+    _('Can I ask you something?'),
+    _('Will you help me?')
 ]
 
 PREFIX = [
-    _('We have to look'),
     _('We have to find'),
-    _('Now we have to look'),
+    _('Now we have to find'),
     _('We need to find')
 ]
 
 SUFIX = [
-    _('You can tell where is it?'),
+    _('Can you tell me where it is?'),
     _('Where is it?'),
-    _('Can you show me where is it?'),
+    _('Can you show me where it is?'),
     _('Can you find it?')
 ]
 
@@ -34,10 +33,10 @@ CORRECT = [
 ]
 
 WRONG = [
-    _('No, this is not'),
-    _('Here it is not'),
-    _('It seems that this is not'),
-    _('That is not')
+    _('No, that is not correct'),
+    _('No, it is not there'),
+    _('No, that seems to be wrong'),
+    _('That is not correct')
 ]
 
 BYE_C = [
@@ -47,8 +46,8 @@ BYE_C = [
 ]
 
 BYE_W = [
-    _("More luck next\nI'll play a while...\nThanks!"),
-    _("The next time will be\nI'm going to play ball...\nThanks!"),
+    _("Better luck next time\nI'll play a while...\nThanks!"),
+    _("The next time will be better\nI'm going to play ball...\nThanks!"),
     _("Please try again...\nI'm going to play...\nThanks!")
 ]
 
