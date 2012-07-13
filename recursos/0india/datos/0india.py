@@ -208,7 +208,7 @@ STATS = [
     (_('Independence:'), _('from the United Kingdom ')),
     ('', _('declared: %s') % _('15 of august of 1947 ')),
     ('', _('recognized: %s') % _('26 of january of 1950 ')),
-    (_('Area:'), _('3.287.263 km km² (7th)')),
+    (_('Area:'), _('3.287.263 km² (7th)')),
     (_('Population:'), _('1.210.193.422 (2nd)')),
     (_('GDP:'), _('USD 1.676 trillion (11th)')),
     (_('HDI:'), _('Medium - 0,547 (134th)')),
