@@ -906,16 +906,19 @@ class ConozcoIn():
     def cargarImagen(self,nombre):
         """Carga una imagen y la escala de acuerdo a la resolucion"""
         global scale, xo_resolution
-        if xo_resolution:
-            imagen = pygame.image.load( \
-                os.path.join(self.camino_imagenes,nombre))
-        else:
-            imagen0 = pygame.image.load( \
-                os.path.join(self.camino_imagenes,nombre))
-            imagen = pygame.transform.scale(imagen0,
-                        (int(imagen0.get_width()*scale),
-                        int(imagen0.get_height()*scale)))
-            del imagen0
+        imagen = None
+        archivo = os.path.join(self.camino_imagenes, nombre)
+        if os.path.exists(archivo):
+            if xo_resolution:
+                imagen = pygame.image.load( \
+                    os.path.join(self.camino_imagenes,nombre))
+            else:
+                imagen0 = pygame.image.load( \
+                    os.path.join(self.camino_imagenes,nombre))
+                imagen = pygame.transform.scale(imagen0,
+                            (int(imagen0.get_width()*scale),
+                            int(imagen0.get_height()*scale)))
+                del imagen0
         return imagen
 
     def __init__(self):
@@ -1083,6 +1086,7 @@ class ConozcoIn():
                                             self.directorio,
                                             CAMINODATOS)
         self.fondo = self.cargarImagen("fondo.png")
+        
         self.bandera = self.cargarImagen("bandera.png")
 
         self.loadInfo()
