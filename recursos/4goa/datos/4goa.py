@@ -195,9 +195,9 @@ CITIES = [
 ]
 
 
-# RIVERS = []
+RIVERS = []
 
-# ROUTES = []
+ROUTES = []
 
 STATS = [
     (_('Capital:'), _('New Delhi') + _("(28°36.8′ N - 77°12.5′ E)")),
