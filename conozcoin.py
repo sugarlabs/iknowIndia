@@ -689,7 +689,7 @@ class ConozcoIn():
                         (int(610*scale+shift_x),
                             int(801*scale+shift_y),
                             int(590*scale),int(48*scale)))
-        self.mostrarTexto(_("Exit"),
+        self.mostrarTexto(_("Return"),
                         self.fuente40,
                         (int(900*scale+shift_x),int(825*scale+shift_y)),
                         (100,200,100))
@@ -1773,9 +1773,10 @@ class ConozcoIn():
                     pygame.display.flip()
                     self.jugarNivel()
                 else:
-                    self.pantalla.blit(self.bandera,
-                                    (int((XMAPAMAX+47)*scale+shift_x),
-                                    int(155*scale+shift_y)))
+                    if self.bandera:
+                        self.pantalla.blit(self.bandera,
+                                        (int((XMAPAMAX+47)*scale+shift_x),
+                                        int(155*scale+shift_y)))
                     yLinea = int(YTEXTO*scale) + shift_y + \
                                 self.fuente9.get_height()
                     for par in self.lista_estadisticas:
