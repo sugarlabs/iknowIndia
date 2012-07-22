@@ -511,6 +511,15 @@ class ConozcoIn():
                             nuevoNivel.preguntas.append((texto,
                                 tipo, respuesta, ayuda))
 
+                    elif (index == 14):
+                        for i in listpreguntas:
+                            tipo = 1
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            texto = _('the taluka of\n%s') % respuesta
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
                     elif (index == 6):
                         for i in listpreguntas:
                             tipo = 1
@@ -689,7 +698,7 @@ class ConozcoIn():
                         (int(610*scale+shift_x),
                             int(801*scale+shift_y),
                             int(590*scale),int(48*scale)))
-        self.mostrarTexto(_("Exit"),
+        self.mostrarTexto(_("Return"),
                         self.fuente40,
                         (int(900*scale+shift_x),int(825*scale+shift_y)),
                         (100,200,100))
@@ -906,16 +915,19 @@ class ConozcoIn():
     def cargarImagen(self,nombre):
         """Carga una imagen y la escala de acuerdo a la resolucion"""
         global scale, xo_resolution
-        if xo_resolution:
-            imagen = pygame.image.load( \
-                os.path.join(self.camino_imagenes,nombre))
-        else:
-            imagen0 = pygame.image.load( \
-                os.path.join(self.camino_imagenes,nombre))
-            imagen = pygame.transform.scale(imagen0,
-                        (int(imagen0.get_width()*scale),
-                        int(imagen0.get_height()*scale)))
-            del imagen0
+        imagen = None
+        archivo = os.path.join(self.camino_imagenes, nombre)
+        if os.path.exists(archivo):
+            if xo_resolution:
+                imagen = pygame.image.load( \
+                    os.path.join(self.camino_imagenes,nombre))
+            else:
+                imagen0 = pygame.image.load( \
+                    os.path.join(self.camino_imagenes,nombre))
+                imagen = pygame.transform.scale(imagen0,
+                            (int(imagen0.get_width()*scale),
+                            int(imagen0.get_height()*scale)))
+                del imagen0
         return imagen
 
     def __init__(self):
@@ -929,9 +941,13 @@ class ConozcoIn():
         # crear pantalla
         self.anchoPantalla = gtk.gdk.screen_width()
         self.altoPantalla = gtk.gdk.screen_height()
-        #self.pantalla = pygame.display.set_mode((self.anchoPantalla,
-        #                                        self.altoPantalla))
         self.pantalla = pygame.display.get_surface()
+        if not(self.pantalla):
+            # prevent hide zones
+            self.anchoPantalla = self.anchoPantalla - 50
+            self.altoPantalla = self.altoPantalla - 100
+            self.pantalla = pygame.display.set_mode((self.anchoPantalla,
+                                               self.altoPantalla))
         pygame.display.flip()
         if self.anchoPantalla==1200 and self.altoPantalla==900:
             xo_resolution = True
@@ -1083,6 +1099,7 @@ class ConozcoIn():
                                             self.directorio,
                                             CAMINODATOS)
         self.fondo = self.cargarImagen("fondo.png")
+        
         self.bandera = self.cargarImagen("bandera.png")
 
         self.loadInfo()
@@ -1743,46 +1760,49 @@ class ConozcoIn():
         #self.presentacion()
 
         self.paginaDir = 0
-        self.indiceDirectorioActual = 0
-        self.directorio = self.listaDirectorios[self.indiceDirectorioActual]
-        self.cargarDirectorio()
-        pygame.mouse.set_cursor((32,32), (1,1), *self.cursor)
         while 1:
-            # pantalla inicial de juego
-            self.elegir_directorio = False
-            self.pantallaInicial()
-            if self.elegir_directorio: # volver a seleccionar mapa
-                sys.exit()
-                break
-            # dibujar fondo y panel
-            self.pantalla.blit(self.fondo, (shift_x, shift_y))
-            self.pantalla.fill(COLORPANEL,
-                            (int(XMAPAMAX*scale+shift_x),shift_y,
-                            int(DXPANEL*scale),int(900*scale)))
-            if self.jugar:
-                self.pantalla.blit(self.jp1,
-                                (int(XBICHO*scale+shift_x),
-                                int(YBICHO*scale+shift_y)))
-                self.estadobicho = ESTADONORMAL
-                pygame.display.flip()
-                self.jugarNivel()
-            else:
-                self.pantalla.blit(self.bandera,
-                                (int((XMAPAMAX+47)*scale+shift_x),
-                                int(155*scale+shift_y)))
-                yLinea = int(YTEXTO*scale) + shift_y + \
-                            self.fuente9.get_height()
-                for par in self.lista_estadisticas:
-                    text1 = self.fuente9.render(par[0], 1, COLORESTADISTICAS1)
-                    self.pantalla.blit(text1,
-                            ((XMAPAMAX+10)*scale+shift_x, yLinea))
-                    text2 = self.fuente9.render(par[1], 1, COLORESTADISTICAS2)
-                    self.pantalla.blit(text2,
-                            ((XMAPAMAX+135)*scale+shift_x, yLinea))
-                    yLinea = yLinea+self.fuente9.get_height()+int(5*scale)
+            self.pantallaDirectorios() # seleccion de mapa
+            pygame.mouse.set_cursor((32,32), (1,1), *self.cursor_espera)
+            self.directorio = self.listaDirectorios\
+                [self.indiceDirectorioActual]
+            self.cargarDirectorio()
+            pygame.mouse.set_cursor((32,32), (1,1), *self.cursor)
+            while 1:
+                # pantalla inicial de juego
+                self.elegir_directorio = False
+                self.pantallaInicial()
+                if self.elegir_directorio: # volver a seleccionar mapa
+                    break
+                # dibujar fondo y panel
+                self.pantalla.blit(self.fondo, (shift_x, shift_y))
+                self.pantalla.fill(COLORPANEL,
+                                (int(XMAPAMAX*scale+shift_x),shift_y,
+                                int(DXPANEL*scale),int(900*scale)))
+                if self.jugar:
+                    self.pantalla.blit(self.jp1,
+                                    (int(XBICHO*scale+shift_x),
+                                    int(YBICHO*scale+shift_y)))
+                    self.estadobicho = ESTADONORMAL
+                    pygame.display.flip()
+                    self.jugarNivel()
+                else:
+                    if self.bandera:
+                        self.pantalla.blit(self.bandera,
+                                        (int((XMAPAMAX+47)*scale+shift_x),
+                                        int(155*scale+shift_y)))
+                    yLinea = int(YTEXTO*scale) + shift_y + \
+                                self.fuente9.get_height()
+                    for par in self.lista_estadisticas:
+                        text1 = self.fuente9.render(par[0], 1, COLORESTADISTICAS1)
+                        self.pantalla.blit(text1,
+                                ((XMAPAMAX+10)*scale+shift_x, yLinea))
+                        text2 = self.fuente9.render(par[1], 1, COLORESTADISTICAS2)
+                        self.pantalla.blit(text2,
+                                ((XMAPAMAX+135)*scale+shift_x, yLinea))
+                        yLinea = yLinea+self.fuente9.get_height()+int(5*scale)
 
-                pygame.display.flip()
-                self.explorarNombres()
+                    pygame.display.flip()
+                    self.explorarNombres()
 
 
 def main():
