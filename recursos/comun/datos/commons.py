@@ -55,6 +55,8 @@ CREDITS = [
     _("Author: Alan Aguiar"),
     _("Send corrections, comments or suggestions to: alanjas@hotmail.com"),
     "",
+    _("Thank's to Salil Konkar for the help in the english strings."),
+    "",
     _("This program is free software developed by the community"),
     _("For more information visit http://ceibaljam.org"),
     "",
