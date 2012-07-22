@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-24 22:18-0300\n"
-"PO-Revision-Date: 2012-07-11 18:14+0200\n"
+"POT-Creation-Date: 2012-07-21 01:23-0400\n"
+"PO-Revision-Date: 2012-07-22 07:05+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_US\n"
@@ -17,22 +17,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: activity/activity.info:2
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:637
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:745
+#: activity/activity.info:2 conozcoin.py:637 conozcoin.py:745
 msgid "I know India"
 msgstr "I know India"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:240
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:355
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:379
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:432
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:559
+#: conozcoin.py:240 conozcoin.py:355 conozcoin.py:379 conozcoin.py:432
+#: conozcoin.py:559
 #, python-format
 msgid "Cannot open %s"
 msgstr "Cannot open %s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:456
+#: conozcoin.py:456
 #, python-format
 msgid ""
 "the city of\n"
@@ -41,7 +36,7 @@ msgstr ""
 "the city of\n"
 "%s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:465
+#: conozcoin.py:465
 #, python-format
 msgid ""
 "the department of\n"
@@ -50,7 +45,7 @@ msgstr ""
 "the department of\n"
 "%s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:474
+#: conozcoin.py:474
 #, python-format
 msgid ""
 "the province of\n"
@@ -59,7 +54,7 @@ msgstr ""
 "the province of\n"
 "%s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:483
+#: conozcoin.py:483
 #, python-format
 msgid ""
 "the district of\n"
@@ -68,7 +63,7 @@ msgstr ""
 "the district of\n"
 "%s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:492
+#: conozcoin.py:492
 #, python-format
 msgid ""
 "the state of\n"
@@ -77,7 +72,7 @@ msgstr ""
 "the state of\n"
 "%s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:501
+#: conozcoin.py:501
 #, python-format
 msgid ""
 "the region of\n"
@@ -86,7 +81,7 @@ msgstr ""
 "the region of\n"
 "%s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:510
+#: conozcoin.py:510
 #, python-format
 msgid ""
 "the parish of\n"
@@ -95,7 +90,7 @@ msgstr ""
 "the parish of\n"
 "%s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:519
+#: conozcoin.py:519
 #, python-format
 msgid ""
 "the municipality of\n"
@@ -104,1520 +99,1172 @@ msgstr ""
 "the municipality of\n"
 "%s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:528
+#: conozcoin.py:528
 #, python-format
 msgid "the %s"
 msgstr "the %s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:597
+#: conozcoin.py:597
 msgid "About I know India"
 msgstr "About I know India"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:611
+#: conozcoin.py:611
 msgid "Press any key to return"
 msgstr "Press any key to return"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:648
+#: conozcoin.py:648
 msgid "Play"
 msgstr "Play"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:664
+#: conozcoin.py:664
 msgid "Explore"
 msgstr "Explore"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:684
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:828
+#: conozcoin.py:684 conozcoin.py:828
 msgid "About this game"
 msgstr "About this game"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:692
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:835
+#: conozcoin.py:692 conozcoin.py:835
 msgid "Exit"
 msgstr "Exit"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:749
+#: conozcoin.py:749
 msgid "Choose the map to use"
 msgstr "Choose the map to use"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:769
+#: conozcoin.py:769
 msgid "<<< Previous page"
 msgstr "<<< Previous page"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:814
+#: conozcoin.py:814
 msgid "Next page >>>"
 msgstr "Next page >>>"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:1283
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:1481
+#: conozcoin.py:1283 conozcoin.py:1481
 msgid "End"
 msgstr "End"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/conozcoin.py:1294
+#: conozcoin.py:1294
 msgid "Show all"
 msgstr "Show all"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/explorations.py:6
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:7
-msgid "States"
-msgstr "States"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/explorations.py:13
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:49
-msgid "State capitals"
-msgstr "State capitals"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/explorations.py:20
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:92
-msgid "Cities"
-msgstr "Cities"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/explorations.py:27
-msgid "Waterways"
-msgstr "Waterways"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/explorations.py:34
-msgid "Routes"
-msgstr "Routes"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:11
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:54
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:97
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:205
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:206
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:207
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:208
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:209
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:210
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:211
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:8
-msgid "Andhra Pradesh"
-msgstr "Andhra Pradesh"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:11
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:23
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:34
-msgid "Is south"
-msgstr "Is south"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:12
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:55
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:98
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:9
-msgid "Arunachal Pradesh"
-msgstr "Arunachal Pradesh"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:12
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:14
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:33
-msgid "Is northeast"
-msgstr "Is northeast"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:13
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:56
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:99
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:148
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:10
-msgid "Assam"
-msgstr "Assam"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:13
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:26
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:27
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:28
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:29
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:30
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:35
-msgid "Is east"
-msgstr "Is east"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:14
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:57
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:100
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:154
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:155
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:156
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:11
-msgid "Bihar"
-msgstr "Bihar"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:15
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:58
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:101
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:175
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:176
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:12
-msgid "Chhattisgarh"
-msgstr "Chhattisgarh"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:15
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:21
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:24
-msgid "Is in the center"
-msgstr "Is in the center"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:16
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:59
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:102
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:212
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:13
-msgid "Goa"
-msgstr "Goa"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:16
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:22
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:42
-msgid "Is southwest"
-msgstr "Is southwest"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:17
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:60
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:103
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:183
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:184
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:185
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:186
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:187
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:188
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:189
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:190
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:191
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:192
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:14
-msgid "Gujarat"
-msgstr "Gujarat"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:17
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:25
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:38
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:41
-msgid "Is west"
-msgstr "Is west"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:18
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:61
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:104
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:138
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:15
-msgid "Haryana"
-msgstr "Haryana"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:18
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:31
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:32
-msgid "Is northwest"
-msgstr "Is northwest"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:19
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:62
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:105
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:133
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:134
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:16
-msgid "Himachal Pradesh"
-msgstr "Himachal Pradesh"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:19
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:20
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:36
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:37
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:43
-msgid "Is north"
-msgstr "Is north"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:20
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:63
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:106
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:129
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:130
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:131
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:132
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:17
-msgid "Jammu and Kashmir"
-msgstr "Jammu and Kashmir"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:21
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:64
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:107
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:153
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:18
-msgid "Jharkhand"
-msgstr "Jharkhand"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:22
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:65
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:108
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:213
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:214
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:215
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:216
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:217
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:218
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:219
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:220
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:221
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:222
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:19
-msgid "Karnataka"
-msgstr "Karnataka"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:23
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:66
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:109
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:223
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:224
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:225
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:20
-msgid "Kerala"
-msgstr "Kerala"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:24
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:67
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:110
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:166
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:167
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:168
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:169
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:170
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:171
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:172
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:173
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:174
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:21
-msgid "Madhya Pradesh"
-msgstr "Madhya Pradesh"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:25
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:68
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:111
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:193
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:194
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:195
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:196
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:197
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:198
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:199
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:200
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:201
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:202
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:203
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:204
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:22
-msgid "Maharashtra"
-msgstr "Maharashtra"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:26
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:69
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:112
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:23
-msgid "Manipur"
-msgstr "Manipur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:27
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:70
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:113
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:24
-msgid "Meghalaya"
-msgstr "Meghalaya"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:28
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:71
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:114
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:25
-msgid "Mizoram"
-msgstr "Mizoram"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:29
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:72
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:115
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:26
-msgid "Nagaland"
-msgstr "Nagaland"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:30
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:73
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:116
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:177
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:178
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:179
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:180
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:181
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:182
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:27
-msgid "Orissa"
-msgstr "Orissa"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:31
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:135
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:136
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:137
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:28
-msgid "Punjab"
-msgstr "Punjab"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:32
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:74
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:117
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:157
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:158
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:159
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:160
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:161
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:162
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:163
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:164
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:165
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:29
-msgid "Rajasthan"
-msgstr "Rajasthan"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:33
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:75
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:118
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:30
-msgid "Sikkim"
-msgstr "Sikkim"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:34
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:76
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:119
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:226
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:227
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:228
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:229
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:230
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:231
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:232
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:233
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:31
-msgid "Tamil Nadu"
-msgstr "Tamil Nadu"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:35
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:77
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:120
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:32
-msgid "Tripura"
-msgstr "Tripura"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:36
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:78
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:121
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:142
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:143
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:144
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:145
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:146
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:147
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:33
-msgid "Uttar Pradesh"
-msgstr "Uttar Pradesh"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:37
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:79
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:122
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:139
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:140
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:141
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:34
-msgid "Uttarakhand"
-msgstr "Uttarakhand"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:38
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:80
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:123
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:149
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:150
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:151
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:152
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:35
-msgid "West Bengal"
-msgstr "West Bengal"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:40
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:81
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:124
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:37
-msgid "Andaman and Nicobar Islands"
-msgstr "Andaman and Nicobar Islands"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:40
-msgid "Is southeast"
-msgstr "Is southeast"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:41
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:82
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:125
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:38
-msgid "Dadra and Nagar Haveli"
-msgstr "Dadra and Nagar Haveli"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:42
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:84
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:127
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:39
-msgid "Lakshadweep"
-msgstr "Lakshadweep"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:43
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:40
-msgid "Delhi"
-msgstr "Delhi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:53
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:96
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:53
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:203
-msgid "New Delhi"
-msgstr "New Delhi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:53
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:54
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:55
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:56
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:57
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:58
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:59
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:60
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:61
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:62
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:63
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:64
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:65
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:66
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:67
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:68
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:69
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:70
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:71
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:72
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:73
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:74
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:75
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:76
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:77
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:78
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:79
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:80
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:81
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:82
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:83
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:84
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:85
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:96
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:97
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:98
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:99
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:100
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:101
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:102
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:103
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:104
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:105
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:106
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:107
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:108
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:109
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:110
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:111
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:112
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:113
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:114
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:115
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:116
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:117
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:118
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:119
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:120
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:121
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:122
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:123
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:124
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:125
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:126
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:127
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:128
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:129
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:130
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:131
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:132
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:133
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:134
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:135
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:136
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:137
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:138
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:139
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:140
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:141
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:142
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:143
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:144
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:145
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:146
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:147
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:148
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:149
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:150
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:151
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:152
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:153
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:154
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:155
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:156
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:157
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:158
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:159
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:160
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:161
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:162
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:163
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:164
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:165
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:166
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:167
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:168
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:169
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:170
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:171
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:172
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:173
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:174
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:175
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:176
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:177
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:178
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:179
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:180
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:181
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:182
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:183
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:184
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:185
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:186
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:187
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:188
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:189
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:190
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:191
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:192
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:193
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:194
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:195
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:196
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:197
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:198
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:199
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:200
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:201
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:202
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:203
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:204
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:205
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:206
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:207
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:208
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:209
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:210
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:211
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:212
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:213
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:214
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:215
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:216
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:217
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:218
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:219
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:220
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:221
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:222
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:223
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:224
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:225
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:226
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:227
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:228
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:229
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:230
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:231
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:232
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:233
-#, python-format
-msgid "Is in %s"
-msgstr "Is in %s"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:54
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:97
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:54
-msgid "Hyderabad"
-msgstr "Hyderabad"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:55
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:98
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:55
-msgid "Itanagar"
-msgstr "Itanagar"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:56
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:99
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:56
-msgid "Dispur"
-msgstr "Dispur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:57
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:100
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:57
-msgid "Patna"
-msgstr "Patna"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:58
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:101
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:58
-msgid "Raipur"
-msgstr "Raipur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:59
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:102
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:59
-msgid "Panaji"
-msgstr "Panaji"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:60
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:103
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:60
-msgid "Gandhinagar"
-msgstr "Gandhinagar"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:61
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:104
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:61
-msgid "Chandigarh"
-msgstr "Chandigarh"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:62
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:105
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:62
-msgid "Shimla"
-msgstr "Shimla"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:63
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:106
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:63
-msgid "Srinagar"
-msgstr "Srinagar"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:64
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:107
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:64
-msgid "Ranchi"
-msgstr "Ranchi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:65
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:108
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:65
-msgid "Bengalooru"
-msgstr "Bengalooru"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:66
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:109
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:66
-msgid "Thiruvananthapuram"
-msgstr "Thiruvananthapuram"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:67
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:110
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:67
-msgid "Bhopal"
-msgstr "Bhopal"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:68
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:111
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:68
-msgid "Mumbai"
-msgstr "Mumbai"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:69
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:112
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:69
-msgid "Imphal"
-msgstr "Imphal"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:70
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:113
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:70
-msgid "Shillong"
-msgstr "Shillong"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:71
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:114
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:71
-msgid "Aizawl"
-msgstr "Aizawl"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:72
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:115
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:72
-msgid "Kohima"
-msgstr "Kohima"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:73
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:116
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:73
-msgid "Bhubaneswar"
-msgstr "Bhubaneswar"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:74
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:117
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:74
-msgid "Jaipur"
-msgstr "Jaipur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:75
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:118
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:75
-msgid "Gangtok"
-msgstr "Gangtok"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:76
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:119
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:76
-msgid "Chennai"
-msgstr "Chennai"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:77
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:120
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:77
-msgid "Agartala"
-msgstr "Agartala"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:78
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:121
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:78
-msgid "Lucknow"
-msgstr "Lucknow"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:79
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:122
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:79
-msgid "Dehradun"
-msgstr "Dehradun"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:80
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:123
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:80
-msgid "Kolkata"
-msgstr "Kolkata"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:81
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:124
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:81
-msgid "Port Blair"
-msgstr "Port Blair"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:82
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:125
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:82
-msgid "Silvassa"
-msgstr "Silvassa"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:83
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:126
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:83
-msgid "Daman"
-msgstr "Daman"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:83
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:126
-msgid "Daman and Diu"
-msgstr "Daman and Diu"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:84
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:127
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:84
-msgid "Kavaratti"
-msgstr "Kavaratti"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:85
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:128
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:85
-msgid "Pondicherry"
-msgstr "Pondicherry"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:129
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:90
-msgid "Amarnath"
-msgstr "Amarnath"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:130
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:91
-msgid "Leh"
-msgstr "Leh"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:131
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:92
-msgid "Vaishno Devi"
-msgstr "Vaishno Devi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:132
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:93
-msgid "Patni Top"
-msgstr "Patni Top"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:133
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:94
-msgid "Chamba"
-msgstr "Chamba"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:134
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:95
-msgid "Manali"
-msgstr "Manali"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:135
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:96
-msgid "Amritsar"
-msgstr "Amritsar"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:136
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:97
-msgid "Atari"
-msgstr "Atari"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:137
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:98
-msgid "Bathinda"
-msgstr "Bathinda"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:138
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:99
-msgid "Panipat"
-msgstr "Panipat"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:139
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:100
-msgid "Kedarnath"
-msgstr "Kedarnath"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:140
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:101
-msgid "Badrinath"
-msgstr "Badrinath"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:141
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:102
-msgid "Nainital"
-msgstr "Nainital"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:142
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:103
-msgid "Sravasti"
-msgstr "Sravasti"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:143
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:104
-msgid "Ayodhya"
-msgstr "Ayodhya"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:144
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:105
-msgid "Agra"
-msgstr "Agra"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:145
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:106
-msgid "Kanpur"
-msgstr "Kanpur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:146
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:107
-msgid "Varanasi"
-msgstr "Varanasi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:147
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:108
-msgid "Allahabad"
-msgstr "Allahabad"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:148
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:109
-msgid "Tezpur"
-msgstr "Tezpur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:149
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:110
-msgid "Darjeeling"
-msgstr "Darjeeling"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:150
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:111
-msgid "Murshidabad"
-msgstr "Murshidabad"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:151
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:112
-msgid "Shantiniketan"
-msgstr "Shantiniketan"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:152
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:113
-msgid "Digha"
-msgstr "Digha"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:153
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:114
-msgid "Hazaribag"
-msgstr "Hazaribag"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:154
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:115
-msgid "Bihar-Sharif"
-msgstr "Bihar-Sharif"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:155
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:116
-msgid "Nalanda"
-msgstr "Nalanda"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:156
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:117
-msgid "Bodhgaya"
-msgstr "Bodhgaya"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:157
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:118
-msgid "Pillani"
-msgstr "Pillani"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:158
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:119
-msgid "Bikaner"
-msgstr "Bikaner"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:159
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:120
-msgid "Jaisalmer"
-msgstr "Jaisalmer"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:160
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:121
-msgid "Jodhpur"
-msgstr "Jodhpur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:161
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:122
-msgid "Ranakpur"
-msgstr "Ranakpur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:162
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:123
-msgid "Bundi"
-msgstr "Bundi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:163
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:124
-msgid "Kota"
-msgstr "Kota"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:164
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:125
-msgid "Chittaurgarh"
-msgstr "Chittaurgarh"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:165
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:126
-msgid "Mount Abu"
-msgstr "Mount Abu"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:166
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:127
-msgid "Gwalior"
-msgstr "Gwalior"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:167
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:128
-msgid "Shivpuri"
-msgstr "Shivpuri"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:168
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:129
-msgid "Orchna"
-msgstr "Orchna"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:169
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:130
-msgid "Khajuraho"
-msgstr "Khajuraho"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:170
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:131
-msgid "Sanchi"
-msgstr "Sanchi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:171
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:132
-msgid "Ujjain"
-msgstr "Ujjain"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:172
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:133
-msgid "Indore"
-msgstr "Indore"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:173
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:134
-msgid "Jabalpur"
-msgstr "Jabalpur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:174
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:135
-msgid "Amarkantak"
-msgstr "Amarkantak"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:175
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:136
-msgid "Ambikapur"
-msgstr "Ambikapur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:176
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:137
-msgid "Chitrakote Falls"
-msgstr "Chitrakote Falls"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:177
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:138
-msgid "Hirakud Dam"
-msgstr "Hirakud Dam"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:178
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:139
-msgid "Cuttak"
-msgstr "Cuttak"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:179
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:140
-msgid "Paradwip"
-msgstr "Paradwip"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:180
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:141
-msgid "Konarak"
-msgstr "Konarak"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:181
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:142
-msgid "Puri"
-msgstr "Puri"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:182
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:143
-msgid "Gopalpur"
-msgstr "Gopalpur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:183
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:144
-msgid "Bhuj"
-msgstr "Bhuj"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:184
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:145
-msgid "Lothal"
-msgstr "Lothal"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:185
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:146
-msgid "Vadodara"
-msgstr "Vadodara"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:186
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:147
-msgid "Dwarka"
-msgstr "Dwarka"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:187
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:148
-msgid "Rajkot"
-msgstr "Rajkot"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:188
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:149
-msgid "Porbandar"
-msgstr "Porbandar"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:189
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:150
-msgid "Somnath"
-msgstr "Somnath"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:190
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:151
-msgid "Diu"
-msgstr "Diu"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:191
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:152
-msgid "Bhavnagar"
-msgstr "Bhavnagar"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:192
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:153
-msgid "Saputara"
-msgstr "Saputara"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:193
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:154
-msgid "Malghat"
-msgstr "Malghat"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:194
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:155
-msgid "Wardha"
-msgstr "Wardha"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:195
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:156
-msgid "Chandrapur"
-msgstr "Chandrapur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:196
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:157
-msgid "Ajanta"
-msgstr "Ajanta"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:197
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:158
-msgid "Ellora"
-msgstr "Ellora"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:198
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:159
-msgid "Aurangabad"
-msgstr "Aurangabad"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:199
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:160
-msgid "Shirdi"
-msgstr "Shirdi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:200
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:161
-msgid "Pune"
-msgstr "Pune"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:201
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:162
-msgid "Murud"
-msgstr "Murud"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:202
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:163
-msgid "Mahabaleshwar"
-msgstr "Mahabaleshwar"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:203
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:164
-msgid "Ganpatipule"
-msgstr "Ganpatipule"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:204
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:165
-msgid "Panhala"
-msgstr "Panhala"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:205
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:166
-msgid "Warangal"
-msgstr "Warangal"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:206
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:167
-msgid "Visakhapatnam"
-msgstr "Visakhapatnam"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:207
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:168
-msgid "Bhadrachalan"
-msgstr "Bhadrachalan"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:208
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:169
-msgid "Amaravati"
-msgstr "Amaravati"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:209
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:170
-msgid "Srisailam"
-msgstr "Srisailam"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:210
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:171
-msgid "Lepakshi"
-msgstr "Lepakshi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:211
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:172
-msgid "Tirupati"
-msgstr "Tirupati"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:212
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:173
-msgid "Vasco da Gama"
-msgstr "Vasco da Gama"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:213
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:174
-msgid "Bider"
-msgstr "Bider"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:214
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:175
-msgid "Gulbarga"
-msgstr "Gulbarga"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:215
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:176
-msgid "Bijapur"
-msgstr "Bijapur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:216
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:177
-msgid "Raichur"
-msgstr "Raichur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:217
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:178
-msgid "Hampi"
-msgstr "Hampi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:218
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:179
-msgid "Jog Falls"
-msgstr "Jog Falls"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:219
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:180
-msgid "Chitradurga"
-msgstr "Chitradurga"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:220
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:181
-msgid "Udupi"
-msgstr "Udupi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:221
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:182
-msgid "Mangalore"
-msgstr "Mangalore"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:222
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:183
-msgid "Belur"
-msgstr "Belur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:223
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:184
-msgid "Kozhikode"
-msgstr "Kozhikode"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:224
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:185
-msgid "Kochi"
-msgstr "Kochi"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:225
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:186
-msgid "Alappuzha"
-msgstr "Alappuzha"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:226
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:187
-msgid "Mamallpuram"
-msgstr "Mamallpuram"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:227
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:188
-msgid "Chidambaram"
-msgstr "Chidambaram"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:228
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:189
-msgid "Mudumali"
-msgstr "Mudumali"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:229
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:190
-msgid "Thanjavur"
-msgstr "Thanjavur"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:230
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:191
-msgid "Kodaikanal"
-msgstr "Kodaikanal"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:231
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:192
-msgid "Madurai"
-msgstr "Madurai"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:232
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:193
-msgid "Kanniyakumari"
-msgstr "Kanniyakumari"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/levels.py:233
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:194
-msgid "Rameswaram"
-msgstr "Rameswaram"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:5
+#: recursos/0india/datos/0india.py:5
 msgid "India"
 msgstr "India"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:42
+#: recursos/0india/datos/0india.py:8 recursos/0india/datos/levels.py:11
+#: recursos/0india/datos/levels.py:54 recursos/0india/datos/levels.py:97
+#: recursos/0india/datos/levels.py:205 recursos/0india/datos/levels.py:206
+#: recursos/0india/datos/levels.py:207 recursos/0india/datos/levels.py:208
+#: recursos/0india/datos/levels.py:209 recursos/0india/datos/levels.py:210
+#: recursos/0india/datos/levels.py:211
+msgid "Andhra Pradesh"
+msgstr "Andhra Pradesh"
+
+#: recursos/0india/datos/0india.py:9 recursos/0india/datos/levels.py:12
+#: recursos/0india/datos/levels.py:55 recursos/0india/datos/levels.py:98
+msgid "Arunachal Pradesh"
+msgstr "Arunachal Pradesh"
+
+#: recursos/0india/datos/0india.py:10 recursos/0india/datos/levels.py:13
+#: recursos/0india/datos/levels.py:56 recursos/0india/datos/levels.py:99
+#: recursos/0india/datos/levels.py:148
+msgid "Assam"
+msgstr "Assam"
+
+#: recursos/0india/datos/0india.py:11 recursos/0india/datos/levels.py:14
+#: recursos/0india/datos/levels.py:57 recursos/0india/datos/levels.py:100
+#: recursos/0india/datos/levels.py:154 recursos/0india/datos/levels.py:155
+#: recursos/0india/datos/levels.py:156
+msgid "Bihar"
+msgstr "Bihar"
+
+#: recursos/0india/datos/0india.py:12 recursos/0india/datos/levels.py:15
+#: recursos/0india/datos/levels.py:58 recursos/0india/datos/levels.py:101
+#: recursos/0india/datos/levels.py:175 recursos/0india/datos/levels.py:176
+msgid "Chhattisgarh"
+msgstr "Chhattisgarh"
+
+#: recursos/0india/datos/0india.py:13 recursos/0india/datos/levels.py:16
+#: recursos/0india/datos/levels.py:59 recursos/0india/datos/levels.py:102
+#: recursos/0india/datos/levels.py:212
+msgid "Goa"
+msgstr "Goa"
+
+#: recursos/0india/datos/0india.py:14 recursos/0india/datos/levels.py:17
+#: recursos/0india/datos/levels.py:60 recursos/0india/datos/levels.py:103
+#: recursos/0india/datos/levels.py:183 recursos/0india/datos/levels.py:184
+#: recursos/0india/datos/levels.py:185 recursos/0india/datos/levels.py:186
+#: recursos/0india/datos/levels.py:187 recursos/0india/datos/levels.py:188
+#: recursos/0india/datos/levels.py:189 recursos/0india/datos/levels.py:190
+#: recursos/0india/datos/levels.py:191 recursos/0india/datos/levels.py:192
+msgid "Gujarat"
+msgstr "Gujarat"
+
+#: recursos/0india/datos/0india.py:15 recursos/0india/datos/levels.py:18
+#: recursos/0india/datos/levels.py:61 recursos/0india/datos/levels.py:104
+#: recursos/0india/datos/levels.py:138
+msgid "Haryana"
+msgstr "Haryana"
+
+#: recursos/0india/datos/0india.py:16 recursos/0india/datos/levels.py:19
+#: recursos/0india/datos/levels.py:62 recursos/0india/datos/levels.py:105
+#: recursos/0india/datos/levels.py:133 recursos/0india/datos/levels.py:134
+msgid "Himachal Pradesh"
+msgstr "Himachal Pradesh"
+
+#: recursos/0india/datos/0india.py:17 recursos/0india/datos/levels.py:20
+#: recursos/0india/datos/levels.py:63 recursos/0india/datos/levels.py:106
+#: recursos/0india/datos/levels.py:129 recursos/0india/datos/levels.py:130
+#: recursos/0india/datos/levels.py:131 recursos/0india/datos/levels.py:132
+msgid "Jammu and Kashmir"
+msgstr "Jammu and Kashmir"
+
+#: recursos/0india/datos/0india.py:18 recursos/0india/datos/levels.py:21
+#: recursos/0india/datos/levels.py:64 recursos/0india/datos/levels.py:107
+#: recursos/0india/datos/levels.py:153
+msgid "Jharkhand"
+msgstr "Jharkhand"
+
+#: recursos/0india/datos/0india.py:19 recursos/0india/datos/levels.py:22
+#: recursos/0india/datos/levels.py:65 recursos/0india/datos/levels.py:108
+#: recursos/0india/datos/levels.py:213 recursos/0india/datos/levels.py:214
+#: recursos/0india/datos/levels.py:215 recursos/0india/datos/levels.py:216
+#: recursos/0india/datos/levels.py:217 recursos/0india/datos/levels.py:218
+#: recursos/0india/datos/levels.py:219 recursos/0india/datos/levels.py:220
+#: recursos/0india/datos/levels.py:221 recursos/0india/datos/levels.py:222
+msgid "Karnataka"
+msgstr "Karnataka"
+
+#: recursos/0india/datos/0india.py:20 recursos/0india/datos/levels.py:23
+#: recursos/0india/datos/levels.py:66 recursos/0india/datos/levels.py:109
+#: recursos/0india/datos/levels.py:223 recursos/0india/datos/levels.py:224
+#: recursos/0india/datos/levels.py:225
+msgid "Kerala"
+msgstr "Kerala"
+
+#: recursos/0india/datos/0india.py:21 recursos/0india/datos/levels.py:24
+#: recursos/0india/datos/levels.py:67 recursos/0india/datos/levels.py:110
+#: recursos/0india/datos/levels.py:166 recursos/0india/datos/levels.py:167
+#: recursos/0india/datos/levels.py:168 recursos/0india/datos/levels.py:169
+#: recursos/0india/datos/levels.py:170 recursos/0india/datos/levels.py:171
+#: recursos/0india/datos/levels.py:172 recursos/0india/datos/levels.py:173
+#: recursos/0india/datos/levels.py:174
+msgid "Madhya Pradesh"
+msgstr "Madhya Pradesh"
+
+#: recursos/0india/datos/0india.py:22 recursos/0india/datos/levels.py:25
+#: recursos/0india/datos/levels.py:68 recursos/0india/datos/levels.py:111
+#: recursos/0india/datos/levels.py:193 recursos/0india/datos/levels.py:194
+#: recursos/0india/datos/levels.py:195 recursos/0india/datos/levels.py:196
+#: recursos/0india/datos/levels.py:197 recursos/0india/datos/levels.py:198
+#: recursos/0india/datos/levels.py:199 recursos/0india/datos/levels.py:200
+#: recursos/0india/datos/levels.py:201 recursos/0india/datos/levels.py:202
+#: recursos/0india/datos/levels.py:203 recursos/0india/datos/levels.py:204
+msgid "Maharashtra"
+msgstr "Maharashtra"
+
+#: recursos/0india/datos/0india.py:23 recursos/0india/datos/levels.py:26
+#: recursos/0india/datos/levels.py:69 recursos/0india/datos/levels.py:112
+msgid "Manipur"
+msgstr "Manipur"
+
+#: recursos/0india/datos/0india.py:24 recursos/0india/datos/levels.py:27
+#: recursos/0india/datos/levels.py:70 recursos/0india/datos/levels.py:113
+msgid "Meghalaya"
+msgstr "Meghalaya"
+
+#: recursos/0india/datos/0india.py:25 recursos/0india/datos/levels.py:28
+#: recursos/0india/datos/levels.py:71 recursos/0india/datos/levels.py:114
+msgid "Mizoram"
+msgstr "Mizoram"
+
+#: recursos/0india/datos/0india.py:26 recursos/0india/datos/levels.py:29
+#: recursos/0india/datos/levels.py:72 recursos/0india/datos/levels.py:115
+msgid "Nagaland"
+msgstr "Nagaland"
+
+#: recursos/0india/datos/0india.py:27 recursos/0india/datos/levels.py:30
+#: recursos/0india/datos/levels.py:73 recursos/0india/datos/levels.py:116
+#: recursos/0india/datos/levels.py:177 recursos/0india/datos/levels.py:178
+#: recursos/0india/datos/levels.py:179 recursos/0india/datos/levels.py:180
+#: recursos/0india/datos/levels.py:181 recursos/0india/datos/levels.py:182
+msgid "Orissa"
+msgstr "Orissa"
+
+#: recursos/0india/datos/0india.py:28 recursos/0india/datos/levels.py:31
+#: recursos/0india/datos/levels.py:135 recursos/0india/datos/levels.py:136
+#: recursos/0india/datos/levels.py:137
+msgid "Punjab"
+msgstr "Punjab"
+
+#: recursos/0india/datos/0india.py:29 recursos/0india/datos/levels.py:32
+#: recursos/0india/datos/levels.py:74 recursos/0india/datos/levels.py:117
+#: recursos/0india/datos/levels.py:157 recursos/0india/datos/levels.py:158
+#: recursos/0india/datos/levels.py:159 recursos/0india/datos/levels.py:160
+#: recursos/0india/datos/levels.py:161 recursos/0india/datos/levels.py:162
+#: recursos/0india/datos/levels.py:163 recursos/0india/datos/levels.py:164
+#: recursos/0india/datos/levels.py:165
+msgid "Rajasthan"
+msgstr "Rajasthan"
+
+#: recursos/0india/datos/0india.py:30 recursos/0india/datos/levels.py:33
+#: recursos/0india/datos/levels.py:75 recursos/0india/datos/levels.py:118
+msgid "Sikkim"
+msgstr "Sikkim"
+
+#: recursos/0india/datos/0india.py:31 recursos/0india/datos/levels.py:34
+#: recursos/0india/datos/levels.py:76 recursos/0india/datos/levels.py:119
+#: recursos/0india/datos/levels.py:226 recursos/0india/datos/levels.py:227
+#: recursos/0india/datos/levels.py:228 recursos/0india/datos/levels.py:229
+#: recursos/0india/datos/levels.py:230 recursos/0india/datos/levels.py:231
+#: recursos/0india/datos/levels.py:232 recursos/0india/datos/levels.py:233
+msgid "Tamil Nadu"
+msgstr "Tamil Nadu"
+
+#: recursos/0india/datos/0india.py:32 recursos/0india/datos/levels.py:35
+#: recursos/0india/datos/levels.py:77 recursos/0india/datos/levels.py:120
+msgid "Tripura"
+msgstr "Tripura"
+
+#: recursos/0india/datos/0india.py:33 recursos/0india/datos/levels.py:36
+#: recursos/0india/datos/levels.py:78 recursos/0india/datos/levels.py:121
+#: recursos/0india/datos/levels.py:142 recursos/0india/datos/levels.py:143
+#: recursos/0india/datos/levels.py:144 recursos/0india/datos/levels.py:145
+#: recursos/0india/datos/levels.py:146 recursos/0india/datos/levels.py:147
+msgid "Uttar Pradesh"
+msgstr "Uttar Pradesh"
+
+#: recursos/0india/datos/0india.py:34 recursos/0india/datos/levels.py:37
+#: recursos/0india/datos/levels.py:79 recursos/0india/datos/levels.py:122
+#: recursos/0india/datos/levels.py:139 recursos/0india/datos/levels.py:140
+#: recursos/0india/datos/levels.py:141
+msgid "Uttarakhand"
+msgstr "Uttarakhand"
+
+#: recursos/0india/datos/0india.py:35 recursos/0india/datos/levels.py:38
+#: recursos/0india/datos/levels.py:80 recursos/0india/datos/levels.py:123
+#: recursos/0india/datos/levels.py:149 recursos/0india/datos/levels.py:150
+#: recursos/0india/datos/levels.py:151 recursos/0india/datos/levels.py:152
+msgid "West Bengal"
+msgstr "West Bengal"
+
+#: recursos/0india/datos/0india.py:37 recursos/0india/datos/levels.py:40
+#: recursos/0india/datos/levels.py:81 recursos/0india/datos/levels.py:124
+msgid "Andaman and Nicobar Islands"
+msgstr "Andaman and Nicobar Islands"
+
+#: recursos/0india/datos/0india.py:38 recursos/0india/datos/levels.py:41
+#: recursos/0india/datos/levels.py:82 recursos/0india/datos/levels.py:125
+msgid "Dadra and Nagar Haveli"
+msgstr "Dadra and Nagar Haveli"
+
+#: recursos/0india/datos/0india.py:39 recursos/0india/datos/levels.py:42
+#: recursos/0india/datos/levels.py:84 recursos/0india/datos/levels.py:127
+msgid "Lakshadweep"
+msgstr "Lakshadweep"
+
+#: recursos/0india/datos/0india.py:40 recursos/0india/datos/levels.py:43
+msgid "Delhi"
+msgstr "Delhi"
+
+#: recursos/0india/datos/0india.py:42
 msgid "Afghanistan"
 msgstr "Afghanistan"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:43
+#: recursos/0india/datos/0india.py:43
 msgid "Pakistan"
 msgstr "Pakistan"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:44
+#: recursos/0india/datos/0india.py:44
 msgid "China"
 msgstr "China"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:45
+#: recursos/0india/datos/0india.py:45
 msgid "Nepal"
 msgstr "Nepal"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:46
+#: recursos/0india/datos/0india.py:46
 msgid "Bhutan"
 msgstr "Bhutan"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:47
+#: recursos/0india/datos/0india.py:47
 msgid "Bangladesh"
 msgstr "Bangladesh"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:48
+#: recursos/0india/datos/0india.py:48
 msgid "Myanmar"
 msgstr "Myanmar"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:49
+#: recursos/0india/datos/0india.py:49
 msgid "Sri Lanka"
 msgstr "Sri Lanka"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:203
+#: recursos/0india/datos/0india.py:53 recursos/0india/datos/0india.py:203
+#: recursos/0india/datos/levels.py:53 recursos/0india/datos/levels.py:96
+msgid "New Delhi"
+msgstr "New Delhi"
+
+#: recursos/0india/datos/0india.py:54 recursos/0india/datos/levels.py:54
+#: recursos/0india/datos/levels.py:97
+msgid "Hyderabad"
+msgstr "Hyderabad"
+
+#: recursos/0india/datos/0india.py:55 recursos/0india/datos/levels.py:55
+#: recursos/0india/datos/levels.py:98
+msgid "Itanagar"
+msgstr "Itanagar"
+
+#: recursos/0india/datos/0india.py:56 recursos/0india/datos/levels.py:56
+#: recursos/0india/datos/levels.py:99
+msgid "Dispur"
+msgstr "Dispur"
+
+#: recursos/0india/datos/0india.py:57 recursos/0india/datos/levels.py:57
+#: recursos/0india/datos/levels.py:100
+msgid "Patna"
+msgstr "Patna"
+
+#: recursos/0india/datos/0india.py:58 recursos/0india/datos/levels.py:58
+#: recursos/0india/datos/levels.py:101
+msgid "Raipur"
+msgstr "Raipur"
+
+#: recursos/0india/datos/0india.py:59 recursos/0india/datos/levels.py:59
+#: recursos/0india/datos/levels.py:102
+msgid "Panaji"
+msgstr "Panaji"
+
+#: recursos/0india/datos/0india.py:60 recursos/0india/datos/levels.py:60
+#: recursos/0india/datos/levels.py:103
+msgid "Gandhinagar"
+msgstr "Gandhinagar"
+
+#: recursos/0india/datos/0india.py:61 recursos/0india/datos/levels.py:61
+#: recursos/0india/datos/levels.py:104
+msgid "Chandigarh"
+msgstr "Chandigarh"
+
+#: recursos/0india/datos/0india.py:62 recursos/0india/datos/levels.py:62
+#: recursos/0india/datos/levels.py:105
+msgid "Shimla"
+msgstr "Shimla"
+
+#: recursos/0india/datos/0india.py:63 recursos/0india/datos/levels.py:63
+#: recursos/0india/datos/levels.py:106
+msgid "Srinagar"
+msgstr "Srinagar"
+
+#: recursos/0india/datos/0india.py:64 recursos/0india/datos/levels.py:64
+#: recursos/0india/datos/levels.py:107
+msgid "Ranchi"
+msgstr "Ranchi"
+
+#: recursos/0india/datos/0india.py:65 recursos/0india/datos/levels.py:65
+#: recursos/0india/datos/levels.py:108
+msgid "Bengalooru"
+msgstr "Bengalooru"
+
+#: recursos/0india/datos/0india.py:66 recursos/0india/datos/levels.py:66
+#: recursos/0india/datos/levels.py:109
+msgid "Thiruvananthapuram"
+msgstr "Thiruvananthapuram"
+
+#: recursos/0india/datos/0india.py:67 recursos/0india/datos/levels.py:67
+#: recursos/0india/datos/levels.py:110
+msgid "Bhopal"
+msgstr "Bhopal"
+
+#: recursos/0india/datos/0india.py:68 recursos/0india/datos/levels.py:68
+#: recursos/0india/datos/levels.py:111
+msgid "Mumbai"
+msgstr "Mumbai"
+
+#: recursos/0india/datos/0india.py:69 recursos/0india/datos/levels.py:69
+#: recursos/0india/datos/levels.py:112
+msgid "Imphal"
+msgstr "Imphal"
+
+#: recursos/0india/datos/0india.py:70 recursos/0india/datos/levels.py:70
+#: recursos/0india/datos/levels.py:113
+msgid "Shillong"
+msgstr "Shillong"
+
+#: recursos/0india/datos/0india.py:71 recursos/0india/datos/levels.py:71
+#: recursos/0india/datos/levels.py:114
+msgid "Aizawl"
+msgstr "Aizawl"
+
+#: recursos/0india/datos/0india.py:72 recursos/0india/datos/levels.py:72
+#: recursos/0india/datos/levels.py:115
+msgid "Kohima"
+msgstr "Kohima"
+
+#: recursos/0india/datos/0india.py:73 recursos/0india/datos/levels.py:73
+#: recursos/0india/datos/levels.py:116
+msgid "Bhubaneswar"
+msgstr "Bhubaneswar"
+
+#: recursos/0india/datos/0india.py:74 recursos/0india/datos/levels.py:74
+#: recursos/0india/datos/levels.py:117
+msgid "Jaipur"
+msgstr "Jaipur"
+
+#: recursos/0india/datos/0india.py:75 recursos/0india/datos/levels.py:75
+#: recursos/0india/datos/levels.py:118
+msgid "Gangtok"
+msgstr "Gangtok"
+
+#: recursos/0india/datos/0india.py:76 recursos/0india/datos/levels.py:76
+#: recursos/0india/datos/levels.py:119
+msgid "Chennai"
+msgstr "Chennai"
+
+#: recursos/0india/datos/0india.py:77 recursos/0india/datos/levels.py:77
+#: recursos/0india/datos/levels.py:120
+msgid "Agartala"
+msgstr "Agartala"
+
+#: recursos/0india/datos/0india.py:78 recursos/0india/datos/levels.py:78
+#: recursos/0india/datos/levels.py:121
+msgid "Lucknow"
+msgstr "Lucknow"
+
+#: recursos/0india/datos/0india.py:79 recursos/0india/datos/levels.py:79
+#: recursos/0india/datos/levels.py:122
+msgid "Dehradun"
+msgstr "Dehradun"
+
+#: recursos/0india/datos/0india.py:80 recursos/0india/datos/levels.py:80
+#: recursos/0india/datos/levels.py:123
+msgid "Kolkata"
+msgstr "Kolkata"
+
+#: recursos/0india/datos/0india.py:81 recursos/0india/datos/levels.py:81
+#: recursos/0india/datos/levels.py:124
+msgid "Port Blair"
+msgstr "Port Blair"
+
+#: recursos/0india/datos/0india.py:82 recursos/0india/datos/levels.py:82
+#: recursos/0india/datos/levels.py:125
+msgid "Silvassa"
+msgstr "Silvassa"
+
+#: recursos/0india/datos/0india.py:83 recursos/0india/datos/levels.py:83
+#: recursos/0india/datos/levels.py:126
+msgid "Daman"
+msgstr "Daman"
+
+#: recursos/0india/datos/0india.py:84 recursos/0india/datos/levels.py:84
+#: recursos/0india/datos/levels.py:127
+msgid "Kavaratti"
+msgstr "Kavaratti"
+
+#: recursos/0india/datos/0india.py:85 recursos/0india/datos/levels.py:85
+#: recursos/0india/datos/levels.py:128
+msgid "Pondicherry"
+msgstr "Pondicherry"
+
+#: recursos/0india/datos/0india.py:90 recursos/0india/datos/levels.py:129
+msgid "Amarnath"
+msgstr "Amarnath"
+
+#: recursos/0india/datos/0india.py:91 recursos/0india/datos/levels.py:130
+msgid "Leh"
+msgstr "Leh"
+
+#: recursos/0india/datos/0india.py:92 recursos/0india/datos/levels.py:131
+msgid "Vaishno Devi"
+msgstr "Vaishno Devi"
+
+#: recursos/0india/datos/0india.py:93 recursos/0india/datos/levels.py:132
+msgid "Patni Top"
+msgstr "Patni Top"
+
+#: recursos/0india/datos/0india.py:94 recursos/0india/datos/levels.py:133
+msgid "Chamba"
+msgstr "Chamba"
+
+#: recursos/0india/datos/0india.py:95 recursos/0india/datos/levels.py:134
+msgid "Manali"
+msgstr "Manali"
+
+#: recursos/0india/datos/0india.py:96 recursos/0india/datos/levels.py:135
+msgid "Amritsar"
+msgstr "Amritsar"
+
+#: recursos/0india/datos/0india.py:97 recursos/0india/datos/levels.py:136
+msgid "Atari"
+msgstr "Atari"
+
+#: recursos/0india/datos/0india.py:98 recursos/0india/datos/levels.py:137
+msgid "Bathinda"
+msgstr "Bathinda"
+
+#: recursos/0india/datos/0india.py:99 recursos/0india/datos/levels.py:138
+msgid "Panipat"
+msgstr "Panipat"
+
+#: recursos/0india/datos/0india.py:100 recursos/0india/datos/levels.py:139
+msgid "Kedarnath"
+msgstr "Kedarnath"
+
+#: recursos/0india/datos/0india.py:101 recursos/0india/datos/levels.py:140
+msgid "Badrinath"
+msgstr "Badrinath"
+
+#: recursos/0india/datos/0india.py:102 recursos/0india/datos/levels.py:141
+msgid "Nainital"
+msgstr "Nainital"
+
+#: recursos/0india/datos/0india.py:103 recursos/0india/datos/levels.py:142
+msgid "Sravasti"
+msgstr "Sravasti"
+
+#: recursos/0india/datos/0india.py:104 recursos/0india/datos/levels.py:143
+msgid "Ayodhya"
+msgstr "Ayodhya"
+
+#: recursos/0india/datos/0india.py:105 recursos/0india/datos/levels.py:144
+msgid "Agra"
+msgstr "Agra"
+
+#: recursos/0india/datos/0india.py:106 recursos/0india/datos/levels.py:145
+msgid "Kanpur"
+msgstr "Kanpur"
+
+#: recursos/0india/datos/0india.py:107 recursos/0india/datos/levels.py:146
+msgid "Varanasi"
+msgstr "Varanasi"
+
+#: recursos/0india/datos/0india.py:108 recursos/0india/datos/levels.py:147
+msgid "Allahabad"
+msgstr "Allahabad"
+
+#: recursos/0india/datos/0india.py:109 recursos/0india/datos/levels.py:148
+msgid "Tezpur"
+msgstr "Tezpur"
+
+#: recursos/0india/datos/0india.py:110 recursos/0india/datos/levels.py:149
+msgid "Darjeeling"
+msgstr "Darjeeling"
+
+#: recursos/0india/datos/0india.py:111 recursos/0india/datos/levels.py:150
+msgid "Murshidabad"
+msgstr "Murshidabad"
+
+#: recursos/0india/datos/0india.py:112 recursos/0india/datos/levels.py:151
+msgid "Shantiniketan"
+msgstr "Shantiniketan"
+
+#: recursos/0india/datos/0india.py:113 recursos/0india/datos/levels.py:152
+msgid "Digha"
+msgstr "Digha"
+
+#: recursos/0india/datos/0india.py:114 recursos/0india/datos/levels.py:153
+msgid "Hazaribag"
+msgstr "Hazaribag"
+
+#: recursos/0india/datos/0india.py:115 recursos/0india/datos/levels.py:154
+msgid "Bihar-Sharif"
+msgstr "Bihar-Sharif"
+
+#: recursos/0india/datos/0india.py:116 recursos/0india/datos/levels.py:155
+msgid "Nalanda"
+msgstr "Nalanda"
+
+#: recursos/0india/datos/0india.py:117 recursos/0india/datos/levels.py:156
+msgid "Bodhgaya"
+msgstr "Bodhgaya"
+
+#: recursos/0india/datos/0india.py:118 recursos/0india/datos/levels.py:157
+msgid "Pillani"
+msgstr "Pillani"
+
+#: recursos/0india/datos/0india.py:119 recursos/0india/datos/levels.py:158
+msgid "Bikaner"
+msgstr "Bikaner"
+
+#: recursos/0india/datos/0india.py:120 recursos/0india/datos/levels.py:159
+msgid "Jaisalmer"
+msgstr "Jaisalmer"
+
+#: recursos/0india/datos/0india.py:121 recursos/0india/datos/levels.py:160
+msgid "Jodhpur"
+msgstr "Jodhpur"
+
+#: recursos/0india/datos/0india.py:122 recursos/0india/datos/levels.py:161
+msgid "Ranakpur"
+msgstr "Ranakpur"
+
+#: recursos/0india/datos/0india.py:123 recursos/0india/datos/levels.py:162
+msgid "Bundi"
+msgstr "Bundi"
+
+#: recursos/0india/datos/0india.py:124 recursos/0india/datos/levels.py:163
+msgid "Kota"
+msgstr "Kota"
+
+#: recursos/0india/datos/0india.py:125 recursos/0india/datos/levels.py:164
+msgid "Chittaurgarh"
+msgstr "Chittaurgarh"
+
+#: recursos/0india/datos/0india.py:126 recursos/0india/datos/levels.py:165
+msgid "Mount Abu"
+msgstr "Mount Abu"
+
+#: recursos/0india/datos/0india.py:127 recursos/0india/datos/levels.py:166
+msgid "Gwalior"
+msgstr "Gwalior"
+
+#: recursos/0india/datos/0india.py:128 recursos/0india/datos/levels.py:167
+msgid "Shivpuri"
+msgstr "Shivpuri"
+
+#: recursos/0india/datos/0india.py:129 recursos/0india/datos/levels.py:168
+msgid "Orchna"
+msgstr "Orchna"
+
+#: recursos/0india/datos/0india.py:130 recursos/0india/datos/levels.py:169
+msgid "Khajuraho"
+msgstr "Khajuraho"
+
+#: recursos/0india/datos/0india.py:131 recursos/0india/datos/levels.py:170
+msgid "Sanchi"
+msgstr "Sanchi"
+
+#: recursos/0india/datos/0india.py:132 recursos/0india/datos/levels.py:171
+msgid "Ujjain"
+msgstr "Ujjain"
+
+#: recursos/0india/datos/0india.py:133 recursos/0india/datos/levels.py:172
+msgid "Indore"
+msgstr "Indore"
+
+#: recursos/0india/datos/0india.py:134 recursos/0india/datos/levels.py:173
+msgid "Jabalpur"
+msgstr "Jabalpur"
+
+#: recursos/0india/datos/0india.py:135 recursos/0india/datos/levels.py:174
+msgid "Amarkantak"
+msgstr "Amarkantak"
+
+#: recursos/0india/datos/0india.py:136 recursos/0india/datos/levels.py:175
+msgid "Ambikapur"
+msgstr "Ambikapur"
+
+#: recursos/0india/datos/0india.py:137 recursos/0india/datos/levels.py:176
+msgid "Chitrakote Falls"
+msgstr "Chitrakote Falls"
+
+#: recursos/0india/datos/0india.py:138 recursos/0india/datos/levels.py:177
+msgid "Hirakud Dam"
+msgstr "Hirakud Dam"
+
+#: recursos/0india/datos/0india.py:139 recursos/0india/datos/levels.py:178
+msgid "Cuttak"
+msgstr "Cuttak"
+
+#: recursos/0india/datos/0india.py:140 recursos/0india/datos/levels.py:179
+msgid "Paradwip"
+msgstr "Paradwip"
+
+#: recursos/0india/datos/0india.py:141 recursos/0india/datos/levels.py:180
+msgid "Konarak"
+msgstr "Konarak"
+
+#: recursos/0india/datos/0india.py:142 recursos/0india/datos/levels.py:181
+msgid "Puri"
+msgstr "Puri"
+
+#: recursos/0india/datos/0india.py:143 recursos/0india/datos/levels.py:182
+msgid "Gopalpur"
+msgstr "Gopalpur"
+
+#: recursos/0india/datos/0india.py:144 recursos/0india/datos/levels.py:183
+msgid "Bhuj"
+msgstr "Bhuj"
+
+#: recursos/0india/datos/0india.py:145 recursos/0india/datos/levels.py:184
+msgid "Lothal"
+msgstr "Lothal"
+
+#: recursos/0india/datos/0india.py:146 recursos/0india/datos/levels.py:185
+msgid "Vadodara"
+msgstr "Vadodara"
+
+#: recursos/0india/datos/0india.py:147 recursos/0india/datos/levels.py:186
+msgid "Dwarka"
+msgstr "Dwarka"
+
+#: recursos/0india/datos/0india.py:148 recursos/0india/datos/levels.py:187
+msgid "Rajkot"
+msgstr "Rajkot"
+
+#: recursos/0india/datos/0india.py:149 recursos/0india/datos/levels.py:188
+msgid "Porbandar"
+msgstr "Porbandar"
+
+#: recursos/0india/datos/0india.py:150 recursos/0india/datos/levels.py:189
+msgid "Somnath"
+msgstr "Somnath"
+
+#: recursos/0india/datos/0india.py:151 recursos/0india/datos/levels.py:190
+msgid "Diu"
+msgstr "Diu"
+
+#: recursos/0india/datos/0india.py:152 recursos/0india/datos/levels.py:191
+msgid "Bhavnagar"
+msgstr "Bhavnagar"
+
+#: recursos/0india/datos/0india.py:153 recursos/0india/datos/levels.py:192
+msgid "Saputara"
+msgstr "Saputara"
+
+#: recursos/0india/datos/0india.py:154 recursos/0india/datos/levels.py:193
+msgid "Malghat"
+msgstr "Malghat"
+
+#: recursos/0india/datos/0india.py:155 recursos/0india/datos/levels.py:194
+msgid "Wardha"
+msgstr "Wardha"
+
+#: recursos/0india/datos/0india.py:156 recursos/0india/datos/levels.py:195
+msgid "Chandrapur"
+msgstr "Chandrapur"
+
+#: recursos/0india/datos/0india.py:157 recursos/0india/datos/levels.py:196
+msgid "Ajanta"
+msgstr "Ajanta"
+
+#: recursos/0india/datos/0india.py:158 recursos/0india/datos/levels.py:197
+msgid "Ellora"
+msgstr "Ellora"
+
+#: recursos/0india/datos/0india.py:159 recursos/0india/datos/levels.py:198
+msgid "Aurangabad"
+msgstr "Aurangabad"
+
+#: recursos/0india/datos/0india.py:160 recursos/0india/datos/levels.py:199
+msgid "Shirdi"
+msgstr "Shirdi"
+
+#: recursos/0india/datos/0india.py:161 recursos/0india/datos/levels.py:200
+msgid "Pune"
+msgstr "Pune"
+
+#: recursos/0india/datos/0india.py:162 recursos/0india/datos/levels.py:201
+msgid "Murud"
+msgstr "Murud"
+
+#: recursos/0india/datos/0india.py:163 recursos/0india/datos/levels.py:202
+msgid "Mahabaleshwar"
+msgstr "Mahabaleshwar"
+
+#: recursos/0india/datos/0india.py:164 recursos/0india/datos/levels.py:203
+msgid "Ganpatipule"
+msgstr "Ganpatipule"
+
+#: recursos/0india/datos/0india.py:165 recursos/0india/datos/levels.py:204
+msgid "Panhala"
+msgstr "Panhala"
+
+#: recursos/0india/datos/0india.py:166 recursos/0india/datos/levels.py:205
+msgid "Warangal"
+msgstr "Warangal"
+
+#: recursos/0india/datos/0india.py:167
+msgid "Visakhapatnam"
+msgstr "Visakhapatnam"
+
+#: recursos/0india/datos/0india.py:168 recursos/0india/datos/levels.py:207
+msgid "Bhadrachalan"
+msgstr "Bhadrachalan"
+
+#: recursos/0india/datos/0india.py:169 recursos/0india/datos/levels.py:208
+msgid "Amaravati"
+msgstr "Amaravati"
+
+#: recursos/0india/datos/0india.py:170 recursos/0india/datos/levels.py:209
+msgid "Srisailam"
+msgstr "Srisailam"
+
+#: recursos/0india/datos/0india.py:171 recursos/0india/datos/levels.py:210
+msgid "Lepakshi"
+msgstr "Lepakshi"
+
+#: recursos/0india/datos/0india.py:172 recursos/0india/datos/levels.py:211
+msgid "Tirupati"
+msgstr "Tirupati"
+
+#: recursos/0india/datos/0india.py:173 recursos/0india/datos/levels.py:212
+msgid "Vasco da Gama"
+msgstr "Vasco da Gama"
+
+#: recursos/0india/datos/0india.py:174 recursos/0india/datos/levels.py:213
+msgid "Bider"
+msgstr "Bider"
+
+#: recursos/0india/datos/0india.py:175 recursos/0india/datos/levels.py:214
+msgid "Gulbarga"
+msgstr "Gulbarga"
+
+#: recursos/0india/datos/0india.py:176 recursos/0india/datos/levels.py:215
+msgid "Bijapur"
+msgstr "Bijapur"
+
+#: recursos/0india/datos/0india.py:177 recursos/0india/datos/levels.py:216
+msgid "Raichur"
+msgstr "Raichur"
+
+#: recursos/0india/datos/0india.py:178 recursos/0india/datos/levels.py:217
+msgid "Hampi"
+msgstr "Hampi"
+
+#: recursos/0india/datos/0india.py:179 recursos/0india/datos/levels.py:218
+msgid "Jog Falls"
+msgstr "Jog Falls"
+
+#: recursos/0india/datos/0india.py:180 recursos/0india/datos/levels.py:219
+msgid "Chitradurga"
+msgstr "Chitradurga"
+
+#: recursos/0india/datos/0india.py:181 recursos/0india/datos/levels.py:220
+msgid "Udupi"
+msgstr "Udupi"
+
+#: recursos/0india/datos/0india.py:182 recursos/0india/datos/levels.py:221
+msgid "Mangalore"
+msgstr "Mangalore"
+
+#: recursos/0india/datos/0india.py:183 recursos/0india/datos/levels.py:222
+msgid "Belur"
+msgstr "Belur"
+
+#: recursos/0india/datos/0india.py:184 recursos/0india/datos/levels.py:223
+msgid "Kozhikode"
+msgstr "Kozhikode"
+
+#: recursos/0india/datos/0india.py:185 recursos/0india/datos/levels.py:224
+msgid "Kochi"
+msgstr "Kochi"
+
+#: recursos/0india/datos/0india.py:186 recursos/0india/datos/levels.py:225
+msgid "Alappuzha"
+msgstr "Alappuzha"
+
+#: recursos/0india/datos/0india.py:187 recursos/0india/datos/levels.py:226
+msgid "Mamallpuram"
+msgstr "Mamallpuram"
+
+#: recursos/0india/datos/0india.py:188 recursos/0india/datos/levels.py:227
+msgid "Chidambaram"
+msgstr "Chidambaram"
+
+#: recursos/0india/datos/0india.py:189 recursos/0india/datos/levels.py:228
+msgid "Mudumali"
+msgstr "Mudumali"
+
+#: recursos/0india/datos/0india.py:190 recursos/0india/datos/levels.py:229
+msgid "Thanjavur"
+msgstr "Thanjavur"
+
+#: recursos/0india/datos/0india.py:191 recursos/0india/datos/levels.py:230
+msgid "Kodaikanal"
+msgstr "Kodaikanal"
+
+#: recursos/0india/datos/0india.py:192 recursos/0india/datos/levels.py:231
+msgid "Madurai"
+msgstr "Madurai"
+
+#: recursos/0india/datos/0india.py:193 recursos/0india/datos/levels.py:232
+msgid "Kanniyakumari"
+msgstr "Kanniyakumari"
+
+#: recursos/0india/datos/0india.py:194 recursos/0india/datos/levels.py:233
+msgid "Rameswaram"
+msgstr "Rameswaram"
+
+#: recursos/0india/datos/0india.py:203
 msgid "Capital:"
 msgstr "Capital:"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:203
+#: recursos/0india/datos/0india.py:203
 msgid "(28°36.8′ N - 77°12.5′ E)"
 msgstr "(28°36.8′ N - 77°12.5′ E)"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:204
+#: recursos/0india/datos/0india.py:204
 msgid "Language:"
 msgstr "Language:"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:204
+#: recursos/0india/datos/0india.py:204
 msgid "Hindi"
 msgstr "Hindi"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:204
+#: recursos/0india/datos/0india.py:204
 msgid "English"
 msgstr "English"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:205
+#: recursos/0india/datos/0india.py:205
 msgid "Government:"
 msgstr "Government:"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:205
+#: recursos/0india/datos/0india.py:205
 msgid "Federal parliamentary republic"
 msgstr "Federal parliamentary republic"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:206
+#: recursos/0india/datos/0india.py:206
 msgid "President:"
 msgstr "President:"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:206
+#: recursos/0india/datos/0india.py:206
 msgid "Pratibha Patil"
 msgstr "Pratibha Patil"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:207
+#: recursos/0india/datos/0india.py:207
 msgid "Vice President:"
 msgstr "Vice President:"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:207
+#: recursos/0india/datos/0india.py:207
 msgid "Mohammad Hamid Ansari"
 msgstr "Mohammad Hamid Ansari"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:208
+#: recursos/0india/datos/0india.py:208
 msgid "Independence:"
 msgstr "Independence:"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:208
+#: recursos/0india/datos/0india.py:208
 msgid "from the United Kingdom "
 msgstr "from the United Kingdom "
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:209
+#: recursos/0india/datos/0india.py:209
 #, python-format
 msgid "declared: %s"
 msgstr "declared: %s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:209
+#: recursos/0india/datos/0india.py:209
 msgid "15 of august of 1947 "
 msgstr "August 15, 1947 "
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:210
+#: recursos/0india/datos/0india.py:210
 #, python-format
 msgid "recognized: %s"
 msgstr "recognized: %s"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:210
+#: recursos/0india/datos/0india.py:210
 msgid "26 of january of 1950 "
 msgstr "January 26, 1950 "
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:211
+#: recursos/0india/datos/0india.py:211
 msgid "Area:"
 msgstr "Area:"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:211
-msgid "3.287.263 km km² (7th)"
-msgstr "3.287.263 km km² (7th)"
+#: recursos/0india/datos/0india.py:211
+msgid "3.287.263 km² (7th)"
+msgstr "3,287,263 km² (7th)"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:212
+#: recursos/0india/datos/0india.py:212
 msgid "Population:"
 msgstr "Population:"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:212
+#: recursos/0india/datos/0india.py:212
 msgid "1.210.193.422 (2nd)"
 msgstr "1.210.193.422 (2nd)"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:213
+#: recursos/0india/datos/0india.py:213
 msgid "GDP:"
 msgstr "GDP:"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:213
+#: recursos/0india/datos/0india.py:213
 msgid "USD 1.676 trillion (11th)"
 msgstr "USD 1.676 trillion (11th)"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:214
+#: recursos/0india/datos/0india.py:214
 msgid "HDI:"
 msgstr "HDI:"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:214
+#: recursos/0india/datos/0india.py:214
 msgid "Medium - 0,547 (134th)"
 msgstr "Medium - 0,547 (134th)"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:215
+#: recursos/0india/datos/0india.py:215
 msgid "Currency:"
 msgstr "Currency:"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/0india/datos/0india.py:215
+#: recursos/0india/datos/0india.py:215
 msgid "Indian rupee"
 msgstr "Indian rupee"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:7
+#: recursos/0india/datos/explorations.py:6 recursos/0india/datos/levels.py:7
+msgid "States"
+msgstr "States"
+
+#: recursos/0india/datos/explorations.py:13 recursos/0india/datos/levels.py:49
+msgid "State capitals"
+msgstr "State capitals"
+
+#: recursos/0india/datos/explorations.py:20 recursos/0india/datos/levels.py:92
+msgid "Cities"
+msgstr "Cities"
+
+#: recursos/0india/datos/explorations.py:27
+msgid "Waterways"
+msgstr "Waterways"
+
+#: recursos/0india/datos/explorations.py:34
+msgid "Routes"
+msgstr "Routes"
+
+#: recursos/0india/datos/levels.py:11 recursos/0india/datos/levels.py:23
+#: recursos/0india/datos/levels.py:34
+msgid "It is in the south"
+msgstr "It is in the south"
+
+#: recursos/0india/datos/levels.py:12 recursos/0india/datos/levels.py:14
+#: recursos/0india/datos/levels.py:33
+msgid "It is in the northeast"
+msgstr "It is in the northeast"
+
+#: recursos/0india/datos/levels.py:13 recursos/0india/datos/levels.py:26
+#: recursos/0india/datos/levels.py:27 recursos/0india/datos/levels.py:28
+#: recursos/0india/datos/levels.py:29 recursos/0india/datos/levels.py:30
+#: recursos/0india/datos/levels.py:35
+msgid "It is in the east"
+msgstr "It is in the east"
+
+#: recursos/0india/datos/levels.py:15 recursos/0india/datos/levels.py:21
+#: recursos/0india/datos/levels.py:24
+msgid "It is in the center"
+msgstr "It is in the center"
+
+#: recursos/0india/datos/levels.py:16 recursos/0india/datos/levels.py:22
+#: recursos/0india/datos/levels.py:42
+msgid "It is in the southwest"
+msgstr "It is in the southwest"
+
+#: recursos/0india/datos/levels.py:17 recursos/0india/datos/levels.py:25
+#: recursos/0india/datos/levels.py:38 recursos/0india/datos/levels.py:41
+msgid "It is in the west"
+msgstr "It is in the west"
+
+#: recursos/0india/datos/levels.py:18 recursos/0india/datos/levels.py:31
+#: recursos/0india/datos/levels.py:32
+msgid "It is in the northwest"
+msgstr "It is in the northwest"
+
+#: recursos/0india/datos/levels.py:19 recursos/0india/datos/levels.py:20
+#: recursos/0india/datos/levels.py:36 recursos/0india/datos/levels.py:37
+#: recursos/0india/datos/levels.py:43
+msgid "It is in the north"
+msgstr "It is in the north"
+
+#: recursos/0india/datos/levels.py:40
+msgid "It is in the southeast"
+msgstr "It is in the southeast"
+
+#: recursos/0india/datos/levels.py:53 recursos/0india/datos/levels.py:54
+#: recursos/0india/datos/levels.py:55 recursos/0india/datos/levels.py:56
+#: recursos/0india/datos/levels.py:57 recursos/0india/datos/levels.py:58
+#: recursos/0india/datos/levels.py:59 recursos/0india/datos/levels.py:60
+#: recursos/0india/datos/levels.py:61 recursos/0india/datos/levels.py:62
+#: recursos/0india/datos/levels.py:63 recursos/0india/datos/levels.py:64
+#: recursos/0india/datos/levels.py:65 recursos/0india/datos/levels.py:66
+#: recursos/0india/datos/levels.py:67 recursos/0india/datos/levels.py:68
+#: recursos/0india/datos/levels.py:69 recursos/0india/datos/levels.py:70
+#: recursos/0india/datos/levels.py:71 recursos/0india/datos/levels.py:72
+#: recursos/0india/datos/levels.py:73 recursos/0india/datos/levels.py:74
+#: recursos/0india/datos/levels.py:75 recursos/0india/datos/levels.py:76
+#: recursos/0india/datos/levels.py:77 recursos/0india/datos/levels.py:78
+#: recursos/0india/datos/levels.py:79 recursos/0india/datos/levels.py:80
+#: recursos/0india/datos/levels.py:81 recursos/0india/datos/levels.py:82
+#: recursos/0india/datos/levels.py:83 recursos/0india/datos/levels.py:84
+#: recursos/0india/datos/levels.py:85 recursos/0india/datos/levels.py:96
+#: recursos/0india/datos/levels.py:97 recursos/0india/datos/levels.py:98
+#: recursos/0india/datos/levels.py:99 recursos/0india/datos/levels.py:100
+#: recursos/0india/datos/levels.py:101 recursos/0india/datos/levels.py:102
+#: recursos/0india/datos/levels.py:103 recursos/0india/datos/levels.py:104
+#: recursos/0india/datos/levels.py:105 recursos/0india/datos/levels.py:106
+#: recursos/0india/datos/levels.py:107 recursos/0india/datos/levels.py:108
+#: recursos/0india/datos/levels.py:109 recursos/0india/datos/levels.py:110
+#: recursos/0india/datos/levels.py:111 recursos/0india/datos/levels.py:112
+#: recursos/0india/datos/levels.py:113 recursos/0india/datos/levels.py:114
+#: recursos/0india/datos/levels.py:115 recursos/0india/datos/levels.py:116
+#: recursos/0india/datos/levels.py:117 recursos/0india/datos/levels.py:118
+#: recursos/0india/datos/levels.py:119 recursos/0india/datos/levels.py:120
+#: recursos/0india/datos/levels.py:121 recursos/0india/datos/levels.py:122
+#: recursos/0india/datos/levels.py:123 recursos/0india/datos/levels.py:124
+#: recursos/0india/datos/levels.py:125 recursos/0india/datos/levels.py:126
+#: recursos/0india/datos/levels.py:127 recursos/0india/datos/levels.py:128
+#: recursos/0india/datos/levels.py:129 recursos/0india/datos/levels.py:130
+#: recursos/0india/datos/levels.py:131 recursos/0india/datos/levels.py:132
+#: recursos/0india/datos/levels.py:133 recursos/0india/datos/levels.py:134
+#: recursos/0india/datos/levels.py:135 recursos/0india/datos/levels.py:136
+#: recursos/0india/datos/levels.py:137 recursos/0india/datos/levels.py:138
+#: recursos/0india/datos/levels.py:139 recursos/0india/datos/levels.py:140
+#: recursos/0india/datos/levels.py:141 recursos/0india/datos/levels.py:142
+#: recursos/0india/datos/levels.py:143 recursos/0india/datos/levels.py:144
+#: recursos/0india/datos/levels.py:145 recursos/0india/datos/levels.py:146
+#: recursos/0india/datos/levels.py:147 recursos/0india/datos/levels.py:148
+#: recursos/0india/datos/levels.py:149 recursos/0india/datos/levels.py:150
+#: recursos/0india/datos/levels.py:151 recursos/0india/datos/levels.py:152
+#: recursos/0india/datos/levels.py:153 recursos/0india/datos/levels.py:154
+#: recursos/0india/datos/levels.py:155 recursos/0india/datos/levels.py:156
+#: recursos/0india/datos/levels.py:157 recursos/0india/datos/levels.py:158
+#: recursos/0india/datos/levels.py:159 recursos/0india/datos/levels.py:160
+#: recursos/0india/datos/levels.py:161 recursos/0india/datos/levels.py:162
+#: recursos/0india/datos/levels.py:163 recursos/0india/datos/levels.py:164
+#: recursos/0india/datos/levels.py:165 recursos/0india/datos/levels.py:166
+#: recursos/0india/datos/levels.py:167 recursos/0india/datos/levels.py:168
+#: recursos/0india/datos/levels.py:169 recursos/0india/datos/levels.py:170
+#: recursos/0india/datos/levels.py:171 recursos/0india/datos/levels.py:172
+#: recursos/0india/datos/levels.py:173 recursos/0india/datos/levels.py:174
+#: recursos/0india/datos/levels.py:175 recursos/0india/datos/levels.py:176
+#: recursos/0india/datos/levels.py:177 recursos/0india/datos/levels.py:178
+#: recursos/0india/datos/levels.py:179 recursos/0india/datos/levels.py:180
+#: recursos/0india/datos/levels.py:181 recursos/0india/datos/levels.py:182
+#: recursos/0india/datos/levels.py:183 recursos/0india/datos/levels.py:184
+#: recursos/0india/datos/levels.py:185 recursos/0india/datos/levels.py:186
+#: recursos/0india/datos/levels.py:187 recursos/0india/datos/levels.py:188
+#: recursos/0india/datos/levels.py:189 recursos/0india/datos/levels.py:190
+#: recursos/0india/datos/levels.py:191 recursos/0india/datos/levels.py:192
+#: recursos/0india/datos/levels.py:193 recursos/0india/datos/levels.py:194
+#: recursos/0india/datos/levels.py:195 recursos/0india/datos/levels.py:196
+#: recursos/0india/datos/levels.py:197 recursos/0india/datos/levels.py:198
+#: recursos/0india/datos/levels.py:199 recursos/0india/datos/levels.py:200
+#: recursos/0india/datos/levels.py:201 recursos/0india/datos/levels.py:202
+#: recursos/0india/datos/levels.py:203 recursos/0india/datos/levels.py:204
+#: recursos/0india/datos/levels.py:205 recursos/0india/datos/levels.py:206
+#: recursos/0india/datos/levels.py:207 recursos/0india/datos/levels.py:208
+#: recursos/0india/datos/levels.py:209 recursos/0india/datos/levels.py:210
+#: recursos/0india/datos/levels.py:211 recursos/0india/datos/levels.py:212
+#: recursos/0india/datos/levels.py:213 recursos/0india/datos/levels.py:214
+#: recursos/0india/datos/levels.py:215 recursos/0india/datos/levels.py:216
+#: recursos/0india/datos/levels.py:217 recursos/0india/datos/levels.py:218
+#: recursos/0india/datos/levels.py:219 recursos/0india/datos/levels.py:220
+#: recursos/0india/datos/levels.py:221 recursos/0india/datos/levels.py:222
+#: recursos/0india/datos/levels.py:223 recursos/0india/datos/levels.py:224
+#: recursos/0india/datos/levels.py:225 recursos/0india/datos/levels.py:226
+#: recursos/0india/datos/levels.py:227 recursos/0india/datos/levels.py:228
+#: recursos/0india/datos/levels.py:229 recursos/0india/datos/levels.py:230
+#: recursos/0india/datos/levels.py:231 recursos/0india/datos/levels.py:232
+#: recursos/0india/datos/levels.py:233
+#, python-format
+msgid "It is in %s"
+msgstr "It is in %s"
+
+#: recursos/0india/datos/levels.py:83 recursos/0india/datos/levels.py:126
+msgid "Daman and Diu"
+msgstr "Daman and Diu"
+
+#: recursos/0india/datos/levels.py:206
+msgid "Vishakhapatnam"
+msgstr "Vishakhapatnam"
+
+#: recursos/comun/datos/commons.py:7
 msgid "Hello friends..."
 msgstr "Hello friends..."
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:8
+#: recursos/comun/datos/commons.py:8
 msgid ""
 "...tomorrow I have a\n"
 "test about India..."
@@ -1625,87 +1272,83 @@ msgstr ""
 "...tomorrow I have a\n"
 "test about India..."
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:9
+#: recursos/comun/datos/commons.py:9
 msgid "...and I know nothing!!!"
 msgstr "...and I know nothing!!!"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:10
-msgid "...what I do???"
-msgstr "...what I do???"
+#: recursos/comun/datos/commons.py:10
+msgid "...what do I do???"
+msgstr "...what do I do???"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:11
-msgid "I can ask you something?"
-msgstr "I can ask you something?"
+#: recursos/comun/datos/commons.py:11
+msgid "Can I ask you something?"
+msgstr "Can I ask you something?"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:12
-msgid "Can you help me?"
-msgstr "Can you help me?"
+#: recursos/comun/datos/commons.py:12
+msgid "Will you help me?"
+msgstr "Will you help me?"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:16
-msgid "We have to look"
-msgstr "We have to look"
-
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:17
+#: recursos/comun/datos/commons.py:16
 msgid "We have to find"
 msgstr "We have to find"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:18
-msgid "Now we have to look"
-msgstr "Now we have to look"
+#: recursos/comun/datos/commons.py:17
+msgid "Now we have to find"
+msgstr "Now we have to find"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:19
+#: recursos/comun/datos/commons.py:18
 msgid "We need to find"
 msgstr "We need to find"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:23
-msgid "You can tell where is it?"
-msgstr "You can tell where is it?"
+#: recursos/comun/datos/commons.py:22
+msgid "Can you tell me where it is?"
+msgstr "Can you tell me where it is?"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:24
+#: recursos/comun/datos/commons.py:23
 msgid "Where is it?"
 msgstr "Where is it?"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:25
-msgid "Can you show me where is it?"
-msgstr "Can you show me where is it?"
+#: recursos/comun/datos/commons.py:24
+msgid "Can you show me where it is?"
+msgstr "Can you show me where it is?"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:26
+#: recursos/comun/datos/commons.py:25
 msgid "Can you find it?"
 msgstr "Can you find it?"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:30
+#: recursos/comun/datos/commons.py:29
 msgid "Very well!"
 msgstr "Very well!"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:31
+#: recursos/comun/datos/commons.py:30
 msgid "Brilliant!"
 msgstr "Brilliant!"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:32
+#: recursos/comun/datos/commons.py:31
 msgid "You found it!"
 msgstr "You found it!"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:33
+#: recursos/comun/datos/commons.py:32
 msgid "Yes!"
 msgstr "Yes!"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:37
-msgid "No, this is not"
-msgstr "No, this is not"
+#: recursos/comun/datos/commons.py:36
+msgid "No, that is not correct"
+msgstr "No, that is not correct"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:38
-msgid "Here it is not"
-msgstr "Here it is not"
+#: recursos/comun/datos/commons.py:37
+msgid "No, it is not there"
+msgstr "No, it is not there"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:39
-msgid "It seems that this is not"
-msgstr "It seems that this is not"
+#: recursos/comun/datos/commons.py:38
+msgid "No, that seems to be wrong"
+msgstr "No, that seems to be wrong"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:40
-msgid "That is not"
-msgstr "That is not"
+#: recursos/comun/datos/commons.py:39
+msgid "That is not correct"
+msgstr "That is not correct"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:44
+#: recursos/comun/datos/commons.py:43
 msgid ""
 "Now I'm ready\n"
 "for tomorrow...\n"
@@ -1717,7 +1360,7 @@ msgstr ""
 "I'm going to play...\n"
 "Thanks for your help!"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:45
+#: recursos/comun/datos/commons.py:44
 msgid ""
 "We made it!\n"
 "I'm going to play ball...\n"
@@ -1729,7 +1372,7 @@ msgstr ""
 "Bye and thanks\n"
 "for helping me!"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:46
+#: recursos/comun/datos/commons.py:45
 msgid ""
 "We did it!\n"
 "I'm ready for tomorrow...\n"
@@ -1741,27 +1384,27 @@ msgstr ""
 "I'm playing a while...\n"
 "Until next time!"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:50
+#: recursos/comun/datos/commons.py:49
 msgid ""
-"More luck next\n"
+"Better luck next time\n"
 "I'll play a while...\n"
 "Thanks!"
 msgstr ""
-"More luck next\n"
+"Better luck next time\n"
 "I'll play a while...\n"
 "Thanks!"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:51
+#: recursos/comun/datos/commons.py:50
 msgid ""
-"The next time will be\n"
+"The next time will be better\n"
 "I'm going to play ball...\n"
 "Thanks!"
 msgstr ""
-"The next time will be\n"
+"The next time will be better\n"
 "I'm going to play ball...\n"
 "Thanks!"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:52
+#: recursos/comun/datos/commons.py:51
 msgid ""
 "Please try again...\n"
 "I'm going to play...\n"
@@ -1771,30 +1414,76 @@ msgstr ""
 "I'm going to play...\n"
 "Thanks!"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:56
+#: recursos/comun/datos/commons.py:55
 msgid "Author: Alan Aguiar"
 msgstr "Author: Alan Aguiar"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:57
+#: recursos/comun/datos/commons.py:56
 msgid "Send corrections, comments or suggestions to: alanjas@hotmail.com"
 msgstr "Send corrections, comments or suggestions to: alanjas@hotmail.com"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:59
+#: recursos/comun/datos/commons.py:58
 msgid "This program is free software developed by the community"
 msgstr "This program is free software developed by the community"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:60
+#: recursos/comun/datos/commons.py:59
 msgid "For more information visit http://ceibaljam.org"
 msgstr "For more information visit http://ceibaljam.org"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:62
+#: recursos/comun/datos/commons.py:61
 msgid "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
 msgstr "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:63
+#: recursos/comun/datos/commons.py:62
 msgid "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
 msgstr "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
 
-#: /home/alan/Documentos/GIT/conozcoindia/mainline/recursos/comun/datos/commons.py:64
+#: recursos/comun/datos/commons.py:63
 msgid "Font: Share-Regular.ttf of urbanfonts.com"
 msgstr "Font: Share-Regular.ttf of urbanfonts.com"
+
+#~ msgid "Is south"
+#~ msgstr "Is south"
+
+#~ msgid "Is northeast"
+#~ msgstr "Is northeast"
+
+#~ msgid "Is east"
+#~ msgstr "Is east"
+
+#~ msgid "Is southwest"
+#~ msgstr "Is southwest"
+
+#~ msgid "Is west"
+#~ msgstr "Is west"
+
+#~ msgid "Is northwest"
+#~ msgstr "Is northwest"
+
+#~ msgid "Is north"
+#~ msgstr "Is north"
+
+#~ msgid "Is southeast"
+#~ msgstr "Is southeast"
+
+#, python-format
+#~ msgid "Is in %s"
+#~ msgstr "Is in %s"
+
+#~ msgid "We have to look"
+#~ msgstr "We have to look"
+
+#~ msgid "You can tell where is it?"
+#~ msgstr "You can tell where is it?"
+
+#~ msgid "No, this is not"
+#~ msgstr "No, this is not"
+
+#~ msgid "Here it is not"
+#~ msgstr "Here it is not"
+
+#~ msgid "It seems that this is not"
+#~ msgstr "It seems that this is not"
+
+#~ msgid "That is not"
+#~ msgstr "That is not"
