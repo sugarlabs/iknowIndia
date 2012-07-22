@@ -511,6 +511,15 @@ class ConozcoIn():
                             nuevoNivel.preguntas.append((texto,
                                 tipo, respuesta, ayuda))
 
+                    elif (index == 14):
+                        for i in listpreguntas:
+                            tipo = 1
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            texto = _('the taluka of\n%s') % respuesta
+                            nuevoNivel.preguntas.append((texto,
+                                tipo, respuesta, ayuda))
+
                     elif (index == 6):
                         for i in listpreguntas:
                             tipo = 1
@@ -932,11 +941,11 @@ class ConozcoIn():
         # crear pantalla
         self.anchoPantalla = gtk.gdk.screen_width()
         self.altoPantalla = gtk.gdk.screen_height()
-        # prevent hide zones
-        self.anchoPantalla = self.anchoPantalla - 50
-        self.altoPantalla = self.altoPantalla - 100
         self.pantalla = pygame.display.get_surface()
         if not(self.pantalla):
+            # prevent hide zones
+            self.anchoPantalla = self.anchoPantalla - 50
+            self.altoPantalla = self.altoPantalla - 100
             self.pantalla = pygame.display.set_mode((self.anchoPantalla,
                                                self.altoPantalla))
         pygame.display.flip()
