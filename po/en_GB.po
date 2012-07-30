@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-21 01:23-0400\n"
-"PO-Revision-Date: 2012-07-22 07:06+0200\n"
+"POT-Creation-Date: 2012-07-22 01:51-0400\n"
+"PO-Revision-Date: 2012-07-30 09:29+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_GB\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: activity/activity.info:2 conozcoin.py:637 conozcoin.py:745
+#: activity/activity.info:2 conozcoin.py:646 conozcoin.py:754
 msgid "I know India"
 msgstr "I know India"
 
 #: conozcoin.py:240 conozcoin.py:355 conozcoin.py:379 conozcoin.py:432
-#: conozcoin.py:559
+#: conozcoin.py:568
 #, python-format
 msgid "Cannot open %s"
 msgstr "Cannot open %s"
@@ -93,58 +93,71 @@ msgstr ""
 #: conozcoin.py:519
 #, python-format
 msgid ""
+"the taluka of\n"
+"%s"
+msgstr ""
+"the taluka of\n"
+"%s"
+
+#: conozcoin.py:528
+#, python-format
+msgid ""
 "the municipality of\n"
 "%s"
 msgstr ""
 "the municipality of\n"
 "%s"
 
-#: conozcoin.py:528
+#: conozcoin.py:537
 #, python-format
 msgid "the %s"
 msgstr "the %s"
 
-#: conozcoin.py:597
+#: conozcoin.py:606
 msgid "About I know India"
 msgstr "About I know India"
 
-#: conozcoin.py:611
+#: conozcoin.py:620
 msgid "Press any key to return"
 msgstr "Press any key to return"
 
-#: conozcoin.py:648
+#: conozcoin.py:657
 msgid "Play"
 msgstr "Play"
 
-#: conozcoin.py:664
+#: conozcoin.py:673
 msgid "Explore"
 msgstr "Explore"
 
-#: conozcoin.py:684 conozcoin.py:828
+#: conozcoin.py:693 conozcoin.py:837
 msgid "About this game"
 msgstr "About this game"
 
-#: conozcoin.py:692 conozcoin.py:835
-msgid "Exit"
-msgstr "Exit"
+#: conozcoin.py:701
+msgid "Return"
+msgstr "Return"
 
-#: conozcoin.py:749
+#: conozcoin.py:758
 msgid "Choose the map to use"
 msgstr "Choose the map to use"
 
-#: conozcoin.py:769
+#: conozcoin.py:778
 msgid "<<< Previous page"
 msgstr "<<< Previous page"
 
-#: conozcoin.py:814
+#: conozcoin.py:823
 msgid "Next page >>>"
 msgstr "Next page >>>"
 
-#: conozcoin.py:1283 conozcoin.py:1481
+#: conozcoin.py:844
+msgid "Exit"
+msgstr "Exit"
+
+#: conozcoin.py:1300 conozcoin.py:1498
 msgid "End"
 msgstr "End"
 
-#: conozcoin.py:1294
+#: conozcoin.py:1311
 msgid "Show all"
 msgstr "Show all"
 
@@ -187,7 +200,7 @@ msgstr "Chhattisgarh"
 
 #: recursos/0india/datos/0india.py:13 recursos/0india/datos/levels.py:16
 #: recursos/0india/datos/levels.py:59 recursos/0india/datos/levels.py:102
-#: recursos/0india/datos/levels.py:212
+#: recursos/0india/datos/levels.py:212 recursos/4goa/datos/4goa.py:5
 msgid "Goa"
 msgstr "Goa"
 
@@ -233,6 +246,7 @@ msgstr "Jharkhand"
 #: recursos/0india/datos/levels.py:217 recursos/0india/datos/levels.py:218
 #: recursos/0india/datos/levels.py:219 recursos/0india/datos/levels.py:220
 #: recursos/0india/datos/levels.py:221 recursos/0india/datos/levels.py:222
+#: recursos/4goa/datos/4goa.py:21
 msgid "Karnataka"
 msgstr "Karnataka"
 
@@ -261,6 +275,7 @@ msgstr "Madhya Pradesh"
 #: recursos/0india/datos/levels.py:199 recursos/0india/datos/levels.py:200
 #: recursos/0india/datos/levels.py:201 recursos/0india/datos/levels.py:202
 #: recursos/0india/datos/levels.py:203 recursos/0india/datos/levels.py:204
+#: recursos/4goa/datos/4goa.py:20
 msgid "Maharashtra"
 msgstr "Maharashtra"
 
@@ -431,7 +446,8 @@ msgid "Raipur"
 msgstr "Raipur"
 
 #: recursos/0india/datos/0india.py:59 recursos/0india/datos/levels.py:59
-#: recursos/0india/datos/levels.py:102
+#: recursos/0india/datos/levels.py:102 recursos/4goa/datos/4goa.py:25
+#: recursos/4goa/datos/levels.py:31
 msgid "Panaji"
 msgstr "Panaji"
 
@@ -898,6 +914,7 @@ msgid "Tirupati"
 msgstr "Tirupati"
 
 #: recursos/0india/datos/0india.py:173 recursos/0india/datos/levels.py:212
+#: recursos/4goa/datos/4goa.py:29 recursos/4goa/datos/levels.py:35
 msgid "Vasco da Gama"
 msgstr "Vasco da Gama"
 
@@ -1104,63 +1121,70 @@ msgid "State capitals"
 msgstr "State capitals"
 
 #: recursos/0india/datos/explorations.py:20 recursos/0india/datos/levels.py:92
+#: recursos/4goa/datos/explorations.py:20 recursos/4goa/datos/levels.py:48
 msgid "Cities"
 msgstr "Cities"
 
 #: recursos/0india/datos/explorations.py:27
+#: recursos/4goa/datos/explorations.py:27
 msgid "Waterways"
 msgstr "Waterways"
 
 #: recursos/0india/datos/explorations.py:34
+#: recursos/4goa/datos/explorations.py:34
 msgid "Routes"
 msgstr "Routes"
 
 #: recursos/0india/datos/levels.py:11 recursos/0india/datos/levels.py:23
-#: recursos/0india/datos/levels.py:34
-msgid "It is in the south"
-msgstr "It is in the south"
+#: recursos/0india/datos/levels.py:34 recursos/4goa/datos/levels.py:20
+#: recursos/4goa/datos/levels.py:21
+msgid "It's in the south"
+msgstr "It's in the south"
 
 #: recursos/0india/datos/levels.py:12 recursos/0india/datos/levels.py:14
-#: recursos/0india/datos/levels.py:33
-msgid "It is in the northeast"
-msgstr "It is in the northeast"
+#: recursos/0india/datos/levels.py:33 recursos/4goa/datos/levels.py:14
+msgid "It's in the northeast"
+msgstr "It's in the northeast"
 
 #: recursos/0india/datos/levels.py:13 recursos/0india/datos/levels.py:26
 #: recursos/0india/datos/levels.py:27 recursos/0india/datos/levels.py:28
 #: recursos/0india/datos/levels.py:29 recursos/0india/datos/levels.py:30
-#: recursos/0india/datos/levels.py:35
-msgid "It is in the east"
-msgstr "It is in the east"
+#: recursos/0india/datos/levels.py:35 recursos/4goa/datos/levels.py:19
+msgid "It's in the east"
+msgstr "It's in the east"
 
 #: recursos/0india/datos/levels.py:15 recursos/0india/datos/levels.py:21
-#: recursos/0india/datos/levels.py:24
-msgid "It is in the center"
-msgstr "It is in the centre"
+#: recursos/0india/datos/levels.py:24 recursos/4goa/datos/levels.py:16
+msgid "It's in the center"
+msgstr "It's in the center"
 
 #: recursos/0india/datos/levels.py:16 recursos/0india/datos/levels.py:22
 #: recursos/0india/datos/levels.py:42
-msgid "It is in the southwest"
-msgstr "It is in the southwest"
+msgid "It's in the southwest"
+msgstr "It's in the southwest"
 
 #: recursos/0india/datos/levels.py:17 recursos/0india/datos/levels.py:25
 #: recursos/0india/datos/levels.py:38 recursos/0india/datos/levels.py:41
-msgid "It is in the west"
-msgstr "It is in the west"
+#: recursos/4goa/datos/levels.py:15 recursos/4goa/datos/levels.py:17
+#: recursos/4goa/datos/levels.py:18
+msgid "It's in the west"
+msgstr "It's in the west"
 
 #: recursos/0india/datos/levels.py:18 recursos/0india/datos/levels.py:31
-#: recursos/0india/datos/levels.py:32
-msgid "It is in the northwest"
-msgstr "It is in the northwest"
+#: recursos/0india/datos/levels.py:32 recursos/4goa/datos/levels.py:11
+#: recursos/4goa/datos/levels.py:12
+msgid "It's in the northwest"
+msgstr "It's in the northwest"
 
 #: recursos/0india/datos/levels.py:19 recursos/0india/datos/levels.py:20
 #: recursos/0india/datos/levels.py:36 recursos/0india/datos/levels.py:37
-#: recursos/0india/datos/levels.py:43
-msgid "It is in the north"
-msgstr "It is in the north"
+#: recursos/0india/datos/levels.py:43 recursos/4goa/datos/levels.py:13
+msgid "It's in the north"
+msgstr "It's in the north"
 
 #: recursos/0india/datos/levels.py:40
-msgid "It is in the southeast"
-msgstr "It is in the southeast"
+msgid "It's in the southeast"
+msgstr "It's in the southeast"
 
 #: recursos/0india/datos/levels.py:53 recursos/0india/datos/levels.py:54
 #: recursos/0india/datos/levels.py:55 recursos/0india/datos/levels.py:56
@@ -1247,10 +1271,16 @@ msgstr "It is in the southeast"
 #: recursos/0india/datos/levels.py:227 recursos/0india/datos/levels.py:228
 #: recursos/0india/datos/levels.py:229 recursos/0india/datos/levels.py:230
 #: recursos/0india/datos/levels.py:231 recursos/0india/datos/levels.py:232
-#: recursos/0india/datos/levels.py:233
+#: recursos/0india/datos/levels.py:233 recursos/4goa/datos/levels.py:31
+#: recursos/4goa/datos/levels.py:32 recursos/4goa/datos/levels.py:33
+#: recursos/4goa/datos/levels.py:34 recursos/4goa/datos/levels.py:35
+#: recursos/4goa/datos/levels.py:36 recursos/4goa/datos/levels.py:37
+#: recursos/4goa/datos/levels.py:38 recursos/4goa/datos/levels.py:39
+#: recursos/4goa/datos/levels.py:40 recursos/4goa/datos/levels.py:41
 #, python-format
-msgid "It is in %s"
-msgstr "It is in %s"
+#, python-format, 
+msgid "It's in %s"
+msgstr "It's in %s"
 
 #: recursos/0india/datos/levels.py:83 recursos/0india/datos/levels.py:126
 msgid "Daman and Diu"
@@ -1259,6 +1289,85 @@ msgstr "Daman and Diu"
 #: recursos/0india/datos/levels.py:206
 msgid "Vishakhapatnam"
 msgstr "Vishakhapatnam"
+
+#: recursos/4goa/datos/4goa.py:8 recursos/4goa/datos/4goa.py:26
+#: recursos/4goa/datos/levels.py:11 recursos/4goa/datos/levels.py:32
+msgid "Pernem"
+msgstr "Pernem"
+
+#: recursos/4goa/datos/4goa.py:9 recursos/4goa/datos/levels.py:12
+#: recursos/4goa/datos/levels.py:33
+msgid "Bardez"
+msgstr "Bardez"
+
+#: recursos/4goa/datos/4goa.py:10 recursos/4goa/datos/4goa.py:28
+#: recursos/4goa/datos/levels.py:13 recursos/4goa/datos/levels.py:34
+msgid "Bicholim"
+msgstr "Bicholim"
+
+#: recursos/4goa/datos/4goa.py:11 recursos/4goa/datos/levels.py:14
+#: recursos/4goa/datos/levels.py:36
+msgid "Sattari"
+msgstr "Sattari"
+
+#: recursos/4goa/datos/4goa.py:12 recursos/4goa/datos/levels.py:15
+#: recursos/4goa/datos/levels.py:31
+msgid "Tiswadi"
+msgstr "Tiswadi"
+
+#: recursos/4goa/datos/4goa.py:13 recursos/4goa/datos/4goa.py:35
+#: recursos/4goa/datos/levels.py:16 recursos/4goa/datos/levels.py:41
+msgid "Ponda"
+msgstr "Ponda"
+
+#: recursos/4goa/datos/4goa.py:14 recursos/4goa/datos/levels.py:17
+#: recursos/4goa/datos/levels.py:35
+msgid "Mormugao"
+msgstr "Mormugao"
+
+#: recursos/4goa/datos/4goa.py:15 recursos/4goa/datos/levels.py:18
+#: recursos/4goa/datos/levels.py:38
+msgid "Salcete"
+msgstr "Salcete"
+
+#: recursos/4goa/datos/4goa.py:16 recursos/4goa/datos/4goa.py:31
+#: recursos/4goa/datos/levels.py:19 recursos/4goa/datos/levels.py:37
+msgid "Sanguem"
+msgstr "Sanguem"
+
+#: recursos/4goa/datos/4goa.py:17 recursos/4goa/datos/4goa.py:33
+#: recursos/4goa/datos/levels.py:20 recursos/4goa/datos/levels.py:39
+msgid "Quepem"
+msgstr "Quepem"
+
+#: recursos/4goa/datos/4goa.py:18 recursos/4goa/datos/levels.py:21
+#: recursos/4goa/datos/levels.py:40
+msgid "Canacona"
+msgstr "Canacona"
+
+#: recursos/4goa/datos/4goa.py:27 recursos/4goa/datos/levels.py:33
+msgid "Mapusa"
+msgstr "Mapusa"
+
+#: recursos/4goa/datos/4goa.py:30 recursos/4goa/datos/levels.py:36
+msgid "Valpoi"
+msgstr "Valpoi"
+
+#: recursos/4goa/datos/4goa.py:32 recursos/4goa/datos/levels.py:38
+msgid "Margao"
+msgstr "Margao"
+
+#: recursos/4goa/datos/4goa.py:34 recursos/4goa/datos/levels.py:40
+msgid "Chaudi"
+msgstr "Chaudi"
+
+#: recursos/4goa/datos/explorations.py:6 recursos/4goa/datos/levels.py:7
+msgid "Talukas"
+msgstr "Talukas"
+
+#: recursos/4goa/datos/explorations.py:13 recursos/4goa/datos/levels.py:27
+msgid "Talukas capitals"
+msgstr "Talukas capitals"
 
 #: recursos/comun/datos/commons.py:7
 msgid "Hello friends..."
@@ -1423,22 +1532,26 @@ msgid "Send corrections, comments or suggestions to: alanjas@hotmail.com"
 msgstr "Send corrections, comments or suggestions to: alanjas@hotmail.com"
 
 #: recursos/comun/datos/commons.py:58
+msgid "Thank's to Salil Konkar for the help in the english strings."
+msgstr "Thanks to Salil Konkar for the help in the English strings."
+
+#: recursos/comun/datos/commons.py:60
 msgid "This program is free software developed by the community"
 msgstr "This program is free software developed by the community"
 
-#: recursos/comun/datos/commons.py:59
+#: recursos/comun/datos/commons.py:61
 msgid "For more information visit http://ceibaljam.org"
 msgstr "For more information visit http://ceibaljam.org"
 
-#: recursos/comun/datos/commons.py:61
+#: recursos/comun/datos/commons.py:63
 msgid "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
 msgstr "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
 
-#: recursos/comun/datos/commons.py:62
+#: recursos/comun/datos/commons.py:64
 msgid "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
 msgstr "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
 
-#: recursos/comun/datos/commons.py:63
+#: recursos/comun/datos/commons.py:65
 msgid "Font: Share-Regular.ttf of urbanfonts.com"
 msgstr "Font: Share-Regular.ttf of urbanfonts.com"
 
