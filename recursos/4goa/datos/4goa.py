@@ -43,3 +43,14 @@ CITIES = [
 RIVERS = []
 
 ROUTES = []
+
+
+STATS = [
+    (_('Capital:'), _('Panaji')),
+    (_('Governor:'), _('B. V. Wanchoo')),
+    (_('Chief Minister:'), _('Manohar Parrikar')),
+    (_('Area:'), _('3.702 km² (28th)')),
+    (_('Population:'), _('1.457.723 (25th)')),
+    (_('HDI:'), _('High - 0,779 (3rd)')),
+]
+
