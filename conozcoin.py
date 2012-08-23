@@ -947,7 +947,7 @@ class ConozcoIn():
             self.anchoPantalla = self.anchoPantalla - 50
             self.altoPantalla = self.altoPantalla - 100
             self.pantalla = pygame.display.set_mode((self.anchoPantalla,
-                                               self.altoPantalla))
+                                               self.altoPantalla), pygame.FULLSCREEN)
         pygame.display.flip()
         if self.anchoPantalla==1200 and self.altoPantalla==900:
             xo_resolution = True
