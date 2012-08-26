@@ -1,0 +1,1608 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-23 00:34-0400\n"
+"PO-Revision-Date: 2012-08-26 19:41+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: activity/activity.info:2 conozcoin.py:646 conozcoin.py:754
+msgid "I know India"
+msgstr "走遍印度"
+
+#: conozcoin.py:240 conozcoin.py:355 conozcoin.py:379 conozcoin.py:432
+#: conozcoin.py:568
+#, python-format
+msgid "Cannot open %s"
+msgstr "无法打开 %s"
+
+#: conozcoin.py:456
+#, python-format
+msgid ""
+"the city of\n"
+"%s"
+msgstr "%s市"
+
+#: conozcoin.py:465
+#, python-format
+msgid ""
+"the department of\n"
+"%s"
+msgstr "%s部"
+
+#: conozcoin.py:474
+#, python-format
+msgid ""
+"the province of\n"
+"%s"
+msgstr "%s省"
+
+#: conozcoin.py:483
+#, python-format
+msgid ""
+"the district of\n"
+"%s"
+msgstr "%s区"
+
+#: conozcoin.py:492
+#, python-format
+msgid ""
+"the state of\n"
+"%s"
+msgstr "%s州"
+
+#: conozcoin.py:501
+#, python-format
+msgid ""
+"the region of\n"
+"%s"
+msgstr "%s地区"
+
+#: conozcoin.py:510
+#, python-format
+msgid ""
+"the parish of\n"
+"%s"
+msgstr "%s教区"
+
+#: conozcoin.py:519
+#, python-format
+msgid ""
+"the taluka of\n"
+"%s"
+msgstr "%s乡"
+
+#: conozcoin.py:528
+#, python-format
+msgid ""
+"the municipality of\n"
+"%s"
+msgstr "%s直辖市"
+
+#: conozcoin.py:537
+#, python-format
+msgid "the %s"
+msgstr "%s"
+
+#: conozcoin.py:606
+msgid "About I know India"
+msgstr "关于走遍印度"
+
+#: conozcoin.py:620
+msgid "Press any key to return"
+msgstr "按任意键返回"
+
+#: conozcoin.py:657
+msgid "Play"
+msgstr "开始"
+
+#: conozcoin.py:673
+msgid "Explore"
+msgstr "浏览"
+
+#: conozcoin.py:693 conozcoin.py:837
+msgid "About this game"
+msgstr "关于本游戏"
+
+#: conozcoin.py:701
+msgid "Return"
+msgstr "返回"
+
+#: conozcoin.py:758
+msgid "Choose the map to use"
+msgstr "选择要使用的地图"
+
+#: conozcoin.py:778
+msgid "<<< Previous page"
+msgstr "<<< 上一页"
+
+#: conozcoin.py:823
+msgid "Next page >>>"
+msgstr "下一页 >>>"
+
+#: conozcoin.py:844
+msgid "Exit"
+msgstr "退出"
+
+#: conozcoin.py:1300 conozcoin.py:1498
+msgid "End"
+msgstr "结束"
+
+#: conozcoin.py:1311
+msgid "Show all"
+msgstr "显示所有"
+
+#: recursos/0india/datos/0india.py:5
+msgid "India"
+msgstr "印度"
+
+#: recursos/0india/datos/0india.py:8 recursos/0india/datos/levels.py:11
+#: recursos/0india/datos/levels.py:54 recursos/0india/datos/levels.py:97
+#: recursos/0india/datos/levels.py:205 recursos/0india/datos/levels.py:206
+#: recursos/0india/datos/levels.py:207 recursos/0india/datos/levels.py:208
+#: recursos/0india/datos/levels.py:209 recursos/0india/datos/levels.py:210
+#: recursos/0india/datos/levels.py:211
+msgid "Andhra Pradesh"
+msgstr "安得拉邦"
+
+#: recursos/0india/datos/0india.py:9 recursos/0india/datos/levels.py:12
+#: recursos/0india/datos/levels.py:55 recursos/0india/datos/levels.py:98
+msgid "Arunachal Pradesh"
+msgstr "阿鲁那恰尔邦"
+
+#: recursos/0india/datos/0india.py:10 recursos/0india/datos/levels.py:13
+#: recursos/0india/datos/levels.py:56 recursos/0india/datos/levels.py:99
+#: recursos/0india/datos/levels.py:148
+msgid "Assam"
+msgstr "阿萨姆邦"
+
+#: recursos/0india/datos/0india.py:11 recursos/0india/datos/levels.py:14
+#: recursos/0india/datos/levels.py:57 recursos/0india/datos/levels.py:100
+#: recursos/0india/datos/levels.py:154 recursos/0india/datos/levels.py:155
+#: recursos/0india/datos/levels.py:156
+msgid "Bihar"
+msgstr "比哈尔邦"
+
+#: recursos/0india/datos/0india.py:12 recursos/0india/datos/levels.py:15
+#: recursos/0india/datos/levels.py:58 recursos/0india/datos/levels.py:101
+#: recursos/0india/datos/levels.py:175 recursos/0india/datos/levels.py:176
+msgid "Chhattisgarh"
+msgstr "切蒂斯格尔"
+
+#: recursos/0india/datos/0india.py:13 recursos/0india/datos/levels.py:16
+#: recursos/0india/datos/levels.py:59 recursos/0india/datos/levels.py:102
+#: recursos/0india/datos/levels.py:212 recursos/4goa/datos/4goa.py:5
+msgid "Goa"
+msgstr "果阿邦"
+
+#: recursos/0india/datos/0india.py:14 recursos/0india/datos/levels.py:17
+#: recursos/0india/datos/levels.py:60 recursos/0india/datos/levels.py:103
+#: recursos/0india/datos/levels.py:183 recursos/0india/datos/levels.py:184
+#: recursos/0india/datos/levels.py:185 recursos/0india/datos/levels.py:186
+#: recursos/0india/datos/levels.py:187 recursos/0india/datos/levels.py:188
+#: recursos/0india/datos/levels.py:189 recursos/0india/datos/levels.py:190
+#: recursos/0india/datos/levels.py:191 recursos/0india/datos/levels.py:192
+msgid "Gujarat"
+msgstr "古吉拉特邦"
+
+#: recursos/0india/datos/0india.py:15 recursos/0india/datos/levels.py:18
+#: recursos/0india/datos/levels.py:61 recursos/0india/datos/levels.py:104
+#: recursos/0india/datos/levels.py:138
+msgid "Haryana"
+msgstr "哈里亚纳邦"
+
+#: recursos/0india/datos/0india.py:16 recursos/0india/datos/levels.py:19
+#: recursos/0india/datos/levels.py:62 recursos/0india/datos/levels.py:105
+#: recursos/0india/datos/levels.py:133 recursos/0india/datos/levels.py:134
+msgid "Himachal Pradesh"
+msgstr "喜马偕尔邦"
+
+#: recursos/0india/datos/0india.py:17 recursos/0india/datos/levels.py:20
+#: recursos/0india/datos/levels.py:63 recursos/0india/datos/levels.py:106
+#: recursos/0india/datos/levels.py:129 recursos/0india/datos/levels.py:130
+#: recursos/0india/datos/levels.py:131 recursos/0india/datos/levels.py:132
+msgid "Jammu and Kashmir"
+msgstr "查谟和喀什米尔"
+
+#: recursos/0india/datos/0india.py:18 recursos/0india/datos/levels.py:21
+#: recursos/0india/datos/levels.py:64 recursos/0india/datos/levels.py:107
+#: recursos/0india/datos/levels.py:153
+msgid "Jharkhand"
+msgstr "恰尔肯德邦"
+
+#: recursos/0india/datos/0india.py:19 recursos/0india/datos/levels.py:22
+#: recursos/0india/datos/levels.py:65 recursos/0india/datos/levels.py:108
+#: recursos/0india/datos/levels.py:213 recursos/0india/datos/levels.py:214
+#: recursos/0india/datos/levels.py:215 recursos/0india/datos/levels.py:216
+#: recursos/0india/datos/levels.py:217 recursos/0india/datos/levels.py:218
+#: recursos/0india/datos/levels.py:219 recursos/0india/datos/levels.py:220
+#: recursos/0india/datos/levels.py:221 recursos/0india/datos/levels.py:222
+#: recursos/4goa/datos/4goa.py:21
+msgid "Karnataka"
+msgstr "卡纳塔克邦"
+
+#: recursos/0india/datos/0india.py:20 recursos/0india/datos/levels.py:23
+#: recursos/0india/datos/levels.py:66 recursos/0india/datos/levels.py:109
+#: recursos/0india/datos/levels.py:223 recursos/0india/datos/levels.py:224
+#: recursos/0india/datos/levels.py:225
+msgid "Kerala"
+msgstr "喀拉拉邦"
+
+#: recursos/0india/datos/0india.py:21 recursos/0india/datos/levels.py:24
+#: recursos/0india/datos/levels.py:67 recursos/0india/datos/levels.py:110
+#: recursos/0india/datos/levels.py:166 recursos/0india/datos/levels.py:167
+#: recursos/0india/datos/levels.py:168 recursos/0india/datos/levels.py:169
+#: recursos/0india/datos/levels.py:170 recursos/0india/datos/levels.py:171
+#: recursos/0india/datos/levels.py:172 recursos/0india/datos/levels.py:173
+#: recursos/0india/datos/levels.py:174
+msgid "Madhya Pradesh"
+msgstr "中央邦"
+
+#: recursos/0india/datos/0india.py:22 recursos/0india/datos/levels.py:25
+#: recursos/0india/datos/levels.py:68 recursos/0india/datos/levels.py:111
+#: recursos/0india/datos/levels.py:193 recursos/0india/datos/levels.py:194
+#: recursos/0india/datos/levels.py:195 recursos/0india/datos/levels.py:196
+#: recursos/0india/datos/levels.py:197 recursos/0india/datos/levels.py:198
+#: recursos/0india/datos/levels.py:199 recursos/0india/datos/levels.py:200
+#: recursos/0india/datos/levels.py:201 recursos/0india/datos/levels.py:202
+#: recursos/0india/datos/levels.py:203 recursos/0india/datos/levels.py:204
+#: recursos/4goa/datos/4goa.py:20
+msgid "Maharashtra"
+msgstr "马哈拉施特拉邦"
+
+#: recursos/0india/datos/0india.py:23 recursos/0india/datos/levels.py:26
+#: recursos/0india/datos/levels.py:69 recursos/0india/datos/levels.py:112
+msgid "Manipur"
+msgstr "曼尼普尔邦"
+
+#: recursos/0india/datos/0india.py:24 recursos/0india/datos/levels.py:27
+#: recursos/0india/datos/levels.py:70 recursos/0india/datos/levels.py:113
+msgid "Meghalaya"
+msgstr "梅加拉亚邦"
+
+#: recursos/0india/datos/0india.py:25 recursos/0india/datos/levels.py:28
+#: recursos/0india/datos/levels.py:71 recursos/0india/datos/levels.py:114
+msgid "Mizoram"
+msgstr "米佐拉姆"
+
+#: recursos/0india/datos/0india.py:26 recursos/0india/datos/levels.py:29
+#: recursos/0india/datos/levels.py:72 recursos/0india/datos/levels.py:115
+msgid "Nagaland"
+msgstr "那加兰邦"
+
+#: recursos/0india/datos/0india.py:27 recursos/0india/datos/levels.py:30
+#: recursos/0india/datos/levels.py:73 recursos/0india/datos/levels.py:116
+#: recursos/0india/datos/levels.py:177 recursos/0india/datos/levels.py:178
+#: recursos/0india/datos/levels.py:179 recursos/0india/datos/levels.py:180
+#: recursos/0india/datos/levels.py:181 recursos/0india/datos/levels.py:182
+msgid "Orissa"
+msgstr "奥里萨邦"
+
+#: recursos/0india/datos/0india.py:28 recursos/0india/datos/levels.py:31
+#: recursos/0india/datos/levels.py:135 recursos/0india/datos/levels.py:136
+#: recursos/0india/datos/levels.py:137
+msgid "Punjab"
+msgstr "旁遮普邦"
+
+#: recursos/0india/datos/0india.py:29 recursos/0india/datos/levels.py:32
+#: recursos/0india/datos/levels.py:74 recursos/0india/datos/levels.py:117
+#: recursos/0india/datos/levels.py:157 recursos/0india/datos/levels.py:158
+#: recursos/0india/datos/levels.py:159 recursos/0india/datos/levels.py:160
+#: recursos/0india/datos/levels.py:161 recursos/0india/datos/levels.py:162
+#: recursos/0india/datos/levels.py:163 recursos/0india/datos/levels.py:164
+#: recursos/0india/datos/levels.py:165
+msgid "Rajasthan"
+msgstr "拉贾斯坦邦"
+
+#: recursos/0india/datos/0india.py:30 recursos/0india/datos/levels.py:33
+#: recursos/0india/datos/levels.py:75 recursos/0india/datos/levels.py:118
+msgid "Sikkim"
+msgstr "锡金"
+
+#: recursos/0india/datos/0india.py:31 recursos/0india/datos/levels.py:34
+#: recursos/0india/datos/levels.py:76 recursos/0india/datos/levels.py:119
+#: recursos/0india/datos/levels.py:226 recursos/0india/datos/levels.py:227
+#: recursos/0india/datos/levels.py:228 recursos/0india/datos/levels.py:229
+#: recursos/0india/datos/levels.py:230 recursos/0india/datos/levels.py:231
+#: recursos/0india/datos/levels.py:232 recursos/0india/datos/levels.py:233
+msgid "Tamil Nadu"
+msgstr "泰米尔纳德邦"
+
+#: recursos/0india/datos/0india.py:32 recursos/0india/datos/levels.py:35
+#: recursos/0india/datos/levels.py:77 recursos/0india/datos/levels.py:120
+msgid "Tripura"
+msgstr "特里普拉邦"
+
+#: recursos/0india/datos/0india.py:33 recursos/0india/datos/levels.py:36
+#: recursos/0india/datos/levels.py:78 recursos/0india/datos/levels.py:121
+#: recursos/0india/datos/levels.py:142 recursos/0india/datos/levels.py:143
+#: recursos/0india/datos/levels.py:144 recursos/0india/datos/levels.py:145
+#: recursos/0india/datos/levels.py:146 recursos/0india/datos/levels.py:147
+msgid "Uttar Pradesh"
+msgstr "北方邦"
+
+#: recursos/0india/datos/0india.py:34 recursos/0india/datos/levels.py:37
+#: recursos/0india/datos/levels.py:79 recursos/0india/datos/levels.py:122
+#: recursos/0india/datos/levels.py:139 recursos/0india/datos/levels.py:140
+#: recursos/0india/datos/levels.py:141
+msgid "Uttarakhand"
+msgstr "北安查尔邦"
+
+#: recursos/0india/datos/0india.py:35 recursos/0india/datos/levels.py:38
+#: recursos/0india/datos/levels.py:80 recursos/0india/datos/levels.py:123
+#: recursos/0india/datos/levels.py:149 recursos/0india/datos/levels.py:150
+#: recursos/0india/datos/levels.py:151 recursos/0india/datos/levels.py:152
+msgid "West Bengal"
+msgstr "西孟加拉邦"
+
+#: recursos/0india/datos/0india.py:37 recursos/0india/datos/levels.py:40
+#: recursos/0india/datos/levels.py:81 recursos/0india/datos/levels.py:124
+msgid "Andaman and Nicobar Islands"
+msgstr "安达曼 - 尼科巴群岛"
+
+#: recursos/0india/datos/0india.py:38 recursos/0india/datos/levels.py:41
+#: recursos/0india/datos/levels.py:82 recursos/0india/datos/levels.py:125
+msgid "Dadra and Nagar Haveli"
+msgstr "达德拉和纳加尔哈维利"
+
+#: recursos/0india/datos/0india.py:39 recursos/0india/datos/levels.py:42
+#: recursos/0india/datos/levels.py:84 recursos/0india/datos/levels.py:127
+msgid "Lakshadweep"
+msgstr "拉克沙群岛"
+
+#: recursos/0india/datos/0india.py:40 recursos/0india/datos/levels.py:43
+msgid "Delhi"
+msgstr "德里"
+
+#: recursos/0india/datos/0india.py:42
+msgid "Afghanistan"
+msgstr "阿富汗"
+
+#: recursos/0india/datos/0india.py:43
+msgid "Pakistan"
+msgstr "巴基斯坦"
+
+#: recursos/0india/datos/0india.py:44
+msgid "China"
+msgstr "中国"
+
+#: recursos/0india/datos/0india.py:45
+msgid "Nepal"
+msgstr "尼泊尔"
+
+#: recursos/0india/datos/0india.py:46
+msgid "Bhutan"
+msgstr "不丹"
+
+#: recursos/0india/datos/0india.py:47
+msgid "Bangladesh"
+msgstr "孟加拉国"
+
+#: recursos/0india/datos/0india.py:48
+msgid "Myanmar"
+msgstr "缅甸"
+
+#: recursos/0india/datos/0india.py:49
+msgid "Sri Lanka"
+msgstr "斯里兰卡"
+
+#: recursos/0india/datos/0india.py:53 recursos/0india/datos/0india.py:203
+#: recursos/0india/datos/levels.py:53 recursos/0india/datos/levels.py:96
+msgid "New Delhi"
+msgstr "新德里"
+
+#: recursos/0india/datos/0india.py:54 recursos/0india/datos/levels.py:54
+#: recursos/0india/datos/levels.py:97
+msgid "Hyderabad"
+msgstr "海得拉巴"
+
+#: recursos/0india/datos/0india.py:55 recursos/0india/datos/levels.py:55
+#: recursos/0india/datos/levels.py:98
+msgid "Itanagar"
+msgstr "伊塔那噶"
+
+#: recursos/0india/datos/0india.py:56 recursos/0india/datos/levels.py:56
+#: recursos/0india/datos/levels.py:99
+msgid "Dispur"
+msgstr "迪斯普尔"
+
+#: recursos/0india/datos/0india.py:57 recursos/0india/datos/levels.py:57
+#: recursos/0india/datos/levels.py:100
+msgid "Patna"
+msgstr "巴特那"
+
+#: recursos/0india/datos/0india.py:58 recursos/0india/datos/levels.py:58
+#: recursos/0india/datos/levels.py:101
+msgid "Raipur"
+msgstr "赖布尔"
+
+#: recursos/0india/datos/0india.py:59 recursos/0india/datos/levels.py:59
+#: recursos/0india/datos/levels.py:102 recursos/4goa/datos/4goa.py:25
+#: recursos/4goa/datos/4goa.py:49 recursos/4goa/datos/levels.py:31
+msgid "Panaji"
+msgstr "帕纳吉"
+
+#: recursos/0india/datos/0india.py:60 recursos/0india/datos/levels.py:60
+#: recursos/0india/datos/levels.py:103
+msgid "Gandhinagar"
+msgstr "甘地讷格尔"
+
+#: recursos/0india/datos/0india.py:61 recursos/0india/datos/levels.py:61
+#: recursos/0india/datos/levels.py:104
+msgid "Chandigarh"
+msgstr "昌迪加尔"
+
+#: recursos/0india/datos/0india.py:62 recursos/0india/datos/levels.py:62
+#: recursos/0india/datos/levels.py:105
+msgid "Shimla"
+msgstr "西姆拉"
+
+#: recursos/0india/datos/0india.py:63 recursos/0india/datos/levels.py:63
+#: recursos/0india/datos/levels.py:106
+msgid "Srinagar"
+msgstr "斯利那加"
+
+#: recursos/0india/datos/0india.py:64 recursos/0india/datos/levels.py:64
+#: recursos/0india/datos/levels.py:107
+msgid "Ranchi"
+msgstr "兰契"
+
+#: recursos/0india/datos/0india.py:65 recursos/0india/datos/levels.py:65
+#: recursos/0india/datos/levels.py:108
+msgid "Bengalooru"
+msgstr "班加罗尔"
+
+#: recursos/0india/datos/0india.py:66 recursos/0india/datos/levels.py:66
+#: recursos/0india/datos/levels.py:109
+msgid "Thiruvananthapuram"
+msgstr "特里凡得琅"
+
+#: recursos/0india/datos/0india.py:67 recursos/0india/datos/levels.py:67
+#: recursos/0india/datos/levels.py:110
+msgid "Bhopal"
+msgstr "博帕尔"
+
+#: recursos/0india/datos/0india.py:68 recursos/0india/datos/levels.py:68
+#: recursos/0india/datos/levels.py:111
+msgid "Mumbai"
+msgstr "孟买"
+
+#: recursos/0india/datos/0india.py:69 recursos/0india/datos/levels.py:69
+#: recursos/0india/datos/levels.py:112
+msgid "Imphal"
+msgstr "英帕尔"
+
+#: recursos/0india/datos/0india.py:70 recursos/0india/datos/levels.py:70
+#: recursos/0india/datos/levels.py:113
+msgid "Shillong"
+msgstr "西隆"
+
+#: recursos/0india/datos/0india.py:71 recursos/0india/datos/levels.py:71
+#: recursos/0india/datos/levels.py:114
+msgid "Aizawl"
+msgstr "艾藻尔"
+
+#: recursos/0india/datos/0india.py:72 recursos/0india/datos/levels.py:72
+#: recursos/0india/datos/levels.py:115
+msgid "Kohima"
+msgstr "科希马"
+
+#: recursos/0india/datos/0india.py:73 recursos/0india/datos/levels.py:73
+#: recursos/0india/datos/levels.py:116
+msgid "Bhubaneswar"
+msgstr "布巴内斯瓦尔"
+
+#: recursos/0india/datos/0india.py:74 recursos/0india/datos/levels.py:74
+#: recursos/0india/datos/levels.py:117
+msgid "Jaipur"
+msgstr "斋浦尔"
+
+#: recursos/0india/datos/0india.py:75 recursos/0india/datos/levels.py:75
+#: recursos/0india/datos/levels.py:118
+msgid "Gangtok"
+msgstr "甘托克"
+
+#: recursos/0india/datos/0india.py:76 recursos/0india/datos/levels.py:76
+#: recursos/0india/datos/levels.py:119
+msgid "Chennai"
+msgstr "金奈"
+
+#: recursos/0india/datos/0india.py:77 recursos/0india/datos/levels.py:77
+#: recursos/0india/datos/levels.py:120
+msgid "Agartala"
+msgstr "阿加尔塔拉"
+
+#: recursos/0india/datos/0india.py:78 recursos/0india/datos/levels.py:78
+#: recursos/0india/datos/levels.py:121
+msgid "Lucknow"
+msgstr "勒克瑙"
+
+#: recursos/0india/datos/0india.py:79 recursos/0india/datos/levels.py:79
+#: recursos/0india/datos/levels.py:122
+msgid "Dehradun"
+msgstr "德拉敦"
+
+#: recursos/0india/datos/0india.py:80 recursos/0india/datos/levels.py:80
+#: recursos/0india/datos/levels.py:123
+msgid "Kolkata"
+msgstr "加尔各答"
+
+#: recursos/0india/datos/0india.py:81 recursos/0india/datos/levels.py:81
+#: recursos/0india/datos/levels.py:124
+msgid "Port Blair"
+msgstr "布莱尔港"
+
+#: recursos/0india/datos/0india.py:82 recursos/0india/datos/levels.py:82
+#: recursos/0india/datos/levels.py:125
+msgid "Silvassa"
+msgstr "锡尔瓦萨"
+
+#: recursos/0india/datos/0india.py:83 recursos/0india/datos/levels.py:83
+#: recursos/0india/datos/levels.py:126
+msgid "Daman"
+msgstr "达曼"
+
+#: recursos/0india/datos/0india.py:84 recursos/0india/datos/levels.py:84
+#: recursos/0india/datos/levels.py:127
+msgid "Kavaratti"
+msgstr "卡瓦拉蒂"
+
+#: recursos/0india/datos/0india.py:85 recursos/0india/datos/levels.py:85
+#: recursos/0india/datos/levels.py:128
+msgid "Pondicherry"
+msgstr "本地治里"
+
+#: recursos/0india/datos/0india.py:90 recursos/0india/datos/levels.py:129
+msgid "Amarnath"
+msgstr "阿马尔纳特"
+
+#: recursos/0india/datos/0india.py:91 recursos/0india/datos/levels.py:130
+msgid "Leh"
+msgstr "列城"
+
+#: recursos/0india/datos/0india.py:92 recursos/0india/datos/levels.py:131
+msgid "Vaishno Devi"
+msgstr "瓦什诺代维"
+
+#: recursos/0india/datos/0india.py:93 recursos/0india/datos/levels.py:132
+msgid "Patni Top"
+msgstr "帕特尼托普"
+
+#: recursos/0india/datos/0india.py:94 recursos/0india/datos/levels.py:133
+msgid "Chamba"
+msgstr "昌巴"
+
+#: recursos/0india/datos/0india.py:95 recursos/0india/datos/levels.py:134
+msgid "Manali"
+msgstr "默纳利"
+
+#: recursos/0india/datos/0india.py:96 recursos/0india/datos/levels.py:135
+msgid "Amritsar"
+msgstr "阿姆利则"
+
+#: recursos/0india/datos/0india.py:97 recursos/0india/datos/levels.py:136
+msgid "Atari"
+msgstr "雅达利"
+
+#: recursos/0india/datos/0india.py:98 recursos/0india/datos/levels.py:137
+msgid "Bathinda"
+msgstr "珀丁达"
+
+#: recursos/0india/datos/0india.py:99 recursos/0india/datos/levels.py:138
+msgid "Panipat"
+msgstr "帕尼帕特"
+
+#: recursos/0india/datos/0india.py:100 recursos/0india/datos/levels.py:139
+msgid "Kedarnath"
+msgstr "克达纳特"
+
+#: recursos/0india/datos/0india.py:101 recursos/0india/datos/levels.py:140
+msgid "Badrinath"
+msgstr "伯德里纳特"
+
+#: recursos/0india/datos/0india.py:102 recursos/0india/datos/levels.py:141
+msgid "Nainital"
+msgstr "奈尼塔尔"
+
+#: recursos/0india/datos/0india.py:103 recursos/0india/datos/levels.py:142
+msgid "Sravasti"
+msgstr "舍卫城"
+
+#: recursos/0india/datos/0india.py:104 recursos/0india/datos/levels.py:143
+msgid "Ayodhya"
+msgstr "阿约提亚"
+
+#: recursos/0india/datos/0india.py:105 recursos/0india/datos/levels.py:144
+msgid "Agra"
+msgstr "阿格拉"
+
+#: recursos/0india/datos/0india.py:106 recursos/0india/datos/levels.py:145
+msgid "Kanpur"
+msgstr "坎普尔"
+
+#: recursos/0india/datos/0india.py:107 recursos/0india/datos/levels.py:146
+msgid "Varanasi"
+msgstr "瓦拉纳西"
+
+#: recursos/0india/datos/0india.py:108 recursos/0india/datos/levels.py:147
+msgid "Allahabad"
+msgstr "阿拉哈巴德"
+
+#: recursos/0india/datos/0india.py:109 recursos/0india/datos/levels.py:148
+msgid "Tezpur"
+msgstr "提斯普尔"
+
+#: recursos/0india/datos/0india.py:110 recursos/0india/datos/levels.py:149
+msgid "Darjeeling"
+msgstr "大吉岭"
+
+#: recursos/0india/datos/0india.py:111 recursos/0india/datos/levels.py:150
+msgid "Murshidabad"
+msgstr "穆尔希达巴德"
+
+#: recursos/0india/datos/0india.py:112 recursos/0india/datos/levels.py:151
+msgid "Shantiniketan"
+msgstr "桑蒂尼盖登"
+
+#: recursos/0india/datos/0india.py:113 recursos/0india/datos/levels.py:152
+msgid "Digha"
+msgstr "迪卡"
+
+#: recursos/0india/datos/0india.py:114 recursos/0india/datos/levels.py:153
+msgid "Hazaribag"
+msgstr "赫扎里巴克"
+
+#: recursos/0india/datos/0india.py:115 recursos/0india/datos/levels.py:154
+msgid "Bihar-Sharif"
+msgstr "比哈尔"
+
+#: recursos/0india/datos/0india.py:116 recursos/0india/datos/levels.py:155
+msgid "Nalanda"
+msgstr "那烂陀寺"
+
+#: recursos/0india/datos/0india.py:117 recursos/0india/datos/levels.py:156
+msgid "Bodhgaya"
+msgstr "菩提伽耶"
+
+#: recursos/0india/datos/0india.py:118 recursos/0india/datos/levels.py:157
+msgid "Pillani"
+msgstr "皮拉尼"
+
+#: recursos/0india/datos/0india.py:119 recursos/0india/datos/levels.py:158
+msgid "Bikaner"
+msgstr "比卡内尔"
+
+#: recursos/0india/datos/0india.py:120 recursos/0india/datos/levels.py:159
+msgid "Jaisalmer"
+msgstr "卡内尔"
+
+#: recursos/0india/datos/0india.py:121 recursos/0india/datos/levels.py:160
+msgid "Jodhpur"
+msgstr "焦特布尔"
+
+#: recursos/0india/datos/0india.py:122 recursos/0india/datos/levels.py:161
+msgid "Ranakpur"
+msgstr "拉那克普尔"
+
+#: recursos/0india/datos/0india.py:123 recursos/0india/datos/levels.py:162
+msgid "Bundi"
+msgstr "本迪"
+
+#: recursos/0india/datos/0india.py:124 recursos/0india/datos/levels.py:163
+msgid "Kota"
+msgstr "科塔"
+
+#: recursos/0india/datos/0india.py:125 recursos/0india/datos/levels.py:164
+msgid "Chittaurgarh"
+msgstr "吉多尔格尔"
+
+#: recursos/0india/datos/0india.py:126 recursos/0india/datos/levels.py:165
+msgid "Mount Abu"
+msgstr "阿布"
+
+#: recursos/0india/datos/0india.py:127 recursos/0india/datos/levels.py:166
+msgid "Gwalior"
+msgstr "瓜廖尔专区"
+
+#: recursos/0india/datos/0india.py:128 recursos/0india/datos/levels.py:167
+msgid "Shivpuri"
+msgstr "希沃布里"
+
+#: recursos/0india/datos/0india.py:129 recursos/0india/datos/levels.py:168
+msgid "Orchna"
+msgstr "奥尔恰"
+
+#: recursos/0india/datos/0india.py:130 recursos/0india/datos/levels.py:169
+msgid "Khajuraho"
+msgstr "克久拉霍"
+
+#: recursos/0india/datos/0india.py:131 recursos/0india/datos/levels.py:170
+msgid "Sanchi"
+msgstr "桑吉"
+
+#: recursos/0india/datos/0india.py:132 recursos/0india/datos/levels.py:171
+msgid "Ujjain"
+msgstr "乌贾因"
+
+#: recursos/0india/datos/0india.py:133 recursos/0india/datos/levels.py:172
+msgid "Indore"
+msgstr "印多尔"
+
+#: recursos/0india/datos/0india.py:134 recursos/0india/datos/levels.py:173
+msgid "Jabalpur"
+msgstr "贾巴尔普尔"
+
+#: recursos/0india/datos/0india.py:135 recursos/0india/datos/levels.py:174
+msgid "Amarkantak"
+msgstr "阿默尔根德洛"
+
+#: recursos/0india/datos/0india.py:136 recursos/0india/datos/levels.py:175
+msgid "Ambikapur"
+msgstr "安比加布尔"
+
+#: recursos/0india/datos/0india.py:137 recursos/0india/datos/levels.py:176
+msgid "Chitrakote Falls"
+msgstr "奇特拉库特瀑布"
+
+#: recursos/0india/datos/0india.py:138 recursos/0india/datos/levels.py:177
+msgid "Hirakud Dam"
+msgstr "希拉库德大坝"
+
+#: recursos/0india/datos/0india.py:139 recursos/0india/datos/levels.py:178
+msgid "Cuttak"
+msgstr "加特卡"
+
+#: recursos/0india/datos/0india.py:140 recursos/0india/datos/levels.py:179
+msgid "Paradwip"
+msgstr "帕拉迪布"
+
+#: recursos/0india/datos/0india.py:141 recursos/0india/datos/levels.py:180
+msgid "Konarak"
+msgstr "科纳拉克"
+
+#: recursos/0india/datos/0india.py:142 recursos/0india/datos/levels.py:181
+msgid "Puri"
+msgstr "浦那"
+
+#: recursos/0india/datos/0india.py:143 recursos/0india/datos/levels.py:182
+msgid "Gopalpur"
+msgstr "戈巴尔布尔"
+
+#: recursos/0india/datos/0india.py:144 recursos/0india/datos/levels.py:183
+msgid "Bhuj"
+msgstr "普杰"
+
+#: recursos/0india/datos/0india.py:145 recursos/0india/datos/levels.py:184
+msgid "Lothal"
+msgstr "洛塔"
+
+#: recursos/0india/datos/0india.py:146 recursos/0india/datos/levels.py:185
+msgid "Vadodara"
+msgstr "巴罗达"
+
+#: recursos/0india/datos/0india.py:147 recursos/0india/datos/levels.py:186
+msgid "Dwarka"
+msgstr "德瓦卡"
+
+#: recursos/0india/datos/0india.py:148 recursos/0india/datos/levels.py:187
+msgid "Rajkot"
+msgstr "拉杰科德"
+
+#: recursos/0india/datos/0india.py:149 recursos/0india/datos/levels.py:188
+msgid "Porbandar"
+msgstr "博尔本德尔"
+
+#: recursos/0india/datos/0india.py:150 recursos/0india/datos/levels.py:189
+msgid "Somnath"
+msgstr "索姆纳特"
+
+#: recursos/0india/datos/0india.py:151 recursos/0india/datos/levels.py:190
+msgid "Diu"
+msgstr "第乌"
+
+#: recursos/0india/datos/0india.py:152 recursos/0india/datos/levels.py:191
+msgid "Bhavnagar"
+msgstr "巴夫那加尔"
+
+#: recursos/0india/datos/0india.py:153 recursos/0india/datos/levels.py:192
+msgid "Saputara"
+msgstr "萨普塔拉"
+
+#: recursos/0india/datos/0india.py:154 recursos/0india/datos/levels.py:193
+msgid "Malghat"
+msgstr "麦敢特"
+
+#: recursos/0india/datos/0india.py:155 recursos/0india/datos/levels.py:194
+msgid "Wardha"
+msgstr "沃尔塔"
+
+#: recursos/0india/datos/0india.py:156 recursos/0india/datos/levels.py:195
+msgid "Chandrapur"
+msgstr "钱德拉布尔"
+
+#: recursos/0india/datos/0india.py:157 recursos/0india/datos/levels.py:196
+msgid "Ajanta"
+msgstr "阿旃陀"
+
+#: recursos/0india/datos/0india.py:158 recursos/0india/datos/levels.py:197
+msgid "Ellora"
+msgstr "埃洛拉"
+
+#: recursos/0india/datos/0india.py:159 recursos/0india/datos/levels.py:198
+msgid "Aurangabad"
+msgstr "奥兰加巴德"
+
+#: recursos/0india/datos/0india.py:160 recursos/0india/datos/levels.py:199
+msgid "Shirdi"
+msgstr "舍地"
+
+#: recursos/0india/datos/0india.py:161 recursos/0india/datos/levels.py:200
+msgid "Pune"
+msgstr "浦那"
+
+#: recursos/0india/datos/0india.py:162 recursos/0india/datos/levels.py:201
+msgid "Murud"
+msgstr "穆鲁德"
+
+#: recursos/0india/datos/0india.py:163 recursos/0india/datos/levels.py:202
+msgid "Mahabaleshwar"
+msgstr "马哈拉施特拉邦"
+
+#: recursos/0india/datos/0india.py:164 recursos/0india/datos/levels.py:203
+msgid "Ganpatipule"
+msgstr "甘帕提普勒"
+
+#: recursos/0india/datos/0india.py:165 recursos/0india/datos/levels.py:204
+msgid "Panhala"
+msgstr "潘哈拉"
+
+#: recursos/0india/datos/0india.py:166 recursos/0india/datos/levels.py:205
+msgid "Warangal"
+msgstr "瓦朗加尔"
+
+#: recursos/0india/datos/0india.py:167
+msgid "Visakhapatnam"
+msgstr "维沙卡帕特南"
+
+#: recursos/0india/datos/0india.py:168 recursos/0india/datos/levels.py:207
+msgid "Bhadrachalan"
+msgstr "珀德拉杰勒姆"
+
+#: recursos/0india/datos/0india.py:169 recursos/0india/datos/levels.py:208
+msgid "Amaravati"
+msgstr "阿默拉沃蒂"
+
+#: recursos/0india/datos/0india.py:170 recursos/0india/datos/levels.py:209
+msgid "Srisailam"
+msgstr "斯里赛勒姆"
+
+#: recursos/0india/datos/0india.py:171 recursos/0india/datos/levels.py:210
+msgid "Lepakshi"
+msgstr "力帕西"
+
+#: recursos/0india/datos/0india.py:172 recursos/0india/datos/levels.py:211
+msgid "Tirupati"
+msgstr "蒂鲁伯蒂"
+
+#: recursos/0india/datos/0india.py:173 recursos/0india/datos/levels.py:212
+#: recursos/4goa/datos/4goa.py:29 recursos/4goa/datos/levels.py:35
+msgid "Vasco da Gama"
+msgstr "瓦斯科达伽马"
+
+#: recursos/0india/datos/0india.py:174 recursos/0india/datos/levels.py:213
+msgid "Bider"
+msgstr "拜德"
+
+#: recursos/0india/datos/0india.py:175 recursos/0india/datos/levels.py:214
+msgid "Gulbarga"
+msgstr "古尔伯加"
+
+#: recursos/0india/datos/0india.py:176 recursos/0india/datos/levels.py:215
+msgid "Bijapur"
+msgstr "比贾布尔"
+
+#: recursos/0india/datos/0india.py:177 recursos/0india/datos/levels.py:216
+msgid "Raichur"
+msgstr "赖久尔"
+
+#: recursos/0india/datos/0india.py:178 recursos/0india/datos/levels.py:217
+msgid "Hampi"
+msgstr "亨比"
+
+#: recursos/0india/datos/0india.py:179 recursos/0india/datos/levels.py:218
+msgid "Jog Falls"
+msgstr "焦格瀑布"
+
+#: recursos/0india/datos/0india.py:180 recursos/0india/datos/levels.py:219
+msgid "Chitradurga"
+msgstr "吉德勒杜尔加"
+
+#: recursos/0india/datos/0india.py:181 recursos/0india/datos/levels.py:220
+msgid "Udupi"
+msgstr "乌杜皮"
+
+#: recursos/0india/datos/0india.py:182 recursos/0india/datos/levels.py:221
+msgid "Mangalore"
+msgstr "门格洛尔"
+
+#: recursos/0india/datos/0india.py:183 recursos/0india/datos/levels.py:222
+msgid "Belur"
+msgstr "贝鲁尔"
+
+#: recursos/0india/datos/0india.py:184 recursos/0india/datos/levels.py:223
+msgid "Kozhikode"
+msgstr "科泽科德"
+
+#: recursos/0india/datos/0india.py:185 recursos/0india/datos/levels.py:224
+msgid "Kochi"
+msgstr "柯枝"
+
+#: recursos/0india/datos/0india.py:186 recursos/0india/datos/levels.py:225
+msgid "Alappuzha"
+msgstr "阿拉普扎"
+
+#: recursos/0india/datos/0india.py:187 recursos/0india/datos/levels.py:226
+msgid "Mamallpuram"
+msgstr "马哈巴利普兰"
+
+#: recursos/0india/datos/0india.py:188 recursos/0india/datos/levels.py:227
+msgid "Chidambaram"
+msgstr "吉登伯勒姆"
+
+#: recursos/0india/datos/0india.py:189 recursos/0india/datos/levels.py:228
+msgid "Mudumali"
+msgstr "莫都马赖"
+
+#: recursos/0india/datos/0india.py:190 recursos/0india/datos/levels.py:229
+msgid "Thanjavur"
+msgstr "坦贾武尔"
+
+#: recursos/0india/datos/0india.py:191 recursos/0india/datos/levels.py:230
+msgid "Kodaikanal"
+msgstr "戈代加讷尔"
+
+#: recursos/0india/datos/0india.py:192 recursos/0india/datos/levels.py:231
+msgid "Madurai"
+msgstr "马杜赖"
+
+#: recursos/0india/datos/0india.py:193 recursos/0india/datos/levels.py:232
+msgid "Kanniyakumari"
+msgstr "科摩林角"
+
+#: recursos/0india/datos/0india.py:194 recursos/0india/datos/levels.py:233
+msgid "Rameswaram"
+msgstr "拉梅斯沃勒姆"
+
+#: recursos/0india/datos/0india.py:203 recursos/4goa/datos/4goa.py:49
+msgid "Capital:"
+msgstr "首都："
+
+#: recursos/0india/datos/0india.py:203
+msgid "(28°36.8′ N - 77°12.5′ E)"
+msgstr "(28°36.8′北 - 77°12.5′东)"
+
+#: recursos/0india/datos/0india.py:204
+msgid "Language:"
+msgstr "语言："
+
+#: recursos/0india/datos/0india.py:204
+msgid "Hindi"
+msgstr "印度语"
+
+#: recursos/0india/datos/0india.py:204
+msgid "English"
+msgstr "英语"
+
+#: recursos/0india/datos/0india.py:205
+msgid "Government:"
+msgstr "政府："
+
+#: recursos/0india/datos/0india.py:205
+msgid "Federal parliamentary republic"
+msgstr "联邦议会制共和国"
+
+#: recursos/0india/datos/0india.py:206
+msgid "President:"
+msgstr "总统："
+
+#: recursos/0india/datos/0india.py:206
+msgid "Pratibha Patil"
+msgstr "普拉蒂巴·帕蒂尔"
+
+#: recursos/0india/datos/0india.py:207
+msgid "Vice President:"
+msgstr "副总统："
+
+#: recursos/0india/datos/0india.py:207
+msgid "Mohammad Hamid Ansari"
+msgstr "穆罕默德·哈米德·安萨里"
+
+#: recursos/0india/datos/0india.py:208
+msgid "Independence:"
+msgstr "独立："
+
+#: recursos/0india/datos/0india.py:208
+msgid "from the United Kingdom "
+msgstr "自英国 "
+
+#: recursos/0india/datos/0india.py:209
+#, python-format
+msgid "declared: %s"
+msgstr "宣布: %s"
+
+#: recursos/0india/datos/0india.py:209
+msgid "15 of august of 1947 "
+msgstr "1947年8月15日 "
+
+#: recursos/0india/datos/0india.py:210
+#, python-format
+msgid "recognized: %s"
+msgstr "承认: %s"
+
+#: recursos/0india/datos/0india.py:210
+msgid "26 of january of 1950 "
+msgstr "1950年1月26日 "
+
+#: recursos/0india/datos/0india.py:211 recursos/4goa/datos/4goa.py:52
+msgid "Area:"
+msgstr "面积："
+
+#: recursos/0india/datos/0india.py:211
+msgid "3.287.263 km² (7th)"
+msgstr "3,287,263 平方公里 (第7名)"
+
+#: recursos/0india/datos/0india.py:212 recursos/4goa/datos/4goa.py:53
+msgid "Population:"
+msgstr "人口："
+
+#: recursos/0india/datos/0india.py:212
+msgid "1.210.193.422 (2nd)"
+msgstr "1,210,193,422 (第2名)"
+
+#: recursos/0india/datos/0india.py:213
+msgid "GDP:"
+msgstr "国内生产总值："
+
+#: recursos/0india/datos/0india.py:213
+msgid "USD 1.676 trillion (11th)"
+msgstr "1.676万亿美元 (第11名)"
+
+#: recursos/0india/datos/0india.py:214 recursos/4goa/datos/4goa.py:54
+msgid "HDI:"
+msgstr "人类发展指数："
+
+#: recursos/0india/datos/0india.py:214
+msgid "Medium - 0,547 (134th)"
+msgstr "中 - 0,547 (第134名)"
+
+#: recursos/0india/datos/0india.py:215
+msgid "Currency:"
+msgstr "货币："
+
+#: recursos/0india/datos/0india.py:215
+msgid "Indian rupee"
+msgstr "印度卢比"
+
+#: recursos/0india/datos/explorations.py:6 recursos/0india/datos/levels.py:7
+msgid "States"
+msgstr "州"
+
+#: recursos/0india/datos/explorations.py:13 recursos/0india/datos/levels.py:49
+msgid "State capitals"
+msgstr "省会"
+
+#: recursos/0india/datos/explorations.py:20 recursos/0india/datos/levels.py:92
+#: recursos/4goa/datos/explorations.py:20 recursos/4goa/datos/levels.py:48
+msgid "Cities"
+msgstr "市"
+
+#: recursos/0india/datos/explorations.py:27
+#: recursos/4goa/datos/explorations.py:27
+msgid "Waterways"
+msgstr "水路"
+
+#: recursos/0india/datos/explorations.py:34
+#: recursos/4goa/datos/explorations.py:34
+msgid "Routes"
+msgstr "路线"
+
+#: recursos/0india/datos/levels.py:11 recursos/0india/datos/levels.py:23
+#: recursos/0india/datos/levels.py:34 recursos/4goa/datos/levels.py:20
+#: recursos/4goa/datos/levels.py:21
+msgid "It's in the south"
+msgstr "在南部"
+
+#: recursos/0india/datos/levels.py:12 recursos/0india/datos/levels.py:14
+#: recursos/0india/datos/levels.py:33 recursos/4goa/datos/levels.py:14
+msgid "It's in the northeast"
+msgstr "在东北部"
+
+#: recursos/0india/datos/levels.py:13 recursos/0india/datos/levels.py:26
+#: recursos/0india/datos/levels.py:27 recursos/0india/datos/levels.py:28
+#: recursos/0india/datos/levels.py:29 recursos/0india/datos/levels.py:30
+#: recursos/0india/datos/levels.py:35 recursos/4goa/datos/levels.py:19
+msgid "It's in the east"
+msgstr "在东部"
+
+#: recursos/0india/datos/levels.py:15 recursos/0india/datos/levels.py:21
+#: recursos/0india/datos/levels.py:24 recursos/4goa/datos/levels.py:16
+msgid "It's in the center"
+msgstr "在中部"
+
+#: recursos/0india/datos/levels.py:16 recursos/0india/datos/levels.py:22
+#: recursos/0india/datos/levels.py:42
+msgid "It's in the southwest"
+msgstr "在西南部"
+
+#: recursos/0india/datos/levels.py:17 recursos/0india/datos/levels.py:25
+#: recursos/0india/datos/levels.py:38 recursos/0india/datos/levels.py:41
+#: recursos/4goa/datos/levels.py:15 recursos/4goa/datos/levels.py:17
+#: recursos/4goa/datos/levels.py:18
+msgid "It's in the west"
+msgstr "在西部"
+
+#: recursos/0india/datos/levels.py:18 recursos/0india/datos/levels.py:31
+#: recursos/0india/datos/levels.py:32 recursos/4goa/datos/levels.py:11
+#: recursos/4goa/datos/levels.py:12
+msgid "It's in the northwest"
+msgstr "在西北部"
+
+#: recursos/0india/datos/levels.py:19 recursos/0india/datos/levels.py:20
+#: recursos/0india/datos/levels.py:36 recursos/0india/datos/levels.py:37
+#: recursos/0india/datos/levels.py:43 recursos/4goa/datos/levels.py:13
+msgid "It's in the north"
+msgstr "在北部"
+
+#: recursos/0india/datos/levels.py:40
+msgid "It's in the southeast"
+msgstr "在东南部"
+
+#: recursos/0india/datos/levels.py:53 recursos/0india/datos/levels.py:54
+#: recursos/0india/datos/levels.py:55 recursos/0india/datos/levels.py:56
+#: recursos/0india/datos/levels.py:57 recursos/0india/datos/levels.py:58
+#: recursos/0india/datos/levels.py:59 recursos/0india/datos/levels.py:60
+#: recursos/0india/datos/levels.py:61 recursos/0india/datos/levels.py:62
+#: recursos/0india/datos/levels.py:63 recursos/0india/datos/levels.py:64
+#: recursos/0india/datos/levels.py:65 recursos/0india/datos/levels.py:66
+#: recursos/0india/datos/levels.py:67 recursos/0india/datos/levels.py:68
+#: recursos/0india/datos/levels.py:69 recursos/0india/datos/levels.py:70
+#: recursos/0india/datos/levels.py:71 recursos/0india/datos/levels.py:72
+#: recursos/0india/datos/levels.py:73 recursos/0india/datos/levels.py:74
+#: recursos/0india/datos/levels.py:75 recursos/0india/datos/levels.py:76
+#: recursos/0india/datos/levels.py:77 recursos/0india/datos/levels.py:78
+#: recursos/0india/datos/levels.py:79 recursos/0india/datos/levels.py:80
+#: recursos/0india/datos/levels.py:81 recursos/0india/datos/levels.py:82
+#: recursos/0india/datos/levels.py:83 recursos/0india/datos/levels.py:84
+#: recursos/0india/datos/levels.py:85 recursos/0india/datos/levels.py:96
+#: recursos/0india/datos/levels.py:97 recursos/0india/datos/levels.py:98
+#: recursos/0india/datos/levels.py:99 recursos/0india/datos/levels.py:100
+#: recursos/0india/datos/levels.py:101 recursos/0india/datos/levels.py:102
+#: recursos/0india/datos/levels.py:103 recursos/0india/datos/levels.py:104
+#: recursos/0india/datos/levels.py:105 recursos/0india/datos/levels.py:106
+#: recursos/0india/datos/levels.py:107 recursos/0india/datos/levels.py:108
+#: recursos/0india/datos/levels.py:109 recursos/0india/datos/levels.py:110
+#: recursos/0india/datos/levels.py:111 recursos/0india/datos/levels.py:112
+#: recursos/0india/datos/levels.py:113 recursos/0india/datos/levels.py:114
+#: recursos/0india/datos/levels.py:115 recursos/0india/datos/levels.py:116
+#: recursos/0india/datos/levels.py:117 recursos/0india/datos/levels.py:118
+#: recursos/0india/datos/levels.py:119 recursos/0india/datos/levels.py:120
+#: recursos/0india/datos/levels.py:121 recursos/0india/datos/levels.py:122
+#: recursos/0india/datos/levels.py:123 recursos/0india/datos/levels.py:124
+#: recursos/0india/datos/levels.py:125 recursos/0india/datos/levels.py:126
+#: recursos/0india/datos/levels.py:127 recursos/0india/datos/levels.py:128
+#: recursos/0india/datos/levels.py:129 recursos/0india/datos/levels.py:130
+#: recursos/0india/datos/levels.py:131 recursos/0india/datos/levels.py:132
+#: recursos/0india/datos/levels.py:133 recursos/0india/datos/levels.py:134
+#: recursos/0india/datos/levels.py:135 recursos/0india/datos/levels.py:136
+#: recursos/0india/datos/levels.py:137 recursos/0india/datos/levels.py:138
+#: recursos/0india/datos/levels.py:139 recursos/0india/datos/levels.py:140
+#: recursos/0india/datos/levels.py:141 recursos/0india/datos/levels.py:142
+#: recursos/0india/datos/levels.py:143 recursos/0india/datos/levels.py:144
+#: recursos/0india/datos/levels.py:145 recursos/0india/datos/levels.py:146
+#: recursos/0india/datos/levels.py:147 recursos/0india/datos/levels.py:148
+#: recursos/0india/datos/levels.py:149 recursos/0india/datos/levels.py:150
+#: recursos/0india/datos/levels.py:151 recursos/0india/datos/levels.py:152
+#: recursos/0india/datos/levels.py:153 recursos/0india/datos/levels.py:154
+#: recursos/0india/datos/levels.py:155 recursos/0india/datos/levels.py:156
+#: recursos/0india/datos/levels.py:157 recursos/0india/datos/levels.py:158
+#: recursos/0india/datos/levels.py:159 recursos/0india/datos/levels.py:160
+#: recursos/0india/datos/levels.py:161 recursos/0india/datos/levels.py:162
+#: recursos/0india/datos/levels.py:163 recursos/0india/datos/levels.py:164
+#: recursos/0india/datos/levels.py:165 recursos/0india/datos/levels.py:166
+#: recursos/0india/datos/levels.py:167 recursos/0india/datos/levels.py:168
+#: recursos/0india/datos/levels.py:169 recursos/0india/datos/levels.py:170
+#: recursos/0india/datos/levels.py:171 recursos/0india/datos/levels.py:172
+#: recursos/0india/datos/levels.py:173 recursos/0india/datos/levels.py:174
+#: recursos/0india/datos/levels.py:175 recursos/0india/datos/levels.py:176
+#: recursos/0india/datos/levels.py:177 recursos/0india/datos/levels.py:178
+#: recursos/0india/datos/levels.py:179 recursos/0india/datos/levels.py:180
+#: recursos/0india/datos/levels.py:181 recursos/0india/datos/levels.py:182
+#: recursos/0india/datos/levels.py:183 recursos/0india/datos/levels.py:184
+#: recursos/0india/datos/levels.py:185 recursos/0india/datos/levels.py:186
+#: recursos/0india/datos/levels.py:187 recursos/0india/datos/levels.py:188
+#: recursos/0india/datos/levels.py:189 recursos/0india/datos/levels.py:190
+#: recursos/0india/datos/levels.py:191 recursos/0india/datos/levels.py:192
+#: recursos/0india/datos/levels.py:193 recursos/0india/datos/levels.py:194
+#: recursos/0india/datos/levels.py:195 recursos/0india/datos/levels.py:196
+#: recursos/0india/datos/levels.py:197 recursos/0india/datos/levels.py:198
+#: recursos/0india/datos/levels.py:199 recursos/0india/datos/levels.py:200
+#: recursos/0india/datos/levels.py:201 recursos/0india/datos/levels.py:202
+#: recursos/0india/datos/levels.py:203 recursos/0india/datos/levels.py:204
+#: recursos/0india/datos/levels.py:205 recursos/0india/datos/levels.py:206
+#: recursos/0india/datos/levels.py:207 recursos/0india/datos/levels.py:208
+#: recursos/0india/datos/levels.py:209 recursos/0india/datos/levels.py:210
+#: recursos/0india/datos/levels.py:211 recursos/0india/datos/levels.py:212
+#: recursos/0india/datos/levels.py:213 recursos/0india/datos/levels.py:214
+#: recursos/0india/datos/levels.py:215 recursos/0india/datos/levels.py:216
+#: recursos/0india/datos/levels.py:217 recursos/0india/datos/levels.py:218
+#: recursos/0india/datos/levels.py:219 recursos/0india/datos/levels.py:220
+#: recursos/0india/datos/levels.py:221 recursos/0india/datos/levels.py:222
+#: recursos/0india/datos/levels.py:223 recursos/0india/datos/levels.py:224
+#: recursos/0india/datos/levels.py:225 recursos/0india/datos/levels.py:226
+#: recursos/0india/datos/levels.py:227 recursos/0india/datos/levels.py:228
+#: recursos/0india/datos/levels.py:229 recursos/0india/datos/levels.py:230
+#: recursos/0india/datos/levels.py:231 recursos/0india/datos/levels.py:232
+#: recursos/0india/datos/levels.py:233 recursos/4goa/datos/levels.py:31
+#: recursos/4goa/datos/levels.py:32 recursos/4goa/datos/levels.py:33
+#: recursos/4goa/datos/levels.py:34 recursos/4goa/datos/levels.py:35
+#: recursos/4goa/datos/levels.py:36 recursos/4goa/datos/levels.py:37
+#: recursos/4goa/datos/levels.py:38 recursos/4goa/datos/levels.py:39
+#: recursos/4goa/datos/levels.py:40 recursos/4goa/datos/levels.py:41
+#, python-format
+#, python-format,
+msgid "It's in %s"
+msgstr "在%s中"
+
+#: recursos/0india/datos/levels.py:83 recursos/0india/datos/levels.py:126
+msgid "Daman and Diu"
+msgstr "达曼和第乌"
+
+#: recursos/0india/datos/levels.py:206
+msgid "Vishakhapatnam"
+msgstr "沙卡帕特南"
+
+#: recursos/4goa/datos/4goa.py:8 recursos/4goa/datos/4goa.py:26
+#: recursos/4goa/datos/levels.py:11 recursos/4goa/datos/levels.py:32
+msgid "Pernem"
+msgstr "佩尔蒙"
+
+#: recursos/4goa/datos/4goa.py:9 recursos/4goa/datos/levels.py:12
+#: recursos/4goa/datos/levels.py:33
+msgid "Bardez"
+msgstr "巴德兹"
+
+#: recursos/4goa/datos/4goa.py:10 recursos/4goa/datos/4goa.py:28
+#: recursos/4goa/datos/levels.py:13 recursos/4goa/datos/levels.py:34
+msgid "Bicholim"
+msgstr "比焦利姆"
+
+#: recursos/4goa/datos/4goa.py:11 recursos/4goa/datos/levels.py:14
+#: recursos/4goa/datos/levels.py:36
+msgid "Sattari"
+msgstr "萨达利"
+
+#: recursos/4goa/datos/4goa.py:12 recursos/4goa/datos/levels.py:15
+#: recursos/4goa/datos/levels.py:31
+msgid "Tiswadi"
+msgstr "提斯瓦迪"
+
+#: recursos/4goa/datos/4goa.py:13 recursos/4goa/datos/4goa.py:35
+#: recursos/4goa/datos/levels.py:16 recursos/4goa/datos/levels.py:41
+msgid "Ponda"
+msgstr "庞达"
+
+#: recursos/4goa/datos/4goa.py:14 recursos/4goa/datos/levels.py:17
+#: recursos/4goa/datos/levels.py:35
+msgid "Mormugao"
+msgstr "莫尔穆冈"
+
+#: recursos/4goa/datos/4goa.py:15 recursos/4goa/datos/levels.py:18
+#: recursos/4goa/datos/levels.py:38
+msgid "Salcete"
+msgstr "萨斯特"
+
+#: recursos/4goa/datos/4goa.py:16 recursos/4goa/datos/4goa.py:31
+#: recursos/4goa/datos/levels.py:19 recursos/4goa/datos/levels.py:37
+msgid "Sanguem"
+msgstr "桑古姆"
+
+#: recursos/4goa/datos/4goa.py:17 recursos/4goa/datos/4goa.py:33
+#: recursos/4goa/datos/levels.py:20 recursos/4goa/datos/levels.py:39
+msgid "Quepem"
+msgstr "凯彭"
+
+#: recursos/4goa/datos/4goa.py:18 recursos/4goa/datos/levels.py:21
+#: recursos/4goa/datos/levels.py:40
+msgid "Canacona"
+msgstr "格纳戈纳"
+
+#: recursos/4goa/datos/4goa.py:27 recursos/4goa/datos/levels.py:33
+msgid "Mapusa"
+msgstr "马普萨"
+
+#: recursos/4goa/datos/4goa.py:30 recursos/4goa/datos/levels.py:36
+msgid "Valpoi"
+msgstr "巴普伊"
+
+#: recursos/4goa/datos/4goa.py:32 recursos/4goa/datos/levels.py:38
+msgid "Margao"
+msgstr "马尔冈"
+
+#: recursos/4goa/datos/4goa.py:34 recursos/4goa/datos/levels.py:40
+msgid "Chaudi"
+msgstr "乔迪"
+
+#: recursos/4goa/datos/4goa.py:50
+msgid "Governor:"
+msgstr "总督："
+
+#: recursos/4goa/datos/4goa.py:50
+msgid "B. V. Wanchoo"
+msgstr "瓦杰帕伊"
+
+#: recursos/4goa/datos/4goa.py:51
+msgid "Chief Minister:"
+msgstr "首席部长："
+
+#: recursos/4goa/datos/4goa.py:51
+msgid "Manohar Parrikar"
+msgstr "马诺哈尔·帕里卡尔"
+
+#: recursos/4goa/datos/4goa.py:52
+msgid "3.702 km² (28th)"
+msgstr "3,702平方公里(第28名)"
+
+#: recursos/4goa/datos/4goa.py:53
+msgid "1.457.723 (25th)"
+msgstr "1,457,723 (第25名)"
+
+#: recursos/4goa/datos/4goa.py:54
+msgid "High - 0,779 (3rd)"
+msgstr "高 - 0,779 (第3名)"
+
+#: recursos/4goa/datos/explorations.py:6 recursos/4goa/datos/levels.py:7
+msgid "Talukas"
+msgstr "县"
+
+#: recursos/4goa/datos/explorations.py:13 recursos/4goa/datos/levels.py:27
+msgid "Talukas capitals"
+msgstr "县城"
+
+#: recursos/comun/datos/commons.py:7
+msgid "Hello friends..."
+msgstr "朋友你好..."
+
+#: recursos/comun/datos/commons.py:8
+msgid ""
+"...tomorrow I have a\n"
+"test about India..."
+msgstr "...明天有一个关于印度的测验..."
+
+#: recursos/comun/datos/commons.py:9
+msgid "...and I know nothing!!!"
+msgstr "...我什么都不知道!!!"
+
+#: recursos/comun/datos/commons.py:10
+msgid "...what do I do???"
+msgstr "...我该做什么？？？"
+
+#: recursos/comun/datos/commons.py:11
+msgid "Can I ask you something?"
+msgstr "我可以请教你些事吗？"
+
+#: recursos/comun/datos/commons.py:12
+msgid "Will you help me?"
+msgstr "你愿意帮我吗？"
+
+#: recursos/comun/datos/commons.py:16
+msgid "We have to find"
+msgstr "我们必须找到"
+
+#: recursos/comun/datos/commons.py:17
+msgid "Now we have to find"
+msgstr "现在我们必须找到"
+
+#: recursos/comun/datos/commons.py:18
+msgid "We need to find"
+msgstr "我们需要找到"
+
+#: recursos/comun/datos/commons.py:22
+msgid "Can you tell me where it is?"
+msgstr "你能告诉我它在哪里吗？"
+
+#: recursos/comun/datos/commons.py:23
+msgid "Where is it?"
+msgstr "在哪里？"
+
+#: recursos/comun/datos/commons.py:24
+msgid "Can you show me where it is?"
+msgstr "你能告诉我它在哪里吗？"
+
+#: recursos/comun/datos/commons.py:25
+msgid "Can you find it?"
+msgstr "你能找到它吗？"
+
+#: recursos/comun/datos/commons.py:29
+msgid "Very well!"
+msgstr "很好！"
+
+#: recursos/comun/datos/commons.py:30
+msgid "Brilliant!"
+msgstr "漂亮！"
+
+#: recursos/comun/datos/commons.py:31
+msgid "You found it!"
+msgstr "你找到了！"
+
+#: recursos/comun/datos/commons.py:32
+msgid "Yes!"
+msgstr "没错！"
+
+#: recursos/comun/datos/commons.py:36
+msgid "No, that is not correct"
+msgstr "不，这是不正确的"
+
+#: recursos/comun/datos/commons.py:37
+msgid "No, it is not there"
+msgstr "不，它不在那里"
+
+#: recursos/comun/datos/commons.py:38
+msgid "No, that seems to be wrong"
+msgstr "不，这看上去是错的"
+
+#: recursos/comun/datos/commons.py:39
+msgid "That is not correct"
+msgstr "这是不正确的"
+
+#: recursos/comun/datos/commons.py:43
+msgid ""
+"Now I'm ready\n"
+"for tomorrow...\n"
+"I'm going to play...\n"
+"Thanks for your help!"
+msgstr ""
+"现在我为明天准备好了...\n"
+"我要去玩了...\n"
+"谢谢你的帮助！"
+
+#: recursos/comun/datos/commons.py:44
+msgid ""
+"We made it!\n"
+"I'm going to play ball...\n"
+"Bye and thanks\n"
+"for helping me!"
+msgstr ""
+"我们做到了！\n"
+"我要去打球了...\n"
+"再见，感谢对我的帮助！"
+
+#: recursos/comun/datos/commons.py:45
+msgid ""
+"We did it!\n"
+"I'm ready for tomorrow...\n"
+"I'm playing a while...\n"
+"Until next time!"
+msgstr ""
+"我们做到了！\n"
+"我为明天准备好了...\n"
+"我要玩一会儿...\n"
+"下次再来！"
+
+#: recursos/comun/datos/commons.py:49
+msgid ""
+"Better luck next time\n"
+"I'll play a while...\n"
+"Thanks!"
+msgstr ""
+"下次好运\n"
+"我要去玩一会儿...\n"
+"谢谢！"
+
+#: recursos/comun/datos/commons.py:50
+msgid ""
+"The next time will be better\n"
+"I'm going to play ball...\n"
+"Thanks!"
+msgstr ""
+"下次会更好\n"
+"我要去打球...\n"
+"谢谢！"
+
+#: recursos/comun/datos/commons.py:51
+msgid ""
+"Please try again...\n"
+"I'm going to play...\n"
+"Thanks!"
+msgstr ""
+"请再试一次...\n"
+"我要去玩了...\n"
+"谢谢！"
+
+#: recursos/comun/datos/commons.py:55
+msgid "Author: Alan Aguiar"
+msgstr "作者：Alan Aguiar"
+
+#: recursos/comun/datos/commons.py:56
+msgid "Send corrections, comments or suggestions to: alanjas@hotmail.com"
+msgstr "请发送更正，意见或建议到：alanjas@hotmail.com"
+
+#: recursos/comun/datos/commons.py:58
+msgid "Thank's to Salil Konkar for the help in the english strings."
+msgstr "感谢OLPC的中文本地化翻译。"
+
+#: recursos/comun/datos/commons.py:60
+msgid "This program is free software developed by the community"
+msgstr "该程序是由社区开发的免费软件"
+
+#: recursos/comun/datos/commons.py:61
+msgid "For more information visit http://ceibaljam.org"
+msgstr "欲了解更多信息，请访问http://ceibaljam.org"
+
+#: recursos/comun/datos/commons.py:63
+msgid "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
+msgstr "该程序是基于“Conozco Uruguay”（作者： Gabriel Eirea）"
+
+#: recursos/comun/datos/commons.py:64
+msgid "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
+msgstr "声音从freesound.org下载：btn117.wav courtesy of junggle。"
+
+#: recursos/comun/datos/commons.py:65
+msgid "Font: Share-Regular.ttf of urbanfonts.com"
+msgstr "字体：Share-Regular.ttf 从 urbanfonts.com 下载"
+
+#~ msgid "Is south"
+#~ msgstr "在南部"
+
+#~ msgid "Is northeast"
+#~ msgstr "在东北部"
+
+#~ msgid "Is east"
+#~ msgstr "在东部"
+
+#~ msgid "Is southwest"
+#~ msgstr "在西南部"
+
+#~ msgid "Is west"
+#~ msgstr "在西部"
+
+#~ msgid "Is northwest"
+#~ msgstr "在西北部"
+
+#~ msgid "Is north"
+#~ msgstr "在北部"
+
+#~ msgid "Is southeast"
+#~ msgstr "在东南部"
+
+#, python-format
+#~ msgid "Is in %s"
+#~ msgstr "在%s中"
+
+#~ msgid "We have to look"
+#~ msgstr "我们来看看"
+
+#~ msgid "You can tell where is it?"
+#~ msgstr "你可以告诉在哪里吗？"
+
+#~ msgid "No, this is not"
+#~ msgstr "不，这不是"
+
+#~ msgid "Here it is not"
+#~ msgstr "这里不是"
+
+#~ msgid "It seems that this is not"
+#~ msgstr "看上去这不是"
+
+#~ msgid "That is not"
+#~ msgstr "那不是"
