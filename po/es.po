@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-22 01:51-0400\n"
-"PO-Revision-Date: 2012-08-06 22:47+0200\n"
-"Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
+"POT-Creation-Date: 2012-08-23 00:34-0400\n"
+"PO-Revision-Date: 2012-08-26 18:51+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -447,7 +447,7 @@ msgstr "Raipur"
 
 #: recursos/0india/datos/0india.py:59 recursos/0india/datos/levels.py:59
 #: recursos/0india/datos/levels.py:102 recursos/4goa/datos/4goa.py:25
-#: recursos/4goa/datos/levels.py:31
+#: recursos/4goa/datos/4goa.py:49 recursos/4goa/datos/levels.py:31
 msgid "Panaji"
 msgstr "Panaji"
 
@@ -1002,7 +1002,7 @@ msgstr "Kanniyakumari"
 msgid "Rameswaram"
 msgstr "Rameswaram"
 
-#: recursos/0india/datos/0india.py:203
+#: recursos/0india/datos/0india.py:203 recursos/4goa/datos/4goa.py:49
 msgid "Capital:"
 msgstr "Capital:"
 
@@ -1052,7 +1052,7 @@ msgstr "Independencia:"
 
 #: recursos/0india/datos/0india.py:208
 msgid "from the United Kingdom "
-msgstr "del Reino Unido"
+msgstr "del Reino Unido "
 
 #: recursos/0india/datos/0india.py:209
 #, python-format
@@ -1061,7 +1061,7 @@ msgstr "declarada: %s"
 
 #: recursos/0india/datos/0india.py:209
 msgid "15 of august of 1947 "
-msgstr "15 de agosto de 1947"
+msgstr "15 de agosto de 1947 "
 
 #: recursos/0india/datos/0india.py:210
 #, python-format
@@ -1070,9 +1070,9 @@ msgstr "reconocida: %s"
 
 #: recursos/0india/datos/0india.py:210
 msgid "26 of january of 1950 "
-msgstr "26 de enero de 1950"
+msgstr "26 de enero de 1950 "
 
-#: recursos/0india/datos/0india.py:211
+#: recursos/0india/datos/0india.py:211 recursos/4goa/datos/4goa.py:52
 msgid "Area:"
 msgstr "Superficie:"
 
@@ -1080,7 +1080,7 @@ msgstr "Superficie:"
 msgid "3.287.263 km² (7th)"
 msgstr "3.287.263 km² (7º)"
 
-#: recursos/0india/datos/0india.py:212
+#: recursos/0india/datos/0india.py:212 recursos/4goa/datos/4goa.py:53
 msgid "Population:"
 msgstr "Población:"
 
@@ -1096,7 +1096,7 @@ msgstr "PBI:"
 msgid "USD 1.676 trillion (11th)"
 msgstr "US$ 1.676 millones (11th)"
 
-#: recursos/0india/datos/0india.py:214
+#: recursos/0india/datos/0india.py:214 recursos/4goa/datos/4goa.py:54
 msgid "HDI:"
 msgstr "IDH:"
 
@@ -1360,6 +1360,34 @@ msgstr "Margao"
 #: recursos/4goa/datos/4goa.py:34 recursos/4goa/datos/levels.py:40
 msgid "Chaudi"
 msgstr "Chaudi"
+
+#: recursos/4goa/datos/4goa.py:50
+msgid "Governor:"
+msgstr "Gobernador:"
+
+#: recursos/4goa/datos/4goa.py:50
+msgid "B. V. Wanchoo"
+msgstr "B. V. Wanchoo"
+
+#: recursos/4goa/datos/4goa.py:51
+msgid "Chief Minister:"
+msgstr "Primer Ministro:"
+
+#: recursos/4goa/datos/4goa.py:51
+msgid "Manohar Parrikar"
+msgstr "Manohar Parrikar"
+
+#: recursos/4goa/datos/4goa.py:52
+msgid "3.702 km² (28th)"
+msgstr "3.702 km² (28º)"
+
+#: recursos/4goa/datos/4goa.py:53
+msgid "1.457.723 (25th)"
+msgstr "1.457.723 (25º)"
+
+#: recursos/4goa/datos/4goa.py:54
+msgid "High - 0,779 (3rd)"
+msgstr "Alta - 0,779 (3º)"
 
 #: recursos/4goa/datos/explorations.py:6 recursos/4goa/datos/levels.py:7
 msgid "Talukas"
