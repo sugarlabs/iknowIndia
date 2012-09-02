@@ -5,7 +5,7 @@ import sugargame
 import sugargame.canvas
 from sugar.activity import activity
 
-import conozcoin
+import conozco
 
 class Activity(activity.Activity):
 
@@ -13,7 +13,7 @@ class Activity(activity.Activity):
 
         activity.Activity.__init__(self, handle)
 
-        self.actividad = conozcoin.ConozcoIn()
+        self.actividad = conozco.Conozco()
 
         self._pygamecanvas = sugargame.canvas.PygameCanvas(self)
 
