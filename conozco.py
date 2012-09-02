@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Conozco India
-# Copyright (C) 2008,2009,2010 Gabriel Eirea
+# Conozco
+# Copyright (C) 2008, 2009, 2010 Gabriel Eirea
 # Copyright (C) 2011, 2012 Alan Aguiar
 #
 # This program is free software: you can redistribute it and/or modify
@@ -23,14 +23,20 @@
 # Alan Aguiar alanjas@hotmail.com
 # Ceibal Jam http://ceibaljam.org
 
+import os
 import sys
 import random
-import os
 import pygame
-import gtk
 import time
 import imp
-from gettext import gettext as _
+import gettext
+import ConfigParser
+
+gtk_present = True
+try:
+    import gtk
+except:
+    gtk_present = False
 
 # constantes
 RADIO = 10
@@ -217,7 +223,7 @@ class Nivel():
         self.preguntaActual = self.preguntas[self.indicePreguntaActual-1]
         return self.preguntaActual[3].split("\n")
 
-class ConozcoIn():
+class Conozco():
     """Clase principal del juego.
 
     """
@@ -379,6 +385,9 @@ class ConozcoIn():
             print _('Cannot open %s') % 'commons'
 
         if f:
+            if hasattr(f, 'ACTIVITY_NAME'):
+                e = f.ACTIVITY_NAME
+                self.activity_name = unicode(e, 'UTF-8')
             if hasattr(f, 'PREFIX'):
                 for e in f.PREFIX:
                     e1 = unicode(e, 'UTF-8')
@@ -603,7 +612,7 @@ class ConozcoIn():
         self.pantalla.blit(self.jp1,
                         (int(925*scale+shift_x),
                             int(468*scale+shift_y)))
-        self.mostrarTexto(unicode(_("About I know India"), "UTF-8"),
+        self.mostrarTexto(_("About %s") % self.activity_name,
                         self.fuente40,
                         (int(600*scale+shift_x),
                         int(100*scale+shift_y)),
@@ -624,9 +633,9 @@ class ConozcoIn():
                         (255,155,155))
         pygame.display.flip()
         while 1:
-            # Pump GTK messages.
-            while gtk.events_pending():
-                gtk.main_iteration()
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
@@ -643,17 +652,17 @@ class ConozcoIn():
         """Pantalla con el menu principal del juego"""
         global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
-        self.mostrarTexto(unicode(_("I know India"), "UTF-8"),
+        self.mostrarTexto(self.activity_name,
                         self.fuente60,
                         (int(600*scale+shift_x),
                         int(80*scale+shift_y)),
                         (255,255,255))
-        """self.mostrarTexto(_("You have chosen the map ")+\
+        self.mostrarTexto(_("You have chosen the map ")+\
                             self.listaNombreDirectorios\
                             [self.indiceDirectorioActual],
                         self.fuente40,
                         (int(600*scale+shift_x), int(140*scale+shift_y)),
-                        (200,100,100))"""
+                        (200,100,100))
         self.mostrarTexto(_("Play"),
                         self.fuente60,
                         (int(300*scale+shift_x), int(220*scale+shift_y)),
@@ -704,9 +713,9 @@ class ConozcoIn():
                         (100,200,100))
         pygame.display.flip()
         while 1:
-            # Pump GTK messages.
-            while gtk.events_pending():
-                gtk.main_iteration()
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
@@ -751,7 +760,7 @@ class ConozcoIn():
         """Pantalla con el menu de directorios"""
         global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
-        self.mostrarTexto(unicode(_("I know India"), "UTF-8"),
+        self.mostrarTexto(self.activity_name,
                         self.fuente60,
                         (int(600*scale+shift_x),int(80*scale+shift_y)),
                         (255,255,255))
@@ -775,7 +784,7 @@ class ConozcoIn():
                 self.pantalla.fill((20,20,20),
                                 (int(10*scale+shift_x),yLista-int(24*scale),
                                     int(590*scale),int(48*scale)))
-                self.mostrarTexto(unicode(_("<<< Previous page"), "UTF-8"),
+                self.mostrarTexto(unicode("<<< " + _("Previous page"), "UTF-8"),
                                 self.fuente40,
                                 (int(300*scale+shift_x),yLista),
                                 (100,100,200))
@@ -820,7 +829,7 @@ class ConozcoIn():
                                         (int(610*scale+shift_x),
                                             yLista-int(24*scale),
                                             int(590*scale),int(48*scale)))
-                        self.mostrarTexto(unicode(_("Next page >>>"), "UTF-8"),
+                        self.mostrarTexto(unicode(_("Next page") + " >>>", "UTF-8"),
                                         self.fuente40,
                                         (int(900*scale+shift_x),yLista),
                                         (100,100,200))
@@ -848,9 +857,9 @@ class ConozcoIn():
             pygame.display.flip()
             cambiarPagina = False
             while not cambiarPagina:
-                # Pump GTK messages.
-                while gtk.events_pending():
-                    gtk.main_iteration()
+                if gtk_present:
+                    while gtk.events_pending():
+                        gtk.main_iteration()
 
                 for event in wait_events():
                     if event.type == pygame.KEYDOWN:
@@ -931,7 +940,16 @@ class ConozcoIn():
         return imagen
 
     def __init__(self):
-        pass
+        file_activity_info = ConfigParser.ConfigParser()
+        activity_info_path = os.path.abspath('activity/activity.info')
+        file_activity_info.read(activity_info_path)
+        bundle_id = file_activity_info.get('Activity', 'bundle_id')
+        self.activity_name = file_activity_info.get('Activity', 'name')
+        path = os.path.abspath('locale')
+        gettext.bindtextdomain(bundle_id, path)
+        gettext.textdomain(bundle_id)
+        global _
+        _ = gettext.gettext
 
 
     def loadAll(self):
@@ -939,8 +957,9 @@ class ConozcoIn():
         pygame.init()
         pygame.display.init()
         # crear pantalla
-        self.anchoPantalla = gtk.gdk.screen_width()
-        self.altoPantalla = gtk.gdk.screen_height()
+        info = pygame.display.Info()
+        self.anchoPantalla = info.current_w
+        self.altoPantalla = info.current_h
         self.pantalla = pygame.display.get_surface()
         if not(self.pantalla):
             # prevent hide zones
@@ -968,7 +987,16 @@ class ConozcoIn():
         self.camino_imagenes = os.path.join(CAMINORECURSOS,
                                             CAMINOCOMUN,
                                             CAMINOIMAGENES)
-
+        # fondo presentacion
+        self.fondo1 = self.cargarImagen("fondo1.png")
+        self.fondo2 = self.cargarImagen("fondo2.png")
+        # JP presentacion
+        self.jpp1 = self.cargarImagen("jpp1.png")
+        self.jpp2 = self.cargarImagen("jpp2.png")
+        # globo
+        self.globo1 = self.cargarImagen("globo1.png")
+        self.globo2 = pygame.transform.flip(self.globo1, True, False)
+        self.globo3 = self.cargarImagen("globo3.png")
         # JP para el juego
         self.jp1 = self.cargarImagen("jp1.png")
         # Ojos JP
@@ -1099,7 +1127,6 @@ class ConozcoIn():
                                             self.directorio,
                                             CAMINODATOS)
         self.fondo = self.cargarImagen("fondo.png")
-        
         self.bandera = self.cargarImagen("bandera.png")
 
         self.loadInfo()
@@ -1316,9 +1343,9 @@ class ConozcoIn():
         pygame.display.flip()
         # lazo principal de espera por acciones del usuario
         while 1:
-            # Pump GTK messages.
-            while gtk.events_pending():
-                gtk.main_iteration()
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
@@ -1539,9 +1566,9 @@ class ConozcoIn():
         pygame.time.set_timer(EVENTORESPUESTA,0)
         # leer eventos y ver si la respuesta es correcta
         while 1:
-            # Pump GTK messages.
-            while gtk.events_pending():
-                gtk.main_iteration()
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
@@ -1745,8 +1772,283 @@ class ConozcoIn():
                     pygame.display.flip()
 
     def presentacion(self):
-        pass
 
+        #***************************** cuadro 1 ******************************
+        self.pantalla.fill((0,0,0))
+        self.pantalla.blit(self.fondo1,
+                        (int(75*scale+shift_x),int(75*scale+shift_y)))
+        self.mostrarTexto(_("Press any key to skip"),
+                        self.fuente32,
+                        (int(600*scale+shift_x),int(800*scale+shift_y)),
+                        (255,155,155))
+        pygame.display.flip()
+        # esperar o no esperar, esa es la cuestion
+        time.sleep(0.5)
+
+
+        # comienzo animacion
+        self.pantalla.blit(self.globo1,
+                        (int(180*scale+shift_x),int(260*scale+shift_y)))
+        yLinea = int(330*scale+shift_y)
+        # hola amigos
+        lineas = self.listaPresentacion[0].split("\n")
+        for l in lineas:
+            text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
+            textrect = text.get_rect()
+            textrect.center = (int(384*scale+shift_x),yLinea)
+            self.pantalla.blit(text, textrect)
+            yLinea = yLinea+self.fuente32.get_height()+int(10*scale)
+        pygame.display.flip()
+
+        #time.sleep(2)
+        terminar = False
+        pygame.time.set_timer(EVENTORESPUESTA, 2000)
+        while 1:
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
+
+            for event in wait_events():
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
+                    if self.sound:
+                        self.click.play()
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    return
+                elif event.type == EVENTORESPUESTA:
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    terminar = True
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+
+        self.pantalla.blit(self.globo1,
+                        (int(180*scale+shift_x),int(260*scale+shift_y)))
+        yLinea = int(315*scale+shift_y)
+        # mañana tengo...
+        lineas = self.listaPresentacion[1].split("\n")
+        for l in lineas:
+            text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
+            textrect = text.get_rect()
+            textrect.center = (int(384*scale+shift_x),yLinea)
+            self.pantalla.blit(text, textrect)
+            yLinea = yLinea+self.fuente32.get_height()+int(10*scale)
+        pygame.display.flip()
+        terminar = False
+        pygame.time.set_timer(EVENTORESPUESTA, 2000)
+        while 1:
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
+
+            for event in wait_events():
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
+                    if self.sound:
+                        self.click.play()
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    return
+                elif event.type == EVENTORESPUESTA:
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    terminar = True
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+
+        #***************************** cuadro 3 ******************************
+        self.pantalla.blit(self.globo3,
+                        (int(618*scale+shift_x),int(78*scale+shift_y)))
+        pygame.display.flip()
+        terminar = False
+        pygame.time.set_timer(EVENTORESPUESTA, 2000)
+        while 1:
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
+
+            for event in wait_events():
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
+                    if self.sound:
+                        self.click.play()
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    return
+                elif event.type == EVENTORESPUESTA:
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    terminar = True
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+
+        #***************************** cuadro 4 ******************************
+        # **************************** fondo 2 *******************************
+        self.pantalla.blit(self.fondo2,
+                        (int(75*scale+shift_x),int(75*scale+shift_y)))
+        self.pantalla.blit(self.jpp1,
+                        (int(487*scale+shift_x),int(347*scale+shift_y)))
+        self.mostrarTexto(_("Press any key to skip"),
+                        self.fuente32,
+                        (int(600*scale+shift_x),int(800*scale+shift_y)),
+                        (255,155,155))
+        pygame.display.flip()
+        # espero
+        time.sleep(0.5)
+        self.pantalla.blit(self.globo1,
+                        (int(160*scale+shift_x),int(240*scale+shift_y)))
+        yLinea = int(310*scale+shift_y)
+        # y no se nada
+        lineas = self.listaPresentacion[2].split("\n")
+        for l in lineas:
+            text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
+            textrect = text.get_rect()
+            textrect.center = (int(360*scale+shift_x),yLinea)
+            self.pantalla.blit(text, textrect)
+            yLinea = yLinea+self.fuente32.get_height()+int(10*scale)
+        pygame.display.flip()
+        terminar = False
+        pygame.time.set_timer(EVENTORESPUESTA, 1000)
+        while 1:
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
+
+            for event in wait_events():
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
+                    if self.sound:
+                        self.click.play()
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    return
+                elif event.type == EVENTORESPUESTA:
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    terminar = True
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+
+        #***************************** cuadro 5 ******************************
+        self.pantalla.blit(self.globo2,
+                        (int(570*scale+shift_x),int(260*scale+shift_y)))
+        yLinea = int(330*scale+shift_y)
+        # que hago
+        lineas = self.listaPresentacion[3].split("\n")
+        for l in lineas:
+            text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
+            textrect = text.get_rect()
+            textrect.center = (int(770*scale+shift_x),yLinea)
+            self.pantalla.blit(text, textrect)
+            yLinea = yLinea + self.fuente32.get_height()+int(10*scale)
+        pygame.display.flip()
+        terminar = False
+        pygame.time.set_timer(EVENTORESPUESTA, 2000)
+        while 1:
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
+
+            for event in wait_events():
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
+                    if self.sound:
+                        self.click.play()
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    return
+                elif event.type == EVENTORESPUESTA:
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    terminar = True
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+
+        #***************************** cuadro 6 ******************************
+        self.pantalla.blit(self.fondo2,
+                        (int(75*scale+shift_x),int(75*scale+shift_y)))
+        self.pantalla.blit(self.jpp2,
+                        (int(487*scale+shift_x),int(347*scale+shift_y)))
+        self.mostrarTexto(_("Press any key to skip"),
+                        self.fuente32,
+                        (int(600*scale+shift_x),int(800*scale+shift_y)),
+                        (255,155,155))
+        pygame.display.flip()
+        # espero
+        time.sleep(0.5)
+
+        self.pantalla.blit(self.globo1,
+                        (int(160*scale+shift_x),int(240*scale+shift_y)))
+        yLinea = int(310*scale+shift_y)
+        # te puedo pedir
+        lineas = self.listaPresentacion[4].split("\n")
+        for l in lineas:
+            text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
+            textrect = text.get_rect()
+            textrect.center = (int(360*scale+shift_x),yLinea)
+            self.pantalla.blit(text, textrect)
+            yLinea = yLinea + self.fuente32.get_height()+int(10*scale)
+        pygame.display.flip()
+
+        #time.sleep(1)
+        terminar = False
+        pygame.time.set_timer(EVENTORESPUESTA, 1500)
+        while 1:
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
+
+            for event in wait_events():
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
+                    if self.sound:
+                        self.click.play()
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    return
+                elif event.type == EVENTORESPUESTA:
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    terminar = True
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+
+        self.pantalla.blit(self.globo1,
+                        (int(160*scale+shift_x),int(240*scale+shift_y)))
+        yLinea = int(310*scale+shift_y)
+        # me ayudas
+        lineas = self.listaPresentacion[5].split("\n")
+        for l in lineas:
+            text = self.fuente40.render(l.strip(), 1, COLORPREGUNTAS)
+            textrect = text.get_rect()
+            textrect.center = (int(360*scale+shift_x),yLinea)
+            self.pantalla.blit(text, textrect)
+            yLinea = yLinea + self.fuente32.get_height()+int(10*scale)
+        pygame.display.flip()
+        terminar = False
+        pygame.time.set_timer(EVENTORESPUESTA, 2000)
+        while 1:
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
+
+            for event in wait_events():
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
+                    if self.sound:
+                        self.click.play()
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    return
+                elif event.type == EVENTORESPUESTA:
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    terminar = True
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+
+        return
 
     def principal(self):
         """Este es el loop principal del juego"""
@@ -1757,7 +2059,7 @@ class ConozcoIn():
 
         self.loadCommons()
 
-        #self.presentacion()
+        self.presentacion()
 
         self.paginaDir = 0
         while 1:
@@ -1806,7 +2108,7 @@ class ConozcoIn():
 
 
 def main():
-    juego = ConozcoIn()
+    juego = Conozco()
     juego.principal()
 
 
