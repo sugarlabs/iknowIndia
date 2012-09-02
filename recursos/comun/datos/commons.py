@@ -2,6 +2,7 @@
 
 from gettext import gettext as _
 
+ACTIVITY_NAME = _('I know India')
 
 PRESENTATION = [
     _('Hello friends...'),
