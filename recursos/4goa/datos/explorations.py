@@ -10,7 +10,7 @@ EXP1 = [
 ]
 
 EXP2 = [
-    _('Talukas capitals'),
+    _('Taluka Headquarters'),
     ['lineasDepto', 'capitales'],
     [],
     ['capitales']

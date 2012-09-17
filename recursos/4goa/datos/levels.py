@@ -24,21 +24,21 @@ LEVEL1 = [
 
 LEVEL2 = [
         2,
-        _('Talukas capitals'),
+        _('Taluka Headquarters'),
         ['lineasDepto', 'capitales'],
         [],
 [
-    (_('Panaji'), _("It's in %s") % _('Tiswadi')),
-    (_('Pernem'), _("It's in %s") % _('Pernem')),
-    (_('Mapusa'), _("It's in %s") % _('Bardez')),
-    (_('Bicholim'), _("It's in %s") % _('Bicholim')),
-    (_('Vasco da Gama'), _("It's in %s") % _('Mormugao')),
-    (_('Valpoi'), _("It's in %s") % _('Sattari')),
-    (_('Sanguem'), _("It's in %s") % _('Sanguem')),
-    (_('Margao'), _("It's in %s") % _('Salcete')),
-    (_('Quepem'), _("It's in %s") % _('Quepem')),
-    (_('Chaudi'), _("It's in %s") % _('Canacona')),
-    (_('Ponda'), _("It's in %s") % _('Ponda'))
+    (_('Panaji'), _("It's in %s taluka") % _('Tiswadi') + '\n' + _("It's in the west")),
+    (_('Pernem'), _("It's in %s taluka") % _('Pernem') + '\n' + _("It's in the northwest")),
+    (_('Mapusa'), _("It's in %s taluka") % _('Bardez') + '\n' + _("It's in the northwest")),
+    (_('Bicholim'), _("It's in %s taluka") % _('Bicholim') + '\n' + _("It's in the north")),
+    (_('Vasco da Gama'), _("It's in %s taluka") % _('Mormugao') + '\n' + _("It's in the west")),
+    (_('Valpoi'), _("It's in %s taluka") % _('Sattari') + '\n' + _("It's in the northeast")),
+    (_('Sanguem'), _("It's in %s taluka") % _('Sanguem') + '\n' + _("It's in the east")),
+    (_('Margao'), _("It's in %s taluka") % _('Salcete') + '\n' + _("It's in the west")),
+    (_('Quepem'), _("It's in %s taluka") % _('Quepem') + '\n' + _("It's in the south")),
+    (_('Chaudi'), _("It's in %s taluka") % _('Canacona') + '\n' + _("It's in the south")),
+    (_('Ponda'), _("It's in %s taluka") % _('Ponda') + '\n' + _("It's in the centre"))
 ]
 ]
 
