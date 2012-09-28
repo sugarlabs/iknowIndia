@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-23 00:34-0400\n"
-"PO-Revision-Date: 2012-08-25 20:49+0200\n"
+"POT-Creation-Date: 2012-09-26 00:33-0400\n"
+"PO-Revision-Date: 2012-09-27 19:39+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_US\n"
@@ -17,17 +17,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: activity/activity.info:2 conozcoin.py:646 conozcoin.py:754
+#: activity/activity.info:2 recursos/comun/datos/commons.py:5
 msgid "I know India"
 msgstr "I know India"
 
-#: conozcoin.py:240 conozcoin.py:355 conozcoin.py:379 conozcoin.py:432
-#: conozcoin.py:568
+#: conozco.py:246 conozco.py:361 conozco.py:385 conozco.py:441 conozco.py:577
 #, python-format
 msgid "Cannot open %s"
 msgstr "Cannot open %s"
 
-#: conozcoin.py:456
+#: conozco.py:465
 #, python-format
 msgid ""
 "the city of\n"
@@ -36,7 +35,7 @@ msgstr ""
 "the city of\n"
 "%s"
 
-#: conozcoin.py:465
+#: conozco.py:474
 #, python-format
 msgid ""
 "the department of\n"
@@ -45,7 +44,7 @@ msgstr ""
 "the department of\n"
 "%s"
 
-#: conozcoin.py:474
+#: conozco.py:483
 #, python-format
 msgid ""
 "the province of\n"
@@ -54,7 +53,7 @@ msgstr ""
 "the province of\n"
 "%s"
 
-#: conozcoin.py:483
+#: conozco.py:492
 #, python-format
 msgid ""
 "the district of\n"
@@ -63,7 +62,7 @@ msgstr ""
 "the district of\n"
 "%s"
 
-#: conozcoin.py:492
+#: conozco.py:501
 #, python-format
 msgid ""
 "the state of\n"
@@ -72,7 +71,7 @@ msgstr ""
 "the state of\n"
 "%s"
 
-#: conozcoin.py:501
+#: conozco.py:510
 #, python-format
 msgid ""
 "the region of\n"
@@ -81,7 +80,7 @@ msgstr ""
 "the region of\n"
 "%s"
 
-#: conozcoin.py:510
+#: conozco.py:519
 #, python-format
 msgid ""
 "the parish of\n"
@@ -90,7 +89,7 @@ msgstr ""
 "the parish of\n"
 "%s"
 
-#: conozcoin.py:519
+#: conozco.py:528
 #, python-format
 msgid ""
 "the taluka of\n"
@@ -99,7 +98,7 @@ msgstr ""
 "the taluka of\n"
 "%s"
 
-#: conozcoin.py:528
+#: conozco.py:537
 #, python-format
 msgid ""
 "the municipality of\n"
@@ -108,56 +107,61 @@ msgstr ""
 "the municipality of\n"
 "%s"
 
-#: conozcoin.py:537
+#: conozco.py:546
 #, python-format
 msgid "the %s"
 msgstr "the %s"
 
-#: conozcoin.py:606
-msgid "About I know India"
-msgstr "About I know India"
+#: conozco.py:615
+#, python-format
+msgid "About %s"
+msgstr "About %s"
 
-#: conozcoin.py:620
+#: conozco.py:629
 msgid "Press any key to return"
 msgstr "Press any key to return"
 
-#: conozcoin.py:657
+#: conozco.py:660
+msgid "You have chosen the map "
+msgstr "You have chosen the map "
+
+#: conozco.py:666
 msgid "Play"
 msgstr "Play"
 
-#: conozcoin.py:673
+#: conozco.py:682
 msgid "Explore"
 msgstr "Explore"
 
-#: conozcoin.py:693 conozcoin.py:837
+#: conozco.py:702 conozco.py:846
 msgid "About this game"
 msgstr "About this game"
 
-#: conozcoin.py:701
+#: conozco.py:710
 msgid "Return"
 msgstr "Return"
 
-#: conozcoin.py:758
+#: conozco.py:767
 msgid "Choose the map to use"
 msgstr "Choose the map to use"
 
-#: conozcoin.py:778
-msgid "<<< Previous page"
-msgstr "<<< Previous page"
+#: conozco.py:787
+msgid "Previous page"
+msgstr "Previous page"
 
-#: conozcoin.py:823
-msgid "Next page >>>"
-msgstr "Next page >>>"
+#: conozco.py:832
+msgid "Next page"
+msgstr "Next page"
 
-#: conozcoin.py:844
+#: conozco.py:853
 msgid "Exit"
 msgstr "Exit"
 
-#: conozcoin.py:1300 conozcoin.py:1498
+#: conozco.py:1318 conozco.py:1516
 msgid "End"
 msgstr "End"
 
-#: conozcoin.py:1311
+#: conozco.py:1329
 msgid "Show all"
 msgstr "Show all"
 
@@ -1137,12 +1141,14 @@ msgstr "Routes"
 
 #: recursos/0india/datos/levels.py:11 recursos/0india/datos/levels.py:23
 #: recursos/0india/datos/levels.py:34 recursos/4goa/datos/levels.py:20
-#: recursos/4goa/datos/levels.py:21
+#: recursos/4goa/datos/levels.py:21 recursos/4goa/datos/levels.py:39
+#: recursos/4goa/datos/levels.py:40
 msgid "It's in the south"
 msgstr "It's in the south"
 
 #: recursos/0india/datos/levels.py:12 recursos/0india/datos/levels.py:14
 #: recursos/0india/datos/levels.py:33 recursos/4goa/datos/levels.py:14
+#: recursos/4goa/datos/levels.py:36
 msgid "It's in the northeast"
 msgstr "It's in the northeast"
 
@@ -1150,6 +1156,7 @@ msgstr "It's in the northeast"
 #: recursos/0india/datos/levels.py:27 recursos/0india/datos/levels.py:28
 #: recursos/0india/datos/levels.py:29 recursos/0india/datos/levels.py:30
 #: recursos/0india/datos/levels.py:35 recursos/4goa/datos/levels.py:19
+#: recursos/4goa/datos/levels.py:37
 msgid "It's in the east"
 msgstr "It's in the east"
 
@@ -1166,19 +1173,22 @@ msgstr "It's in the southwest"
 #: recursos/0india/datos/levels.py:17 recursos/0india/datos/levels.py:25
 #: recursos/0india/datos/levels.py:38 recursos/0india/datos/levels.py:41
 #: recursos/4goa/datos/levels.py:15 recursos/4goa/datos/levels.py:17
-#: recursos/4goa/datos/levels.py:18
+#: recursos/4goa/datos/levels.py:18 recursos/4goa/datos/levels.py:31
+#: recursos/4goa/datos/levels.py:35 recursos/4goa/datos/levels.py:38
 msgid "It's in the west"
 msgstr "It's in the west"
 
 #: recursos/0india/datos/levels.py:18 recursos/0india/datos/levels.py:31
 #: recursos/0india/datos/levels.py:32 recursos/4goa/datos/levels.py:11
-#: recursos/4goa/datos/levels.py:12
+#: recursos/4goa/datos/levels.py:12 recursos/4goa/datos/levels.py:32
+#: recursos/4goa/datos/levels.py:33
 msgid "It's in the northwest"
 msgstr "It's in the northwest"
 
 #: recursos/0india/datos/levels.py:19 recursos/0india/datos/levels.py:20
 #: recursos/0india/datos/levels.py:36 recursos/0india/datos/levels.py:37
 #: recursos/0india/datos/levels.py:43 recursos/4goa/datos/levels.py:13
+#: recursos/4goa/datos/levels.py:34
 msgid "It's in the north"
 msgstr "It's in the north"
 
@@ -1271,12 +1281,7 @@ msgstr "It's in the southeast"
 #: recursos/0india/datos/levels.py:227 recursos/0india/datos/levels.py:228
 #: recursos/0india/datos/levels.py:229 recursos/0india/datos/levels.py:230
 #: recursos/0india/datos/levels.py:231 recursos/0india/datos/levels.py:232
-#: recursos/0india/datos/levels.py:233 recursos/4goa/datos/levels.py:31
-#: recursos/4goa/datos/levels.py:32 recursos/4goa/datos/levels.py:33
-#: recursos/4goa/datos/levels.py:34 recursos/4goa/datos/levels.py:35
-#: recursos/4goa/datos/levels.py:36 recursos/4goa/datos/levels.py:37
-#: recursos/4goa/datos/levels.py:38 recursos/4goa/datos/levels.py:39
-#: recursos/4goa/datos/levels.py:40 recursos/4goa/datos/levels.py:41
+#: recursos/0india/datos/levels.py:233
 #, python-format
 #, python-format,
 msgid "It's in %s"
@@ -1394,14 +1399,28 @@ msgid "Talukas"
 msgstr "Talukas"
 
 #: recursos/4goa/datos/explorations.py:13 recursos/4goa/datos/levels.py:27
-msgid "Talukas capitals"
-msgstr "Talukas capitals"
+msgid "Taluka Headquarters"
+msgstr "Taluka Headquarters"
 
-#: recursos/comun/datos/commons.py:7
+#: recursos/4goa/datos/levels.py:31 recursos/4goa/datos/levels.py:32
+#: recursos/4goa/datos/levels.py:33 recursos/4goa/datos/levels.py:34
+#: recursos/4goa/datos/levels.py:35 recursos/4goa/datos/levels.py:36
+#: recursos/4goa/datos/levels.py:37 recursos/4goa/datos/levels.py:38
+#: recursos/4goa/datos/levels.py:39 recursos/4goa/datos/levels.py:40
+#: recursos/4goa/datos/levels.py:41
+#, python-format
+msgid "It's in %s taluka"
+msgstr "It's in %s taluka"
+
+#: recursos/4goa/datos/levels.py:41
+msgid "It's in the centre"
+msgstr "It's in the center"
+
+#: recursos/comun/datos/commons.py:8
 msgid "Hello friends..."
 msgstr "Hello friends..."
 
-#: recursos/comun/datos/commons.py:8
+#: recursos/comun/datos/commons.py:9
 msgid ""
 "...tomorrow I have a\n"
 "test about India..."
@@ -1409,140 +1428,140 @@ msgstr ""
 "...tomorrow I have a\n"
 "test about India..."
 
-#: recursos/comun/datos/commons.py:9
+#: recursos/comun/datos/commons.py:10
 msgid "...and I know nothing!!!"
 msgstr "...and I know nothing!!!"
 
-#: recursos/comun/datos/commons.py:10
+#: recursos/comun/datos/commons.py:11
 msgid "...what do I do???"
 msgstr "...what do I do???"
 
-#: recursos/comun/datos/commons.py:11
+#: recursos/comun/datos/commons.py:12
 msgid "Can I ask you something?"
 msgstr "Can I ask you something?"
 
-#: recursos/comun/datos/commons.py:12
+#: recursos/comun/datos/commons.py:13
 msgid "Will you help me?"
 msgstr "Will you help me?"
 
-#: recursos/comun/datos/commons.py:16
+#: recursos/comun/datos/commons.py:17
 msgid "We have to find"
 msgstr "We have to find"
 
-#: recursos/comun/datos/commons.py:17
+#: recursos/comun/datos/commons.py:18
 msgid "Now we have to find"
 msgstr "Now we have to find"
 
-#: recursos/comun/datos/commons.py:18
+#: recursos/comun/datos/commons.py:19
 msgid "We need to find"
 msgstr "We need to find"
 
-#: recursos/comun/datos/commons.py:22
+#: recursos/comun/datos/commons.py:23
 msgid "Can you tell me where it is?"
 msgstr "Can you tell me where it is?"
 
-#: recursos/comun/datos/commons.py:23
+#: recursos/comun/datos/commons.py:24
 msgid "Where is it?"
 msgstr "Where is it?"
 
-#: recursos/comun/datos/commons.py:24
+#: recursos/comun/datos/commons.py:25
 msgid "Can you show me where it is?"
 msgstr "Can you show me where it is?"
 
-#: recursos/comun/datos/commons.py:25
+#: recursos/comun/datos/commons.py:26
 msgid "Can you find it?"
 msgstr "Can you find it?"
 
-#: recursos/comun/datos/commons.py:29
+#: recursos/comun/datos/commons.py:30
 msgid "Very well!"
 msgstr "Very well!"
 
-#: recursos/comun/datos/commons.py:30
+#: recursos/comun/datos/commons.py:31
 msgid "Brilliant!"
 msgstr "Brilliant!"
 
-#: recursos/comun/datos/commons.py:31
+#: recursos/comun/datos/commons.py:32
 msgid "You found it!"
 msgstr "You found it!"
 
-#: recursos/comun/datos/commons.py:32
+#: recursos/comun/datos/commons.py:33
 msgid "Yes!"
 msgstr "Yes!"
 
-#: recursos/comun/datos/commons.py:36
+#: recursos/comun/datos/commons.py:37
 msgid "No, that is not correct"
 msgstr "No, that is not correct"
 
-#: recursos/comun/datos/commons.py:37
+#: recursos/comun/datos/commons.py:38
 msgid "No, it is not there"
 msgstr "No, it is not there"
 
-#: recursos/comun/datos/commons.py:38
+#: recursos/comun/datos/commons.py:39
 msgid "No, that seems to be wrong"
 msgstr "No, that seems to be wrong"
 
-#: recursos/comun/datos/commons.py:39
+#: recursos/comun/datos/commons.py:40
 msgid "That is not correct"
 msgstr "That is not correct"
 
-#: recursos/comun/datos/commons.py:43
-msgid ""
-"Now I'm ready\n"
-"for tomorrow...\n"
-"I'm going to play...\n"
-"Thanks for your help!"
-msgstr ""
-"Now I'm ready\n"
-"for tomorrow...\n"
-"I'm going to play...\n"
-"Thanks for your help!"
-
 #: recursos/comun/datos/commons.py:44
 msgid ""
-"We made it!\n"
-"I'm going to play ball...\n"
-"Bye and thanks\n"
-"for helping me!"
+"Now I'm ready\n"
+"for tomorrow...\n"
+"I'm going to play...\n"
+"Thanks for your help!"
 msgstr ""
-"We made it!\n"
-"I'm going to play ball...\n"
-"Bye and thanks\n"
-"for helping me!"
+"Now I'm ready\n"
+"for tomorrow...\n"
+"I'm going to play...\n"
+"Thanks for your help!"
 
 #: recursos/comun/datos/commons.py:45
 msgid ""
-"We did it!\n"
-"I'm ready for tomorrow...\n"
-"I'm playing a while...\n"
-"Until next time!"
+"We made it!\n"
+"I'm going to play ball...\n"
+"Bye and thanks\n"
+"for helping me!"
 msgstr ""
-"We did it!\n"
-"I'm ready for tomorrow...\n"
-"I'm playing a while...\n"
-"Until next time!"
+"We made it!\n"
+"I'm going to play ball...\n"
+"Bye and thanks\n"
+"for helping me!"
 
-#: recursos/comun/datos/commons.py:49
+#: recursos/comun/datos/commons.py:46
 msgid ""
-"Better luck next time\n"
-"I'll play a while...\n"
-"Thanks!"
+"We did it!\n"
+"I'm ready for tomorrow...\n"
+"I'm playing a while...\n"
+"Until next time!"
 msgstr ""
-"Better luck next time\n"
-"I'll play a while...\n"
-"Thanks!"
+"We did it!\n"
+"I'm ready for tomorrow...\n"
+"I'm playing a while...\n"
+"Until next time!"
 
 #: recursos/comun/datos/commons.py:50
 msgid ""
-"The next time will be better\n"
-"I'm going to play ball...\n"
+"Better luck next time\n"
+"I'll play a while...\n"
 "Thanks!"
 msgstr ""
-"The next time will be better\n"
-"I'm going to play ball...\n"
+"Better luck next time\n"
+"I'll play a while...\n"
 "Thanks!"
 
 #: recursos/comun/datos/commons.py:51
 msgid ""
+"The next time will be better\n"
+"I'm going to play ball...\n"
+"Thanks!"
+msgstr ""
+"The next time will be better\n"
+"I'm going to play ball...\n"
+"Thanks!"
+
+#: recursos/comun/datos/commons.py:52
+msgid ""
 "Please try again...\n"
 "I'm going to play...\n"
 "Thanks!"
@@ -1551,37 +1570,46 @@ msgstr ""
 "I'm going to play...\n"
 "Thanks!"
 
-#: recursos/comun/datos/commons.py:55
+#: recursos/comun/datos/commons.py:56
 msgid "Author: Alan Aguiar"
 msgstr "Author: Alan Aguiar"
 
-#: recursos/comun/datos/commons.py:56
+#: recursos/comun/datos/commons.py:57
 msgid "Send corrections, comments or suggestions to: alanjas@hotmail.com"
 msgstr "Send corrections, comments or suggestions to: alanjas@hotmail.com"
 
-#: recursos/comun/datos/commons.py:58
+#: recursos/comun/datos/commons.py:59
 msgid "Thank's to Salil Konkar for the help in the english strings."
 msgstr "Thanks to Salil Konkar for the help in the English strings."
 
-#: recursos/comun/datos/commons.py:60
+#: recursos/comun/datos/commons.py:61
 msgid "This program is free software developed by the community"
 msgstr "This program is free software developed by the community"
 
-#: recursos/comun/datos/commons.py:61
+#: recursos/comun/datos/commons.py:62
 msgid "For more information visit http://ceibaljam.org"
 msgstr "For more information visit http://ceibaljam.org"
 
-#: recursos/comun/datos/commons.py:63
+#: recursos/comun/datos/commons.py:64
 msgid "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
 msgstr "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
 
-#: recursos/comun/datos/commons.py:64
+#: recursos/comun/datos/commons.py:65
 msgid "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
 msgstr "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
 
-#: recursos/comun/datos/commons.py:65
+#: recursos/comun/datos/commons.py:66
 msgid "Font: Share-Regular.ttf of urbanfonts.com"
 msgstr "Font: Share-Regular.ttf of urbanfonts.com"
+
+#~ msgid "About I know India"
+#~ msgstr "About I know India"
+
+#~ msgid "Next page >>>"
+#~ msgstr "Next page >>>"
+
+#~ msgid "Talukas capitals"
+#~ msgstr "Talukas capitals"
 
 #~ msgid "Is south"
 #~ msgstr "Is south"
