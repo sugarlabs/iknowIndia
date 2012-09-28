@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-23 00:34-0400\n"
-"PO-Revision-Date: 2012-08-26 19:41+0200\n"
+"POT-Creation-Date: 2012-09-26 00:33-0400\n"
+"PO-Revision-Date: 2012-09-28 06:24+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -17,129 +17,133 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: activity/activity.info:2 conozcoin.py:646 conozcoin.py:754
+#: activity/activity.info:2 recursos/comun/datos/commons.py:5
 msgid "I know India"
 msgstr "走遍印度"
 
-#: conozcoin.py:240 conozcoin.py:355 conozcoin.py:379 conozcoin.py:432
-#: conozcoin.py:568
+#: conozco.py:246 conozco.py:361 conozco.py:385 conozco.py:441 conozco.py:577
 #, python-format
 msgid "Cannot open %s"
 msgstr "无法打开 %s"
 
-#: conozcoin.py:456
+#: conozco.py:465
 #, python-format
 msgid ""
 "the city of\n"
 "%s"
 msgstr "%s市"
 
-#: conozcoin.py:465
+#: conozco.py:474
 #, python-format
 msgid ""
 "the department of\n"
 "%s"
 msgstr "%s部"
 
-#: conozcoin.py:474
+#: conozco.py:483
 #, python-format
 msgid ""
 "the province of\n"
 "%s"
 msgstr "%s省"
 
-#: conozcoin.py:483
+#: conozco.py:492
 #, python-format
 msgid ""
 "the district of\n"
 "%s"
 msgstr "%s区"
 
-#: conozcoin.py:492
+#: conozco.py:501
 #, python-format
 msgid ""
 "the state of\n"
 "%s"
 msgstr "%s州"
 
-#: conozcoin.py:501
+#: conozco.py:510
 #, python-format
 msgid ""
 "the region of\n"
 "%s"
 msgstr "%s地区"
 
-#: conozcoin.py:510
+#: conozco.py:519
 #, python-format
 msgid ""
 "the parish of\n"
 "%s"
 msgstr "%s教区"
 
-#: conozcoin.py:519
+#: conozco.py:528
 #, python-format
 msgid ""
 "the taluka of\n"
 "%s"
 msgstr "%s乡"
 
-#: conozcoin.py:528
+#: conozco.py:537
 #, python-format
 msgid ""
 "the municipality of\n"
 "%s"
 msgstr "%s直辖市"
 
-#: conozcoin.py:537
+#: conozco.py:546
 #, python-format
 msgid "the %s"
 msgstr "%s"
 
-#: conozcoin.py:606
-msgid "About I know India"
-msgstr "关于走遍印度"
+#: conozco.py:615
+#, python-format
+msgid "About %s"
+msgstr "关于 %s"
 
-#: conozcoin.py:620
+#: conozco.py:629
 msgid "Press any key to return"
 msgstr "按任意键返回"
 
-#: conozcoin.py:657
+#: conozco.py:660
+msgid "You have chosen the map "
+msgstr "你已选择了地图 "
+
+#: conozco.py:666
 msgid "Play"
 msgstr "开始"
 
-#: conozcoin.py:673
+#: conozco.py:682
 msgid "Explore"
 msgstr "浏览"
 
-#: conozcoin.py:693 conozcoin.py:837
+#: conozco.py:702 conozco.py:846
 msgid "About this game"
 msgstr "关于本游戏"
 
-#: conozcoin.py:701
+#: conozco.py:710
 msgid "Return"
 msgstr "返回"
 
-#: conozcoin.py:758
+#: conozco.py:767
 msgid "Choose the map to use"
 msgstr "选择要使用的地图"
 
-#: conozcoin.py:778
-msgid "<<< Previous page"
-msgstr "<<< 上一页"
+#: conozco.py:787
+msgid "Previous page"
+msgstr "上一页"
 
-#: conozcoin.py:823
-msgid "Next page >>>"
-msgstr "下一页 >>>"
+#: conozco.py:832
+msgid "Next page"
+msgstr "下一页"
 
-#: conozcoin.py:844
+#: conozco.py:853
 msgid "Exit"
 msgstr "退出"
 
-#: conozcoin.py:1300 conozcoin.py:1498
+#: conozco.py:1318 conozco.py:1516
 msgid "End"
 msgstr "结束"
 
-#: conozcoin.py:1311
+#: conozco.py:1329
 msgid "Show all"
 msgstr "显示所有"
 
@@ -1119,12 +1123,14 @@ msgstr "路线"
 
 #: recursos/0india/datos/levels.py:11 recursos/0india/datos/levels.py:23
 #: recursos/0india/datos/levels.py:34 recursos/4goa/datos/levels.py:20
-#: recursos/4goa/datos/levels.py:21
+#: recursos/4goa/datos/levels.py:21 recursos/4goa/datos/levels.py:39
+#: recursos/4goa/datos/levels.py:40
 msgid "It's in the south"
 msgstr "在南部"
 
 #: recursos/0india/datos/levels.py:12 recursos/0india/datos/levels.py:14
 #: recursos/0india/datos/levels.py:33 recursos/4goa/datos/levels.py:14
+#: recursos/4goa/datos/levels.py:36
 msgid "It's in the northeast"
 msgstr "在东北部"
 
@@ -1132,6 +1138,7 @@ msgstr "在东北部"
 #: recursos/0india/datos/levels.py:27 recursos/0india/datos/levels.py:28
 #: recursos/0india/datos/levels.py:29 recursos/0india/datos/levels.py:30
 #: recursos/0india/datos/levels.py:35 recursos/4goa/datos/levels.py:19
+#: recursos/4goa/datos/levels.py:37
 msgid "It's in the east"
 msgstr "在东部"
 
@@ -1148,19 +1155,22 @@ msgstr "在西南部"
 #: recursos/0india/datos/levels.py:17 recursos/0india/datos/levels.py:25
 #: recursos/0india/datos/levels.py:38 recursos/0india/datos/levels.py:41
 #: recursos/4goa/datos/levels.py:15 recursos/4goa/datos/levels.py:17
-#: recursos/4goa/datos/levels.py:18
+#: recursos/4goa/datos/levels.py:18 recursos/4goa/datos/levels.py:31
+#: recursos/4goa/datos/levels.py:35 recursos/4goa/datos/levels.py:38
 msgid "It's in the west"
 msgstr "在西部"
 
 #: recursos/0india/datos/levels.py:18 recursos/0india/datos/levels.py:31
 #: recursos/0india/datos/levels.py:32 recursos/4goa/datos/levels.py:11
-#: recursos/4goa/datos/levels.py:12
+#: recursos/4goa/datos/levels.py:12 recursos/4goa/datos/levels.py:32
+#: recursos/4goa/datos/levels.py:33
 msgid "It's in the northwest"
 msgstr "在西北部"
 
 #: recursos/0india/datos/levels.py:19 recursos/0india/datos/levels.py:20
 #: recursos/0india/datos/levels.py:36 recursos/0india/datos/levels.py:37
 #: recursos/0india/datos/levels.py:43 recursos/4goa/datos/levels.py:13
+#: recursos/4goa/datos/levels.py:34
 msgid "It's in the north"
 msgstr "在北部"
 
@@ -1253,12 +1263,7 @@ msgstr "在东南部"
 #: recursos/0india/datos/levels.py:227 recursos/0india/datos/levels.py:228
 #: recursos/0india/datos/levels.py:229 recursos/0india/datos/levels.py:230
 #: recursos/0india/datos/levels.py:231 recursos/0india/datos/levels.py:232
-#: recursos/0india/datos/levels.py:233 recursos/4goa/datos/levels.py:31
-#: recursos/4goa/datos/levels.py:32 recursos/4goa/datos/levels.py:33
-#: recursos/4goa/datos/levels.py:34 recursos/4goa/datos/levels.py:35
-#: recursos/4goa/datos/levels.py:36 recursos/4goa/datos/levels.py:37
-#: recursos/4goa/datos/levels.py:38 recursos/4goa/datos/levels.py:39
-#: recursos/4goa/datos/levels.py:40 recursos/4goa/datos/levels.py:41
+#: recursos/0india/datos/levels.py:233
 #, python-format
 #, python-format,
 msgid "It's in %s"
@@ -1376,96 +1381,110 @@ msgid "Talukas"
 msgstr "县"
 
 #: recursos/4goa/datos/explorations.py:13 recursos/4goa/datos/levels.py:27
-msgid "Talukas capitals"
+msgid "Taluka Headquarters"
 msgstr "县城"
 
-#: recursos/comun/datos/commons.py:7
+#: recursos/4goa/datos/levels.py:31 recursos/4goa/datos/levels.py:32
+#: recursos/4goa/datos/levels.py:33 recursos/4goa/datos/levels.py:34
+#: recursos/4goa/datos/levels.py:35 recursos/4goa/datos/levels.py:36
+#: recursos/4goa/datos/levels.py:37 recursos/4goa/datos/levels.py:38
+#: recursos/4goa/datos/levels.py:39 recursos/4goa/datos/levels.py:40
+#: recursos/4goa/datos/levels.py:41
+#, python-format
+msgid "It's in %s taluka"
+msgstr "它在 %s 县"
+
+#: recursos/4goa/datos/levels.py:41
+msgid "It's in the centre"
+msgstr "它在中心"
+
+#: recursos/comun/datos/commons.py:8
 msgid "Hello friends..."
 msgstr "朋友你好..."
 
-#: recursos/comun/datos/commons.py:8
+#: recursos/comun/datos/commons.py:9
 msgid ""
 "...tomorrow I have a\n"
 "test about India..."
 msgstr "...明天有一个关于印度的测验..."
 
-#: recursos/comun/datos/commons.py:9
+#: recursos/comun/datos/commons.py:10
 msgid "...and I know nothing!!!"
 msgstr "...我什么都不知道!!!"
 
-#: recursos/comun/datos/commons.py:10
+#: recursos/comun/datos/commons.py:11
 msgid "...what do I do???"
 msgstr "...我该做什么？？？"
 
-#: recursos/comun/datos/commons.py:11
+#: recursos/comun/datos/commons.py:12
 msgid "Can I ask you something?"
 msgstr "我可以请教你些事吗？"
 
-#: recursos/comun/datos/commons.py:12
+#: recursos/comun/datos/commons.py:13
 msgid "Will you help me?"
 msgstr "你愿意帮我吗？"
 
-#: recursos/comun/datos/commons.py:16
+#: recursos/comun/datos/commons.py:17
 msgid "We have to find"
 msgstr "我们必须找到"
 
-#: recursos/comun/datos/commons.py:17
+#: recursos/comun/datos/commons.py:18
 msgid "Now we have to find"
 msgstr "现在我们必须找到"
 
-#: recursos/comun/datos/commons.py:18
+#: recursos/comun/datos/commons.py:19
 msgid "We need to find"
 msgstr "我们需要找到"
 
-#: recursos/comun/datos/commons.py:22
+#: recursos/comun/datos/commons.py:23
 msgid "Can you tell me where it is?"
 msgstr "你能告诉我它在哪里吗？"
 
-#: recursos/comun/datos/commons.py:23
+#: recursos/comun/datos/commons.py:24
 msgid "Where is it?"
 msgstr "在哪里？"
 
-#: recursos/comun/datos/commons.py:24
+#: recursos/comun/datos/commons.py:25
 msgid "Can you show me where it is?"
 msgstr "你能告诉我它在哪里吗？"
 
-#: recursos/comun/datos/commons.py:25
+#: recursos/comun/datos/commons.py:26
 msgid "Can you find it?"
 msgstr "你能找到它吗？"
 
-#: recursos/comun/datos/commons.py:29
+#: recursos/comun/datos/commons.py:30
 msgid "Very well!"
 msgstr "很好！"
 
-#: recursos/comun/datos/commons.py:30
+#: recursos/comun/datos/commons.py:31
 msgid "Brilliant!"
 msgstr "漂亮！"
 
-#: recursos/comun/datos/commons.py:31
+#: recursos/comun/datos/commons.py:32
 msgid "You found it!"
 msgstr "你找到了！"
 
-#: recursos/comun/datos/commons.py:32
+#: recursos/comun/datos/commons.py:33
 msgid "Yes!"
 msgstr "没错！"
 
-#: recursos/comun/datos/commons.py:36
+#: recursos/comun/datos/commons.py:37
 msgid "No, that is not correct"
 msgstr "不，这是不正确的"
 
-#: recursos/comun/datos/commons.py:37
+#: recursos/comun/datos/commons.py:38
 msgid "No, it is not there"
 msgstr "不，它不在那里"
 
-#: recursos/comun/datos/commons.py:38
+#: recursos/comun/datos/commons.py:39
 msgid "No, that seems to be wrong"
 msgstr "不，这看上去是错的"
 
-#: recursos/comun/datos/commons.py:39
+#: recursos/comun/datos/commons.py:40
 msgid "That is not correct"
 msgstr "这是不正确的"
 
-#: recursos/comun/datos/commons.py:43
+#: recursos/comun/datos/commons.py:44
 msgid ""
 "Now I'm ready\n"
 "for tomorrow...\n"
@@ -1476,7 +1495,7 @@ msgstr ""
 "我要去玩了...\n"
 "谢谢你的帮助！"
 
-#: recursos/comun/datos/commons.py:44
+#: recursos/comun/datos/commons.py:45
 msgid ""
 "We made it!\n"
 "I'm going to play ball...\n"
@@ -1487,7 +1506,7 @@ msgstr ""
 "我要去打球了...\n"
 "再见，感谢对我的帮助！"
 
-#: recursos/comun/datos/commons.py:45
+#: recursos/comun/datos/commons.py:46
 msgid ""
 "We did it!\n"
 "I'm ready for tomorrow...\n"
@@ -1499,7 +1518,7 @@ msgstr ""
 "我要玩一会儿...\n"
 "下次再来！"
 
-#: recursos/comun/datos/commons.py:49
+#: recursos/comun/datos/commons.py:50
 msgid ""
 "Better luck next time\n"
 "I'll play a while...\n"
@@ -1509,7 +1528,7 @@ msgstr ""
 "我要去玩一会儿...\n"
 "谢谢！"
 
-#: recursos/comun/datos/commons.py:50
+#: recursos/comun/datos/commons.py:51
 msgid ""
 "The next time will be better\n"
 "I'm going to play ball...\n"
@@ -1519,7 +1538,7 @@ msgstr ""
 "我要去打球...\n"
 "谢谢！"
 
-#: recursos/comun/datos/commons.py:51
+#: recursos/comun/datos/commons.py:52
 msgid ""
 "Please try again...\n"
 "I'm going to play...\n"
@@ -1529,37 +1548,46 @@ msgstr ""
 "我要去玩了...\n"
 "谢谢！"
 
-#: recursos/comun/datos/commons.py:55
+#: recursos/comun/datos/commons.py:56
 msgid "Author: Alan Aguiar"
 msgstr "作者：Alan Aguiar"
 
-#: recursos/comun/datos/commons.py:56
+#: recursos/comun/datos/commons.py:57
 msgid "Send corrections, comments or suggestions to: alanjas@hotmail.com"
 msgstr "请发送更正，意见或建议到：alanjas@hotmail.com"
 
-#: recursos/comun/datos/commons.py:58
+#: recursos/comun/datos/commons.py:59
 msgid "Thank's to Salil Konkar for the help in the english strings."
 msgstr "感谢OLPC的中文本地化翻译。"
 
-#: recursos/comun/datos/commons.py:60
+#: recursos/comun/datos/commons.py:61
 msgid "This program is free software developed by the community"
 msgstr "该程序是由社区开发的免费软件"
 
-#: recursos/comun/datos/commons.py:61
+#: recursos/comun/datos/commons.py:62
 msgid "For more information visit http://ceibaljam.org"
 msgstr "欲了解更多信息，请访问http://ceibaljam.org"
 
-#: recursos/comun/datos/commons.py:63
+#: recursos/comun/datos/commons.py:64
 msgid "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
 msgstr "该程序是基于“Conozco Uruguay”（作者： Gabriel Eirea）"
 
-#: recursos/comun/datos/commons.py:64
+#: recursos/comun/datos/commons.py:65
 msgid "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
 msgstr "声音从freesound.org下载：btn117.wav courtesy of junggle。"
 
-#: recursos/comun/datos/commons.py:65
+#: recursos/comun/datos/commons.py:66
 msgid "Font: Share-Regular.ttf of urbanfonts.com"
 msgstr "字体：Share-Regular.ttf 从 urbanfonts.com 下载"
+
+#~ msgid "About I know India"
+#~ msgstr "关于走遍印度"
+
+#~ msgid "Next page >>>"
+#~ msgstr "下一页 >>>"
+
+#~ msgid "Talukas capitals"
+#~ msgstr "县城"
 
 #~ msgid "Is south"
 #~ msgstr "在南部"
