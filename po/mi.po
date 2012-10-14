@@ -1,26 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Chris Leonard <cjlhomeaddress@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-27 14:58-0400\n"
-"PO-Revision-Date: 2012-09-29 22:50+0200\n"
-"Last-Translator: whe <heppew@yahoo.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: nl\n"
+"PO-Revision-Date: 2012-10-02 15:23-0400\n"
+"Last-Translator: Chris Leonard <cjlhomeaddress@gmail.com>\n"
+"Language-Team: Sugar Labs\n"
+"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #. TRANS: "name" option from activity.info file
 #: recursos/comun/datos/commons.py:5
 msgid "I know India"
-msgstr "Ik ken India"
+msgstr ""
 
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
@@ -30,7 +30,7 @@ msgstr ""
 #: conozco.py:246 conozco.py:361 conozco.py:385 conozco.py:441 conozco.py:577
 #, python-format
 msgid "Cannot open %s"
-msgstr "Kan niet openen %s"
+msgstr "Kāore e taea ngā %s te whakatuwhera"
 
 #: conozco.py:465
 #, python-format
@@ -38,8 +38,8 @@ msgid ""
 "the city of\n"
 "%s"
 msgstr ""
-"de stad\n"
-"%s"
+"te tāone nui\n"
+"o ngā %s"
 
 #: conozco.py:474
 #, python-format
@@ -47,8 +47,8 @@ msgid ""
 "the department of\n"
 "%s"
 msgstr ""
-"het departement\n"
-"%s"
+"te tari o\n"
+"ngā %s"
 
 #: conozco.py:483
 #, python-format
@@ -56,8 +56,8 @@ msgid ""
 "the province of\n"
 "%s"
 msgstr ""
-"de provincie\n"
-"%s"
+"te porowini o\n"
+"ngā %s"
 
 #: conozco.py:492
 #, python-format
@@ -65,8 +65,8 @@ msgid ""
 "the district of\n"
 "%s"
 msgstr ""
-"het district\n"
-"%s"
+"te takiwā o\n"
+"ngā %s"
 
 #: conozco.py:501
 #, python-format
@@ -74,8 +74,8 @@ msgid ""
 "the state of\n"
 "%s"
 msgstr ""
-"de staat\n"
-"%s"
+"te wāhi whenua o\n"
+"ngā %s"
 
 #: conozco.py:510
 #, python-format
@@ -83,7 +83,7 @@ msgid ""
 "the region of\n"
 "%s"
 msgstr ""
-"de regio\n"
+"te rohe o\n"
 "%s"
 
 #: conozco.py:519
@@ -92,16 +92,17 @@ msgid ""
 "the parish of\n"
 "%s"
 msgstr ""
-"de gemeente\n"
-"%s"
+"te pāriha o\n"
+"ngā %s"
 
+# not familiar with taluka
 #: conozco.py:528
 #, python-format
 msgid ""
 "the taluka of\n"
 "%s"
 msgstr ""
-"de taluka\n"
+"te taluka o\n"
 "%s"
 
 #: conozco.py:537
@@ -110,66 +111,67 @@ msgid ""
 "the municipality of\n"
 "%s"
 msgstr ""
-"de gemeente\n"
-"%s"
+"te rohe pōti o\n"
+"ngā %s"
 
 #: conozco.py:546
 #, python-format
 msgid "the %s"
-msgstr "de %s"
+msgstr "ngā %s"
 
 #: conozco.py:615
 #, python-format
+#, python-format,
 msgid "About %s"
-msgstr "Over %s"
+msgstr "Mōku Ake %s"
 
 #: conozco.py:629
 msgid "Press any key to return"
-msgstr "Druk een toets om terug te keren"
+msgstr "Pēhia tētahi pātuhi kia hoki anō"
 
 #: conozco.py:660
 msgid "You have chosen the map "
-msgstr "Je hebt gekozen de kaart "
+msgstr "Kua kōwhiria e koe te mahere "
 
 #: conozco.py:666
 msgid "Play"
-msgstr "Spelen"
+msgstr "Tākaro"
 
 #: conozco.py:682
 msgid "Explore"
-msgstr "Onderzoek"
+msgstr "Tūhura"
 
 #: conozco.py:702 conozco.py:846
 msgid "About this game"
-msgstr "Over dit spel"
+msgstr "Mō tēnei tākaro"
 
 #: conozco.py:710
 msgid "Return"
-msgstr "Keer terug"
+msgstr "Whakahokia"
 
 #: conozco.py:767
 msgid "Choose the map to use"
-msgstr "Kies de te gebruiken map"
+msgstr "Kōwhiria te mahere hei whakamahi"
 
 #: conozco.py:787
 msgid "Previous page"
-msgstr "Vorige pagina"
+msgstr "Whārangi tōmua"
 
 #: conozco.py:832
 msgid "Next page"
-msgstr "Volgende pagina"
+msgstr "Whārangi panuku"
 
 #: conozco.py:853
 msgid "Exit"
-msgstr "Verlaat"
+msgstr "Putaatu"
 
 #: conozco.py:1318 conozco.py:1516
 msgid "End"
-msgstr "Einde"
+msgstr "Mutu"
 
 #: conozco.py:1329
 msgid "Show all"
-msgstr "Toon alles"
+msgstr "Whakaatu te katoa"
 
 #: recursos/0india/datos/0india.py:5
 msgid "India"
@@ -240,8 +242,9 @@ msgstr "Himachal Pradesh"
 #: recursos/0india/datos/levels.py:63 recursos/0india/datos/levels.py:106
 #: recursos/0india/datos/levels.py:129 recursos/0india/datos/levels.py:130
 #: recursos/0india/datos/levels.py:131 recursos/0india/datos/levels.py:132
+#, fuzzy
 msgid "Jammu and Kashmir"
-msgstr "Jammu en Kashmir"
+msgstr "Jammu and Kashmir"
 
 #: recursos/0india/datos/0india.py:18 recursos/0india/datos/levels.py:21
 #: recursos/0india/datos/levels.py:64 recursos/0india/datos/levels.py:107
@@ -372,17 +375,17 @@ msgstr "Uttarakhand"
 #: recursos/0india/datos/levels.py:149 recursos/0india/datos/levels.py:150
 #: recursos/0india/datos/levels.py:151 recursos/0india/datos/levels.py:152
 msgid "West Bengal"
-msgstr "West Bengalen"
+msgstr "West Bengal"
 
 #: recursos/0india/datos/0india.py:37 recursos/0india/datos/levels.py:40
 #: recursos/0india/datos/levels.py:81 recursos/0india/datos/levels.py:124
 msgid "Andaman and Nicobar Islands"
-msgstr "Andaman en Nicobar Eilanden"
+msgstr ""
 
 #: recursos/0india/datos/0india.py:38 recursos/0india/datos/levels.py:41
 #: recursos/0india/datos/levels.py:82 recursos/0india/datos/levels.py:125
 msgid "Dadra and Nagar Haveli"
-msgstr "Dadra en Nagar Haveli"
+msgstr ""
 
 #: recursos/0india/datos/0india.py:39 recursos/0india/datos/levels.py:42
 #: recursos/0india/datos/levels.py:84 recursos/0india/datos/levels.py:127
@@ -569,7 +572,7 @@ msgstr "Kolkata"
 #: recursos/0india/datos/0india.py:81 recursos/0india/datos/levels.py:81
 #: recursos/0india/datos/levels.py:124
 msgid "Port Blair"
-msgstr "Port Blair"
+msgstr ""
 
 #: recursos/0india/datos/0india.py:82 recursos/0india/datos/levels.py:82
 #: recursos/0india/datos/levels.py:125
@@ -737,7 +740,7 @@ msgstr "Chittaurgarh"
 
 #: recursos/0india/datos/0india.py:126 recursos/0india/datos/levels.py:165
 msgid "Mount Abu"
-msgstr "Mount Abu"
+msgstr ""
 
 #: recursos/0india/datos/0india.py:127 recursos/0india/datos/levels.py:166
 msgid "Gwalior"
@@ -781,11 +784,11 @@ msgstr "Ambikapur"
 
 #: recursos/0india/datos/0india.py:137 recursos/0india/datos/levels.py:176
 msgid "Chitrakote Falls"
-msgstr "Chitrakote Falls"
+msgstr ""
 
 #: recursos/0india/datos/0india.py:138 recursos/0india/datos/levels.py:177
 msgid "Hirakud Dam"
-msgstr "Hirakud Dam"
+msgstr ""
 
 #: recursos/0india/datos/0india.py:139 recursos/0india/datos/levels.py:178
 msgid "Cuttak"
@@ -950,7 +953,7 @@ msgstr "Hampi"
 
 #: recursos/0india/datos/0india.py:179 recursos/0india/datos/levels.py:218
 msgid "Jog Falls"
-msgstr "Jog Falls"
+msgstr ""
 
 #: recursos/0india/datos/0india.py:180 recursos/0india/datos/levels.py:219
 msgid "Chitradurga"
@@ -1014,35 +1017,35 @@ msgstr "Rameswaram"
 
 #: recursos/0india/datos/0india.py:203 recursos/4goa/datos/4goa.py:49
 msgid "Capital:"
-msgstr "Hoofdstad:"
+msgstr "Tāone Matua:"
 
 #: recursos/0india/datos/0india.py:203
 msgid "(28°36.8′ N - 77°12.5′ E)"
-msgstr "(28°36.8′ N - 77°12.5′ O)"
+msgstr "(28°36.8′ N - 77°12.5′ E)"
 
 #: recursos/0india/datos/0india.py:204
 msgid "Language:"
-msgstr "Taal:"
+msgstr "Reo:"
 
 #: recursos/0india/datos/0india.py:204
 msgid "Hindi"
-msgstr "Hindi"
+msgstr ""
 
 #: recursos/0india/datos/0india.py:204
 msgid "English"
-msgstr "Engels"
+msgstr "Ingarihi"
 
 #: recursos/0india/datos/0india.py:205
 msgid "Government:"
-msgstr "Overheid:"
+msgstr "Kāwanatanga:"
 
 #: recursos/0india/datos/0india.py:205
 msgid "Federal parliamentary republic"
-msgstr "Federale parlementaire republiek"
+msgstr ""
 
 #: recursos/0india/datos/0india.py:206
 msgid "President:"
-msgstr "President:"
+msgstr "Perehitini:"
 
 #: recursos/0india/datos/0india.py:206
 msgid "Pratibha Patil"
@@ -1050,7 +1053,7 @@ msgstr "Pratibha Patil"
 
 #: recursos/0india/datos/0india.py:207
 msgid "Vice President:"
-msgstr "Vice President:"
+msgstr "Perehitini Tuarua:"
 
 #: recursos/0india/datos/0india.py:207
 msgid "Mohammad Hamid Ansari"
@@ -1058,53 +1061,54 @@ msgstr "Mohammad Hamid Ansari"
 
 #: recursos/0india/datos/0india.py:208
 msgid "Independence:"
-msgstr "Onafhankelijkheid:"
+msgstr "Mana Motuhake:"
 
 #: recursos/0india/datos/0india.py:208
 msgid "from the United Kingdom "
-msgstr "van het Verenigd Koninkrijk "
+msgstr "nō te United Kingdom "
 
 #: recursos/0india/datos/0india.py:209
 #, python-format
 msgid "declared: %s"
-msgstr "uitgeroepen: %s"
+msgstr "kua whakaputa: ngā %s"
 
 #: recursos/0india/datos/0india.py:209
 msgid "15 of august of 1947 "
-msgstr "15 augustus 1947 "
+msgstr "15 o ākuhata o 1947 "
 
 #: recursos/0india/datos/0india.py:210
 #, python-format
 msgid "recognized: %s"
-msgstr "erkend: %s"
+msgstr "kua kitea: ngā %s"
 
 #: recursos/0india/datos/0india.py:210
 msgid "26 of january of 1950 "
-msgstr "26 januari 1950 "
+msgstr "26 o hanuere 1950 "
 
 #: recursos/0india/datos/0india.py:211 recursos/4goa/datos/4goa.py:52
 msgid "Area:"
-msgstr "Oppervlakte:"
+msgstr "Horahanga:"
 
 #: recursos/0india/datos/0india.py:211
 msgid "3.287.263 km² (7th)"
-msgstr "3.287.263 km² (7de)"
+msgstr "3.287.263 km² (7th)"
 
 #: recursos/0india/datos/0india.py:212 recursos/4goa/datos/4goa.py:53
 msgid "Population:"
-msgstr "Bevolking:"
+msgstr "Taupori:"
 
 #: recursos/0india/datos/0india.py:212
 msgid "1.210.193.422 (2nd)"
-msgstr "1.210.193.422 (2de)"
+msgstr "1.210.193.422 (2nd)"
 
 #: recursos/0india/datos/0india.py:213
 msgid "GDP:"
-msgstr "BBP:"
+msgstr "GDP:"
 
 #: recursos/0india/datos/0india.py:213
+#, fuzzy
 msgid "USD 1.676 trillion (11th)"
-msgstr "USD 1.676 miljard (11de)"
+msgstr "USD 1.676 trillion (11th)"
 
 #: recursos/0india/datos/0india.py:214 recursos/4goa/datos/4goa.py:54
 msgid "HDI:"
@@ -1112,95 +1116,102 @@ msgstr "HDI:"
 
 #: recursos/0india/datos/0india.py:214
 msgid "Medium - 0,547 (134th)"
-msgstr "Medium - 0,547 (134de)"
+msgstr "Waenga - 0,547 (134th)"
 
 #: recursos/0india/datos/0india.py:215
 msgid "Currency:"
-msgstr "Munteenheid:"
+msgstr "Moni:"
 
 #: recursos/0india/datos/0india.py:215
 msgid "Indian rupee"
-msgstr "Indian rupee"
+msgstr ""
 
 #: recursos/0india/datos/explorations.py:6 recursos/0india/datos/levels.py:7
 msgid "States"
-msgstr "Staten"
+msgstr "Ngā Wāhi Whenua"
 
 #: recursos/0india/datos/explorations.py:13 recursos/0india/datos/levels.py:49
 msgid "State capitals"
-msgstr "Staat hoofdsteden"
+msgstr "Ngā tāone matua o ngā Wāhi Whenua"
 
 #: recursos/0india/datos/explorations.py:20 recursos/0india/datos/levels.py:92
 #: recursos/4goa/datos/explorations.py:20 recursos/4goa/datos/levels.py:48
 msgid "Cities"
-msgstr "Steden"
+msgstr "Ngā Tāone Nui"
 
 #: recursos/0india/datos/explorations.py:27
 #: recursos/4goa/datos/explorations.py:27
 msgid "Waterways"
-msgstr "Waterwegen"
+msgstr "Ngā Arawai"
 
 #: recursos/0india/datos/explorations.py:34
 #: recursos/4goa/datos/explorations.py:34
 msgid "Routes"
-msgstr "Routes"
+msgstr "Ngā Huarahi"
 
 #: recursos/0india/datos/levels.py:11 recursos/0india/datos/levels.py:23
 #: recursos/0india/datos/levels.py:34 recursos/4goa/datos/levels.py:20
 #: recursos/4goa/datos/levels.py:21 recursos/4goa/datos/levels.py:39
 #: recursos/4goa/datos/levels.py:40
+#, fuzzy
 msgid "It's in the south"
-msgstr "Het is in het zuiden"
+msgstr "Kei te pūnga"
 
 #: recursos/0india/datos/levels.py:12 recursos/0india/datos/levels.py:14
 #: recursos/0india/datos/levels.py:33 recursos/4goa/datos/levels.py:14
 #: recursos/4goa/datos/levels.py:36
 msgid "It's in the northeast"
-msgstr "Het is in het noordoosten"
+msgstr ""
 
 #: recursos/0india/datos/levels.py:13 recursos/0india/datos/levels.py:26
 #: recursos/0india/datos/levels.py:27 recursos/0india/datos/levels.py:28
 #: recursos/0india/datos/levels.py:29 recursos/0india/datos/levels.py:30
 #: recursos/0india/datos/levels.py:35 recursos/4goa/datos/levels.py:19
 #: recursos/4goa/datos/levels.py:37
+#, fuzzy
 msgid "It's in the east"
-msgstr "Het is in het oosten"
+msgstr "Kei te pūnga"
 
 #: recursos/0india/datos/levels.py:15 recursos/0india/datos/levels.py:21
 #: recursos/0india/datos/levels.py:24 recursos/4goa/datos/levels.py:16
+#, fuzzy
 msgid "It's in the center"
-msgstr "Het in het centrum"
+msgstr "Kei te pūnga"
 
 #: recursos/0india/datos/levels.py:16 recursos/0india/datos/levels.py:22
 #: recursos/0india/datos/levels.py:42
+#, fuzzy
 msgid "It's in the southwest"
-msgstr "Het is in het zuidwesten"
+msgstr "Kei te pūnga"
 
 #: recursos/0india/datos/levels.py:17 recursos/0india/datos/levels.py:25
 #: recursos/0india/datos/levels.py:38 recursos/0india/datos/levels.py:41
 #: recursos/4goa/datos/levels.py:15 recursos/4goa/datos/levels.py:17
 #: recursos/4goa/datos/levels.py:18 recursos/4goa/datos/levels.py:31
 #: recursos/4goa/datos/levels.py:35 recursos/4goa/datos/levels.py:38
+#, fuzzy
 msgid "It's in the west"
-msgstr "Het is in het westen"
+msgstr "Kei te pūnga"
 
 #: recursos/0india/datos/levels.py:18 recursos/0india/datos/levels.py:31
 #: recursos/0india/datos/levels.py:32 recursos/4goa/datos/levels.py:11
 #: recursos/4goa/datos/levels.py:12 recursos/4goa/datos/levels.py:32
 #: recursos/4goa/datos/levels.py:33
+#, fuzzy
 msgid "It's in the northwest"
-msgstr "Het is in het noordwesten"
+msgstr "Kei te pūnga"
 
 #: recursos/0india/datos/levels.py:19 recursos/0india/datos/levels.py:20
 #: recursos/0india/datos/levels.py:36 recursos/0india/datos/levels.py:37
 #: recursos/0india/datos/levels.py:43 recursos/4goa/datos/levels.py:13
 #: recursos/4goa/datos/levels.py:34
+#, fuzzy
 msgid "It's in the north"
-msgstr "Het is in het noorden"
+msgstr "Kei te pūnga"
 
 #: recursos/0india/datos/levels.py:40
 msgid "It's in the southeast"
-msgstr "Het is in het zuidoosten"
+msgstr ""
 
 #: recursos/0india/datos/levels.py:53 recursos/0india/datos/levels.py:54
 #: recursos/0india/datos/levels.py:55 recursos/0india/datos/levels.py:56
@@ -1290,11 +1301,11 @@ msgstr "Het is in het zuidoosten"
 #: recursos/0india/datos/levels.py:233
 #, python-format
 msgid "It's in %s"
-msgstr "Het is in %s"
+msgstr "Kei roto %s"
 
 #: recursos/0india/datos/levels.py:83 recursos/0india/datos/levels.py:126
 msgid "Daman and Diu"
-msgstr "Daman en Diu"
+msgstr ""
 
 #: recursos/0india/datos/levels.py:206
 msgid "Vishakhapatnam"
@@ -1373,7 +1384,7 @@ msgstr "Chaudi"
 
 #: recursos/4goa/datos/4goa.py:50
 msgid "Governor:"
-msgstr "Gouverneur:"
+msgstr "Kāwana:"
 
 #: recursos/4goa/datos/4goa.py:50
 msgid "B. V. Wanchoo"
@@ -1381,7 +1392,7 @@ msgstr "B. V. Wanchoo"
 
 #: recursos/4goa/datos/4goa.py:51
 msgid "Chief Minister:"
-msgstr "Chef Minister:"
+msgstr ""
 
 #: recursos/4goa/datos/4goa.py:51
 msgid "Manohar Parrikar"
@@ -1389,23 +1400,23 @@ msgstr "Manohar Parrikar"
 
 #: recursos/4goa/datos/4goa.py:52
 msgid "3.702 km² (28th)"
-msgstr "3.702 km² (28ste)"
+msgstr "3.702 km² (28th)"
 
 #: recursos/4goa/datos/4goa.py:53
 msgid "1.457.723 (25th)"
-msgstr "1.457.723 (25ste)"
+msgstr "1.457.723 (25th)"
 
 #: recursos/4goa/datos/4goa.py:54
 msgid "High - 0,779 (3rd)"
-msgstr "Hoog - 0,779 (3de)"
+msgstr ""
 
 #: recursos/4goa/datos/explorations.py:6 recursos/4goa/datos/levels.py:7
 msgid "Talukas"
-msgstr "Talukas"
+msgstr ""
 
 #: recursos/4goa/datos/explorations.py:13 recursos/4goa/datos/levels.py:27
 msgid "Taluka Headquarters"
-msgstr "Taluka Hoofdkwartier"
+msgstr ""
 
 #: recursos/4goa/datos/levels.py:31 recursos/4goa/datos/levels.py:32
 #: recursos/4goa/datos/levels.py:33 recursos/4goa/datos/levels.py:34
@@ -1415,99 +1426,101 @@ msgstr "Taluka Hoofdkwartier"
 #: recursos/4goa/datos/levels.py:41
 #, python-format
 msgid "It's in %s taluka"
-msgstr "Het is in %s taluka"
+msgstr ""
 
 #: recursos/4goa/datos/levels.py:41
+#, fuzzy
 msgid "It's in the centre"
-msgstr "Het in het centrum"
+msgstr "Kei te pūnga"
 
 #: recursos/comun/datos/commons.py:8
 msgid "Hello friends..."
-msgstr "Hallo vrienden..."
+msgstr "Kia Ora e hoa mā..."
 
 #: recursos/comun/datos/commons.py:9
+#, fuzzy
 msgid ""
 "...tomorrow I have a\n"
 "test about India..."
 msgstr ""
-"...morgen heb ik een\n"
-"test over India..."
+"...āpōpō he whakamātautau tāku a\n"
+"mō India..."
 
 #: recursos/comun/datos/commons.py:10
 msgid "...and I know nothing!!!"
-msgstr "...en ik weet niets!!!"
+msgstr "...tē mōhio hoki i te aha!!!"
 
 #: recursos/comun/datos/commons.py:11
 msgid "...what do I do???"
-msgstr "...wat moet ik doen???"
+msgstr "...me aha au???"
 
 #: recursos/comun/datos/commons.py:12
 msgid "Can I ask you something?"
-msgstr "Mag ik je iets vragen?"
+msgstr "He pātai tāku."
 
 #: recursos/comun/datos/commons.py:13
 msgid "Will you help me?"
-msgstr "Wil je me helpen?"
+msgstr "Ka āwhina mai koe i a au?"
 
 #: recursos/comun/datos/commons.py:17
 msgid "We have to find"
-msgstr "We moeten zoeken"
+msgstr "Me rapu tātaou i"
 
 #: recursos/comun/datos/commons.py:18
 msgid "Now we have to find"
-msgstr "Nu moeten we zoeken"
+msgstr "Īnāianei me rapu tātou i"
 
 #: recursos/comun/datos/commons.py:19
 msgid "We need to find"
-msgstr "We moeten zoeken"
+msgstr "Me rapu tātou i"
 
 #: recursos/comun/datos/commons.py:23
 msgid "Can you tell me where it is?"
-msgstr "Kan je me vertellen waar het is?"
+msgstr "Kōrero mai koa kei whea?"
 
 #: recursos/comun/datos/commons.py:24
 msgid "Where is it?"
-msgstr "Waar is het?"
+msgstr "Kei whea?"
 
 #: recursos/comun/datos/commons.py:25
 msgid "Can you show me where it is?"
-msgstr "Kan je me laten zien waar het is?"
+msgstr "Whakaatu mai koa kei whea?"
 
 #: recursos/comun/datos/commons.py:26
 msgid "Can you find it?"
-msgstr "Kun je het vinden?"
+msgstr "Ka kitea e koe?"
 
 #: recursos/comun/datos/commons.py:30
 msgid "Very well!"
-msgstr "Zeer goed!"
+msgstr "Tino pai!"
 
 #: recursos/comun/datos/commons.py:31
 msgid "Brilliant!"
-msgstr "Uitstekend!"
+msgstr "Ka ngangaro!"
 
 #: recursos/comun/datos/commons.py:32
 msgid "You found it!"
-msgstr "Je hebt het gevonden!"
+msgstr "I kitea e koe!"
 
 #: recursos/comun/datos/commons.py:33
 msgid "Yes!"
-msgstr "Juist!"
+msgstr "Ae!"
 
 #: recursos/comun/datos/commons.py:37
 msgid "No, that is not correct"
-msgstr "Nee, dat si niet goed"
+msgstr "Kao, kāore i te tika"
 
 #: recursos/comun/datos/commons.py:38
 msgid "No, it is not there"
-msgstr "Nee, daar id het niet"
+msgstr "Kao, kāore i reira"
 
 #: recursos/comun/datos/commons.py:39
 msgid "No, that seems to be wrong"
-msgstr "Nee, dat lijkt me verkeerd"
+msgstr "Kao, te āhua nei he hē"
 
 #: recursos/comun/datos/commons.py:40
 msgid "That is not correct"
-msgstr "Dat is niet goed"
+msgstr "Kāore i te tika"
 
 #: recursos/comun/datos/commons.py:44
 msgid ""
@@ -1516,10 +1529,10 @@ msgid ""
 "I'm going to play...\n"
 "Thanks for your help!"
 msgstr ""
-"Nu ben ik klaar\n"
-"voor morgen...\n"
-"Ik ga spelen...\n"
-"Bedankt voor je hulp!"
+"Kua reri au īnāianei\n"
+"mō āpōpō...\n"
+"Ka tākaro ahau...\n"
+"Tēnā koe mō tō āwhina!"
 
 #: recursos/comun/datos/commons.py:45
 msgid ""
@@ -1528,10 +1541,10 @@ msgid ""
 "Bye and thanks\n"
 "for helping me!"
 msgstr ""
-"We hebben het gered!\n"
-"Ik ga balspelen...\n"
-"Dag en bedankt\n"
-"voor het helpen!"
+"Kua eke tāua!\n"
+"Ka tākau pōi whiu au...\n"
+"Hei konā, tēnā anō koe\n"
+"mō te āwhina mai i a au!"
 
 #: recursos/comun/datos/commons.py:46
 msgid ""
@@ -1540,10 +1553,10 @@ msgid ""
 "I'm playing a while...\n"
 "Until next time!"
 msgstr ""
-"We hebben het gedaan!\n"
-"Ik ben klaar voor morgen...\n"
-"Ik ga even spelen...\n"
-"Tot de volgende keer!"
+"I eke tāua!\n"
+"Kua reri au mō āpōpō...\n"
+"Kei te tākaro au mō tēnei wā...\n"
+"Mā te wā!"
 
 #: recursos/comun/datos/commons.py:50
 msgid ""
@@ -1551,9 +1564,9 @@ msgid ""
 "I'll play a while...\n"
 "Thanks!"
 msgstr ""
-"Meer geluk de volgende keer\n"
-"Ik ga even spelen...\n"
-"Bedankt!"
+"Kia kaha tonu\n"
+"Ka tākaro tonu au...\n"
+"Kia Ora!"
 
 #: recursos/comun/datos/commons.py:51
 msgid ""
@@ -1561,9 +1574,9 @@ msgid ""
 "I'm going to play ball...\n"
 "Thanks!"
 msgstr ""
-"De volgende keer beter\n"
-"Ik ga balspelen...\n"
-"Bedankt!"
+"Ka piki te kaha\n"
+"Ka tākara poi whiu au...\n"
+"Kia Ora!"
 
 #: recursos/comun/datos/commons.py:52
 msgid ""
@@ -1571,49 +1584,43 @@ msgid ""
 "I'm going to play...\n"
 "Thanks!"
 msgstr ""
-"Probeer opnieuw..\n"
-"Ik ga spelen..\n"
-"Bedankt!"
+"Ngana anō koa...\n"
+"Ka tākaro ahau...\n"
+"Kia Ora!"
 
 #: recursos/comun/datos/commons.py:56
 msgid "Author: Alan Aguiar"
-msgstr "Auteur: Alan Aguiar"
+msgstr "Kaituhi: Alan Aquitar"
 
 #: recursos/comun/datos/commons.py:57
 msgid "Send corrections, comments or suggestions to: alanjas@hotmail.com"
-msgstr "Stuur correcties, commentaar f suggesties naar: alanjas@hotmail.com"
+msgstr ""
+"Tukuna ngā whakatikatanga, kōrero poka, kōrero hāpai rānei ki a: "
+"alanjas@hotmail.com"
 
 #: recursos/comun/datos/commons.py:59
 msgid "Thank's to Salil Konkar for the help in the english strings."
-msgstr "Dank aan Salil Konkar voor hulp bij de Engelse tekst."
+msgstr ""
 
 #: recursos/comun/datos/commons.py:61
 msgid "This program is free software developed by the community"
-msgstr "Dit programma is vrije software ontwikkeld door de gemeenschap"
+msgstr "He pūmanawa utu kore tēnei i whakawhanaketia e te hāpori"
 
 #: recursos/comun/datos/commons.py:62
 msgid "For more information visit http://ceibaljam.org"
-msgstr "Voor meer informatie bezoekt http://ceibaljam.org"
+msgstr "Kia whai mōhiohio anō haere ki http://ceibaljam.org"
 
 #: recursos/comun/datos/commons.py:64
 msgid "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
-msgstr "Dit programma is gebaseerd op 'Conozco Uruguay' (Auteur: Gabriel Eirea)"
+msgstr ""
+"Kua tuhia tēnei papatono e ai ki 'Conozco Uruguau' (Kaituhi: Gabriel Eirea)"
 
 #: recursos/comun/datos/commons.py:65
 msgid "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
 msgstr ""
-"Geluiden gedownload van freesound.org: btn117.wav met toestemming van "
+"I tikina ake ngā oro mai i freesound.org: btn117.wav he mea tākoha nā "
 "junggle."
 
 #: recursos/comun/datos/commons.py:66
 msgid "Font: Share-Regular.ttf of urbanfonts.com"
-msgstr "Font: Share-Regular.ttf van urbanfonts.com"
-
-#~ msgid "About I know India"
-#~ msgstr "Over wat ik weet van India"
-
-#~ msgid "Next page >>>"
-#~ msgstr "Volgende pagina >>>"
-
-#~ msgid "Talukas capitals"
-#~ msgstr "Talukas hoofdsteden"
+msgstr "Momotuhi: Share-Regular.ttf o urbanfonts.com"
