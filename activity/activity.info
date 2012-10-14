@@ -6,3 +6,4 @@ icon = india
 exec = sugar-activity activity.Activity
 license = GPLv3
 summary = Game about the geography of India
+
