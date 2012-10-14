@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-27 14:58-0400\n"
-"PO-Revision-Date: 2012-08-31 22:47+0200\n"
-"Last-Translator: anush.mkrtchyan <anush.mkrtchyan@ca1492.com>\n"
+"PO-Revision-Date: 2012-10-14 19:38+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
@@ -38,8 +38,8 @@ msgid ""
 "the city of\n"
 "%s"
 msgstr ""
-"\n"
-"-ի քաղաքը%s"
+"-ի քաղաքը\n"
+"%s"
 
 #: conozco.py:474
 #, python-format
@@ -47,8 +47,8 @@ msgid ""
 "the department of\n"
 "%s"
 msgstr ""
-"\n"
-"-ի դեպարտամենտը%s"
+"-ի դեպարտամենտը\n"
+"%s"
 
 #: conozco.py:483
 #, python-format
@@ -56,8 +56,8 @@ msgid ""
 "the province of\n"
 "%s"
 msgstr ""
-"\n"
-"-ի գավառը%s"
+"-ի գավառը\n"
+"%s"
 
 #: conozco.py:492
 #, python-format
@@ -65,8 +65,8 @@ msgid ""
 "the district of\n"
 "%s"
 msgstr ""
-"\n"
-"-ի շրջանը%s"
+"-ի շրջանը\n"
+"%s"
 
 #: conozco.py:501
 #, python-format
@@ -74,8 +74,8 @@ msgid ""
 "the state of\n"
 "%s"
 msgstr ""
-"\n"
-"-ի նահանգը%s"
+"-ի նահանգը\n"
+"%s"
 
 #: conozco.py:510
 #, python-format
@@ -83,8 +83,8 @@ msgid ""
 "the region of\n"
 "%s"
 msgstr ""
-"\n"
-"-ի մարզը%s"
+"-ի մարզը\n"
+"%s"
 
 #: conozco.py:519
 #, python-format
@@ -92,8 +92,8 @@ msgid ""
 "the parish of\n"
 "%s"
 msgstr ""
-"\n"
-"-ի ծխականը%s"
+"-ի ծխականը\n"
+"%s"
 
 #: conozco.py:528
 #, python-format
@@ -101,8 +101,8 @@ msgid ""
 "the taluka of\n"
 "%s"
 msgstr ""
-"\n"
-"-ի թալուքները%s"
+"-ի թալուքները\n"
+"%s"
 
 #: conozco.py:537
 #, python-format
@@ -110,8 +110,8 @@ msgid ""
 "the municipality of\n"
 "%s"
 msgstr ""
-"\n"
-"-ի քաղաքապետարանը%s"
+"-ի քաղաքապետարանը\n"
+"%s"
 
 #: conozco.py:546
 #, python-format
@@ -121,7 +121,7 @@ msgstr "ը %s"
 #: conozco.py:615
 #, python-format
 msgid "About %s"
-msgstr ""
+msgstr "մոտ %s"
 
 #: conozco.py:629
 msgid "Press any key to return"
@@ -1065,7 +1065,7 @@ msgstr "Անկախություն."
 
 #: recursos/0india/datos/0india.py:208
 msgid "from the United Kingdom "
-msgstr "Միացյալ Թագավորությունից"
+msgstr "Միացյալ Թագավորությունից "
 
 #: recursos/0india/datos/0india.py:209
 #, python-format
@@ -1074,7 +1074,7 @@ msgstr "հայտարարված` %s"
 
 #: recursos/0india/datos/0india.py:209
 msgid "15 of august of 1947 "
-msgstr "1947 թ.-ի օգոստոսի 15"
+msgstr "1947 թ.-ի օգոստոսի 15 "
 
 #: recursos/0india/datos/0india.py:210
 #, python-format
