@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-27 14:58-0400\n"
-"PO-Revision-Date: 2012-09-14 02:25+0200\n"
-"Last-Translator: Kamila <kamilafilipowska@yahoo.com>\n"
+"PO-Revision-Date: 2012-10-23 14:51+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr ""
 #: conozco.py:246 conozco.py:361 conozco.py:385 conozco.py:441 conozco.py:577
 #, python-format
 msgid "Cannot open %s"
-msgstr ""
+msgstr "Nie można otworzyć %s"
 
 #: conozco.py:465
 #, python-format
@@ -39,92 +39,95 @@ msgid ""
 "the city of\n"
 "%s"
 msgstr ""
+"miasto\n"
+"%s"
 
 #: conozco.py:474
 #, python-format
 msgid ""
 "the department of\n"
 "%s"
-msgstr ""
+msgstr "departament |%s"
 
 #: conozco.py:483
 #, python-format
 msgid ""
 "the province of\n"
 "%s"
-msgstr ""
+msgstr "prowincja |%s"
 
 #: conozco.py:492
 #, python-format
 msgid ""
 "the district of\n"
 "%s"
-msgstr ""
+msgstr "dzielnica |%s"
 
 #: conozco.py:501
 #, python-format
 msgid ""
 "the state of\n"
 "%s"
-msgstr ""
+msgstr "stan |%s"
 
 #: conozco.py:510
 #, python-format
 msgid ""
 "the region of\n"
 "%s"
-msgstr ""
+msgstr "region |%s"
 
 #: conozco.py:519
 #, python-format
 msgid ""
 "the parish of\n"
 "%s"
-msgstr ""
+msgstr "parafia %s"
 
 #: conozco.py:528
 #, python-format
 msgid ""
 "the taluka of\n"
 "%s"
-msgstr ""
+msgstr "taluka %s"
 
 #: conozco.py:537
 #, python-format
 msgid ""
 "the municipality of\n"
 "%s"
-msgstr ""
+msgstr "okręg %s"
 
 #: conozco.py:546
 #, python-format
 msgid "the %s"
-msgstr ""
+msgstr "%s"
 
 #: conozco.py:615
 #, python-format
 msgid "About %s"
-msgstr ""
+msgstr "około %s"
 
 #: conozco.py:629
 msgid "Press any key to return"
-msgstr ""
+msgstr "Naciśnij dowolny klawisz, aby powrócić"
 
 #: conozco.py:660
 msgid "You have chosen the map "
-msgstr ""
+msgstr "Wybrałeś mapę "
 
 #: conozco.py:666
 msgid "Play"
-msgstr ""
+msgstr "Graj"
 
 #: conozco.py:682
+#, fuzzy
 msgid "Explore"
-msgstr ""
+msgstr "Zbadaj"
 
 #: conozco.py:702 conozco.py:846
 msgid "About this game"
-msgstr ""
+msgstr "O tej grze"
 
 #: conozco.py:710
 msgid "Return"
@@ -135,21 +138,20 @@ msgid "Choose the map to use"
 msgstr "Wybierz mapę"
 
 #: conozco.py:787
-#, fuzzy
 msgid "Previous page"
-msgstr "<<< Poprzednia strona"
+msgstr "Poprzednia strona"
 
 #: conozco.py:832
 msgid "Next page"
-msgstr ""
+msgstr "Następna strona"
 
 #: conozco.py:853
 msgid "Exit"
-msgstr "Wyjście"
+msgstr "Wyjdź"
 
 #: conozco.py:1318 conozco.py:1516
 msgid "End"
-msgstr "Koniec"
+msgstr "Zakończ"
 
 #: conozco.py:1329
 msgid "Show all"
@@ -1437,7 +1439,7 @@ msgstr "Musimy znaleźć"
 
 #: recursos/comun/datos/commons.py:18
 msgid "Now we have to find"
-msgstr "Teraz musimy znaleźć "
+msgstr "Teraz musimy znaleźć"
 
 #: recursos/comun/datos/commons.py:19
 msgid "We need to find"
