@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-27 14:58-0400\n"
-"PO-Revision-Date: 2012-09-29 22:50+0200\n"
+"PO-Revision-Date: 2012-11-05 21:38+0200\n"
 "Last-Translator: whe <heppew@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -25,7 +25,7 @@ msgstr "Ik ken India"
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
 msgid "Game about the geography of India"
-msgstr ""
+msgstr "Spel over de geografie van India"
 
 #: conozco.py:246 conozco.py:361 conozco.py:385 conozco.py:441 conozco.py:577
 #, python-format
