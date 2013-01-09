@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-27 14:58-0400\n"
-"PO-Revision-Date: 2012-10-06 04:59+0200\n"
+"POT-Creation-Date: 2012-11-13 00:34-0500\n"
+"PO-Revision-Date: 2012-11-14 12:37+0200\n"
 "Last-Translator: lite <litekok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -181,6 +181,7 @@ msgstr "阿萨姆邦"
 #: recursos/0india/datos/levels.py:57 recursos/0india/datos/levels.py:100
 #: recursos/0india/datos/levels.py:154 recursos/0india/datos/levels.py:155
 #: recursos/0india/datos/levels.py:156
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:33
 msgid "Bihar"
 msgstr "比哈尔邦"
 
@@ -228,6 +229,7 @@ msgstr "查谟和喀什米尔"
 #: recursos/0india/datos/0india.py:18 recursos/0india/datos/levels.py:21
 #: recursos/0india/datos/levels.py:64 recursos/0india/datos/levels.py:107
 #: recursos/0india/datos/levels.py:153
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:32
 msgid "Jharkhand"
 msgstr "恰尔肯德邦"
 
@@ -256,6 +258,7 @@ msgstr "喀拉拉邦"
 #: recursos/0india/datos/levels.py:170 recursos/0india/datos/levels.py:171
 #: recursos/0india/datos/levels.py:172 recursos/0india/datos/levels.py:173
 #: recursos/0india/datos/levels.py:174
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:30
 msgid "Madhya Pradesh"
 msgstr "中央邦"
 
@@ -312,6 +315,7 @@ msgstr "旁遮普邦"
 #: recursos/0india/datos/levels.py:161 recursos/0india/datos/levels.py:162
 #: recursos/0india/datos/levels.py:163 recursos/0india/datos/levels.py:164
 #: recursos/0india/datos/levels.py:165
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:29
 msgid "Rajasthan"
 msgstr "拉贾斯坦邦"
 
@@ -339,6 +343,7 @@ msgstr "特里普拉邦"
 #: recursos/0india/datos/levels.py:142 recursos/0india/datos/levels.py:143
 #: recursos/0india/datos/levels.py:144 recursos/0india/datos/levels.py:145
 #: recursos/0india/datos/levels.py:146 recursos/0india/datos/levels.py:147
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:5
 msgid "Uttar Pradesh"
 msgstr "北方邦"
 
@@ -384,10 +389,12 @@ msgid "Pakistan"
 msgstr "巴基斯坦"
 
 #: recursos/0india/datos/0india.py:44
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:26
 msgid "China"
 msgstr "中国"
 
 #: recursos/0india/datos/0india.py:45
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:27
 msgid "Nepal"
 msgstr "尼泊尔"
 
@@ -535,6 +542,9 @@ msgstr "阿加尔塔拉"
 
 #: recursos/0india/datos/0india.py:78 recursos/0india/datos/levels.py:78
 #: recursos/0india/datos/levels.py:121
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:11
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:45
+#: recursos/4uttarpradesh/datos/levels.py:14
 msgid "Lucknow"
 msgstr "勒克瑙"
 
@@ -634,18 +644,26 @@ msgid "Ayodhya"
 msgstr "阿约提亚"
 
 #: recursos/0india/datos/0india.py:105 recursos/0india/datos/levels.py:144
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:17
+#: recursos/4uttarpradesh/datos/levels.py:20
 msgid "Agra"
 msgstr "阿格拉"
 
 #: recursos/0india/datos/0india.py:106 recursos/0india/datos/levels.py:145
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:18
+#: recursos/4uttarpradesh/datos/levels.py:21
 msgid "Kanpur"
 msgstr "坎普尔"
 
 #: recursos/0india/datos/0india.py:107 recursos/0india/datos/levels.py:146
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:24
+#: recursos/4uttarpradesh/datos/levels.py:27
 msgid "Varanasi"
 msgstr "瓦拉纳西"
 
 #: recursos/0india/datos/0india.py:108 recursos/0india/datos/levels.py:147
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:23
+#: recursos/4uttarpradesh/datos/levels.py:26
 msgid "Allahabad"
 msgstr "阿拉哈巴德"
 
@@ -995,6 +1013,7 @@ msgid "Rameswaram"
 msgstr "拉梅斯沃勒姆"
 
 #: recursos/0india/datos/0india.py:203 recursos/4goa/datos/4goa.py:49
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:45
 msgid "Capital:"
 msgstr "首都："
 
@@ -1065,6 +1084,7 @@ msgid "26 of january of 1950 "
 msgstr "1950年1月26日 "
 
 #: recursos/0india/datos/0india.py:211 recursos/4goa/datos/4goa.py:52
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:48
 msgid "Area:"
 msgstr "面积："
 
@@ -1073,6 +1093,7 @@ msgid "3.287.263 km² (7th)"
 msgstr "3,287,263 平方公里 (第7名)"
 
 #: recursos/0india/datos/0india.py:212 recursos/4goa/datos/4goa.py:53
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:49
 msgid "Population:"
 msgstr "人口："
 
@@ -1089,6 +1110,7 @@ msgid "USD 1.676 trillion (11th)"
 msgstr "1.676万亿美元 (第11名)"
 
 #: recursos/0india/datos/0india.py:214 recursos/4goa/datos/4goa.py:54
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:50
 msgid "HDI:"
 msgstr "人类发展指数："
 
@@ -1114,29 +1136,35 @@ msgstr "省会"
 
 #: recursos/0india/datos/explorations.py:20 recursos/0india/datos/levels.py:92
 #: recursos/4goa/datos/explorations.py:20 recursos/4goa/datos/levels.py:48
+#: recursos/4uttarpradesh/datos/explorations.py:20
+#: recursos/4uttarpradesh/datos/levels.py:46
 msgid "Cities"
 msgstr "市"
 
 #: recursos/0india/datos/explorations.py:27
 #: recursos/4goa/datos/explorations.py:27
+#: recursos/4uttarpradesh/datos/explorations.py:27
 msgid "Waterways"
 msgstr "水路"
 
 #: recursos/0india/datos/explorations.py:34
 #: recursos/4goa/datos/explorations.py:34
+#: recursos/4uttarpradesh/datos/explorations.py:34
 msgid "Routes"
 msgstr "路线"
 
 #: recursos/0india/datos/levels.py:11 recursos/0india/datos/levels.py:23
 #: recursos/0india/datos/levels.py:34 recursos/4goa/datos/levels.py:20
 #: recursos/4goa/datos/levels.py:21 recursos/4goa/datos/levels.py:39
-#: recursos/4goa/datos/levels.py:40
+#: recursos/4goa/datos/levels.py:40 recursos/4uttarpradesh/datos/levels.py:25
+#: recursos/4uttarpradesh/datos/levels.py:26
 msgid "It's in the south"
 msgstr "在南部"
 
 #: recursos/0india/datos/levels.py:12 recursos/0india/datos/levels.py:14
 #: recursos/0india/datos/levels.py:33 recursos/4goa/datos/levels.py:14
-#: recursos/4goa/datos/levels.py:36
+#: recursos/4goa/datos/levels.py:36 recursos/4uttarpradesh/datos/levels.py:15
+#: recursos/4uttarpradesh/datos/levels.py:16
 msgid "It's in the northeast"
 msgstr "在东北部"
 
@@ -1144,17 +1172,23 @@ msgstr "在东北部"
 #: recursos/0india/datos/levels.py:27 recursos/0india/datos/levels.py:28
 #: recursos/0india/datos/levels.py:29 recursos/0india/datos/levels.py:30
 #: recursos/0india/datos/levels.py:35 recursos/4goa/datos/levels.py:19
-#: recursos/4goa/datos/levels.py:37
+#: recursos/4goa/datos/levels.py:37 recursos/4uttarpradesh/datos/levels.py:17
+#: recursos/4uttarpradesh/datos/levels.py:23
+#: recursos/4uttarpradesh/datos/levels.py:27
 msgid "It's in the east"
 msgstr "在东部"
 
 #: recursos/0india/datos/levels.py:15 recursos/0india/datos/levels.py:21
 #: recursos/0india/datos/levels.py:24 recursos/4goa/datos/levels.py:16
+#: recursos/4uttarpradesh/datos/levels.py:14
+#: recursos/4uttarpradesh/datos/levels.py:21
+#: recursos/4uttarpradesh/datos/levels.py:22
 msgid "It's in the center"
 msgstr "在中部"
 
 #: recursos/0india/datos/levels.py:16 recursos/0india/datos/levels.py:22
 #: recursos/0india/datos/levels.py:42
+#: recursos/4uttarpradesh/datos/levels.py:24
 msgid "It's in the southwest"
 msgstr "在西南部"
 
@@ -1163,24 +1197,29 @@ msgstr "在西南部"
 #: recursos/4goa/datos/levels.py:15 recursos/4goa/datos/levels.py:17
 #: recursos/4goa/datos/levels.py:18 recursos/4goa/datos/levels.py:31
 #: recursos/4goa/datos/levels.py:35 recursos/4goa/datos/levels.py:38
+#: recursos/4uttarpradesh/datos/levels.py:19
+#: recursos/4uttarpradesh/datos/levels.py:20
 msgid "It's in the west"
 msgstr "在西部"
 
 #: recursos/0india/datos/levels.py:18 recursos/0india/datos/levels.py:31
 #: recursos/0india/datos/levels.py:32 recursos/4goa/datos/levels.py:11
 #: recursos/4goa/datos/levels.py:12 recursos/4goa/datos/levels.py:32
-#: recursos/4goa/datos/levels.py:33
+#: recursos/4goa/datos/levels.py:33 recursos/4uttarpradesh/datos/levels.py:11
+#: recursos/4uttarpradesh/datos/levels.py:12
+#: recursos/4uttarpradesh/datos/levels.py:18
 msgid "It's in the northwest"
 msgstr "在西北部"
 
 #: recursos/0india/datos/levels.py:19 recursos/0india/datos/levels.py:20
 #: recursos/0india/datos/levels.py:36 recursos/0india/datos/levels.py:37
 #: recursos/0india/datos/levels.py:43 recursos/4goa/datos/levels.py:13
-#: recursos/4goa/datos/levels.py:34
+#: recursos/4goa/datos/levels.py:34 recursos/4uttarpradesh/datos/levels.py:13
 msgid "It's in the north"
 msgstr "在北部"
 
 #: recursos/0india/datos/levels.py:40
+#: recursos/4uttarpradesh/datos/levels.py:28
 msgid "It's in the southeast"
 msgstr "在东南部"
 
@@ -1355,6 +1394,7 @@ msgid "Chaudi"
 msgstr "乔迪"
 
 #: recursos/4goa/datos/4goa.py:50
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:46
 msgid "Governor:"
 msgstr "总督："
 
@@ -1363,6 +1403,7 @@ msgid "B. V. Wanchoo"
 msgstr "瓦杰帕伊"
 
 #: recursos/4goa/datos/4goa.py:51
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:47
 msgid "Chief Minister:"
 msgstr "首席部长："
 
@@ -1387,6 +1428,8 @@ msgid "Talukas"
 msgstr "县"
 
 #: recursos/4goa/datos/explorations.py:13 recursos/4goa/datos/levels.py:27
+#: recursos/4uttarpradesh/datos/explorations.py:13
+#: recursos/4uttarpradesh/datos/levels.py:34
 msgid "Taluka Headquarters"
 msgstr "县城"
 
@@ -1403,6 +1446,104 @@ msgstr "它在 %s 县"
 #: recursos/4goa/datos/levels.py:41
 msgid "It's in the centre"
 msgstr "它在中心"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:8
+#: recursos/4uttarpradesh/datos/levels.py:11
+msgid "Saharanpur"
+msgstr "撒拉兰普"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:9
+#: recursos/4uttarpradesh/datos/levels.py:12
+msgid "Moradabad"
+msgstr "莫拉达巴德"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:10
+#: recursos/4uttarpradesh/datos/levels.py:13
+msgid "Bareilly"
+msgstr "巴雷利"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:12
+#: recursos/4uttarpradesh/datos/levels.py:15
+msgid "Devipatan"
+msgstr "德维帕坦"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:13
+#: recursos/4uttarpradesh/datos/levels.py:16
+msgid "Basti"
+msgstr "巴斯蒂"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:14
+#: recursos/4uttarpradesh/datos/levels.py:17
+msgid "Gorakhpur"
+msgstr "戈勒克布尔"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:15
+#: recursos/4uttarpradesh/datos/levels.py:18
+msgid "Meerut"
+msgstr "密拉特"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:16
+#: recursos/4uttarpradesh/datos/levels.py:19
+msgid "Aligarh"
+msgstr "阿里格尔"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:19
+#: recursos/4uttarpradesh/datos/levels.py:22
+msgid "Faizabad"
+msgstr "法扎巴德"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:20
+#: recursos/4uttarpradesh/datos/levels.py:23
+msgid "Azamgarh"
+msgstr "阿扎姆加尔"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:21
+#: recursos/4uttarpradesh/datos/levels.py:24
+msgid "Jhansi"
+msgstr "占西"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:22
+#: recursos/4uttarpradesh/datos/levels.py:25
+msgid "Chitrakoot"
+msgstr "奇特拉库特"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:25
+#: recursos/4uttarpradesh/datos/levels.py:28
+msgid "Mirzapur"
+msgstr "米尔扎布尔"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:28
+msgid "Uttaranchal"
+msgstr "北安查尔邦"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:31
+msgid "Chhattissgarh"
+msgstr "恰蒂斯加尔邦"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:46
+msgid "Banwari Lal Joshi"
+msgstr "班瓦里·拉尔·乔希"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:47
+msgid "Akhilesh Yadav"
+msgstr "阿希列什·亚达夫"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:48
+msgid "243.286 km² (5th)"
+msgstr "243,286 平方公里 (第5名)"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:49
+msgid "199.581.477 (1st)"
+msgstr "199,581,477 (第1名)"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:50
+msgid "Low - 0,490 (32nd)"
+msgstr "低－0,490 (第32名)"
+
+#: recursos/4uttarpradesh/datos/explorations.py:6
+#: recursos/4uttarpradesh/datos/levels.py:7
+msgid "Divisions"
+msgstr "专区"
 
 #: recursos/comun/datos/commons.py:8
 msgid "Hello friends..."
