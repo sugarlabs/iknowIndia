@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-13 00:34-0500\n"
-"PO-Revision-Date: 2013-03-13 05:00+0200\n"
-"Last-Translator: EdgarQuispeChambi <quispedgar@yahoo.es>\n"
+"PO-Revision-Date: 2013-04-10 03:29+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ayc\n"
 "MIME-Version: 1.0\n"
@@ -129,7 +129,7 @@ msgstr "maski kawkipiri limt'añsa kutt'añataki limt'ma"
 
 #: conozco.py:660
 msgid "You have chosen the map "
-msgstr "Akïri suyuna rixipa jajllta ..."
+msgstr "Akïri suyuna rixipa jajllta "
 
 #: conozco.py:666
 msgid "Play"
@@ -1099,7 +1099,7 @@ msgstr "katuqata: %s"
 
 #: recursos/0india/datos/0india.py:210
 msgid "26 of january of 1950 "
-msgstr "26 uru saraqata enero phaxsita 1950 marana"
+msgstr "26 uru saraqata enero phaxsita 1950 marana "
 
 #: recursos/0india/datos/0india.py:211 recursos/4goa/datos/4goa.py:52
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:48
