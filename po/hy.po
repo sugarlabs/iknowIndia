@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-27 14:58-0400\n"
-"PO-Revision-Date: 2012-10-14 19:38+0200\n"
+"POT-Creation-Date: 2012-11-13 00:34-0500\n"
+"PO-Revision-Date: 2012-12-25 00:17+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -129,7 +129,7 @@ msgstr "Սեղմել որևէ ստեղն վերադառնալու համար"
 
 #: conozco.py:660
 msgid "You have chosen the map "
-msgstr ""
+msgstr "Դուք ընտրել եք քարտեզը "
 
 #: conozco.py:666
 msgid "Play"
@@ -152,13 +152,12 @@ msgid "Choose the map to use"
 msgstr "Ընտրիր քարտեզը օգտագործելու համար"
 
 #: conozco.py:787
-#, fuzzy
 msgid "Previous page"
-msgstr "<<< Նախորդ Էջ"
+msgstr "Նախորդ էջ"
 
 #: conozco.py:832
 msgid "Next page"
-msgstr ""
+msgstr "Հաջորդ էջ"
 
 #: conozco.py:853
 msgid "Exit"
@@ -200,6 +199,7 @@ msgstr ""
 #: recursos/0india/datos/levels.py:57 recursos/0india/datos/levels.py:100
 #: recursos/0india/datos/levels.py:154 recursos/0india/datos/levels.py:155
 #: recursos/0india/datos/levels.py:156
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:33
 msgid "Bihar"
 msgstr "Բիհար"
 
@@ -247,6 +247,7 @@ msgstr "Ջամմու և Քաշմիր"
 #: recursos/0india/datos/0india.py:18 recursos/0india/datos/levels.py:21
 #: recursos/0india/datos/levels.py:64 recursos/0india/datos/levels.py:107
 #: recursos/0india/datos/levels.py:153
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:32
 msgid "Jharkhand"
 msgstr ""
 
@@ -275,6 +276,7 @@ msgstr ""
 #: recursos/0india/datos/levels.py:170 recursos/0india/datos/levels.py:171
 #: recursos/0india/datos/levels.py:172 recursos/0india/datos/levels.py:173
 #: recursos/0india/datos/levels.py:174
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:30
 #, fuzzy
 msgid "Madhya Pradesh"
 msgstr "Անդհրա Պրադեշ"
@@ -332,6 +334,7 @@ msgstr ""
 #: recursos/0india/datos/levels.py:161 recursos/0india/datos/levels.py:162
 #: recursos/0india/datos/levels.py:163 recursos/0india/datos/levels.py:164
 #: recursos/0india/datos/levels.py:165
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:29
 msgid "Rajasthan"
 msgstr "Ռաջաստհան"
 
@@ -359,6 +362,7 @@ msgstr ""
 #: recursos/0india/datos/levels.py:142 recursos/0india/datos/levels.py:143
 #: recursos/0india/datos/levels.py:144 recursos/0india/datos/levels.py:145
 #: recursos/0india/datos/levels.py:146 recursos/0india/datos/levels.py:147
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:5
 msgid "Uttar Pradesh"
 msgstr "Ուտար Պրադեշ"
 
@@ -404,10 +408,12 @@ msgid "Pakistan"
 msgstr "Պակիստան"
 
 #: recursos/0india/datos/0india.py:44
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:26
 msgid "China"
 msgstr "Չինաստան"
 
 #: recursos/0india/datos/0india.py:45
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:27
 msgid "Nepal"
 msgstr "Նեպալ"
 
@@ -555,6 +561,9 @@ msgstr ""
 
 #: recursos/0india/datos/0india.py:78 recursos/0india/datos/levels.py:78
 #: recursos/0india/datos/levels.py:121
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:11
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:45
+#: recursos/4uttarpradesh/datos/levels.py:14
 msgid "Lucknow"
 msgstr ""
 
@@ -654,18 +663,26 @@ msgid "Ayodhya"
 msgstr ""
 
 #: recursos/0india/datos/0india.py:105 recursos/0india/datos/levels.py:144
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:17
+#: recursos/4uttarpradesh/datos/levels.py:20
 msgid "Agra"
 msgstr ""
 
 #: recursos/0india/datos/0india.py:106 recursos/0india/datos/levels.py:145
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:18
+#: recursos/4uttarpradesh/datos/levels.py:21
 msgid "Kanpur"
 msgstr ""
 
 #: recursos/0india/datos/0india.py:107 recursos/0india/datos/levels.py:146
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:24
+#: recursos/4uttarpradesh/datos/levels.py:27
 msgid "Varanasi"
 msgstr ""
 
 #: recursos/0india/datos/0india.py:108 recursos/0india/datos/levels.py:147
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:23
+#: recursos/4uttarpradesh/datos/levels.py:26
 msgid "Allahabad"
 msgstr ""
 
@@ -1015,6 +1032,7 @@ msgid "Rameswaram"
 msgstr ""
 
 #: recursos/0india/datos/0india.py:203 recursos/4goa/datos/4goa.py:49
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:45
 msgid "Capital:"
 msgstr "Մայրաքաղաք."
 
@@ -1086,6 +1104,7 @@ msgid "26 of january of 1950 "
 msgstr "1950 թ.-ի հունվարի 26 "
 
 #: recursos/0india/datos/0india.py:211 recursos/4goa/datos/4goa.py:52
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:48
 msgid "Area:"
 msgstr "Տարածք."
 
@@ -1094,6 +1113,7 @@ msgid "3.287.263 km² (7th)"
 msgstr "3.287.263 կմ² (7րդ)"
 
 #: recursos/0india/datos/0india.py:212 recursos/4goa/datos/4goa.py:53
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:49
 msgid "Population:"
 msgstr "Բնակչություն."
 
@@ -1107,10 +1127,12 @@ msgid "GDP:"
 msgstr "ՀՆԱ."
 
 #: recursos/0india/datos/0india.py:213
+#, fuzzy
 msgid "USD 1.676 trillion (11th)"
-msgstr ""
+msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
 
 #: recursos/0india/datos/0india.py:214 recursos/4goa/datos/4goa.py:54
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:50
 msgid "HDI:"
 msgstr ""
 
@@ -1136,29 +1158,35 @@ msgstr ""
 
 #: recursos/0india/datos/explorations.py:20 recursos/0india/datos/levels.py:92
 #: recursos/4goa/datos/explorations.py:20 recursos/4goa/datos/levels.py:48
+#: recursos/4uttarpradesh/datos/explorations.py:20
+#: recursos/4uttarpradesh/datos/levels.py:46
 msgid "Cities"
-msgstr ""
+msgstr "Քաղաքներ"
 
 #: recursos/0india/datos/explorations.py:27
 #: recursos/4goa/datos/explorations.py:27
+#: recursos/4uttarpradesh/datos/explorations.py:27
 msgid "Waterways"
 msgstr ""
 
 #: recursos/0india/datos/explorations.py:34
 #: recursos/4goa/datos/explorations.py:34
+#: recursos/4uttarpradesh/datos/explorations.py:34
 msgid "Routes"
 msgstr ""
 
 #: recursos/0india/datos/levels.py:11 recursos/0india/datos/levels.py:23
 #: recursos/0india/datos/levels.py:34 recursos/4goa/datos/levels.py:20
 #: recursos/4goa/datos/levels.py:21 recursos/4goa/datos/levels.py:39
-#: recursos/4goa/datos/levels.py:40
+#: recursos/4goa/datos/levels.py:40 recursos/4uttarpradesh/datos/levels.py:25
+#: recursos/4uttarpradesh/datos/levels.py:26
 msgid "It's in the south"
 msgstr ""
 
 #: recursos/0india/datos/levels.py:12 recursos/0india/datos/levels.py:14
 #: recursos/0india/datos/levels.py:33 recursos/4goa/datos/levels.py:14
-#: recursos/4goa/datos/levels.py:36
+#: recursos/4goa/datos/levels.py:36 recursos/4uttarpradesh/datos/levels.py:15
+#: recursos/4uttarpradesh/datos/levels.py:16
 msgid "It's in the northeast"
 msgstr ""
 
@@ -1166,17 +1194,23 @@ msgstr ""
 #: recursos/0india/datos/levels.py:27 recursos/0india/datos/levels.py:28
 #: recursos/0india/datos/levels.py:29 recursos/0india/datos/levels.py:30
 #: recursos/0india/datos/levels.py:35 recursos/4goa/datos/levels.py:19
-#: recursos/4goa/datos/levels.py:37
+#: recursos/4goa/datos/levels.py:37 recursos/4uttarpradesh/datos/levels.py:17
+#: recursos/4uttarpradesh/datos/levels.py:23
+#: recursos/4uttarpradesh/datos/levels.py:27
 msgid "It's in the east"
 msgstr ""
 
 #: recursos/0india/datos/levels.py:15 recursos/0india/datos/levels.py:21
 #: recursos/0india/datos/levels.py:24 recursos/4goa/datos/levels.py:16
+#: recursos/4uttarpradesh/datos/levels.py:14
+#: recursos/4uttarpradesh/datos/levels.py:21
+#: recursos/4uttarpradesh/datos/levels.py:22
 msgid "It's in the center"
 msgstr ""
 
 #: recursos/0india/datos/levels.py:16 recursos/0india/datos/levels.py:22
 #: recursos/0india/datos/levels.py:42
+#: recursos/4uttarpradesh/datos/levels.py:24
 msgid "It's in the southwest"
 msgstr ""
 
@@ -1185,24 +1219,29 @@ msgstr ""
 #: recursos/4goa/datos/levels.py:15 recursos/4goa/datos/levels.py:17
 #: recursos/4goa/datos/levels.py:18 recursos/4goa/datos/levels.py:31
 #: recursos/4goa/datos/levels.py:35 recursos/4goa/datos/levels.py:38
+#: recursos/4uttarpradesh/datos/levels.py:19
+#: recursos/4uttarpradesh/datos/levels.py:20
 msgid "It's in the west"
 msgstr ""
 
 #: recursos/0india/datos/levels.py:18 recursos/0india/datos/levels.py:31
 #: recursos/0india/datos/levels.py:32 recursos/4goa/datos/levels.py:11
 #: recursos/4goa/datos/levels.py:12 recursos/4goa/datos/levels.py:32
-#: recursos/4goa/datos/levels.py:33
+#: recursos/4goa/datos/levels.py:33 recursos/4uttarpradesh/datos/levels.py:11
+#: recursos/4uttarpradesh/datos/levels.py:12
+#: recursos/4uttarpradesh/datos/levels.py:18
 msgid "It's in the northwest"
 msgstr ""
 
 #: recursos/0india/datos/levels.py:19 recursos/0india/datos/levels.py:20
 #: recursos/0india/datos/levels.py:36 recursos/0india/datos/levels.py:37
 #: recursos/0india/datos/levels.py:43 recursos/4goa/datos/levels.py:13
-#: recursos/4goa/datos/levels.py:34
+#: recursos/4goa/datos/levels.py:34 recursos/4uttarpradesh/datos/levels.py:13
 msgid "It's in the north"
 msgstr ""
 
 #: recursos/0india/datos/levels.py:40
+#: recursos/4uttarpradesh/datos/levels.py:28
 msgid "It's in the southeast"
 msgstr ""
 
@@ -1376,6 +1415,7 @@ msgid "Chaudi"
 msgstr ""
 
 #: recursos/4goa/datos/4goa.py:50
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:46
 msgid "Governor:"
 msgstr ""
 
@@ -1384,6 +1424,7 @@ msgid "B. V. Wanchoo"
 msgstr ""
 
 #: recursos/4goa/datos/4goa.py:51
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:47
 msgid "Chief Minister:"
 msgstr ""
 
@@ -1408,6 +1449,8 @@ msgid "Talukas"
 msgstr ""
 
 #: recursos/4goa/datos/explorations.py:13 recursos/4goa/datos/levels.py:27
+#: recursos/4uttarpradesh/datos/explorations.py:13
+#: recursos/4uttarpradesh/datos/levels.py:34
 msgid "Taluka Headquarters"
 msgstr ""
 
@@ -1425,91 +1468,193 @@ msgstr ""
 msgid "It's in the centre"
 msgstr ""
 
-#: recursos/comun/datos/commons.py:8
-msgid "Hello friends..."
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:8
+#: recursos/4uttarpradesh/datos/levels.py:11
+msgid "Saharanpur"
 msgstr ""
 
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:9
+#: recursos/4uttarpradesh/datos/levels.py:12
+msgid "Moradabad"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:10
+#: recursos/4uttarpradesh/datos/levels.py:13
+msgid "Bareilly"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:12
+#: recursos/4uttarpradesh/datos/levels.py:15
+msgid "Devipatan"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:13
+#: recursos/4uttarpradesh/datos/levels.py:16
+msgid "Basti"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:14
+#: recursos/4uttarpradesh/datos/levels.py:17
+msgid "Gorakhpur"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:15
+#: recursos/4uttarpradesh/datos/levels.py:18
+msgid "Meerut"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:16
+#: recursos/4uttarpradesh/datos/levels.py:19
+msgid "Aligarh"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:19
+#: recursos/4uttarpradesh/datos/levels.py:22
+msgid "Faizabad"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:20
+#: recursos/4uttarpradesh/datos/levels.py:23
+msgid "Azamgarh"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:21
+#: recursos/4uttarpradesh/datos/levels.py:24
+msgid "Jhansi"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:22
+#: recursos/4uttarpradesh/datos/levels.py:25
+msgid "Chitrakoot"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:25
+#: recursos/4uttarpradesh/datos/levels.py:28
+msgid "Mirzapur"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:28
+msgid "Uttaranchal"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:31
+#, fuzzy
+msgid "Chhattissgarh"
+msgstr "Չանդիգարհ"
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:46
+msgid "Banwari Lal Joshi"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:47
+msgid "Akhilesh Yadav"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:48
+msgid "243.286 km² (5th)"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:49
+msgid "199.581.477 (1st)"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:50
+msgid "Low - 0,490 (32nd)"
+msgstr ""
+
+#: recursos/4uttarpradesh/datos/explorations.py:6
+#: recursos/4uttarpradesh/datos/levels.py:7
+msgid "Divisions"
+msgstr ""
+
+#: recursos/comun/datos/commons.py:8
+msgid "Hello friends..."
+msgstr "Ողջույն ընկերներ..."
+
 #: recursos/comun/datos/commons.py:9
+#, fuzzy
 msgid ""
 "...tomorrow I have a\n"
 "test about India..."
 msgstr ""
+"...վաղը ստուգարք ունեմ\n"
+"Ամերիայի մասին..."
 
 #: recursos/comun/datos/commons.py:10
 msgid "...and I know nothing!!!"
-msgstr ""
+msgstr "...և ես ոչինչ չգիտեմ!!!"
 
 #: recursos/comun/datos/commons.py:11
 msgid "...what do I do???"
-msgstr ""
+msgstr "...ինչով եմ զբաղվում?"
 
 #: recursos/comun/datos/commons.py:12
 msgid "Can I ask you something?"
-msgstr ""
+msgstr "Կարող եմ քեզ մի բան հարցնել?"
 
 #: recursos/comun/datos/commons.py:13
 msgid "Will you help me?"
-msgstr ""
+msgstr "Ինձ կօգնես?"
 
 #: recursos/comun/datos/commons.py:17
 msgid "We have to find"
-msgstr ""
+msgstr "Մենք պետք է գտնենք"
 
 #: recursos/comun/datos/commons.py:18
 msgid "Now we have to find"
-msgstr ""
+msgstr "Այժմ պետք է գտնենք"
 
 #: recursos/comun/datos/commons.py:19
 msgid "We need to find"
-msgstr ""
+msgstr "Մեզ անհրաժեշտ է գտնել"
 
 #: recursos/comun/datos/commons.py:23
 msgid "Can you tell me where it is?"
-msgstr ""
+msgstr "Կարող ես ինձ ասել որտեղ է դա?"
 
 #: recursos/comun/datos/commons.py:24
 msgid "Where is it?"
-msgstr ""
+msgstr "Որտե՞ղ է այն"
 
 #: recursos/comun/datos/commons.py:25
 msgid "Can you show me where it is?"
-msgstr ""
+msgstr "Կարո՞ղ ես ցույց տալ որտեղ է այն"
 
 #: recursos/comun/datos/commons.py:26
 msgid "Can you find it?"
-msgstr ""
+msgstr "Կարո՞ղ ես գտնել այն"
 
 #: recursos/comun/datos/commons.py:30
 msgid "Very well!"
-msgstr ""
+msgstr "Շատ լավ"
 
 #: recursos/comun/datos/commons.py:31
 msgid "Brilliant!"
-msgstr ""
+msgstr "Փայլուն է"
 
 #: recursos/comun/datos/commons.py:32
 msgid "You found it!"
-msgstr ""
+msgstr "Դու գտար այն"
 
 #: recursos/comun/datos/commons.py:33
 msgid "Yes!"
-msgstr ""
+msgstr "Այո"
 
 #: recursos/comun/datos/commons.py:37
 msgid "No, that is not correct"
-msgstr ""
+msgstr "Ոչ, դա ճիշտ չէ"
 
 #: recursos/comun/datos/commons.py:38
 msgid "No, it is not there"
-msgstr ""
+msgstr "Ոչ, դա այնտեղ չէ"
 
 #: recursos/comun/datos/commons.py:39
 msgid "No, that seems to be wrong"
-msgstr ""
+msgstr "Ոչ, դա սխալ է թվում"
 
 #: recursos/comun/datos/commons.py:40
 msgid "That is not correct"
-msgstr ""
+msgstr "Դա ճիշտ չէ"
 
 #: recursos/comun/datos/commons.py:44
 msgid ""
@@ -1518,6 +1663,10 @@ msgid ""
 "I'm going to play...\n"
 "Thanks for your help!"
 msgstr ""
+"Հիմա ես պատրաստ եմ\n"
+"վաղվա համար...\n"
+"Ես պատրաստվում եմ խաղալ...\n"
+"Շնորհակալություն, օգնության համար"
 
 #: recursos/comun/datos/commons.py:45
 msgid ""
@@ -1526,6 +1675,10 @@ msgid ""
 "Bye and thanks\n"
 "for helping me!"
 msgstr ""
+"Մենք պատրաստեցինք դա!\n"
+"Ես պատրաստվում եմ գնդակ խաղալ...\n"
+"Հաջողություն և շնորհակալություն\n"
+"ինձ օգնելու համար!"
 
 #: recursos/comun/datos/commons.py:46
 msgid ""
@@ -1534,6 +1687,10 @@ msgid ""
 "I'm playing a while...\n"
 "Until next time!"
 msgstr ""
+"Մենք դա արեցինք!\n"
+"Ես պատրաստ եմ վաղվա համար...\n"
+"Ես մի փոքր կխաղամ...\n"
+"Մինչ նոր հանդիպում!"
 
 #: recursos/comun/datos/commons.py:50
 msgid ""
@@ -1541,6 +1698,9 @@ msgid ""
 "I'll play a while...\n"
 "Thanks!"
 msgstr ""
+"Հաջողություն հաջորդ անգամ\n"
+"Ես մի փոքր կխաղամ...\n"
+"Շնորհակալություն!"
 
 #: recursos/comun/datos/commons.py:51
 msgid ""
@@ -1548,6 +1708,9 @@ msgid ""
 "I'm going to play ball...\n"
 "Thanks!"
 msgstr ""
+"Հաջորդ անգամ ավելի լավ կլինի\n"
+"Ես պատրաստվում եմ գնդակ խաղալու...\n"
+"Շնորհակալություն!"
 
 #: recursos/comun/datos/commons.py:52
 msgid ""
@@ -1555,6 +1718,9 @@ msgid ""
 "I'm going to play...\n"
 "Thanks!"
 msgstr ""
+"Խնդրում եմ, փորձիր կրկին...\n"
+"Ես պատրաստվում եմ խաղալ...\n"
+"Շնորհակալություն"
 
 #: recursos/comun/datos/commons.py:56
 msgid "Author: Alan Aguiar"
@@ -1563,6 +1729,8 @@ msgstr ""
 #: recursos/comun/datos/commons.py:57
 msgid "Send corrections, comments or suggestions to: alanjas@hotmail.com"
 msgstr ""
+"Ուղարկեք ուղղումները, մեկնաբանությունները կամ առաջարկությունները հետևյալ "
+"հասցեով` alanjas@hotmail.com"
 
 #: recursos/comun/datos/commons.py:59
 msgid "Thank's to Salil Konkar for the help in the english strings."
@@ -1570,7 +1738,7 @@ msgstr ""
 
 #: recursos/comun/datos/commons.py:61
 msgid "This program is free software developed by the community"
-msgstr ""
+msgstr "Այս ծրագիրը հասարակության կողմից ստեղծված ազատ բաց ծրագիր է"
 
 #: recursos/comun/datos/commons.py:62
 msgid "For more information visit http://ceibaljam.org"
@@ -1593,3 +1761,639 @@ msgstr ""
 
 #~ msgid "Next page >>>"
 #~ msgstr "Հաջորդ Էջ >>>"
+
+#~ msgid "High - 0,696 (75th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "Press any key to skip"
+#~ msgstr "Սեղմեք որևէ ստեղն, բաց թողնելու համար"
+
+#~ msgid "Las Vegas"
+#~ msgstr "Լաս Վեգաս"
+
+#, fuzzy
+#~ msgid "High - 0,736 (59th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "The Bahamas"
+#~ msgstr "Բահամյան Կղզիներ"
+
+#, fuzzy
+#~ msgid "(13º40' N - 89º10' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "Colombia"
+#~ msgstr "Կոլոմբիա"
+
+#~ msgid "Dominicana"
+#~ msgstr "Դոմինիկյան Հանրապետություն"
+
+#, fuzzy
+#~ msgid "20 of may of 1902"
+#~ msgstr "1811 թ.-ի հուլիսի 5"
+
+#~ msgid "Santo Domingo"
+#~ msgstr "Սանտո Դոմինգո"
+
+#, fuzzy
+#~ msgid "USD 51.209 billion (86th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Is west"
+#~ msgstr "Արևմուտքն է"
+
+#, fuzzy
+#~ msgid "USD 52.885 billion (84th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "կայմանյան Կղզիներ"
+
+#~ msgid "Haiti"
+#~ msgstr "Հայթի"
+
+#, fuzzy
+#~ msgid "San Francique"
+#~ msgstr "Սան Ֆրանցիսկո"
+
+#~ msgid "Chicago"
+#~ msgstr "Չիկագո"
+
+#, fuzzy
+#~ msgid "USD 2.046 billion (166th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "San Salvador"
+#~ msgstr "Սան Սալվադոր"
+
+#, fuzzy
+#~ msgid "Haití"
+#~ msgstr "Հայթի"
+
+#~ msgid "Kingston"
+#~ msgstr "Քինգսթոն"
+
+#, fuzzy
+#~ msgid "USD 1.658.197 billion (11th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Santiago"
+#~ msgstr "Սանտյագո"
+
+#, fuzzy
+#~ msgid "(10º40' N - 61º31' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "Havana"
+#~ msgstr "Հավանա"
+
+#, fuzzy
+#~ msgid "High - 0,723 (63th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "Houston"
+#~ msgstr "Հյուստոն"
+
+#~ msgid "Washington"
+#~ msgstr "Վաշինգտոն"
+
+#~ msgid "Port of Spain"
+#~ msgstr "Իսպանիայի Նավահանգիստ"
+
+#~ msgid "Belize"
+#~ msgstr "Բելիզ"
+
+#, fuzzy
+#~ msgid "USD 299.648 billion (41th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Տրինիդադ և Տոբակո"
+
+#, fuzzy
+#~ msgid "(6º49' N - 58º9' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#, fuzzy
+#~ msgid "Casares"
+#~ msgstr "Կաստրի"
+
+#~ msgid "Cuba"
+#~ msgstr "Կուբա"
+
+#, fuzzy
+#~ msgid "High - 0,695 (77th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "North America"
+#~ msgstr "Հյուսիսային Ամերիկա"
+
+#, fuzzy
+#~ msgid "High - 0,750 (56th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "Dallas"
+#~ msgstr "Դալաս"
+
+#, fuzzy
+#~ msgid "9 of july of 1816"
+#~ msgstr "1811 թ.-ի հուլիսի 5"
+
+#~ msgid "Granada"
+#~ msgstr "Գրանադա"
+
+#, fuzzy
+#~ msgid "(34º40' S - 58º24' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#, fuzzy
+#~ msgid "(34º53' S - 56º10' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#, fuzzy
+#~ msgid "Columbia"
+#~ msgstr "Կոլոմբիա"
+
+#~ msgid "Atlanta"
+#~ msgstr "Ատլանտա"
+
+#~ msgid "Dominica"
+#~ msgstr "Դոմինիկա"
+
+#, fuzzy
+#~ msgid "21 of july of 1847"
+#~ msgstr "1811 թ.-ի հուլիսի 5"
+
+#~ msgid "Countries"
+#~ msgstr "Երկրներ"
+
+#~ msgid "Martinica"
+#~ msgstr "Մարտինիկա"
+
+#, fuzzy
+#~ msgid "24 of may of 1822"
+#~ msgstr "1811 թ.-ի հուլիսի 5"
+
+#, fuzzy
+#~ msgid "USD 3.082 billion (158th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Managua"
+#~ msgstr "Մանագուան"
+
+#, fuzzy
+#~ msgid "High - 0,688 (80th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "Hugo Chávez Frías"
+#~ msgstr "Հուգո Չավես Ֆրիաս"
+
+#, fuzzy
+#~ msgid "1st of july of 1867"
+#~ msgstr "1811 թ.-ի հուլիսի 5"
+
+#~ msgid "Guatemala"
+#~ msgstr "Գվատեմալա"
+
+#~ msgid "Reservoir of Guarico"
+#~ msgstr "Գուարիկոյի Ջրամբար"
+
+#, fuzzy
+#~ msgid "Masagua"
+#~ msgstr "Մանագուան"
+
+#, fuzzy
+#~ msgid "High - 0,699 (73th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "Roseau"
+#~ msgstr "Ռոզո"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Նիկարագուա"
+
+#, fuzzy
+#~ msgid "(5º52' N - 55º10' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "Venezuela"
+#~ msgstr "Վենեսուելա"
+
+#, fuzzy
+#~ msgid "USD 73.022 billion (79th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Is northwest"
+#~ msgstr "Հյուսիս-արևմուտքն է"
+
+#, fuzzy
+#~ msgid "Reservoir of Sura"
+#~ msgstr "Գուարիկոյի Ջրամբար"
+
+#~ msgid "San Juan"
+#~ msgstr "Սան Խուան"
+
+#, fuzzy
+#~ msgid "(45º24' N - 75º40' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "I know America"
+#~ msgstr "Ես գիտեմ Ամերիկան"
+
+#~ msgid "Honduras"
+#~ msgstr "Հոնդուրաս"
+
+#~ msgid "Grand Bahama Island"
+#~ msgstr "Բահամյան Կղզիներ"
+
+#, fuzzy
+#~ msgid "(18º29' N - 66º08' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#, fuzzy
+#~ msgid "(23º80' N - 82º23' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "Nassau"
+#~ msgstr "Նասաու"
+
+#, fuzzy
+#~ msgid "20 of july of 1810"
+#~ msgstr "1811 թ.-ի հուլիսի 5"
+
+#~ msgid "San José"
+#~ msgstr "Սան Խոսե"
+
+#~ msgid "Tegucigalpa"
+#~ msgstr "Տեգուսիգալպա"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Սենթ Վիսենթ և Գրենադիններ"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Սենթ Լյուսիա"
+
+#, fuzzy
+#~ msgid "High - 0,755 (54th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#, fuzzy
+#~ msgid "(19º26' N - 99º08' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#, fuzzy
+#~ msgid "USD 47.980 billion (87th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "El Salvador"
+#~ msgstr "Սալվադոր"
+
+#, fuzzy
+#~ msgid "USD 11.145 billion (88th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Is southeast"
+#~ msgstr "Հարավ-արևելքն է"
+
+#, fuzzy
+#~ msgid "High - 0,694 (78th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "Gran Inagua"
+#~ msgstr "Ինագուա"
+
+#, fuzzy
+#~ msgid "(13º0' N - 85º0' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "Canada"
+#~ msgstr "Կանադա"
+
+#, fuzzy
+#~ msgid "USD 11.056 billion (138th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Alaska"
+#~ msgstr "Ալյասկա"
+
+#, fuzzy
+#~ msgid "Reservoir de Guarico"
+#~ msgstr "Գուարիկոյի Ջրամբար"
+
+#, fuzzy
+#~ msgid "USD 96.260 billion (--th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#, fuzzy
+#~ msgid "La Vega"
+#~ msgstr "Լաս Վեգաս"
+
+#~ msgid "Andros Island"
+#~ msgstr "Անդրոս Կղզիներ"
+
+#~ msgid "Guadalupe"
+#~ msgstr "Գվադելուպա"
+
+#, fuzzy
+#~ msgid "Columbus"
+#~ msgstr "Կոլոմբիա"
+
+#, fuzzy
+#~ msgid "Panorama"
+#~ msgstr "Պանամա"
+
+#, fuzzy
+#~ msgid "USD 30.943 billion (102th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Is east"
+#~ msgstr "Արևելքն է"
+
+#, fuzzy
+#~ msgid "USD 11.690 billion (131st)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#, fuzzy
+#~ msgid "(38º53' N - 77º02' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "Mexico"
+#~ msgstr "Մեքսիկա"
+
+#~ msgid "Bridgetown"
+#~ msgstr "Բրիջթաուն"
+
+#, fuzzy
+#~ msgid "Dominical"
+#~ msgstr "Դոմինիկա"
+
+#, fuzzy
+#~ msgid "15 of may of 1811"
+#~ msgstr "1811 թ.-ի հուլիսի 5"
+
+#, fuzzy
+#~ msgid "(4º39' N - 74º3' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "United States"
+#~ msgstr "Միացիալ Նահանգներ"
+
+#~ msgid "30 of march of 1845"
+#~ msgstr "1845 թ.-ի մարտի 30"
+
+#~ msgid "28.892.735 (41th)"
+#~ msgstr "28.892.735 (41րդ)"
+
+#~ msgid "Boston"
+#~ msgstr "Բոստոն"
+
+#, fuzzy
+#~ msgid "USD 26.536 billion (115th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#, fuzzy
+#~ msgid "High - 0,725 (62th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "Ottawa"
+#~ msgstr "Օտտավա"
+
+#~ msgid "Port-au-Prince"
+#~ msgstr "Պորտ-օ-Պրենս"
+
+#, fuzzy
+#~ msgid "(18º28' N - 69º54' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#, fuzzy
+#~ msgid "USD 110.800 billion (65th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#, fuzzy
+#~ msgid "(14º38' N - 90º33' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#, fuzzy
+#~ msgid "Chiclayo"
+#~ msgstr "Չիկագո"
+
+#~ msgid "México"
+#~ msgstr "Մեքսիկա"
+
+#~ msgid "Capitals"
+#~ msgstr "Մայրաքաղաքներ"
+
+#, fuzzy
+#~ msgid "High - 0,775 (46th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#, fuzzy
+#~ msgid "(14º6' N - 87º13' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "Acapulco"
+#~ msgstr "Ակապուլկո"
+
+#, fuzzy
+#~ msgid "Panama"
+#~ msgstr "Պանամա"
+
+#, fuzzy
+#~ msgid "Colonia"
+#~ msgstr "Կոլոմբիա"
+
+#~ msgid "Panamá"
+#~ msgstr "Պանամա"
+
+#, fuzzy
+#~ msgid "(13º10' N - 61º14' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#, fuzzy
+#~ msgid "USD 93.095 billion (71th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#, fuzzy
+#~ msgid "USD 119.827 billion (--th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#, fuzzy
+#~ msgid "High - 0,689 (79th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "Margarita Island"
+#~ msgstr "Մարգարիտա Կղզիներ"
+
+#~ msgid "Russia"
+#~ msgstr "Ռուսաստան"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Պուերտո Ռիկո"
+
+#, fuzzy
+#~ msgid "High - 0,765 (52th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "Is north"
+#~ msgstr "Հյուսիսն է"
+
+#, fuzzy
+#~ msgid "Puerto Viejo"
+#~ msgstr "Պուերտո Ռիկո"
+
+#, fuzzy
+#~ msgid "(8º58' N - 79º32' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#, fuzzy
+#~ msgid "Las Petas"
+#~ msgstr "Լաս Վեգաս"
+
+#, fuzzy
+#~ msgid "USD 404.995 billion (27th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#, fuzzy
+#~ msgid "USD 2.812 billion (161th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#, fuzzy
+#~ msgid "High - 0,783 (45th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "(10º30' N - 66º58' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Կոստա Ռիկա"
+
+#, fuzzy
+#~ msgid "USD 18.533 billion (123th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#, fuzzy
+#~ msgid "USD 1.996.753 billion (13th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Basse-Terre"
+#~ msgstr "Բասթեր"
+
+#, fuzzy
+#~ msgid "USD 751 billion (181st)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Elías Jaua Milano"
+#~ msgstr "Էլիաս Խաուա Միլանո"
+
+#~ msgid "Greenland"
+#~ msgstr "Գրենլանդիա"
+
+#~ msgid "5 of july of 1811"
+#~ msgstr "1811 թ.-ի հուլիսի 5"
+
+#, fuzzy
+#~ msgid "USD 35.173 billion (98th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#, fuzzy
+#~ msgid "Port-au-Prince Bay"
+#~ msgstr "Պորտ-օ-Պրենս"
+
+#~ msgid "New York"
+#~ msgstr "Նյու Յորք"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Անտիգուա և Բարբուդա"
+
+#~ msgid "916.445 km² (33th)"
+#~ msgstr "916.445 կմ² (33րդ)"
+
+#~ msgid "Central America"
+#~ msgstr "Կենտրոնական Ամերիկա"
+
+#, fuzzy
+#~ msgid "26 of may of 1966"
+#~ msgstr "1811 թ.-ի հուլիսի 5"
+
+#, fuzzy
+#~ msgid "(17º59' N - 76º48' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "Los Angeles"
+#~ msgstr "Լոս Անջելես"
+
+#, fuzzy
+#~ msgid "Rancagua"
+#~ msgstr "Մանագուան"
+
+#, fuzzy
+#~ msgid "(4º56' N - 52º19' W)"
+#~ msgstr "(10º30' N - 66º58' W)"
+
+#~ msgid "USD 350.276 billion (31th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#~ msgid "Cancún"
+#~ msgstr "Կանկուն"
+
+#~ msgid "Is southwest"
+#~ msgstr "Հարավ-արևմուտքն է"
+
+#~ msgid "Santa Clara"
+#~ msgstr "Սանտա Կլարա"
+
+#~ msgid "Is south"
+#~ msgstr "Հարավն է"
+
+#~ msgid "Miami"
+#~ msgstr "Մայամի"
+
+#, fuzzy
+#~ msgid "Pueblo Viejo"
+#~ msgstr "Պուերտո Ռիկո"
+
+#, fuzzy
+#~ msgid "Kingstown"
+#~ msgstr "Քինգսթոն"
+
+#, fuzzy
+#~ msgid "High - 0,760 (53th)"
+#~ msgstr "Բարձր - 0,696 (75րդ)"
+
+#~ msgid "San Francisco"
+#~ msgstr "Սան Ֆրանցիսկո"
+
+#~ msgid "Is northeast"
+#~ msgstr "Հյուսիս-արևելքն է"
+
+#~ msgid "Jamaica"
+#~ msgstr "Յամայկա"
+
+#, fuzzy
+#~ msgid "Las Heras"
+#~ msgstr "Լաս Վեգաս"
+
+#, fuzzy
+#~ msgid "USD 48.804 billion (85th)"
+#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "Հյուսիսային Ամերիկա"
+
+#, fuzzy
+#~ msgid "4 of july of 1776"
+#~ msgstr "1811 թ.-ի հուլիսի 5"
+
+#, fuzzy
+#~ msgid "28 of july of 1821"
+#~ msgstr "1811 թ.-ի հուլիսի 5"
+
+#~ msgid "Castries"
+#~ msgstr "Կաստրի"
+
+#~ msgid "Fort-de-France"
+#~ msgstr "Ֆորտ դը Ֆրանս"
+
+#~ msgid "Belmopan"
+#~ msgstr "Բելմոպան"
