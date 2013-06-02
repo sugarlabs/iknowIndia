@@ -38,7 +38,7 @@ LEVEL2 = [
     (_('Margao'), _("It's in %s taluka") % _('Salcete') + '\n' + _("It's in the west")),
     (_('Quepem'), _("It's in %s taluka") % _('Quepem') + '\n' + _("It's in the south")),
     (_('Chaudi'), _("It's in %s taluka") % _('Canacona') + '\n' + _("It's in the south")),
-    (_('Ponda'), _("It's in %s taluka") % _('Ponda') + '\n' + _("It's in the centre"))
+    (_('Ponda'), _("It's in %s taluka") % _('Ponda') + '\n' + _("It's in the center"))
 ]
 ]
 
