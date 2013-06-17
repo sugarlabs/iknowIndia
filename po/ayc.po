@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-13 00:34-0500\n"
+"POT-Creation-Date: 2013-06-03 00:33-0400\n"
 "PO-Revision-Date: 2013-05-25 06:12+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1198,7 +1198,7 @@ msgstr "Inti jalsu tuqinkiwa"
 
 #: recursos/0india/datos/levels.py:15 recursos/0india/datos/levels.py:21
 #: recursos/0india/datos/levels.py:24 recursos/4goa/datos/levels.py:16
-#: recursos/4uttarpradesh/datos/levels.py:14
+#: recursos/4goa/datos/levels.py:41 recursos/4uttarpradesh/datos/levels.py:14
 #: recursos/4uttarpradesh/datos/levels.py:21
 #: recursos/4uttarpradesh/datos/levels.py:22
 msgid "It's in the center"
@@ -1459,10 +1459,6 @@ msgstr "Taluka Capital jiliri marka"
 #, python-format
 msgid "It's in %s taluka"
 msgstr "taluka markankiwa %s"
-
-#: recursos/4goa/datos/levels.py:41
-msgid "It's in the centre"
-msgstr "Taypinkiwa"
 
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:8
 #: recursos/4uttarpradesh/datos/levels.py:11
@@ -1757,4 +1753,5 @@ msgstr ""
 "Wakisiwa: Share-Regular.ttf wakichataru ukasti uka urbanfonts.com "
 "wakichatata apaqatawa"
 
-
+#~ msgid "It's in the centre"
+#~ msgstr "Taypinkiwa"
