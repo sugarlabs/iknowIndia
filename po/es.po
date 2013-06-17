@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-13 00:34-0500\n"
+"POT-Creation-Date: 2013-06-03 00:33-0400\n"
 "PO-Revision-Date: 2012-11-13 18:00+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1198,7 +1198,7 @@ msgstr "Está en el este"
 
 #: recursos/0india/datos/levels.py:15 recursos/0india/datos/levels.py:21
 #: recursos/0india/datos/levels.py:24 recursos/4goa/datos/levels.py:16
-#: recursos/4uttarpradesh/datos/levels.py:14
+#: recursos/4goa/datos/levels.py:41 recursos/4uttarpradesh/datos/levels.py:14
 #: recursos/4uttarpradesh/datos/levels.py:21
 #: recursos/4uttarpradesh/datos/levels.py:22
 msgid "It's in the center"
@@ -1460,10 +1460,6 @@ msgstr "Taluka Capital"
 #, python-format
 msgid "It's in %s taluka"
 msgstr "Está en la taluka de %s"
-
-#: recursos/4goa/datos/levels.py:41
-msgid "It's in the centre"
-msgstr "Está en el centro"
 
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:8
 #: recursos/4uttarpradesh/datos/levels.py:11
@@ -1749,6 +1745,9 @@ msgstr "Sonidos descargados de freesound.org: btn117.wav gentileza de junggle."
 #: recursos/comun/datos/commons.py:66
 msgid "Font: Share-Regular.ttf of urbanfonts.com"
 msgstr "Fuente: Share-Regular.ttf bajada de urbanfonts.com"
+
+#~ msgid "It's in the centre"
+#~ msgstr "Está en el centro"
 
 #~ msgid "About I know India"
 #~ msgstr "Acerca de Conozco India"
