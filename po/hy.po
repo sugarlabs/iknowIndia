@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-13 00:34-0500\n"
-"PO-Revision-Date: 2012-12-25 00:17+0200\n"
+"POT-Creation-Date: 2013-06-27 00:33-0400\n"
+"PO-Revision-Date: 2013-06-28 06:10+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -187,7 +187,7 @@ msgstr "Անդհրա Պրադեշ"
 #: recursos/0india/datos/0india.py:9 recursos/0india/datos/levels.py:12
 #: recursos/0india/datos/levels.py:55 recursos/0india/datos/levels.py:98
 msgid "Arunachal Pradesh"
-msgstr ""
+msgstr "Արունաչալ Պրադեշ"
 
 #: recursos/0india/datos/0india.py:10 recursos/0india/datos/levels.py:13
 #: recursos/0india/datos/levels.py:56 recursos/0india/datos/levels.py:99
@@ -318,7 +318,7 @@ msgstr ""
 #: recursos/0india/datos/levels.py:177 recursos/0india/datos/levels.py:178
 #: recursos/0india/datos/levels.py:179 recursos/0india/datos/levels.py:180
 #: recursos/0india/datos/levels.py:181 recursos/0india/datos/levels.py:182
-msgid "Orissa"
+msgid "Odisha"
 msgstr ""
 
 #: recursos/0india/datos/0india.py:28 recursos/0india/datos/levels.py:31
@@ -631,7 +631,7 @@ msgid "Amritsar"
 msgstr ""
 
 #: recursos/0india/datos/0india.py:97 recursos/0india/datos/levels.py:136
-msgid "Atari"
+msgid "Attari"
 msgstr ""
 
 #: recursos/0india/datos/0india.py:98 recursos/0india/datos/levels.py:137
@@ -1202,7 +1202,7 @@ msgstr ""
 
 #: recursos/0india/datos/levels.py:15 recursos/0india/datos/levels.py:21
 #: recursos/0india/datos/levels.py:24 recursos/4goa/datos/levels.py:16
-#: recursos/4uttarpradesh/datos/levels.py:14
+#: recursos/4goa/datos/levels.py:41 recursos/4uttarpradesh/datos/levels.py:14
 #: recursos/4uttarpradesh/datos/levels.py:21
 #: recursos/4uttarpradesh/datos/levels.py:22
 msgid "It's in the center"
@@ -1462,10 +1462,6 @@ msgstr ""
 #: recursos/4goa/datos/levels.py:41
 #, python-format
 msgid "It's in %s taluka"
-msgstr ""
-
-#: recursos/4goa/datos/levels.py:41
-msgid "It's in the centre"
 msgstr ""
 
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:8

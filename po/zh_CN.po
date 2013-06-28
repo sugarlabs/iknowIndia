@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-13 00:34-0500\n"
-"PO-Revision-Date: 2012-11-14 12:37+0200\n"
+"POT-Creation-Date: 2013-06-27 00:33-0400\n"
+"PO-Revision-Date: 2013-06-27 18:07+0200\n"
 "Last-Translator: lite <litekok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -299,7 +299,7 @@ msgstr "那加兰邦"
 #: recursos/0india/datos/levels.py:177 recursos/0india/datos/levels.py:178
 #: recursos/0india/datos/levels.py:179 recursos/0india/datos/levels.py:180
 #: recursos/0india/datos/levels.py:181 recursos/0india/datos/levels.py:182
-msgid "Orissa"
+msgid "Odisha"
 msgstr "奥里萨邦"
 
 #: recursos/0india/datos/0india.py:28 recursos/0india/datos/levels.py:31
@@ -612,8 +612,8 @@ msgid "Amritsar"
 msgstr "阿姆利则"
 
 #: recursos/0india/datos/0india.py:97 recursos/0india/datos/levels.py:136
-msgid "Atari"
-msgstr "雅达利"
+msgid "Attari"
+msgstr "Attari"
 
 #: recursos/0india/datos/0india.py:98 recursos/0india/datos/levels.py:137
 msgid "Bathinda"
@@ -1180,7 +1180,7 @@ msgstr "在东部"
 
 #: recursos/0india/datos/levels.py:15 recursos/0india/datos/levels.py:21
 #: recursos/0india/datos/levels.py:24 recursos/4goa/datos/levels.py:16
-#: recursos/4uttarpradesh/datos/levels.py:14
+#: recursos/4goa/datos/levels.py:41 recursos/4uttarpradesh/datos/levels.py:14
 #: recursos/4uttarpradesh/datos/levels.py:21
 #: recursos/4uttarpradesh/datos/levels.py:22
 msgid "It's in the center"
@@ -1442,10 +1442,6 @@ msgstr "县城"
 #, python-format
 msgid "It's in %s taluka"
 msgstr "它在 %s 县"
-
-#: recursos/4goa/datos/levels.py:41
-msgid "It's in the centre"
-msgstr "它在中心"
 
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:8
 #: recursos/4uttarpradesh/datos/levels.py:11
@@ -1726,6 +1722,12 @@ msgstr "声音从freesound.org下载：btn117.wav courtesy of junggle。"
 #: recursos/comun/datos/commons.py:66
 msgid "Font: Share-Regular.ttf of urbanfonts.com"
 msgstr "字体：Share-Regular.ttf 从 urbanfonts.com 下载"
+
+#~ msgid "Orissa"
+#~ msgstr "奥里萨邦"
+
+#~ msgid "It's in the centre"
+#~ msgstr "它在中心"
 
 #~ msgid "About I know India"
 #~ msgstr "关于走遍印度"
