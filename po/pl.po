@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-27 00:33-0400\n"
-"PO-Revision-Date: 2013-01-01 03:09+0200\n"
-"Last-Translator: Kamila <kamilafilipowska@yahoo.com>\n"
+"PO-Revision-Date: 2013-06-28 21:25+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -348,7 +348,7 @@ msgstr "Tripura"
 #: recursos/0india/datos/levels.py:146 recursos/0india/datos/levels.py:147
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:5
 msgid "Uttar Pradesh"
-msgstr "Uttar Pradesh "
+msgstr "Uttar Pradesh"
 
 #: recursos/0india/datos/0india.py:34 recursos/0india/datos/levels.py:37
 #: recursos/0india/datos/levels.py:79 recursos/0india/datos/levels.py:122
@@ -905,7 +905,7 @@ msgstr "Warangal"
 
 #: recursos/0india/datos/0india.py:167
 msgid "Visakhapatnam"
-msgstr "Visakhapatnam "
+msgstr "Visakhapatnam"
 
 #: recursos/0india/datos/0india.py:168 recursos/0india/datos/levels.py:207
 msgid "Bhadrachalan"
@@ -1076,7 +1076,7 @@ msgstr "zadeklarowana: %s"
 
 #: recursos/0india/datos/0india.py:209
 msgid "15 of august of 1947 "
-msgstr "15 sierpnia 1947"
+msgstr "15 sierpnia 1947 "
 
 #: recursos/0india/datos/0india.py:210
 #, python-format
@@ -1085,7 +1085,7 @@ msgstr "ustanowiona: %s"
 
 #: recursos/0india/datos/0india.py:210
 msgid "26 of january of 1950 "
-msgstr "26 stycznia 1950"
+msgstr "26 stycznia 1950 "
 
 #: recursos/0india/datos/0india.py:211 recursos/4goa/datos/4goa.py:52
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:48
@@ -1449,7 +1449,7 @@ msgstr ""
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:8
 #: recursos/4uttarpradesh/datos/levels.py:11
 msgid "Saharanpur"
-msgstr "Saharanpur "
+msgstr "Saharanpur"
 
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:9
 #: recursos/4uttarpradesh/datos/levels.py:12
