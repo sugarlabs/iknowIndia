@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-27 00:33-0400\n"
-"PO-Revision-Date: 2013-06-28 18:30+0200\n"
+"PO-Revision-Date: 2013-07-01 06:55+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -503,7 +503,7 @@ msgstr ""
 #: recursos/0india/datos/0india.py:70 recursos/0india/datos/levels.py:70
 #: recursos/0india/datos/levels.py:113
 msgid "Shillong"
-msgstr ""
+msgstr "Шилонг"
 
 #: recursos/0india/datos/0india.py:71 recursos/0india/datos/levels.py:71
 #: recursos/0india/datos/levels.py:114
@@ -518,12 +518,12 @@ msgstr ""
 #: recursos/0india/datos/0india.py:73 recursos/0india/datos/levels.py:73
 #: recursos/0india/datos/levels.py:116
 msgid "Bhubaneswar"
-msgstr ""
+msgstr "Бхубанешвар"
 
 #: recursos/0india/datos/0india.py:74 recursos/0india/datos/levels.py:74
 #: recursos/0india/datos/levels.py:117
 msgid "Jaipur"
-msgstr ""
+msgstr "Джайпур"
 
 #: recursos/0india/datos/0india.py:75 recursos/0india/datos/levels.py:75
 #: recursos/0india/datos/levels.py:118
@@ -533,7 +533,7 @@ msgstr ""
 #: recursos/0india/datos/0india.py:76 recursos/0india/datos/levels.py:76
 #: recursos/0india/datos/levels.py:119
 msgid "Chennai"
-msgstr ""
+msgstr "Ченай"
 
 #: recursos/0india/datos/0india.py:77 recursos/0india/datos/levels.py:77
 #: recursos/0india/datos/levels.py:120
@@ -546,7 +546,7 @@ msgstr ""
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:45
 #: recursos/4uttarpradesh/datos/levels.py:14
 msgid "Lucknow"
-msgstr ""
+msgstr "Лакнау"
 
 #: recursos/0india/datos/0india.py:79 recursos/0india/datos/levels.py:79
 #: recursos/0india/datos/levels.py:122
@@ -556,7 +556,7 @@ msgstr ""
 #: recursos/0india/datos/0india.py:80 recursos/0india/datos/levels.py:80
 #: recursos/0india/datos/levels.py:123
 msgid "Kolkata"
-msgstr ""
+msgstr "Колката"
 
 #: recursos/0india/datos/0india.py:81 recursos/0india/datos/levels.py:81
 #: recursos/0india/datos/levels.py:124
@@ -609,7 +609,7 @@ msgstr ""
 
 #: recursos/0india/datos/0india.py:96 recursos/0india/datos/levels.py:135
 msgid "Amritsar"
-msgstr ""
+msgstr "Амритсар"
 
 #: recursos/0india/datos/0india.py:97 recursos/0india/datos/levels.py:136
 msgid "Attari"
@@ -625,15 +625,15 @@ msgstr ""
 
 #: recursos/0india/datos/0india.py:100 recursos/0india/datos/levels.py:139
 msgid "Kedarnath"
-msgstr ""
+msgstr "Кедарнат"
 
 #: recursos/0india/datos/0india.py:101 recursos/0india/datos/levels.py:140
 msgid "Badrinath"
-msgstr ""
+msgstr "Бадринат"
 
 #: recursos/0india/datos/0india.py:102 recursos/0india/datos/levels.py:141
 msgid "Nainital"
-msgstr ""
+msgstr "Наинитал"
 
 #: recursos/0india/datos/0india.py:103 recursos/0india/datos/levels.py:142
 msgid "Sravasti"
@@ -647,7 +647,7 @@ msgstr ""
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:17
 #: recursos/4uttarpradesh/datos/levels.py:20
 msgid "Agra"
-msgstr ""
+msgstr "Агра"
 
 #: recursos/0india/datos/0india.py:106 recursos/0india/datos/levels.py:145
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:18
