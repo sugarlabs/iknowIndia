@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-27 00:33-0400\n"
+"POT-Creation-Date: 2013-06-28 00:34-0400\n"
 "PO-Revision-Date: 2013-06-27 18:07+0200\n"
 "Last-Translator: lite <litekok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -188,6 +188,7 @@ msgstr "比哈尔邦"
 #: recursos/0india/datos/0india.py:12 recursos/0india/datos/levels.py:15
 #: recursos/0india/datos/levels.py:58 recursos/0india/datos/levels.py:101
 #: recursos/0india/datos/levels.py:175 recursos/0india/datos/levels.py:176
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:31
 msgid "Chhattisgarh"
 msgstr "切蒂斯格尔"
 
@@ -351,6 +352,7 @@ msgstr "北方邦"
 #: recursos/0india/datos/levels.py:79 recursos/0india/datos/levels.py:122
 #: recursos/0india/datos/levels.py:139 recursos/0india/datos/levels.py:140
 #: recursos/0india/datos/levels.py:141
+#: recursos/4uttarpradesh/datos/4uttarpradesh.py:28
 msgid "Uttarakhand"
 msgstr "北安查尔邦"
 
@@ -704,7 +706,8 @@ msgid "Bodhgaya"
 msgstr "菩提伽耶"
 
 #: recursos/0india/datos/0india.py:118 recursos/0india/datos/levels.py:157
-msgid "Pillani"
+#, fuzzy
+msgid "Pilani"
 msgstr "皮拉尼"
 
 #: recursos/0india/datos/0india.py:119 recursos/0india/datos/levels.py:158
@@ -748,7 +751,8 @@ msgid "Shivpuri"
 msgstr "希沃布里"
 
 #: recursos/0india/datos/0india.py:129 recursos/0india/datos/levels.py:168
-msgid "Orchna"
+#, fuzzy
+msgid "Orchha"
 msgstr "奥尔恰"
 
 #: recursos/0india/datos/0india.py:130 recursos/0india/datos/levels.py:169
@@ -788,11 +792,13 @@ msgid "Hirakud Dam"
 msgstr "希拉库德大坝"
 
 #: recursos/0india/datos/0india.py:139 recursos/0india/datos/levels.py:178
-msgid "Cuttak"
+#, fuzzy
+msgid "Cuttack"
 msgstr "加特卡"
 
 #: recursos/0india/datos/0india.py:140 recursos/0india/datos/levels.py:179
-msgid "Paradwip"
+#, fuzzy
+msgid "Paradip"
 msgstr "帕拉迪布"
 
 #: recursos/0india/datos/0india.py:141 recursos/0india/datos/levels.py:180
@@ -848,7 +854,8 @@ msgid "Saputara"
 msgstr "萨普塔拉"
 
 #: recursos/0india/datos/0india.py:154 recursos/0india/datos/levels.py:193
-msgid "Malghat"
+#, fuzzy
+msgid "Melghat"
 msgstr "麦敢特"
 
 #: recursos/0india/datos/0india.py:155 recursos/0india/datos/levels.py:194
@@ -904,7 +911,8 @@ msgid "Visakhapatnam"
 msgstr "维沙卡帕特南"
 
 #: recursos/0india/datos/0india.py:168 recursos/0india/datos/levels.py:207
-msgid "Bhadrachalan"
+#, fuzzy
+msgid "Bhadrachalam"
 msgstr "珀德拉杰勒姆"
 
 #: recursos/0india/datos/0india.py:169 recursos/0india/datos/levels.py:208
@@ -981,7 +989,8 @@ msgid "Alappuzha"
 msgstr "阿拉普扎"
 
 #: recursos/0india/datos/0india.py:187 recursos/0india/datos/levels.py:226
-msgid "Mamallpuram"
+#, fuzzy
+msgid "Mamallapuram"
 msgstr "马哈巴利普兰"
 
 #: recursos/0india/datos/0india.py:188 recursos/0india/datos/levels.py:227
@@ -989,7 +998,8 @@ msgid "Chidambaram"
 msgstr "吉登伯勒姆"
 
 #: recursos/0india/datos/0india.py:189 recursos/0india/datos/levels.py:228
-msgid "Mudumali"
+#, fuzzy
+msgid "Mudumalai"
 msgstr "莫都马赖"
 
 #: recursos/0india/datos/0india.py:190 recursos/0india/datos/levels.py:229
@@ -1508,14 +1518,6 @@ msgstr "奇特拉库特"
 msgid "Mirzapur"
 msgstr "米尔扎布尔"
 
-#: recursos/4uttarpradesh/datos/4uttarpradesh.py:28
-msgid "Uttaranchal"
-msgstr "北安查尔邦"
-
-#: recursos/4uttarpradesh/datos/4uttarpradesh.py:31
-msgid "Chhattissgarh"
-msgstr "恰蒂斯加尔邦"
-
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:46
 msgid "Banwari Lal Joshi"
 msgstr "班瓦里·拉尔·乔希"
@@ -1722,6 +1724,12 @@ msgstr "声音从freesound.org下载：btn117.wav courtesy of junggle。"
 #: recursos/comun/datos/commons.py:66
 msgid "Font: Share-Regular.ttf of urbanfonts.com"
 msgstr "字体：Share-Regular.ttf 从 urbanfonts.com 下载"
+
+#~ msgid "Uttaranchal"
+#~ msgstr "北安查尔邦"
+
+#~ msgid "Chhattissgarh"
+#~ msgstr "恰蒂斯加尔邦"
 
 #~ msgid "Orissa"
 #~ msgstr "奥里萨邦"
