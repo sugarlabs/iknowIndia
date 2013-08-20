@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-28 00:34-0400\n"
-"PO-Revision-Date: 2013-06-27 10:42+0200\n"
+"PO-Revision-Date: 2013-08-20 19:35+0200\n"
 "Last-Translator: EdgarQuispeChambi <quispedgar@yahoo.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ayc\n"
@@ -724,7 +724,6 @@ msgid "Bodhgaya"
 msgstr "Bodhgaya marka"
 
 #: recursos/0india/datos/0india.py:118 recursos/0india/datos/levels.py:157
-#, fuzzy
 msgid "Pilani"
 msgstr "Pillani marka"
 
@@ -769,7 +768,6 @@ msgid "Shivpuri"
 msgstr "Shivpuri marka"
 
 #: recursos/0india/datos/0india.py:129 recursos/0india/datos/levels.py:168
-#, fuzzy
 msgid "Orchha"
 msgstr "Orchna marka"
 
@@ -810,14 +808,12 @@ msgid "Hirakud Dam"
 msgstr "Hirakud Dam jach'a uma irpa"
 
 #: recursos/0india/datos/0india.py:139 recursos/0india/datos/levels.py:178
-#, fuzzy
 msgid "Cuttack"
 msgstr "Cuttak marka"
 
 #: recursos/0india/datos/0india.py:140 recursos/0india/datos/levels.py:179
-#, fuzzy
 msgid "Paradip"
-msgstr "Paradwip marka"
+msgstr "Paradip marka"
 
 #: recursos/0india/datos/0india.py:141 recursos/0india/datos/levels.py:180
 msgid "Konarak"
@@ -872,9 +868,8 @@ msgid "Saputara"
 msgstr "Saputara marka"
 
 #: recursos/0india/datos/0india.py:154 recursos/0india/datos/levels.py:193
-#, fuzzy
 msgid "Melghat"
-msgstr "Malghat marka"
+msgstr "Melghat marka"
 
 #: recursos/0india/datos/0india.py:155 recursos/0india/datos/levels.py:194
 msgid "Wardha"
@@ -929,9 +924,8 @@ msgid "Visakhapatnam"
 msgstr "Visakhapatnam marka"
 
 #: recursos/0india/datos/0india.py:168 recursos/0india/datos/levels.py:207
-#, fuzzy
 msgid "Bhadrachalam"
-msgstr "Bhadrachalan marka"
+msgstr "Bhadrachalam marka"
 
 #: recursos/0india/datos/0india.py:169 recursos/0india/datos/levels.py:208
 msgid "Amaravati"
@@ -1007,18 +1001,16 @@ msgid "Alappuzha"
 msgstr "Alappuzha marka"
 
 #: recursos/0india/datos/0india.py:187 recursos/0india/datos/levels.py:226
-#, fuzzy
 msgid "Mamallapuram"
-msgstr "Mamallpuram marka"
+msgstr "Mamallapuram marka"
 
 #: recursos/0india/datos/0india.py:188 recursos/0india/datos/levels.py:227
 msgid "Chidambaram"
 msgstr "Chidambaram marka"
 
 #: recursos/0india/datos/0india.py:189 recursos/0india/datos/levels.py:228
-#, fuzzy
 msgid "Mudumalai"
-msgstr "Mudumali marka"
+msgstr "Mudumalai marka"
 
 #: recursos/0india/datos/0india.py:190 recursos/0india/datos/levels.py:229
 msgid "Thanjavur"
