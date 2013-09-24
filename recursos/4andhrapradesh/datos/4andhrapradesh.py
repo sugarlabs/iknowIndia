@@ -6,8 +6,8 @@ NAME = _('Andhra Pradesh')
 
 STATES = [
     (_('Adilabad'), 254, 223, 140, 0),
-    (_('Nizamabad'), 253, 140, 219, 0),
-    (_('Karimnagar'), 252, 238, 214, 0),
+    (_('Nizamabad'), 253, 140, 227, 0),
+    (_('Karimnagar'), 252, 252, 214, 0),
     (_('Medak'), 251, 145, 284, 0),
     (_('Warangal'), 250, 304, 277, 0),
     (_('Rangareddy'), 249, 136, 336, 0),
@@ -25,7 +25,7 @@ STATES = [
     (_('West Godavari'), 237, 458, 381, -45),
     (_('East Godavari'), 236, 514, 339, 0),
     (_('Vishakhapatnam'), 235, 573, 284, 0),
-    (_('Vijayanagaram'), 234, 642, 220, 0),
+    (_('Vijayanagaram'), 234, 642, 230, 0),
     (_('Srikakulam'), 233, 701, 213, 0),
     # States
     (_('Orissa'), 232, 668, 88, 0),
