@@ -39,8 +39,28 @@ LEVEL2 = [
         ['lineasDepto', 'capitales'],
         [],
 [
-    #(_('Panaji'), _("It's in %s taluka") % _('Tiswadi') + '\n' + _("It's in the west")),
-
+    (_('Hyderabad'), _("It's easy")),
+    (_('Adilabad'), _("It's easy")),
+    (_('Nizamabab'), _("It's easy")),
+    (_('Karimnagar'), _("It's easy")),
+    (_('Sangareddi'), _("It's easy")),
+    (_('Warangal'), _("It's easy")),
+    (_('Nalgonda'), _("It's easy")),
+    (_('Mahabubnagar'), _("It's easy")),
+    (_('Kurnool'), _("It's easy")),
+    (_('Anantapur'), _("It's easy")),
+    (_('Cuddapah'), _("It's easy")),
+    (_('Nellore'), _("It's easy")),
+    (_('Chittoor'), _("It's easy")),
+    (_('Ongole'), _("It's easy")),
+    (_('Guntur'), _("It's easy")),
+    (_('Khammam'), _("It's easy")),
+    (_('Mangiripudi'), _("It's easy")),
+    (_('Krishna'), _("It's easy")),
+    (_('Kakinada'), _("It's easy")),
+    (_('Vishakhapatnam'), _("It's easy")),
+    (_('Vijayanagaram'), _("It's easy")),
+    (_('Srikakulam'), _("It's easy"))
 ]
 ]
 
@@ -56,6 +76,6 @@ LEVEL3 = [
 ]
 ]
 
-LEVELS = [LEVEL1]
+LEVELS = [LEVEL1, LEVEL2]
 
 
