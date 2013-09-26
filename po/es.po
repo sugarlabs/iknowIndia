@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-25 00:33-0400\n"
-"PO-Revision-Date: 2013-09-25 17:33+0200\n"
+"POT-Creation-Date: 2013-09-26 00:35-0400\n"
+"PO-Revision-Date: 2013-09-26 17:32+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -446,7 +446,9 @@ msgstr "Nueva Delhi"
 
 #: recursos/0india/datos/0india.py:54 recursos/0india/datos/levels.py:54
 #: recursos/0india/datos/levels.py:97
-#: recursos/4andhrapradesh/datos/4andhrapradesh.py:48
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:40
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:71
+#: recursos/4andhrapradesh/datos/levels.py:42
 msgid "Hyderabad"
 msgstr "Hyderabad"
 
@@ -923,7 +925,9 @@ msgstr "Panhala"
 
 #: recursos/0india/datos/0india.py:166 recursos/0india/datos/levels.py:205
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:12
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:45
 #: recursos/4andhrapradesh/datos/levels.py:15
+#: recursos/4andhrapradesh/datos/levels.py:47
 msgid "Warangal"
 msgstr "Warangal"
 
@@ -1041,7 +1045,7 @@ msgid "Rameswaram"
 msgstr "Rameswaram"
 
 #: recursos/0india/datos/0india.py:203
-#: recursos/4andhrapradesh/datos/4andhrapradesh.py:48
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:71
 #: recursos/4goa/datos/4goa.py:49
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:45
 msgid "Capital:"
@@ -1114,7 +1118,7 @@ msgid "26 of january of 1950 "
 msgstr "26 de enero de 1950 "
 
 #: recursos/0india/datos/0india.py:211
-#: recursos/4andhrapradesh/datos/4andhrapradesh.py:49
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:72
 #: recursos/4goa/datos/4goa.py:52
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:48
 msgid "Area:"
@@ -1125,7 +1129,7 @@ msgid "3.287.263 km² (7th)"
 msgstr "3.287.263 km² (7º)"
 
 #: recursos/0india/datos/0india.py:212
-#: recursos/4andhrapradesh/datos/4andhrapradesh.py:50
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:73
 #: recursos/4goa/datos/4goa.py:53
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:49
 msgid "Population:"
@@ -1170,7 +1174,7 @@ msgstr "Capitales estatales"
 
 #: recursos/0india/datos/explorations.py:20 recursos/0india/datos/levels.py:92
 #: recursos/4andhrapradesh/datos/explorations.py:20
-#: recursos/4andhrapradesh/datos/levels.py:50
+#: recursos/4andhrapradesh/datos/levels.py:70
 #: recursos/4goa/datos/explorations.py:20 recursos/4goa/datos/levels.py:48
 #: recursos/4uttarpradesh/datos/explorations.py:20
 #: recursos/4uttarpradesh/datos/levels.py:46
@@ -1379,12 +1383,16 @@ msgstr "Daman y Diu"
 
 #: recursos/0india/datos/levels.py:206
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:27
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:59
 #: recursos/4andhrapradesh/datos/levels.py:30
+#: recursos/4andhrapradesh/datos/levels.py:61
 msgid "Vishakhapatnam"
 msgstr "Visakhapatnam"
 
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:8
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:41
 #: recursos/4andhrapradesh/datos/levels.py:11
+#: recursos/4andhrapradesh/datos/levels.py:43
 msgid "Adilabad"
 msgstr "Adilabad"
 
@@ -1394,7 +1402,9 @@ msgid "Nizamabad"
 msgstr "Nizamabad"
 
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:10
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:43
 #: recursos/4andhrapradesh/datos/levels.py:13
+#: recursos/4andhrapradesh/datos/levels.py:45
 msgid "Karimnagar"
 msgstr "Karimnagar"
 
@@ -1409,17 +1419,23 @@ msgid "Rangareddy"
 msgstr "Rangareddy"
 
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:14
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:46
 #: recursos/4andhrapradesh/datos/levels.py:17
+#: recursos/4andhrapradesh/datos/levels.py:48
 msgid "Nalgonda"
 msgstr "Nalgonda"
 
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:15
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:55
 #: recursos/4andhrapradesh/datos/levels.py:18
+#: recursos/4andhrapradesh/datos/levels.py:57
 msgid "Khammam"
 msgstr "Khammam"
 
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:16
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:47
 #: recursos/4andhrapradesh/datos/levels.py:19
+#: recursos/4andhrapradesh/datos/levels.py:49
 msgid "Mahabubnagar"
 msgstr "Mahabubnagar"
 
@@ -1439,7 +1455,9 @@ msgid "Kadapa"
 msgstr "Kadapa"
 
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:20
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:52
 #: recursos/4andhrapradesh/datos/levels.py:23
+#: recursos/4andhrapradesh/datos/levels.py:54
 msgid "Chittoor"
 msgstr "Chittoor"
 
@@ -1454,12 +1472,16 @@ msgid "Prakasam"
 msgstr "Prakasam"
 
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:23
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:54
 #: recursos/4andhrapradesh/datos/levels.py:26
+#: recursos/4andhrapradesh/datos/levels.py:56
 msgid "Guntur"
 msgstr "Guntur"
 
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:24
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:57
 #: recursos/4andhrapradesh/datos/levels.py:27
+#: recursos/4andhrapradesh/datos/levels.py:59
 msgid "Krishna"
 msgstr "Krishna"
 
@@ -1474,12 +1496,16 @@ msgid "East Godavari"
 msgstr "East Godavari"
 
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:28
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:60
 #: recursos/4andhrapradesh/datos/levels.py:31
+#: recursos/4andhrapradesh/datos/levels.py:62
 msgid "Vijayanagaram"
 msgstr "Vijayanagaram"
 
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:29
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:61
 #: recursos/4andhrapradesh/datos/levels.py:32
+#: recursos/4andhrapradesh/datos/levels.py:63
 msgid "Srikakulam"
 msgstr "Srikakulam"
 
@@ -1491,11 +1517,56 @@ msgstr "Orissa"
 msgid "Andaman and Nicobar"
 msgstr "Andaman y Nicobar"
 
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:42
+#: recursos/4andhrapradesh/datos/levels.py:44
+msgid "Nizamabab"
+msgstr "Nizamabab"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:44
+#: recursos/4andhrapradesh/datos/levels.py:46
+msgid "Sangareddi"
+msgstr "Sangareddi"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:48
+#: recursos/4andhrapradesh/datos/levels.py:50
+msgid "Kurnool"
+msgstr "Kurnool"
+
 #: recursos/4andhrapradesh/datos/4andhrapradesh.py:49
+#: recursos/4andhrapradesh/datos/levels.py:51
+msgid "Anantapur"
+msgstr "Anantapur"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:50
+#: recursos/4andhrapradesh/datos/levels.py:52
+msgid "Cuddapah"
+msgstr "Cuddapah"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:51
+#: recursos/4andhrapradesh/datos/levels.py:53
+msgid "Nellore"
+msgstr "Nellore"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:53
+#: recursos/4andhrapradesh/datos/levels.py:55
+msgid "Ongole"
+msgstr "Ongole"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:56
+#: recursos/4andhrapradesh/datos/levels.py:58
+msgid "Mangiripudi"
+msgstr "Mangiripudi"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:58
+#: recursos/4andhrapradesh/datos/levels.py:60
+msgid "Kakinada"
+msgstr "Kakinada"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:72
 msgid "275.045 km²"
 msgstr "275.045 km²"
 
-#: recursos/4andhrapradesh/datos/4andhrapradesh.py:50
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:73
 msgid "75.727.541"
 msgstr "75.727.541"
 
@@ -1513,6 +1584,31 @@ msgstr "Divisiones"
 #: recursos/4uttarpradesh/datos/levels.py:34
 msgid "Taluka Headquarters"
 msgstr "Taluka Capital"
+
+#: recursos/4andhrapradesh/datos/levels.py:42
+#: recursos/4andhrapradesh/datos/levels.py:43
+#: recursos/4andhrapradesh/datos/levels.py:44
+#: recursos/4andhrapradesh/datos/levels.py:45
+#: recursos/4andhrapradesh/datos/levels.py:46
+#: recursos/4andhrapradesh/datos/levels.py:47
+#: recursos/4andhrapradesh/datos/levels.py:48
+#: recursos/4andhrapradesh/datos/levels.py:49
+#: recursos/4andhrapradesh/datos/levels.py:50
+#: recursos/4andhrapradesh/datos/levels.py:51
+#: recursos/4andhrapradesh/datos/levels.py:52
+#: recursos/4andhrapradesh/datos/levels.py:53
+#: recursos/4andhrapradesh/datos/levels.py:54
+#: recursos/4andhrapradesh/datos/levels.py:55
+#: recursos/4andhrapradesh/datos/levels.py:56
+#: recursos/4andhrapradesh/datos/levels.py:57
+#: recursos/4andhrapradesh/datos/levels.py:58
+#: recursos/4andhrapradesh/datos/levels.py:59
+#: recursos/4andhrapradesh/datos/levels.py:60
+#: recursos/4andhrapradesh/datos/levels.py:61
+#: recursos/4andhrapradesh/datos/levels.py:62
+#: recursos/4andhrapradesh/datos/levels.py:63
+msgid "It's easy"
+msgstr "Es fácil"
 
 #: recursos/4goa/datos/4goa.py:8 recursos/4goa/datos/4goa.py:26
 #: recursos/4goa/datos/levels.py:11 recursos/4goa/datos/levels.py:32
