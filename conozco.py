@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # Conozco
-# Copyright (C) 2008, 2009, 2010 Gabriel Eirea
+# Copyright (C) 2008, 2012 Gabriel Eirea
 # Copyright (C) 2011, 2012 Alan Aguiar
 #
 # This program is free software: you can redistribute it and/or modify
@@ -31,6 +31,7 @@ import time
 import imp
 import gettext
 import ConfigParser
+from gettext import gettext as _
 
 gtk_present = True
 try:
@@ -457,108 +458,56 @@ class Conozco():
 
                     listpreguntas = ln[4]
 
-                    if (index == 2):
-                        for i in listpreguntas:
-                            tipo = 2
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            texto = _('the city of\n%s') % respuesta
-                            nuevoNivel.preguntas.append((texto,
-                                tipo, respuesta, ayuda))
 
-                    elif (index == 7):
-                        for i in listpreguntas:
-                            tipo = 1
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            texto = _('the department of\n%s') % respuesta
-                            nuevoNivel.preguntas.append((texto,
-                                tipo, respuesta, ayuda))
-
-                    elif (index == 8):
-                        for i in listpreguntas:
-                            tipo = 1
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            texto = _('the province of\n%s') % respuesta
-                            nuevoNivel.preguntas.append((texto,
-                                tipo, respuesta, ayuda))
-
-                    elif (index == 9):
-                        for i in listpreguntas:
-                            tipo = 1
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            texto = _('the district of\n%s') % respuesta
-                            nuevoNivel.preguntas.append((texto,
-                                tipo, respuesta, ayuda))
-
-                    elif (index == 10):
-                        for i in listpreguntas:
-                            tipo = 1
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            texto = _('the state of\n%s') % respuesta
-                            nuevoNivel.preguntas.append((texto,
-                                tipo, respuesta, ayuda))
-
-                    elif (index == 11):
-                        for i in listpreguntas:
-                            tipo = 1
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            texto = _('the region of\n%s') % respuesta
-                            nuevoNivel.preguntas.append((texto,
-                                tipo, respuesta, ayuda))
-
-                    elif (index == 12):
-                        for i in listpreguntas:
-                            tipo = 1
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            texto = _('the parish of\n%s') % respuesta
-                            nuevoNivel.preguntas.append((texto,
-                                tipo, respuesta, ayuda))
-
-                    elif (index == 14):
-                        for i in listpreguntas:
-                            tipo = 1
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            texto = _('the taluka of\n%s') % respuesta
-                            nuevoNivel.preguntas.append((texto,
-                                tipo, respuesta, ayuda))
-
-                    elif (index == 6):
-                        for i in listpreguntas:
-                            tipo = 1
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            texto = _('the municipality of\n%s') % respuesta
-                            nuevoNivel.preguntas.append((texto,
-                                tipo, respuesta, ayuda))
-
-                    elif (index == 4):
-                        for i in listpreguntas:
-                            tipo = 3
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            texto = _('the %s') % respuesta
-                            nuevoNivel.preguntas.append((texto,
-                                tipo, respuesta, ayuda))
-
-                    elif (index == 1):
+                    if (index == 1):
                         for i in listpreguntas:
                             texto = unicode(i[0], 'UTF-8')
                             tipo = i[1]
                             respuesta = unicode(i[2], 'UTF-8')
                             ayuda = unicode(i[3], 'UTF-8')
+                            nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
+                    else:
 
-                            nuevoNivel.preguntas.append((texto,
-                                tipo, respuesta, ayuda))
+                        for i in listpreguntas:
+                            respuesta = unicode(i[0], 'UTF-8')
+                            ayuda = unicode(i[1], 'UTF-8')
+                            if (index == 2):
+                                tipo = 2
+                                texto = _('the city of\n%s') % respuesta
+                            elif (index == 7):
+                                tipo = 1
+                                texto = _('the department of\n%s') % respuesta
+                            elif (index == 8):
+                                tipo = 1
+                                texto = _('the province of\n%s') % respuesta
+                            elif (index == 9):
+                                tipo = 1
+                                texto = _('the district of\n%s') % respuesta
+                            elif (index == 10):
+                                tipo = 1
+                                texto = _('the state of\n%s') % respuesta
+                            elif (index == 11):
+                                tipo = 1
+                                texto = _('the region of\n%s') % respuesta
+                            elif (index == 12):
+                                tipo = 1
+                                texto = _('the parish of\n%s') % respuesta
+                            elif (index == 14):
+                                tipo = 1
+                                texto = _('the taluka of\n%s') % respuesta
+                            elif (index == 6):
+                                tipo = 1
+                                texto = _('the municipality of\n%s') % respuesta
+                            elif (index == 4):
+                                tipo = 3
+                                texto = _('the %s') % respuesta
+                            elif (index == 5):
+                                tipo = 6
+                                texto = _('the %(route)s') % {'route': respuesta}
+
+                            nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
 
                     self.listaNiveles.append(nuevoNivel)
-
 
         self.indiceNivelActual = 0
         self.numeroNiveles = len(self.listaNiveles)
@@ -967,6 +916,7 @@ class Conozco():
             #self.altoPantalla = self.altoPantalla - 100
             self.pantalla = pygame.display.set_mode((self.anchoPantalla,
                                                self.altoPantalla), pygame.FULLSCREEN)
+            pygame.display.set_caption(_(self.activity_name))
         pygame.display.flip()
         if self.anchoPantalla==1200 and self.altoPantalla==900:
             xo_resolution = True
@@ -987,7 +937,6 @@ class Conozco():
         self.camino_imagenes = os.path.join(CAMINORECURSOS,
                                             CAMINOCOMUN,
                                             CAMINOIMAGENES)
-
         # JP para el juego
         self.jp1 = self.cargarImagen("jp1.png")
         # Ojos JP
