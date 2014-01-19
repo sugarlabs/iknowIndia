@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-26 00:35-0400\n"
-"PO-Revision-Date: 2013-10-20 15:08+0200\n"
+"POT-Creation-Date: 2014-01-19 00:33-0500\n"
+"PO-Revision-Date: 2014-01-19 19:54+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_GB\n"
@@ -27,12 +27,12 @@ msgstr "I know India"
 msgid "Game about the geography of India"
 msgstr "Game about the geography of India"
 
-#: conozco.py:246 conozco.py:361 conozco.py:385 conozco.py:441 conozco.py:577
+#: conozco.py:247 conozco.py:357 conozco.py:381 conozco.py:437 conozco.py:520
 #, python-format
 msgid "Cannot open %s"
 msgstr "Cannot open %s"
 
-#: conozco.py:465
+#: conozco.py:470
 #, python-format
 msgid ""
 "the city of\n"
@@ -41,7 +41,7 @@ msgstr ""
 "the city of\n"
 "%s"
 
-#: conozco.py:474
+#: conozco.py:473
 #, python-format
 msgid ""
 "the department of\n"
@@ -50,7 +50,7 @@ msgstr ""
 "the department of\n"
 "%s"
 
-#: conozco.py:483
+#: conozco.py:476
 #, python-format
 msgid ""
 "the province of\n"
@@ -59,7 +59,7 @@ msgstr ""
 "the province of\n"
 "%s"
 
-#: conozco.py:492
+#: conozco.py:479
 #, python-format
 msgid ""
 "the district of\n"
@@ -68,7 +68,7 @@ msgstr ""
 "the district of\n"
 "%s"
 
-#: conozco.py:501
+#: conozco.py:482
 #, python-format
 msgid ""
 "the state of\n"
@@ -77,7 +77,7 @@ msgstr ""
 "the state of\n"
 "%s"
 
-#: conozco.py:510
+#: conozco.py:485
 #, python-format
 msgid ""
 "the region of\n"
@@ -86,7 +86,7 @@ msgstr ""
 "the region of\n"
 "%s"
 
-#: conozco.py:519
+#: conozco.py:488
 #, python-format
 msgid ""
 "the parish of\n"
@@ -95,7 +95,7 @@ msgstr ""
 "the parish of\n"
 "%s"
 
-#: conozco.py:528
+#: conozco.py:491
 #, python-format
 msgid ""
 "the taluka of\n"
@@ -104,7 +104,7 @@ msgstr ""
 "the taluka of\n"
 "%s"
 
-#: conozco.py:537
+#: conozco.py:494
 #, python-format
 msgid ""
 "the municipality of\n"
@@ -113,61 +113,105 @@ msgstr ""
 "the municipality of\n"
 "%s"
 
-#: conozco.py:546
+#: conozco.py:497
 #, python-format
 msgid "the %s"
 msgstr "the %s"
 
-#: conozco.py:615
+#: conozco.py:500
+#, python-format
+msgid "the %(route)s"
+msgstr "the %(route)s"
+
+#: conozco.py:557
 #, python-format
 msgid "About %s"
 msgstr "About %s"
 
-#: conozco.py:629
+#: conozco.py:571 conozco.py:648
 msgid "Press any key to return"
 msgstr "Press any key to return"
 
-#: conozco.py:660
+#: conozco.py:603
+#, python-format
+msgid "Stats of %s"
+msgstr "Stats of %s"
+
+#: conozco.py:609
+#, python-format
+msgid "Total score: %s"
+msgstr "Total score: %s"
+
+#: conozco.py:615
+#, python-format
+msgid "Game average score: %s"
+msgstr "Game average score: %s"
+
+#: conozco.py:621
+#, python-format
+msgid "Times using Explore Mode: %s"
+msgstr "Times using Explore Mode: %s"
+
+#: conozco.py:627
+#, python-format
+msgid "Places Explored: %s"
+msgstr "Places Explored: %s"
+
+#: conozco.py:633
+#, python-format
+msgid "Times using Game Mode: %s"
+msgstr "Times using Game Mode: %s"
+
+#: conozco.py:641
+#, python-format
+msgid "Total time: %s minutes"
+msgstr "Total time: %s minutes"
+
+#: conozco.py:680
 msgid "You have chosen the map "
 msgstr "You have chosen the map "
 
-#: conozco.py:666
+#: conozco.py:686
 msgid "Play"
 msgstr "Play"
 
-#: conozco.py:682
+#: conozco.py:702
 msgid "Explore"
 msgstr "Explore"
 
-#: conozco.py:702 conozco.py:846
+#: conozco.py:722 conozco.py:883
 msgid "About this game"
 msgstr "About this game"
 
-#: conozco.py:710
+#: conozco.py:730 conozco.py:891
+msgid "Stats"
+msgstr "Stats"
+
+#: conozco.py:738
 msgid "Return"
 msgstr "Return"
 
-#: conozco.py:767
+#: conozco.py:803
 msgid "Choose the map to use"
 msgstr "Choose the map to use"
 
-#: conozco.py:787
+#: conozco.py:823
 msgid "Previous page"
 msgstr "Previous page"
 
-#: conozco.py:832
+#: conozco.py:868
 msgid "Next page"
 msgstr "Next page"
 
-#: conozco.py:853
+#: conozco.py:899
 msgid "Exit"
 msgstr "Exit"
 
-#: conozco.py:1318 conozco.py:1516
+#: conozco.py:1444 conozco.py:1598
 msgid "End"
 msgstr "End"
 
-#: conozco.py:1329
+#: conozco.py:1455
 msgid "Show all"
 msgstr "Show all"
 
