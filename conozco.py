@@ -256,7 +256,6 @@ class Conozco():
                 lugares = lugares + f.HILLS
             self.listaLugares = list()
             for c in lugares:
-                #nombreLugar = c[0]
                 nombreLugar = unicode(c[0], 'UTF-8')
                 posx = c[1]
                 posy = c[2]
@@ -283,7 +282,6 @@ class Conozco():
                 self.deptosLineas = self.cargarImagen("deptosLineas.png")
                 self.listaDeptos = list()
                 for d in f.STATES:
-                    #nombreDepto = d[0]
                     nombreDepto = unicode(d[0], 'UTF-8')
                     claveColor = d[1]
                     posx = d[2]
@@ -298,7 +296,6 @@ class Conozco():
                 self.cuchillasDetectar = self.cargarImagen("cuchillasDetectar.png")
                 self.listaCuchillas = list()
                 for c in f.CUCHILLAS:
-                    #nombreCuchilla = c[0]
                     nombreCuchilla = unicode(c[0], 'UTF-8')
                     claveColor = c[1]
                     posx = c[2]
@@ -313,7 +310,6 @@ class Conozco():
                 self.riosDetectar = self.cargarImagen("riosDetectar.png")
                 self.listaRios = list()
                 for r in f.RIVERS:
-                    #nombreRio = r[0]
                     nombreRio = unicode(r[0], 'UTF-8')
                     claveColor = r[1]
                     posx = r[2]
@@ -328,7 +324,6 @@ class Conozco():
                 self.rutasDetectar = self.cargarImagen("rutasDetectar.png")
                 self.listaRutas = list()
                 for r in f.ROUTES:
-                    #nombreRuta = r[0]
                     nombreRuta = unicode(r[0], 'UTF-8')
                     claveColor = r[1]
                     posx = r[2]
@@ -458,7 +453,6 @@ class Conozco():
 
                     listpreguntas = ln[4]
 
-
                     if (index == 1):
                         for i in listpreguntas:
                             texto = unicode(i[0], 'UTF-8')
@@ -528,7 +522,6 @@ class Conozco():
         if f:
             if hasattr(f, 'EXPLORATIONS'):
                 for e in f.EXPLORATIONS:
-                    #nombreNivel = e[0]
                     nombreNivel= unicode(e[0], 'UTF-8')
                     nuevoNivel = Nivel(nombreNivel)
 
@@ -597,6 +590,84 @@ class Conozco():
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
 
+    def pantallaStats(self):
+        """Pantalla con los datos del juego, creditos, etc"""
+        global scale, shift_x, shift_y, xo_resolution
+        self.pantallaTemp = pygame.Surface(
+            (self.anchoPantalla,self.altoPantalla))
+        self.pantallaTemp.blit(self.pantalla,(0,0))
+        self.pantalla.fill((0,0,0))
+        self.pantalla.blit(self.jp1,
+                        (int(925*scale+shift_x),
+                            int(468*scale+shift_y)))
+        msg = _("Stats of %s") % self.activity_name
+        self.mostrarTexto(msg,
+                        self.fuente40,
+                        (int(600*scale+shift_x),
+                        int(100*scale+shift_y)),
+                        (255,255,255))
+        msg = _('Total score: %s') % self._score
+        self.mostrarTexto(unicode(msg, 'UTF-8'),
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(300*scale+shift_y)),
+                        (100,100,200))
+        msg = _('Game average score: %s') % self._average
+        self.mostrarTexto(unicode(msg, 'UTF-8'),
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(350*scale+shift_y)),
+                        (100,100,200))
+        msg = _('Times using Explore Mode: %s') % self._explore_times
+        self.mostrarTexto(unicode(msg, 'UTF-8'),
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(400*scale+shift_y)),
+                        (100,100,200))
+        msg = _('Places Explored: %s') % self._explore_places
+        self.mostrarTexto(unicode(msg, 'UTF-8'),
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(450*scale+shift_y)),
+                        (100,100,200))
+        msg = _('Times using Game Mode: %s') % self._game_times
+        self.mostrarTexto(unicode(msg, 'UTF-8'),
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(500*scale+shift_y)),
+                        (100,100,200))
+        t = int(time.time() - self._init_time) / 60
+        t = t + self._time
+        msg = _('Total time: %s minutes') % t
+        self.mostrarTexto(unicode(msg, 'UTF-8'),
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(550*scale+shift_y)),
+                        (100,100,200))
+
+        self.mostrarTexto(_("Press any key to return"),
+                        self.fuente32,
+                        (int(600*scale+shift_x),
+                        int(800*scale+shift_y)),
+                        (255,155,155))
+
+        pygame.display.flip()
+        while 1:
+            if gtk_present:
+                while gtk.events_pending():
+                    gtk.main_iteration()
+
+            for event in wait_events():
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
+                    if self.sound:
+                        self.click.play()
+                    self.pantalla.blit(self.pantallaTemp,(0,0))
+                    pygame.display.flip()
+                    return
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+
     def pantallaInicial(self):
         """Pantalla con el menu principal del juego"""
         global scale, shift_x, shift_y
@@ -644,22 +715,30 @@ class Conozco():
                             (int(900*scale+shift_x),yLista),
                             (100,100,200))
             yLista += int(50*scale)
-        self.pantalla.fill((20,20,20),
-                        (int(10*scale+shift_x),
-                            int(801*scale+shift_y),
-                            int(590*scale),int(48*scale)))
-        self.mostrarTexto(_("About this game"),
-                        self.fuente40,
-                        (int(300*scale+shift_x),int(825*scale+shift_y)),
-                        (100,200,100))
-        self.pantalla.fill((20,20,20),
-                        (int(610*scale+shift_x),
-                            int(801*scale+shift_y),
-                            int(590*scale),int(48*scale)))
-        self.mostrarTexto(_("Return"),
-                        self.fuente40,
-                        (int(900*scale+shift_x),int(825*scale+shift_y)),
-                        (100,200,100))
+            # about button
+            self.pantalla.fill((20,20,20),
+                            (int(20*scale+shift_x),int(801*scale+shift_y),
+                                int(370*scale),int(48*scale)))
+            self.mostrarTexto(_("About this game"),
+                            self.fuente40,
+                            (int(205*scale+shift_x),int(825*scale+shift_y)),
+                            (100,200,100))
+            # stats button
+            self.pantalla.fill((20,20,20),
+                            (int(420*scale+shift_x),int(801*scale+shift_y),
+                                int(370*scale),int(48*scale)))
+            self.mostrarTexto(unicode(_("Stats"), 'UTF-8'),
+                            self.fuente40,
+                            (int(605*scale+shift_x),int(825*scale+shift_y)),
+                            (100,200,100))
+            # return button
+            self.pantalla.fill((20,20,20),
+                            (int(820*scale+shift_x),int(801*scale+shift_y),
+                                int(370*scale),int(48*scale)))
+            self.mostrarTexto(_("Return"),
+                            self.fuente40,
+                            (int(1005*scale+shift_x),int(825*scale+shift_y)),
+                            (100,200,100))
         pygame.display.flip()
         while 1:
             if gtk_present:
@@ -677,29 +756,37 @@ class Conozco():
                     if self.sound:
                         self.click.play()
                     pos = event.pos
-                    if pos[1] > 275*scale + shift_y: # zona de opciones
-                        if pos[0] < 600*scale + shift_x: # primera columna
-                            if pos[1] < 275*scale + shift_y + \
-                                    len(self.listaNiveles)*50*scale: # nivel
-                                self.indiceNivelActual = \
-                                    int((pos[1]-int(275*scale+shift_y))//\
-                                            int(50*scale))
-                                self.jugar = True
-                                return
-                            elif pos[1] > 800*scale + shift_y and \
-                                    pos[1] < 850*scale + shift_y: # acerca de
-                                self.pantallaAcercaDe()
-                        else: # segunda columna
-                            if pos[1] < 275*scale + shift_y+\
-                                    len(self.listaExploraciones)*50*scale:
-                                # nivel de exploracion
-                                self.indiceNivelActual = \
-                                    int((pos[1]-int(275*scale+shift_y))//\
-                                            int(50*scale))
-                                self.jugar = False
-                                return
-                            elif pos[1] > 800*scale + shift_y and \
-                                    pos[1] < 850*scale+shift_y: # volver
+                    # zona de opciones
+                    if pos[1] < 800*scale+shift_y:
+                        if pos[1] > 275*scale + shift_y:
+                            if pos[0] < 600*scale + shift_x: # primera columna
+                                if pos[1] < 275*scale + shift_y + \
+                                        len(self.listaNiveles)*50*scale: # nivel
+                                    self.indiceNivelActual = \
+                                        int((pos[1]-int(275*scale+shift_y))//\
+                                                int(50*scale))
+                                    self.jugar = True
+                                    return
+                            else: # segunda columna
+                                if pos[1] < 275*scale + shift_y+\
+                                        len(self.listaExploraciones)*50*scale:
+                                    # nivel de exploracion
+                                    self.indiceNivelActual = \
+                                        int((pos[1]-int(275*scale+shift_y))//\
+                                                int(50*scale))
+                                    self.jugar = False
+                                    return
+                    # buttons zone
+                    else:
+                        if pos[1] < 850*scale + shift_y:
+                            if pos[0] > 20*scale+shift_x and \
+                               pos[0] < 390*scale+shift_x:
+                                self.pantallaAcercaDe() # acerca
+                            elif pos[0] > 420*scale+shift_x and \
+                                 pos[0] < 790*scale+shift_x:
+                                self.pantallaStats() # stats
+                            elif pos[0] > 820*scale+shift_x and \
+                                    pos[0] < 1190*scale+shift_x:
                                 self.elegir_directorio = True
                                 return
                 elif event.type == EVENTOREFRESCO:
@@ -789,19 +876,29 @@ class Conozco():
             else:
                 nDirectoriosCol1 = indiceDir - paginaDirectorios * 20
                 nDirectoriosCol2 = 0
+            # about button
             self.pantalla.fill((20,20,20),
-                            (int(10*scale+shift_x),int(801*scale+shift_y),
-                                int(590*scale),int(48*scale)))
+                            (int(20*scale+shift_x),int(801*scale+shift_y),
+                                int(370*scale),int(48*scale)))
             self.mostrarTexto(_("About this game"),
                             self.fuente40,
-                            (int(300*scale+shift_x),int(825*scale+shift_y)),
+                            (int(205*scale+shift_x),int(825*scale+shift_y)),
                             (100,200,100))
+            # stats button
             self.pantalla.fill((20,20,20),
-                            (int(610*scale+shift_x),int(801*scale+shift_y),
-                                int(590*scale),int(48*scale)))
+                            (int(420*scale+shift_x),int(801*scale+shift_y),
+                                int(370*scale),int(48*scale)))
+            self.mostrarTexto(unicode(_("Stats"), 'UTF-8'),
+                            self.fuente40,
+                            (int(605*scale+shift_x),int(825*scale+shift_y)),
+                            (100,200,100))
+            # exit button
+            self.pantalla.fill((20,20,20),
+                            (int(820*scale+shift_x),int(801*scale+shift_y),
+                                int(370*scale),int(48*scale)))
             self.mostrarTexto(_("Exit"),
                             self.fuente40,
-                            (int(900*scale+shift_x),int(825*scale+shift_y)),
+                            (int(1005*scale+shift_x),int(825*scale+shift_y)),
                             (100,200,100))
             pygame.display.flip()
             cambiarPagina = False
@@ -815,58 +912,68 @@ class Conozco():
                         if event.key == 27: # escape: salir
                             if self.sound:
                                 self.click.play()
+                            self.save_stats()
                             sys.exit()
                     elif event.type == pygame.MOUSEBUTTONDOWN:
                         if self.sound:
                             self.click.play()
                         pos = event.pos
-                        if pos[1] > 175*scale+shift_y: # zona de opciones
-                            if pos[0] < 600*scale+shift_x: # primera columna
-                                if pos[1] < 175*scale + shift_y + \
-                                        (nDirectoriosCol1+1)*50*scale: # mapa
-                                    self.indiceDirectorioActual = \
-                                        int((pos[1]-int(175*scale+shift_y))//\
-                                                int(50*scale)) - 1 + \
-                                                paginaDirectorios*20
-                                    if self.indiceDirectorioActual == \
-                                            paginaDirectorios*20-1 and \
-                                            paginaAnteriorActiva: # pag. ant.
-                                        paginaDirectorios = paginaDirectorios-1
-                                        paginaSiguienteActiva = True
-                                        cambiarPagina = True
-                                    elif self.indiceDirectorioActual>\
-                                            paginaDirectorios*20-1:
-                                        self.paginaDir = paginaDirectorios
-                                        return
-                                elif pos[1] > 800*scale + shift_y and \
-                                        pos[1] < 850*scale + shift_y: # acerca
-                                    self.pantallaAcercaDe()
-                            else:
-                                if pos[1] < 225*scale + shift_y + \
-                                        nDirectoriosCol2*50*scale or \
-                                        (paginaSiguienteActiva and \
-                                            pos[1]<775*scale+shift_y): # mapa
-                                    self.indiceDirectorioActual = \
-                                        int((pos[1]-int(225*scale+shift_y))//\
-                                                int(50*scale)) + \
-                                                paginaDirectorios*20 + 10
-                                    if self.indiceDirectorioActual == \
-                                            paginaDirectorios*20+9:
-                                        pass # ignorar; espacio vacio
-                                    elif self.indiceDirectorioActual == \
-                                            paginaDirectorios*20+20 and \
-                                            paginaSiguienteActiva: # pag. sig.
-                                        paginaDirectorios = \
-                                            paginaDirectorios + 1
-                                        paginaAnteriorActiva = True
-                                        cambiarPagina = True
-                                    elif self.indiceDirectorioActual<\
-                                            paginaDirectorios*20+20:
-                                        self.paginaDir = paginaDirectorios
-                                        return
-                                elif pos[1] > 800*scale+shift_y and \
-                                        pos[1] < 850*scale+shift_y: # salir
-                                    sys.exit()
+                        # zona de opciones
+                        if pos[1] < 800*scale+shift_y:
+                            if pos[1] > 175*scale+shift_y: 
+                                if pos[0] < 600*scale+shift_x: # primera columna
+                                    if pos[1] < 175*scale + shift_y + \
+                                            (nDirectoriosCol1+1)*50*scale: # mapa
+                                        self.indiceDirectorioActual = \
+                                            int((pos[1]-int(175*scale+shift_y))//\
+                                                    int(50*scale)) - 1 + \
+                                                    paginaDirectorios*20
+                                        if self.indiceDirectorioActual == \
+                                                paginaDirectorios*20-1 and \
+                                                paginaAnteriorActiva: # pag. ant.
+                                            paginaDirectorios = paginaDirectorios-1
+                                            paginaSiguienteActiva = True
+                                            cambiarPagina = True
+                                        elif self.indiceDirectorioActual>\
+                                                paginaDirectorios*20-1:
+                                            self.paginaDir = paginaDirectorios
+                                            return
+                                else:
+                                    if pos[1] < 225*scale + shift_y + \
+                                            nDirectoriosCol2*50*scale or \
+                                            (paginaSiguienteActiva and \
+                                                pos[1]<775*scale+shift_y): # mapa
+                                        self.indiceDirectorioActual = \
+                                            int((pos[1]-int(225*scale+shift_y))//\
+                                                    int(50*scale)) + \
+                                                    paginaDirectorios*20 + 10
+                                        if self.indiceDirectorioActual == \
+                                                paginaDirectorios*20+9:
+                                            pass # ignorar; espacio vacio
+                                        elif self.indiceDirectorioActual == \
+                                                paginaDirectorios*20+20 and \
+                                                paginaSiguienteActiva: # pag. sig.
+                                            paginaDirectorios = \
+                                                paginaDirectorios + 1
+                                            paginaAnteriorActiva = True
+                                            cambiarPagina = True
+                                        elif self.indiceDirectorioActual<\
+                                                paginaDirectorios*20+20:
+                                            self.paginaDir = paginaDirectorios
+                                            return
+                        # buttons zone
+                        else:
+                            if pos[1] < 850*scale + shift_y:
+                                if pos[0] > 20*scale+shift_x and \
+                                   pos[0] < 390*scale+shift_x:
+                                    self.pantallaAcercaDe() # acerca
+                                elif pos[0] > 420*scale+shift_x and \
+                                     pos[0] < 790*scale+shift_x:
+                                    self.pantallaStats() # stats
+                                elif pos[0] > 820*scale+shift_x and \
+                                        pos[0] < 1190*scale+shift_x:
+                                    self.save_stats()
+                                    sys.exit()  # exit
                     elif event.type == EVENTOREFRESCO:
                         pygame.display.flip()
 
@@ -888,7 +995,8 @@ class Conozco():
                 del imagen0
         return imagen
 
-    def __init__(self):
+    def __init__(self, parent=None):
+        self.parent = parent
         file_activity_info = ConfigParser.ConfigParser()
         activity_info_path = os.path.abspath('activity/activity.info')
         file_activity_info.read(activity_info_path)
@@ -899,24 +1007,89 @@ class Conozco():
         gettext.textdomain(bundle_id)
         global _
         _ = gettext.gettext
+        # initial time
+        self._init_time = time.time()
+        # stats
+        self._score = 0
+        self._average = 0
+        self._explore_times = 0
+        self._explore_places = 0
+        self._game_times = 0
+        self._time = 0
 
+    def load_stats(self):
+        if self.parent is not None:
+            l = []
+            for i in range(7):
+                l.append(0)
+            try:
+                folder = self.parent.get_activity_root()
+                path = os.path.join(folder, 'data', 'stats.dat')
+                if os.path.exists(path):
+                    f = open(path, 'r')
+                    for i in range(7):
+                        val = f.readline()
+                        val = val.strip('\n')
+                        if not(val == ''):
+                            l[i] = int(val)
+                    f.close()
+            except Exception, err:
+                print 'Cannot load stats', err
+                return
+            if self._validate_stats(l):
+                self._score = l[0]
+                self._average = l[1]
+                self._explore_times = l[2]
+                self._explore_places = l[3]
+                self._game_times = l[4]
+                self._time = l[5]
+
+    def _validate_stats(self, l):
+        return (self._calc_sum(l) == l[6])
+
+    def _calc_sum(self, l):
+        s = 0
+        for i in range(6):
+            s = s + l[i]
+        return s % 7
+
+    def save_stats(self):
+        if self.parent is not None:
+            try:
+                t = int(time.time() - self._init_time) / 60
+                self._time = self._time + t
+                folder = self.parent.get_activity_root()
+                path = os.path.join(folder, 'data', 'stats.dat')
+                # use aux list
+                l = []
+                for i in range(7):
+                    l.append(0)
+                l[0] = self._score
+                l[1] = self._average
+                l[2] = self._explore_times
+                l[3] = self._explore_places
+                l[4] = self._game_times
+                l[5] = self._time
+                l[6] = self._calc_sum(l)
+                # save
+                f = open(path, 'w')
+                for i in range(7):
+                    f.write(str(l[i]) + '\n')
+                f.close()
+            except Exception, err:
+                print 'Error saving stats', err
 
     def loadAll(self):
         global scale, shift_x, shift_y, xo_resolution
         pygame.init()
         pygame.display.init()
-        # crear pantalla
-        info = pygame.display.Info()
-        self.anchoPantalla = info.current_w
-        self.altoPantalla = info.current_h
         self.pantalla = pygame.display.get_surface()
         if not(self.pantalla):
-            # prevent hide zones
-            #self.anchoPantalla = self.anchoPantalla - 50
-            #self.altoPantalla = self.altoPantalla - 100
-            self.pantalla = pygame.display.set_mode((self.anchoPantalla,
-                                               self.altoPantalla), pygame.FULLSCREEN)
+            info = pygame.display.Info()
+            self.pantalla = pygame.display.set_mode((info.current_w, info.current_h), pygame.FULLSCREEN)
             pygame.display.set_caption(_(self.activity_name))
+        self.anchoPantalla = self.pantalla.get_width()
+        self.altoPantalla = self.pantalla.get_height()
         pygame.display.flip()
         if self.anchoPantalla==1200 and self.altoPantalla==900:
             xo_resolution = True
@@ -1202,10 +1375,7 @@ class Conozco():
             else:
                 return False
 
-    def explorarNombres(self):
-        """Juego principal en modo exploro."""
-        self.nivelActual = self.listaExploraciones[self.indiceNivelActual]
-        # presentar nivel
+    def presentLevel(self):
         for i in self.nivelActual.dibujoInicial:
             if i.startswith("lineasDepto"):
                 self.pantalla.blit(self.deptosLineas, (shift_x, shift_y))
@@ -1259,6 +1429,13 @@ class Conozco():
                     if l.tipo == 5:
                         l.mostrarNombre(self.pantalla,self.fuente24,
                                         COLORNOMBREELEVACION,False)
+
+    def explorarNombres(self):
+        """Juego principal en modo exploro."""
+        self._explore_times = self._explore_times + 1
+        self.nivelActual = self.listaExploraciones[self.indiceNivelActual]
+        # presentar nivel
+        self.presentLevel()
         # boton terminar
         self.pantalla.fill((100,20,20),(int(975*scale+shift_x),
                                         int(25*scale+shift_y),
@@ -1305,6 +1482,7 @@ class Conozco():
                                                         self.fuente24,
                                                         COLORNOMBRECAPITAL,
                                                         True)
+                                        self._explore_places += 1
                                         break
                             elif i.startswith("ciudades"):
                                 for l in self.listaLugares:
@@ -1313,6 +1491,7 @@ class Conozco():
                                                         self.fuente24,
                                                         COLORNOMBRECAPITAL,
                                                         True)
+                                        self._explore_places += 1
                                         break
                             elif i.startswith("rios"):
                                 for d in self.listaRios:
@@ -1321,6 +1500,7 @@ class Conozco():
                                                         self.fuente24,
                                                         COLORNOMBRERIO,
                                                         True)
+                                        self._explore_places += 1
                                         break
                             elif i.startswith("rutas"):
                                 for d in self.listaRutas:
@@ -1329,6 +1509,7 @@ class Conozco():
                                                         self.fuente24,
                                                         COLORNOMBRERUTA,
                                                         True)
+                                        self._explore_places += 1
                                         break
                             elif i.startswith("cuchillas"):
                                 for d in self.listaCuchillas:
@@ -1337,6 +1518,7 @@ class Conozco():
                                                         self.fuente24,
                                                         COLORNOMBREELEVACION,
                                                         True)
+                                        self._explore_places += 1
                                         break
                             elif i.startswith("cerros"):
                                 for l in self.listaLugares:
@@ -1345,6 +1527,7 @@ class Conozco():
                                                         self.fuente24,
                                                         COLORNOMBREELEVACION,
                                                         True)
+                                        self._explore_places += 1
                                         break
                             elif i.startswith("deptos"):
                                 for d in self.listaDeptos:
@@ -1353,6 +1536,7 @@ class Conozco():
                                                         self.fuente32,
                                                         COLORNOMBREDEPTO,
                                                         True)
+                                        self._explore_places += 1
                                         break
                     elif event.pos[0] > 975*scale+shift_x and \
                             event.pos[0] < 1175*scale+shift_x:
@@ -1400,63 +1584,12 @@ class Conozco():
 
     def jugarNivel(self):
         """Juego principal de preguntas y respuestas"""
+        self._game_times = self._game_times + 1
         self.nivelActual = self.listaNiveles[self.indiceNivelActual]
         self.avanceNivel = 0
         self.nivelActual.prepararPreguntas()
         # presentar nivel
-        for i in self.nivelActual.dibujoInicial:
-            if i.startswith("lineasDepto"):
-                self.pantalla.blit(self.deptosLineas, (shift_x, shift_y))
-            elif i.startswith("rios"):
-                self.pantalla.blit(self.rios, (shift_x, shift_y))
-            elif i.startswith("rutas"):
-                self.pantalla.blit(self.rutas, (shift_x, shift_y))
-            elif i.startswith("cuchillas"):
-                self.pantalla.blit(self.cuchillas, (shift_x, shift_y))
-            elif i.startswith("capitales"):
-                for l in self.listaLugares:
-                    if ((l.tipo == 0) or (l.tipo == 1)):
-                        l.dibujar(self.pantalla,False)
-            elif i.startswith("ciudades"):
-                for l in self.listaLugares:
-                    if l.tipo == 2:
-                        l.dibujar(self.pantalla,False)
-            elif i.startswith("cerros"):
-                for l in self.listaLugares:
-                    if l.tipo == 5:
-                        l.dibujar(self.pantalla,False)
-        for i in self.nivelActual.nombreInicial:
-            if i.startswith("deptos"):
-                for d in self.listaDeptos:
-                    d.mostrarNombre(self.pantalla,self.fuente32,
-                                    COLORNOMBREDEPTO,False)
-            if i.startswith("rios"):
-                for d in self.listaRios:
-                    d.mostrarNombre(self.pantalla,self.fuente24,
-                                    COLORNOMBRERIO,False)
-            if i.startswith("rutas"):
-                for d in self.listaRutas:
-                    d.mostrarNombre(self.pantalla,self.fuente24,
-                                    COLORNOMBRERUTA,False)
-            if i.startswith("cuchillas"):
-                for d in self.listaCuchillas:
-                    d.mostrarNombre(self.pantalla,self.fuente24,
-                                    COLORNOMBREELEVACION,False)
-            elif i.startswith("capitales"):
-                for l in self.listaLugares:
-                    if ((l.tipo == 0) or (l.tipo == 1)):
-                        l.mostrarNombre(self.pantalla,self.fuente24,
-                                        COLORNOMBRECAPITAL,False)
-            elif i.startswith("ciudades"):
-                for l in self.listaLugares:
-                    if l.tipo == 2:
-                        l.mostrarNombre(self.pantalla,self.fuente24,
-                                        COLORNOMBRECAPITAL,False)
-            elif i.startswith("cerros"):
-                for l in self.listaLugares:
-                    if l.tipo == 5:
-                        l.mostrarNombre(self.pantalla,self.fuente24,
-                                        COLORNOMBREELEVACION,False)
+        self.presentLevel()
         self.pantalla.fill((100,20,20),
                         (int(975*scale+shift_x),
                             int(26*scale+shift_y),
@@ -1711,8 +1844,6 @@ class Conozco():
                         pass
                     pygame.display.flip()
 
-    def presentacion(self):
-        pass
 
     def principal(self):
         """Este es el loop principal del juego"""
@@ -1723,7 +1854,7 @@ class Conozco():
 
         self.loadCommons()
 
-        self.presentacion()
+        self.load_stats()
 
         self.paginaDir = 0
         while 1:
@@ -1751,6 +1882,8 @@ class Conozco():
                     self.estadobicho = ESTADONORMAL
                     pygame.display.flip()
                     self.jugarNivel()
+                    self._score = self._score + self.puntos
+                    self._average = self._score / self._game_times
                 else:
                     if self.bandera:
                         self.pantalla.blit(self.bandera,
