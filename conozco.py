@@ -59,6 +59,18 @@ YTEXTO = 370
 XBARRA_A= XMAPAMAX+20
 YBARRA_A = 900 - ABARRA_P - 20
 ABARRA_A = DXPANEL-40
+#control
+TOTALAVANCE = 7
+EVENTORESPUESTA = pygame.USEREVENT+1
+TIEMPORESPUESTA = 2300
+EVENTODESPEGUE = EVENTORESPUESTA+1
+EVENTOREFRESCO = EVENTODESPEGUE+1
+TIEMPOREFRESCO = 250
+ESTADONORMAL = 1
+ESTADOPESTANAS = 2
+ESTADOFRENTE = 3
+ESTADODESPEGUE = 4
+#paths
 CAMINORECURSOS = "recursos"
 CAMINOCOMUN = "comun"
 CAMINOFUENTES = "fuentes"
@@ -67,6 +79,7 @@ CAMINOIMAGENES = "imagenes"
 CAMINOSONIDOS = "sonidos"
 ARCHIVONIVELES = "levels"
 ARCHIVOEXPLORACIONES = "explorations"
+#colors
 COLORNOMBREDEPTO = (10,10,10)
 COLORNOMBRECAPITAL = (10,10,10)
 COLORNOMBRERIO = (10,10,10)
@@ -78,16 +91,18 @@ COLORPREGUNTAS = (80,80,155)
 COLORPANEL = (156,158,172)
 COLORBARRA_P = (255, 0, 0)
 COLORBARRA_A = (0, 0, 255)
-TOTALAVANCE = 7
-EVENTORESPUESTA = pygame.USEREVENT+1
-TIEMPORESPUESTA = 2300
-EVENTODESPEGUE = EVENTORESPUESTA+1
-EVENTOREFRESCO = EVENTODESPEGUE+1
-TIEMPOREFRESCO = 250
-ESTADONORMAL = 1
-ESTADOPESTANAS = 2
-ESTADOFRENTE = 3
-ESTADODESPEGUE = 4
+COLORBARRA_C = (0, 0, 0)
+COLOR_FONDO = (0, 0, 0)
+COLOR_ACT_NAME = (255,255,255)
+COLOR_OPTION_B = (20, 20, 20)
+COLOR_OPTION_T = (200,100,100)
+COLOR_BUTTON_B = (20, 20, 20)
+COLOR_BUTTON_T = (100,200,100)
+COLOR_NEXT = (100, 100, 200)
+COLOR_STAT_N = (100, 100, 200)
+COLOR_SKIP = (255, 155, 155)
+COLOR_CREDITS = (155,155,255)
+COLOR_SHOW_ALL = (100, 20, 20)
 
 # variables globales para adaptar la pantalla a distintas resoluciones
 scale = 1
@@ -111,7 +126,6 @@ class Punto():
     """
 
     def __init__(self,nombre,tipo,simbolo,posicion,postexto):
-        global scale, shift_x, shift_y
         self.nombre = nombre
         self.tipo = int(tipo)
         self.posicion = (int(int(posicion[0])*scale+shift_x),
@@ -355,7 +369,8 @@ class Conozco():
                     f = imp.load_source(d, a_path)
                 except:
                     print _('Cannot open %s') % d
-                if f:
+
+                if hasattr(f, 'NAME'):
                     name = unicode(f.NAME, 'UTF-8')
                     self.listaNombreDirectorios.append(name)
                     self.listaDirectorios.append(d)
@@ -436,72 +451,70 @@ class Conozco():
         except:
             print _('Cannot open %s') % ARCHIVONIVELES
 
-        if f:
-            if hasattr(f, 'LEVELS'):
-                for ln in f.LEVELS:
-                    index = ln[0]
-                    nombreNivel = unicode(ln[1], 'UTF-8')
-                    nuevoNivel = Nivel(nombreNivel)
+        if hasattr(f, 'LEVELS'):
+            for ln in f.LEVELS:
+                index = ln[0]
+                nombreNivel = unicode(ln[1], 'UTF-8')
+                nuevoNivel = Nivel(nombreNivel)
 
-                    listaDibujos = ln[2]
-                    for i in listaDibujos:
-                        nuevoNivel.dibujoInicial.append(i.strip())
+                listaDibujos = ln[2]
+                for i in listaDibujos:
+                    nuevoNivel.dibujoInicial.append(i.strip())
 
-                    listaNombres = ln[3]
-                    for i in listaNombres:
-                        nuevoNivel.nombreInicial.append(i.strip())
+                listaNombres = ln[3]
+                for i in listaNombres:
+                    nuevoNivel.nombreInicial.append(i.strip())
 
-                    listpreguntas = ln[4]
+                listpreguntas = ln[4]
 
-                    if (index == 1):
-                        for i in listpreguntas:
-                            texto = unicode(i[0], 'UTF-8')
-                            tipo = i[1]
-                            respuesta = unicode(i[2], 'UTF-8')
-                            ayuda = unicode(i[3], 'UTF-8')
-                            nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
-                    else:
+                if (index == 1):
+                    for i in listpreguntas:
+                        texto = unicode(i[0], 'UTF-8')
+                        tipo = i[1]
+                        respuesta = unicode(i[2], 'UTF-8')
+                        ayuda = unicode(i[3], 'UTF-8')
+                        nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
+                else:
+                    for i in listpreguntas:
+                        respuesta = unicode(i[0], 'UTF-8')
+                        ayuda = unicode(i[1], 'UTF-8')
+                        if (index == 2):
+                            tipo = 2
+                            texto = _('the city of\n%s') % respuesta
+                        elif (index == 7):
+                            tipo = 1
+                            texto = _('the department of\n%s') % respuesta
+                        elif (index == 8):
+                            tipo = 1
+                            texto = _('the province of\n%s') % respuesta
+                        elif (index == 9):
+                            tipo = 1
+                            texto = _('the district of\n%s') % respuesta
+                        elif (index == 10):
+                            tipo = 1
+                            texto = _('the state of\n%s') % respuesta
+                        elif (index == 11):
+                            tipo = 1
+                            texto = _('the region of\n%s') % respuesta
+                        elif (index == 12):
+                            tipo = 1
+                            texto = _('the parish of\n%s') % respuesta
+                        elif (index == 14):
+                            tipo = 1
+                            texto = _('the taluka of\n%s') % respuesta
+                        elif (index == 6):
+                            tipo = 1
+                            texto = _('the municipality of\n%s') % respuesta
+                        elif (index == 4):
+                            tipo = 3
+                            texto = _('the %s') % respuesta
+                        elif (index == 5):
+                            tipo = 6
+                            texto = _('the %(route)s') % {'route': respuesta}
 
-                        for i in listpreguntas:
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            if (index == 2):
-                                tipo = 2
-                                texto = _('the city of\n%s') % respuesta
-                            elif (index == 7):
-                                tipo = 1
-                                texto = _('the department of\n%s') % respuesta
-                            elif (index == 8):
-                                tipo = 1
-                                texto = _('the province of\n%s') % respuesta
-                            elif (index == 9):
-                                tipo = 1
-                                texto = _('the district of\n%s') % respuesta
-                            elif (index == 10):
-                                tipo = 1
-                                texto = _('the state of\n%s') % respuesta
-                            elif (index == 11):
-                                tipo = 1
-                                texto = _('the region of\n%s') % respuesta
-                            elif (index == 12):
-                                tipo = 1
-                                texto = _('the parish of\n%s') % respuesta
-                            elif (index == 14):
-                                tipo = 1
-                                texto = _('the taluka of\n%s') % respuesta
-                            elif (index == 6):
-                                tipo = 1
-                                texto = _('the municipality of\n%s') % respuesta
-                            elif (index == 4):
-                                tipo = 3
-                                texto = _('the %s') % respuesta
-                            elif (index == 5):
-                                tipo = 6
-                                texto = _('the %(route)s') % {'route': respuesta}
+                        nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
 
-                            nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
-
-                    self.listaNiveles.append(nuevoNivel)
+                self.listaNiveles.append(nuevoNivel)
 
         self.indiceNivelActual = 0
         self.numeroNiveles = len(self.listaNiveles)
@@ -519,35 +532,33 @@ class Conozco():
         except:
             print _('Cannot open %s') % ARCHIVOEXPLORACIONES
 
-        if f:
-            if hasattr(f, 'EXPLORATIONS'):
-                for e in f.EXPLORATIONS:
-                    nombreNivel= unicode(e[0], 'UTF-8')
-                    nuevoNivel = Nivel(nombreNivel)
+        if hasattr(f, 'EXPLORATIONS'):
+            for e in f.EXPLORATIONS:
+                nombreNivel= unicode(e[0], 'UTF-8')
+                nuevoNivel = Nivel(nombreNivel)
 
-                    listaDibujos = e[1]
-                    for i in listaDibujos:
-                        nuevoNivel.dibujoInicial.append(i.strip())
+                listaDibujos = e[1]
+                for i in listaDibujos:
+                    nuevoNivel.dibujoInicial.append(i.strip())
 
-                    listaNombres = e[2]
-                    for i in listaNombres:
-                        nuevoNivel.nombreInicial.append(i.strip())
+                listaNombres = e[2]
+                for i in listaNombres:
+                    nuevoNivel.nombreInicial.append(i.strip())
 
-                    listaNombres = e[3]
-                    for i in listaNombres:
-                        nuevoNivel.elementosActivos.append(i.strip())
+                listaNombres = e[3]
+                for i in listaNombres:
+                    nuevoNivel.elementosActivos.append(i.strip())
 
-                    self.listaExploraciones.append(nuevoNivel)
+                self.listaExploraciones.append(nuevoNivel)
 
         self.numeroExploraciones = len(self.listaExploraciones)
 
     def pantallaAcercaDe(self):
         """Pantalla con los datos del juego, creditos, etc"""
-        global scale, shift_x, shift_y, xo_resolution
         self.pantallaTemp = pygame.Surface(
             (self.anchoPantalla,self.altoPantalla))
         self.pantallaTemp.blit(self.pantalla,(0,0))
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.pantalla.blit(self.terron,
                         (int(20*scale+shift_x),
                             int(20*scale+shift_y)))
@@ -558,21 +569,21 @@ class Conozco():
                         self.fuente40,
                         (int(600*scale+shift_x),
                         int(100*scale+shift_y)),
-                        (255,255,255))
+                        COLOR_ACT_NAME)
 
         yLinea = int(200*scale+shift_y)
         for linea in self.listaCreditos:
             self.mostrarTexto(linea.strip(),
                             self.fuente32,
                             (int(600*scale+shift_x),yLinea),
-                            (155,155,255))
+                            COLOR_CREDITS)
             yLinea = yLinea + int(40*scale)
 
         self.mostrarTexto(_("Press any key to return"),
                         self.fuente32,
                         (int(600*scale+shift_x),
                         int(800*scale+shift_y)),
-                        (255,155,155))
+                        COLOR_SKIP)
         pygame.display.flip()
         while 1:
             if gtk_present:
@@ -592,11 +603,10 @@ class Conozco():
 
     def pantallaStats(self):
         """Pantalla con los datos del juego, creditos, etc"""
-        global scale, shift_x, shift_y, xo_resolution
         self.pantallaTemp = pygame.Surface(
             (self.anchoPantalla,self.altoPantalla))
         self.pantallaTemp.blit(self.pantalla,(0,0))
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.pantalla.blit(self.jp1,
                         (int(925*scale+shift_x),
                             int(468*scale+shift_y)))
@@ -605,37 +615,37 @@ class Conozco():
                         self.fuente40,
                         (int(600*scale+shift_x),
                         int(100*scale+shift_y)),
-                        (255,255,255))
+                        COLOR_ACT_NAME)
         msg = _('Total score: %s') % self._score
         self.mostrarTexto(unicode(msg, 'UTF-8'),
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(300*scale+shift_y)),
-                        (100,100,200))
+                        COLOR_STAT_N)
         msg = _('Game average score: %s') % self._average
         self.mostrarTexto(unicode(msg, 'UTF-8'),
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(350*scale+shift_y)),
-                        (100,100,200))
+                        COLOR_STAT_N)
         msg = _('Times using Explore Mode: %s') % self._explore_times
         self.mostrarTexto(unicode(msg, 'UTF-8'),
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(400*scale+shift_y)),
-                        (100,100,200))
+                        COLOR_STAT_N)
         msg = _('Places Explored: %s') % self._explore_places
         self.mostrarTexto(unicode(msg, 'UTF-8'),
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(450*scale+shift_y)),
-                        (100,100,200))
+                        COLOR_STAT_N)
         msg = _('Times using Game Mode: %s') % self._game_times
         self.mostrarTexto(unicode(msg, 'UTF-8'),
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(500*scale+shift_y)),
-                        (100,100,200))
+                        COLOR_STAT_N)
         t = int(time.time() - self._init_time) / 60
         t = t + self._time
         msg = _('Total time: %s minutes') % t
@@ -643,13 +653,13 @@ class Conozco():
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(550*scale+shift_y)),
-                        (100,100,200))
+                        COLOR_STAT_N)
 
         self.mostrarTexto(_("Press any key to return"),
                         self.fuente32,
                         (int(600*scale+shift_x),
                         int(800*scale+shift_y)),
-                        (255,155,155))
+                        COLOR_SKIP)
 
         pygame.display.flip()
         while 1:
@@ -670,26 +680,25 @@ class Conozco():
 
     def pantallaInicial(self):
         """Pantalla con el menu principal del juego"""
-        global scale, shift_x, shift_y
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.mostrarTexto(self.activity_name,
                         self.fuente60,
                         (int(600*scale+shift_x),
                         int(80*scale+shift_y)),
-                        (255,255,255))
+                        COLOR_ACT_NAME)
         self.mostrarTexto(_("You have chosen the map ")+\
                             self.listaNombreDirectorios\
                             [self.indiceDirectorioActual],
                         self.fuente40,
                         (int(600*scale+shift_x), int(140*scale+shift_y)),
-                        (200,100,100))
+                        COLOR_OPTION_T)
         self.mostrarTexto(_("Play"),
                         self.fuente60,
                         (int(300*scale+shift_x), int(220*scale+shift_y)),
-                        (200,100,100))
+                        COLOR_OPTION_T)
         yLista = int(300*scale+shift_y)
         for n in self.listaNiveles:
-            self.pantalla.fill((20,20,20),
+            self.pantalla.fill(COLOR_OPTION_B,
                             (int(10*scale+shift_x),
                                 yLista-int(24*scale),
                                 int(590*scale),
@@ -697,15 +706,15 @@ class Conozco():
             self.mostrarTexto(n.nombre,
                             self.fuente40,
                             (int(300*scale+shift_x), yLista),
-                            (200,100,100))
+                            COLOR_OPTION_T)
             yLista += int(50*scale)
         self.mostrarTexto(_("Explore"),
                         self.fuente60,
                         (int(900*scale+shift_x), int(220*scale+shift_y)),
-                        (100,100,200))
+                        COLOR_NEXT)
         yLista = int(300*scale+shift_y)
         for n in self.listaExploraciones:
-            self.pantalla.fill((20,20,20),
+            self.pantalla.fill(COLOR_OPTION_B,
                             (int(610*scale+shift_x),
                                 yLista-int(24*scale),
                                 int(590*scale),
@@ -713,32 +722,32 @@ class Conozco():
             self.mostrarTexto(n.nombre,
                             self.fuente40,
                             (int(900*scale+shift_x),yLista),
-                            (100,100,200))
+                            COLOR_NEXT)
             yLista += int(50*scale)
             # about button
-            self.pantalla.fill((20,20,20),
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(20*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(_("About this game"),
                             self.fuente40,
                             (int(205*scale+shift_x),int(825*scale+shift_y)),
-                            (100,200,100))
+                            COLOR_BUTTON_T)
             # stats button
-            self.pantalla.fill((20,20,20),
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(420*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(unicode(_("Stats"), 'UTF-8'),
                             self.fuente40,
                             (int(605*scale+shift_x),int(825*scale+shift_y)),
-                            (100,200,100))
+                            COLOR_BUTTON_T)
             # return button
-            self.pantalla.fill((20,20,20),
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(820*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(_("Return"),
                             self.fuente40,
                             (int(1005*scale+shift_x),int(825*scale+shift_y)),
-                            (100,200,100))
+                            COLOR_BUTTON_T)
         pygame.display.flip()
         while 1:
             if gtk_present:
@@ -794,21 +803,20 @@ class Conozco():
 
     def pantallaDirectorios(self):
         """Pantalla con el menu de directorios"""
-        global scale, shift_x, shift_y
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.mostrarTexto(self.activity_name,
                         self.fuente60,
                         (int(600*scale+shift_x),int(80*scale+shift_y)),
-                        (255,255,255))
+                        COLOR_ACT_NAME)
         self.mostrarTexto(_("Choose the map to use"),
                         self.fuente40,
                         (int(600*scale+shift_x),int(140*scale+shift_y)),
-                        (200,100,100))
+                        COLOR_OPTION_T)
         nDirectorios = len(self.listaNombreDirectorios)
         paginaDirectorios = self.paginaDir
         while 1:
             yLista = int(200*scale+shift_y)
-            self.pantalla.fill((0,0,0),
+            self.pantalla.fill(COLOR_FONDO,
                             (int(shift_x),yLista-int(24*scale),
                                 int(1200*scale),int(600*scale)))
             if paginaDirectorios == 0:
@@ -817,24 +825,24 @@ class Conozco():
                 paginaAnteriorActiva = True
             paginaSiguienteActiva = False
             if paginaAnteriorActiva:
-                self.pantalla.fill((20,20,20),
+                self.pantalla.fill(COLOR_OPTION_B,
                                 (int(10*scale+shift_x),yLista-int(24*scale),
                                     int(590*scale),int(48*scale)))
                 self.mostrarTexto(unicode("<<< " + _("Previous page"), "UTF-8"),
                                 self.fuente40,
                                 (int(300*scale+shift_x),yLista),
-                                (100,100,200))
+                                COLOR_NEXT)
             yLista += int(50*scale)
             indiceDir = paginaDirectorios * 20
             terminar = False
             while not terminar:
-                self.pantalla.fill((20,20,20),
+                self.pantalla.fill(COLOR_OPTION_B,
                                 (int(10*scale+shift_x),yLista-int(24*scale),
                                     int(590*scale),int(48*scale)))
                 self.mostrarTexto(self.listaNombreDirectorios[indiceDir],
                                 self.fuente40,
                                 (int(300*scale+shift_x),yLista),
-                                (200,100,100))
+                                COLOR_OPTION_T)
                 yLista += int(50*scale)
                 indiceDir = indiceDir + 1
                 if indiceDir == nDirectorios or \
@@ -846,14 +854,14 @@ class Conozco():
                 yLista = int(250*scale+shift_y)
                 terminar = False
                 while not terminar:
-                    self.pantalla.fill((20,20,20),
+                    self.pantalla.fill(COLOR_OPTION_B,
                                     (int(610*scale+shift_x),
                                         yLista-int(24*scale),
                                         int(590*scale),int(48*scale)))
                     self.mostrarTexto(self.listaNombreDirectorios[indiceDir],
                                     self.fuente40,
                                     (int(900*scale+shift_x),yLista),
-                                    (200,100,100))
+                                    COLOR_OPTION_T)
                     yLista += int(50*scale)
                     indiceDir = indiceDir + 1
                     if indiceDir == nDirectorios or \
@@ -861,14 +869,14 @@ class Conozco():
                         terminar = True
                 if indiceDir == paginaDirectorios * 20 + 20:
                     if indiceDir < nDirectorios:
-                        self.pantalla.fill((20,20,20),
+                        self.pantalla.fill(COLOR_OPTION_B,
                                         (int(610*scale+shift_x),
                                             yLista-int(24*scale),
                                             int(590*scale),int(48*scale)))
                         self.mostrarTexto(unicode(_("Next page") + " >>>", "UTF-8"),
                                         self.fuente40,
                                         (int(900*scale+shift_x),yLista),
-                                        (100,100,200))
+                                        COLOR_NEXT)
                         paginaSiguienteActiva = True
                     nDirectoriosCol2 = 10
                 else:
@@ -877,7 +885,7 @@ class Conozco():
                 nDirectoriosCol1 = indiceDir - paginaDirectorios * 20
                 nDirectoriosCol2 = 0
             # about button
-            self.pantalla.fill((20,20,20),
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(20*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(_("About this game"),
@@ -885,7 +893,7 @@ class Conozco():
                             (int(205*scale+shift_x),int(825*scale+shift_y)),
                             (100,200,100))
             # stats button
-            self.pantalla.fill((20,20,20),
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(420*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(unicode(_("Stats"), 'UTF-8'),
@@ -893,7 +901,7 @@ class Conozco():
                             (int(605*scale+shift_x),int(825*scale+shift_y)),
                             (100,200,100))
             # exit button
-            self.pantalla.fill((20,20,20),
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(820*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(_("Exit"),
@@ -979,7 +987,6 @@ class Conozco():
 
     def cargarImagen(self,nombre):
         """Carga una imagen y la escala de acuerdo a la resolucion"""
-        global scale, xo_resolution
         imagen = None
         archivo = os.path.join(self.camino_imagenes, nombre)
         if os.path.exists(archivo):
@@ -1249,7 +1256,6 @@ class Conozco():
 
     def mostrarGlobito(self,lineas):
         """Muestra texto en el globito"""
-        global scale, shift_x, shift_y
         self.pantalla.blit(self.globito,
                         (int(XMAPAMAX*scale+shift_x),
                             int(YGLOBITO*scale+shift_y)))
@@ -1265,14 +1271,12 @@ class Conozco():
 
     def borrarGlobito(self):
         """ Borra el globito, lo deja en blanco"""
-        global scale, shift_x, shift_y
         self.pantalla.blit(self.globito,
                         (int(XMAPAMAX*scale+shift_x),
                             int(YGLOBITO*scale+shift_y)))
 
     def correcto(self):
         """Muestra texto en el globito cuando la respuesta es correcta"""
-        global scale, shift_x, shift_y
         self.correctoActual = random.randint(1,self.numeroCorrecto)-1
         self.mostrarGlobito([self.listaCorrecto[self.correctoActual]])
         self.esCorrecto = True
@@ -1437,7 +1441,7 @@ class Conozco():
         # presentar nivel
         self.presentLevel()
         # boton terminar
-        self.pantalla.fill((100,20,20),(int(975*scale+shift_x),
+        self.pantalla.fill(COLOR_SHOW_ALL,(int(975*scale+shift_x),
                                         int(25*scale+shift_y),
                                         int(200*scale),
                                         int(50*scale)))
@@ -1445,10 +1449,10 @@ class Conozco():
                         self.fuente40,
                         (int(1075*scale+shift_x),
                         int(50*scale+shift_y)),
-                        (255,155,155))
+                        COLOR_SKIP)
         pygame.display.flip()
         # boton mostrar todo
-        self.pantalla.fill((100,20,20),(int(975*scale+shift_x),
+        self.pantalla.fill(COLOR_SHOW_ALL,(int(975*scale+shift_x),
                                         int(90*scale+shift_y),
                                         int(200*scale),
                                         int(50*scale)))
@@ -1456,7 +1460,7 @@ class Conozco():
                         self.fuente40,
                         (int(1075*scale+shift_x),
                         int(115*scale+shift_y)),
-                        (255,155,155))
+                        COLOR_SKIP)
         pygame.display.flip()
         # lazo principal de espera por acciones del usuario
         while 1:
@@ -1590,7 +1594,7 @@ class Conozco():
         self.nivelActual.prepararPreguntas()
         # presentar nivel
         self.presentLevel()
-        self.pantalla.fill((100,20,20),
+        self.pantalla.fill(COLOR_SHOW_ALL,
                         (int(975*scale+shift_x),
                             int(26*scale+shift_y),
                             int(200*scale),
@@ -1599,14 +1603,14 @@ class Conozco():
                         self.fuente40,
                         (int(1075*scale+shift_x),
                         int(50*scale+shift_y)),
-                        (255,155,155))
+                        COLOR_SKIP)
         pygame.display.flip()
         # presentar pregunta inicial
         self.lineasPregunta = self.nivelActual.siguientePregunta(\
                 self.listaSufijos,self.listaPrefijos)
         self.mostrarGlobito(self.lineasPregunta)
         # barra puntaje
-        pygame.draw.rect(self.pantalla, (0,0,0),
+        pygame.draw.rect(self.pantalla, COLORBARRA_C,
                                 (int(XBARRA_P*scale+shift_x),
                                 int((YBARRA_P-350)*scale+shift_y),
                                 int(ABARRA_P*scale),
@@ -1616,14 +1620,14 @@ class Conozco():
             int(YBARRA_P+10)*scale+shift_y), COLORBARRA_P)
         # barra avance
         unidad = ABARRA_A / TOTALAVANCE
-        pygame.draw.rect(self.pantalla, (0,0,0),
+        pygame.draw.rect(self.pantalla, COLORBARRA_C,
                                 (int(XBARRA_A*scale+shift_x),
                                 int(YBARRA_A*scale+shift_y),
                                 int(ABARRA_A*scale),
                                 int(ABARRA_P*scale)), 3)
         for i in range(TOTALAVANCE-1):
             posx = int((XBARRA_A + unidad * (i+1))*scale+shift_x)
-            l = pygame.draw.line(self.pantalla, (0,0,0),
+            l = pygame.draw.line(self.pantalla, COLORBARRA_C,
                             (int(posx),
                             int(YBARRA_A*scale+shift_y)), 
                             (int(posx),
@@ -1635,6 +1639,7 @@ class Conozco():
         self.otorgado = False
         self.estadodespedida = 0
         self.primera = False
+        self.respondiendo = False
         self.avanceNivel = 0
         pygame.time.set_timer(EVENTORESPUESTA,0)
         # leer eventos y ver si la respuesta es correcta
@@ -1652,50 +1657,52 @@ class Conozco():
                         return
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
-                    if self.avanceNivel < TOTALAVANCE:
-                        if event.pos[0] < XMAPAMAX*scale+shift_x: # zona mapa
-                            self.borrarGlobito()
-                            if self.esCorrecta(self.nivelActual,
-                                            event.pos):
-                                if not(self.otorgado):
-                                    self.correcto()
-                                    self.otorgado = True
-                            else:
-                                self.mal()
-                            if self.puntos < 0:
-                                self.mostrarTexto('0',self.fuente32,
-                                    (int((XBARRA_P+ABARRA_P/2)*scale+shift_x),
-                                    int(YBARRA_P+15)*scale+shift_y),
-                                    COLORBARRA_P)
-                            else:
-                                self.pantalla.fill(COLORPANEL, (
-                                        int(XBARRA_P*scale+shift_x),
+                    if event.pos[0] < XMAPAMAX*scale+shift_x: # zona mapa
+                        if self.avanceNivel < TOTALAVANCE:
+                            if not(self.respondiendo):
+                                self.respondiendo = True
+                                if self.esCorrecta(self.nivelActual, event.pos):
+                                    if not(self.otorgado):
+                                        self.borrarGlobito()
+                                        self.correcto()
+                                        self.otorgado = True
+                                else:
+                                    self.borrarGlobito()
+                                    self.mal()
+                                if self.puntos < 0:
+                                    self.mostrarTexto('0',self.fuente32,
+                                        (int((XBARRA_P+ABARRA_P/2)*scale+shift_x),
+                                        int(YBARRA_P+15)*scale+shift_y),
+                                        COLORBARRA_P)
+                                else:
+                                    self.pantalla.fill(COLORPANEL, (
+                                            int(XBARRA_P*scale+shift_x),
+                                            int((YBARRA_P-350)*scale+shift_y),
+                                            int(ABARRA_P*scale),
+                                            int(390*scale)
+                                            )
+                                            )
+                                    self.pantalla.fill(COLORBARRA_P, (
+                                            int(XBARRA_P*scale+shift_x),
+                                            int((YBARRA_P-self.puntos*5)*scale+shift_y),
+                                            int(ABARRA_P*scale),
+                                            int(self.puntos*5*scale)
+                                            )
+                                            )
+                                    pygame.draw.rect(self.pantalla, COLORBARRA_C,
+                                        (int(XBARRA_P*scale+shift_x),
                                         int((YBARRA_P-350)*scale+shift_y),
                                         int(ABARRA_P*scale),
-                                        int(390*scale)
-                                        )
-                                        )
-                                self.pantalla.fill(COLORBARRA_P, (
-                                        int(XBARRA_P*scale+shift_x),
-                                        int((YBARRA_P-self.puntos*5)*scale+shift_y),
-                                        int(ABARRA_P*scale),
-                                        int(self.puntos*5*scale)
-                                        )
-                                        )
-                                pygame.draw.rect(self.pantalla, (0,0,0),
-                                    (int(XBARRA_P*scale+shift_x),
-                                    int((YBARRA_P-350)*scale+shift_y),
-                                    int(ABARRA_P*scale),
-                                    int(350*scale)), 3)
-                                self.mostrarTexto(str(self.puntos),self.fuente32,
-                                    (int((XBARRA_P+ABARRA_P/2)*scale+shift_x),
-                                    int(YBARRA_P+15)*scale+shift_y),
-                                    COLORBARRA_P)
-                        elif event.pos[0] > 975*scale+shift_x and \
-                                event.pos[0] < 1175*scale+shift_x and \
-                                event.pos[1] > 25*scale+shift_y and \
-                                event.pos[1] < 75*scale+shift_y: # terminar
-                            return
+                                        int(350*scale)), 3)
+                                    self.mostrarTexto(str(self.puntos),self.fuente32,
+                                        (int((XBARRA_P+ABARRA_P/2)*scale+shift_x),
+                                        int(YBARRA_P+15)*scale+shift_y),
+                                        COLORBARRA_P)
+                            elif event.pos[0] > 975*scale+shift_x and \
+                                    event.pos[0] < 1175*scale+shift_x and \
+                                    event.pos[1] > 25*scale+shift_y and \
+                                    event.pos[1] < 75*scale+shift_y: # terminar
+                                return
                     else:
                         if event.pos[0] > 975*scale+shift_x and \
                            event.pos[0] < 1175*scale+shift_x and \
@@ -1705,6 +1712,7 @@ class Conozco():
                             return
                 elif event.type == EVENTORESPUESTA:
                     pygame.time.set_timer(EVENTORESPUESTA,0)
+                    self.respondiendo = False
                     if not(self.esCorrecto):
                         if self.nRespuestasMal == 1: # ayuda
                             linea = self.lineasPregunta
@@ -1730,14 +1738,14 @@ class Conozco():
                                             int(ABARRA_P*scale)
                                             )
                                             )
-                            pygame.draw.rect(self.pantalla, (0,0,0),
+                            pygame.draw.rect(self.pantalla, COLORBARRA_C,
                                                 (int(XBARRA_A*scale+shift_x),
                                                 int(YBARRA_A*scale+shift_y),
                                                 int(ABARRA_A*scale),
                                                 int(ABARRA_P*scale)), 3)
                             for i in range(TOTALAVANCE-1):
                                 posx = int((XBARRA_A + unidad * (i+1))*scale+shift_x)
-                                l = pygame.draw.line(self.pantalla, (0,0,0),
+                                l = pygame.draw.line(self.pantalla, COLORBARRA_C,
                                             (int(posx),
                                             int(YBARRA_A*scale+shift_y)), 
                                             (int(posx),
@@ -1756,14 +1764,14 @@ class Conozco():
                                         int(ABARRA_P*scale)
                                         )
                                         )
-                        pygame.draw.rect(self.pantalla, (0,0,0),
+                        pygame.draw.rect(self.pantalla, COLORBARRA_C,
                                             (int(XBARRA_A*scale+shift_x),
                                             int((YBARRA_A)*scale+shift_y),
                                             int(ABARRA_A*scale),
                                             int(ABARRA_P*scale)), 3)
                         for i in range(TOTALAVANCE-1):
                             posx = int((XBARRA_A + unidad * (i+1))*scale+shift_x)
-                            l = pygame.draw.line(self.pantalla, (0,0,0),
+                            l = pygame.draw.line(self.pantalla, COLORBARRA_C,
                                         (int(posx),
                                         int(YBARRA_A*scale+shift_y)), 
                                         (int(posx),
@@ -1844,10 +1852,8 @@ class Conozco():
                         pass
                     pygame.display.flip()
 
-
     def principal(self):
         """Este es el loop principal del juego"""
-        global scale, shift_x, shift_y
         pygame.time.set_timer(EVENTOREFRESCO,TIEMPOREFRESCO)
 
         self.loadAll()
@@ -1907,7 +1913,6 @@ class Conozco():
 def main():
     juego = Conozco()
     juego.principal()
-
 
 if __name__ == "__main__":
     main()
