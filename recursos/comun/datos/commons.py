@@ -59,7 +59,6 @@ CREDITS = [
     _("Thank's to Salil Konkar for the help in the english strings."),
     "",
     _("This program is free software developed by the community"),
-    _("For more information visit http://ceibaljam.org"),
     "",
     _("This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"),
     _("Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."),
