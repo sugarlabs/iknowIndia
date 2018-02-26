@@ -21,7 +21,6 @@
 # Contact information:
 # Gabriel Eirea geirea@gmail.com
 # Alan Aguiar alanjas@hotmail.com
-# Ceibal Jam http://ceibaljam.org
 
 import os
 import sys
