@@ -1,4 +1,4 @@
 iknowIndia
 ==========
 
-A sugar game about he geography of India
+A sugar game about the geography of India
