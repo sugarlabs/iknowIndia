@@ -57,4 +57,8 @@ class Activity(activity.Activity):
 
         self.set_toolbar_box(toolbar_box)
         toolbar_box.show()
+    
+    def can_close(self):
+        self.game.running = False
+        return True
 

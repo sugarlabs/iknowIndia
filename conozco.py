@@ -1005,6 +1005,7 @@ class Conozco():
 
     def __init__(self, parent=None):
         self.parent = parent
+        self.running = True
         file_activity_info = configparser.ConfigParser()
         activity_info_path = os.path.abspath('activity/activity.info')
         file_activity_info.read(activity_info_path)
@@ -1864,14 +1865,15 @@ class Conozco():
         self.load_stats()
 
         self.paginaDir = 0
-        while 1:
+        self.running = True
+        while self.running:
             self.pantallaDirectorios() # seleccion de mapa
             pygame.mouse.set_cursor((32,32), (1,1), *self.cursor_espera)
             self.directorio = self.listaDirectorios\
                 [self.indiceDirectorioActual]
             self.cargarDirectorio()
             pygame.mouse.set_cursor((32,32), (1,1), *self.cursor)
-            while 1:
+            while self.running:
                 # pantalla inicial de juego
                 self.elegir_directorio = False
                 self.pantallaInicial()
