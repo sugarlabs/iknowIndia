@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import sys
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
@@ -60,5 +61,6 @@ class Activity(activity.Activity):
     
     def can_close(self):
         self.game.running = False
-        return True
+        self.game.save_stats()
+        sys.exit()
 
