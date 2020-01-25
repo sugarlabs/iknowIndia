@@ -1040,7 +1040,7 @@ class Conozco():
                         val = f.readline()
                         val = val.strip('\n')
                         if not(val == ''):
-                            l[i] = int(val)
+                            l[i] = int(float(val))
                     f.close()
             except Exception as err:
                 print('Cannot load stats', err)
