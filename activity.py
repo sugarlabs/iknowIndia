@@ -5,10 +5,8 @@ import sys
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
-
-import sugargame
-import sugargame.canvas
 import pygame
+
 from sugar3.activity import activity
 from sugar3.graphics.toolbarbox import ToolbarBox
 from sugar3.activity.widgets import ActivityButton
@@ -16,7 +14,11 @@ from sugar3.activity.widgets import StopButton
 from sugar3.activity.widgets import ShareButton
 from sugar3.activity.widgets import DescriptionItem
 
+import sugargame
+import sugargame.canvas
+
 import conozco
+
 
 class Activity(activity.Activity):
 
@@ -24,12 +26,12 @@ class Activity(activity.Activity):
         activity.Activity.__init__(self, handle)
         self.max_participants = 1
         self.game = conozco.Conozco(self)
+        self.build_toolbar()
         self.game.canvas = sugargame.canvas.PygameCanvas(self,
                 main=self.game.principal,
                 modules=[pygame.display, pygame.font])
         self.set_canvas(self.game.canvas)
         self.game.canvas.grab_focus()
-        self.build_toolbar()
     
     def build_toolbar(self):
         toolbar_box = ToolbarBox()
@@ -62,5 +64,5 @@ class Activity(activity.Activity):
     def can_close(self):
         self.game.running = False
         self.game.save_stats()
-        sys.exit()
+        return True
 
