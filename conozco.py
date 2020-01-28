@@ -22,8 +22,7 @@
 # Gabriel Eirea geirea@gmail.com
 # Alan Aguiar alanjas@hotmail.com
 
-import os
-import sys
+import os.path
 import random
 import pygame
 import time
@@ -912,17 +911,25 @@ class Conozco():
             pygame.display.flip()
             cambiarPagina = False
             while not cambiarPagina:
+                clock.tick(20)
                 if gtk_present:
                     while Gtk.events_pending():
                         Gtk.main_iteration()
 
-                for event in wait_events():
+                for event in pygame.event.get():
                     if event.type == pygame.KEYDOWN:
                         if event.key == 27: # escape: salir
                             if self.sound:
                                 self.click.play()
                             self.save_stats()
-                            sys.exit()
+                            if self.parent is not None:
+                                self.parent.close(skip_save=True)
+                            return 1
+                    elif event.type == pygame.QUIT:
+                        if self.sound:
+                            self.click.play()
+                        self.save_stats()
+                        return 1
                     elif event.type == pygame.MOUSEBUTTONDOWN:
                         if self.sound:
                             self.click.play()
@@ -982,7 +989,9 @@ class Conozco():
                                 elif pos[0] > 820*scale+shift_x and \
                                         pos[0] < 1190*scale+shift_x:
                                     self.save_stats()
-                                    sys.exit()  # exit
+                                    if self.parent is not None:
+                                        self.parent.close(skip_save=True)
+                                    return 1
                     elif event.type == EVENTOREFRESCO:
                         pygame.display.flip()
 
@@ -1090,8 +1099,6 @@ class Conozco():
 
     def loadAll(self):
         global scale, shift_x, shift_y, xo_resolution
-        pygame.init()
-        pygame.display.init()
         self.pantalla = pygame.display.get_surface()
         if not(self.pantalla):
             info = pygame.display.Info()
@@ -1466,6 +1473,7 @@ class Conozco():
         pygame.display.flip()
         # lazo principal de espera por acciones del usuario
         while 1:
+
             if gtk_present:
                 while Gtk.events_pending():
                     Gtk.main_iteration()
@@ -1867,7 +1875,9 @@ class Conozco():
         self.paginaDir = 0
         self.running = True
         while self.running:
-            self.pantallaDirectorios() # seleccion de mapa
+            if self.pantallaDirectorios() == 1:
+                return
+            # seleccion de mapa
             pygame.mouse.set_cursor((32,32), (1,1), *self.cursor_espera)
             self.directorio = self.listaDirectorios\
                 [self.indiceDirectorioActual]
@@ -1918,4 +1928,6 @@ def main():
     juego.principal()
 
 if __name__ == "__main__":
+    pygame.init()
+    pygame.display.init()
     main()

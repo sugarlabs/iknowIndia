@@ -32,7 +32,7 @@ class ConzocoActivity(activity.Activity):
                 modules=[pygame.display, pygame.font])
         self.set_canvas(self.game.canvas)
         self.game.canvas.grab_focus()
-    
+
     def build_toolbar(self):
         toolbar_box = ToolbarBox()
 
@@ -60,17 +60,12 @@ class ConzocoActivity(activity.Activity):
 
         self.set_toolbar_box(toolbar_box)
         toolbar_box.show()
-    
+
     def read_file(self, filepath):
         # FIXME Move read configuration from conzoco.py to activity.py
         pass
 
     def write_file(self, filepath):
         # FIXME Move write configuration from conzoco.py to activity.py
-        pass
-
-    def can_close(self):
-        self.game.running = False
         self.game.save_stats()
-        return True
-
+        pass
