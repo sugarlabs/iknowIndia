@@ -20,7 +20,7 @@ import sugargame.canvas
 import conozco
 
 
-class Activity(activity.Activity):
+class ConzocoActivity(activity.Activity):
 
     def __init__(self, handle):
         activity.Activity.__init__(self, handle)
@@ -61,6 +61,14 @@ class Activity(activity.Activity):
         self.set_toolbar_box(toolbar_box)
         toolbar_box.show()
     
+    def read_file(self, filepath):
+        # FIXME Move read configuration from conzoco.py to activity.py
+        pass
+
+    def write_file(self, filepath):
+        # FIXME Move write configuration from conzoco.py to activity.py
+        pass
+
     def can_close(self):
         self.game.running = False
         self.game.save_stats()
