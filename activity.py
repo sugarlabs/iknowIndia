@@ -1,23 +1,20 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import conozco
+import sugargame.canvas
+import sugargame
+from sugar3.activity.widgets import DescriptionItem
+from sugar3.activity.widgets import ShareButton
+from sugar3.activity.widgets import StopButton
+from sugar3.activity.widgets import ActivityButton
+from sugar3.graphics.toolbarbox import ToolbarBox
+from sugar3.activity import activity
+import pygame
+from gi.repository import Gtk
 import sys
 import gi
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk
-import pygame
-
-from sugar3.activity import activity
-from sugar3.graphics.toolbarbox import ToolbarBox
-from sugar3.activity.widgets import ActivityButton
-from sugar3.activity.widgets import StopButton
-from sugar3.activity.widgets import ShareButton
-from sugar3.activity.widgets import DescriptionItem
-
-import sugargame
-import sugargame.canvas
-
-import conozco
 
 
 class ConzocoActivity(activity.Activity):
@@ -28,8 +25,8 @@ class ConzocoActivity(activity.Activity):
         self.game = conozco.Conozco(self)
         self.build_toolbar()
         self.game.canvas = sugargame.canvas.PygameCanvas(self,
-                main=self.game.principal,
-                modules=[pygame.display, pygame.font])
+                                                         main=self.game.principal,
+                                                         modules=[pygame.display, pygame.font])
         self.set_canvas(self.game.canvas)
         self.game.canvas.grab_focus()
 
