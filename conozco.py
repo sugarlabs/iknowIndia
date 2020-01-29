@@ -815,8 +815,9 @@ class Conozco():
         nDirectorios = len(self.listaNombreDirectorios)
         paginaDirectorios = self.paginaDir
         while 1:
-            while Gtk.events_pending():
-                Gtk.main_iteration()
+            if gtk_present:
+                while Gtk.events_pending():
+                    Gtk.main_iteration()
             yLista = int(200*scale+shift_y)
             self.pantalla.fill(COLOR_FONDO,
                             (int(shift_x),yLista-int(24*scale),
