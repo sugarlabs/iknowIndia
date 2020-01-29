@@ -2,3 +2,6 @@
 *.pyo
 *.py~
 *.xo
+.idea
+.vscode
+__pycache__
