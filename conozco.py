@@ -265,7 +265,7 @@ class Conozco():
                 lugares = lugares + f.HILLS
             self.listaLugares = list()
             for c in lugares:
-                nombreLugar = str(c[0])
+                nombreLugar = c[0]
                 posx = c[1]
                 posy = c[2]
                 tipo = c[3]
@@ -291,7 +291,7 @@ class Conozco():
                 self.deptosLineas = self.cargarImagen("deptosLineas.png")
                 self.listaDeptos = list()
                 for d in f.STATES:
-                    nombreDepto = str(d[0])
+                    nombreDepto = d[0]
                     claveColor = d[1]
                     posx = d[2]
                     posy = d[3]
@@ -305,7 +305,7 @@ class Conozco():
                 self.cuchillasDetectar = self.cargarImagen("cuchillasDetectar.png")
                 self.listaCuchillas = list()
                 for c in f.CUCHILLAS:
-                    nombreCuchilla = str(c[0])
+                    nombreCuchilla = c[0]
                     claveColor = c[1]
                     posx = c[2]
                     posy = c[3]
@@ -319,7 +319,7 @@ class Conozco():
                 self.riosDetectar = self.cargarImagen("riosDetectar.png")
                 self.listaRios = list()
                 for r in f.RIVERS:
-                    nombreRio = str(r[0])
+                    nombreRio = r[0]
                     claveColor = r[1]
                     posx = r[2]
                     posy = r[3]
@@ -333,7 +333,7 @@ class Conozco():
                 self.rutasDetectar = self.cargarImagen("rutasDetectar.png")
                 self.listaRutas = list()
                 for r in f.ROUTES:
-                    nombreRuta = str(r[0])
+                    nombreRuta = r[0]
                     claveColor = r[1]
                     posx = r[2]
                     posy = r[3]
@@ -344,8 +344,8 @@ class Conozco():
             self.lista_estadisticas = list()
             if hasattr(f, 'STATS'):
                 for e in f.STATS:
-                    p1 = str(e[0])
-                    p2 = str(e[1])
+                    p1 = e[0]
+                    p2 = e[1]
                     self.lista_estadisticas.append((p1, p2))
 
 
@@ -366,7 +366,7 @@ class Conozco():
                     print(_('Cannot open %s') % d)
 
                 if hasattr(f, 'NAME'):
-                    name = str(f.NAME)
+                    name = f.NAME
                     self.listaNombreDirectorios.append(name)
                     self.listaDirectorios.append(d)
 
@@ -393,38 +393,38 @@ class Conozco():
         if f:
             if hasattr(f, 'ACTIVITY_NAME'):
                 e = f.ACTIVITY_NAME
-                self.activity_name = str(e)
+                self.activity_name = e
             if hasattr(f, 'PREFIX'):
                 for e in f.PREFIX:
-                    e1 = str(e)
+                    e1 = e
                     self.listaPrefijos.append(e1)
             if hasattr(f, 'SUFIX'):
                 for e in f.SUFIX:
-                    e1 = str(e)
+                    e1 = e
                     self.listaSufijos.append(e1)  
             if hasattr(f, 'CORRECT'):
                 for e in f.CORRECT:
-                    e1 = str(e)
+                    e1 = e
                     self.listaCorrecto.append(e1)
             if hasattr(f, 'WRONG'):
                 for e in f.WRONG:
-                    e1 = str(e)
+                    e1 = e
                     self.listaMal.append(e1)
             if hasattr(f, 'BYE_C'):
                 for e in f.BYE_C:
-                    e1 = str(e)
+                    e1 = e
                     self.listaDespedidasB.append(e1)
             if hasattr(f, 'BYE_W'):
                 for e in f.BYE_W:
-                    e1 = str(e)
+                    e1 = e
                     self.listaDespedidasM.append(e1)
             if hasattr(f, 'PRESENTATION'):
                 for e in f.PRESENTATION:
-                    e1 = str(e)
+                    e1 = e
                     self.listaPresentacion.append(e1)
             if hasattr(f, 'CREDITS'):
                 for e in f.CREDITS:
-                    e1 = str(e)
+                    e1 = e
                     self.listaCreditos.append(e1)
 
         self.numeroSufijos = len(self.listaSufijos)
@@ -464,15 +464,15 @@ class Conozco():
 
                 if (index == 1):
                     for i in listpreguntas:
-                        texto = str(i[0])
+                        texto = i[0]
                         tipo = i[1]
-                        respuesta = str(i[2])
-                        ayuda = str(i[3])
+                        respuesta = i[2]
+                        ayuda = i[3]
                         nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
                 else:
                     for i in listpreguntas:
-                        respuesta = str(i[0])
-                        ayuda = str(i[1])
+                        respuesta = i[0]
+                        ayuda = i[1]
                         if (index == 2):
                             tipo = 2
                             texto = _('the city of\n%s') % respuesta
@@ -529,7 +529,7 @@ class Conozco():
 
         if hasattr(f, 'EXPLORATIONS'):
             for e in f.EXPLORATIONS:
-                nombreNivel= str(e[0])
+                nombreNivel= e[0]
                 nuevoNivel = Nivel(nombreNivel)
 
                 listaDibujos = e[1]
@@ -618,31 +618,31 @@ class Conozco():
                         int(100*scale+shift_y)),
                         COLOR_ACT_NAME)
         msg = _('Total score: %s') % self._score
-        self.mostrarTexto(str(msg),
+        self.mostrarTexto(msg,
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(300*scale+shift_y)),
                         COLOR_STAT_N)
         msg = _('Game average score: %s') % self._average
-        self.mostrarTexto(str(msg),
+        self.mostrarTexto(msg,
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(350*scale+shift_y)),
                         COLOR_STAT_N)
         msg = _('Times using Explore Mode: %s') % self._explore_times
-        self.mostrarTexto(str(msg),
+        self.mostrarTexto(msg,
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(400*scale+shift_y)),
                         COLOR_STAT_N)
         msg = _('Places Explored: %s') % self._explore_places
-        self.mostrarTexto(str(msg),
+        self.mostrarTexto(msg,
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(450*scale+shift_y)),
                         COLOR_STAT_N)
         msg = _('Times using Game Mode: %s') % self._game_times
-        self.mostrarTexto(str(msg),
+        self.mostrarTexto(msg,
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(500*scale+shift_y)),
@@ -650,7 +650,7 @@ class Conozco():
         t = int(time.time() - self._init_time) / 60
         t = t + self._time
         msg = _('Total time: %s minutes') % t
-        self.mostrarTexto(str(msg),
+        self.mostrarTexto(msg,
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(550*scale+shift_y)),
@@ -743,7 +743,7 @@ class Conozco():
             self.pantalla.fill(COLOR_BUTTON_B,
                             (int(420*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
-            self.mostrarTexto(str(_("Stats")),
+            self.mostrarTexto(_("Stats"),
                             self.fuente40,
                             (int(605*scale+shift_x),int(825*scale+shift_y)),
                             COLOR_BUTTON_T)
@@ -846,7 +846,7 @@ class Conozco():
                 self.pantalla.fill(COLOR_OPTION_B,
                                 (int(10*scale+shift_x),yLista-int(24*scale),
                                     int(590*scale),int(48*scale)))
-                self.mostrarTexto(str("<<< " + _("Previous page"), "UTF-8"),
+                self.mostrarTexto("<<< " + _("Previous page"),
                                 self.fuente40,
                                 (int(300*scale+shift_x),yLista),
                                 COLOR_NEXT)
@@ -891,7 +891,7 @@ class Conozco():
                                         (int(610*scale+shift_x),
                                             yLista-int(24*scale),
                                             int(590*scale),int(48*scale)))
-                        self.mostrarTexto(str(_("Next page") + " >>>", "UTF-8"),
+                        self.mostrarTexto(_("Next page") + " >>>",
                                         self.fuente40,
                                         (int(900*scale+shift_x),yLista),
                                         COLOR_NEXT)
@@ -914,7 +914,7 @@ class Conozco():
             self.pantalla.fill(COLOR_BUTTON_B,
                             (int(420*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
-            self.mostrarTexto(str(_("Stats")),
+            self.mostrarTexto(_("Stats"),
                             self.fuente40,
                             (int(605*scale+shift_x),int(825*scale+shift_y)),
                             (100,200,100))
