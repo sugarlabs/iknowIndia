@@ -25,7 +25,7 @@
 
 import configparser
 import gettext
-import imp
+import importlib
 import os
 import random
 import time
@@ -267,7 +267,9 @@ class Conozco():
         a_path = os.path.abspath(r_path)
         f = None
         try:
-            f = imp.load_source(self.directories, a_path)
+            f = importlib.machinery.SourceFileLoader(
+                self.directories, a_path
+            )
         except BaseException:
             print(_('Cannot open %s') % self.directories)
 
@@ -376,7 +378,7 @@ class Conozco():
                 a_path = os.path.abspath(r_path)
                 f = None
                 try:
-                    f = imp.load_source(d, a_path)
+                    f = importlib.machinery.SourceFileLoader(d, a_path)
                 except BaseException:
                     print(_('Cannot open %s') % d)
 
@@ -401,7 +403,7 @@ class Conozco():
         a_path = os.path.abspath(r_path)
         f = None
         try:
-            f = imp.load_source('commons', a_path)
+            f = importlib.machinery.SourceFileLoader('commons', a_path)
         except BaseException:
             print(_('Cannot open %s') % 'commons')
 
@@ -457,7 +459,7 @@ class Conozco():
         a_path = os.path.abspath(r_path)
         f = None
         try:
-            f = imp.load_source(ARCHIVONIVELES, a_path)
+            f = importlib.machinery.SourceFileLoader(ARCHIVONIVELES, a_path)
         except BaseException:
             print(_('Cannot open %s') % ARCHIVONIVELES)
 
@@ -541,7 +543,9 @@ class Conozco():
         a_path = os.path.abspath(r_path)
         f = None
         try:
-            f = imp.load_source(ARCHIVOEXPLORACIONES, a_path)
+            f = importlib.machinery.SourceFileLoader(
+                ARCHIVOEXPLORACIONES, a_path
+            )
         except BaseException:
             print(_('Cannot open %s') % ARCHIVOEXPLORACIONES)
 
