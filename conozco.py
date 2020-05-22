@@ -848,7 +848,7 @@ class Conozco():
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
 
-    def dispay_directories(self):
+    def display_directories(self):
         """Directory menu screen"""
         self.display.fill(COLOR_FONDO)
         self.show_text(self.activity_name, self.source60, (int(
@@ -1992,7 +1992,7 @@ class Conozco():
         self.dirPage = 0
         self.running = True
         while self.running:
-            if self.dispay_directories() == 1:
+            if self.display_directories() == 1:
                 return
             # select map
             pygame.mouse.set_cursor((32, 32), (1, 1), *self.wait_cursor)
