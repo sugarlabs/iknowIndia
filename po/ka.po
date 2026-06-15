@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-28 00:34-0400\n"
-"PO-Revision-Date: 2026-06-15 04:38+0000\n"
+"PO-Revision-Date: 2026-06-15 07:48+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/iknowindia/ka/>\n"
@@ -1698,3 +1698,7 @@ msgstr ""
 #: recursos/comun/datos/commons.py:66
 msgid "Font: Share-Regular.ttf of urbanfonts.com"
 msgstr ""
+
+#: conozco.py:730 conozco.py:891
+msgid "Stats"
+msgstr "სტატისტიკა"
