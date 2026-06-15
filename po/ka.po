@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-28 00:34-0400\n"
-"PO-Revision-Date: 2026-06-15 03:03+0000\n"
+"PO-Revision-Date: 2026-06-15 04:31+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/iknowindia/ka/>\n"
@@ -117,11 +117,11 @@ msgstr ""
 
 #: conozco.py:666
 msgid "Play"
-msgstr ""
+msgstr "დაკვრა"
 
 #: conozco.py:682
 msgid "Explore"
-msgstr ""
+msgstr "დათვალიერება"
 
 #: conozco.py:702 conozco.py:846
 msgid "About this game"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: conozco.py:710
 msgid "Return"
-msgstr ""
+msgstr "დაბრუნება"
 
 #: conozco.py:767
 msgid "Choose the map to use"
@@ -145,11 +145,11 @@ msgstr "შემდეგი გვერდი"
 
 #: conozco.py:853
 msgid "Exit"
-msgstr ""
+msgstr "გასვლა"
 
 #: conozco.py:1318 conozco.py:1516
 msgid "End"
-msgstr ""
+msgstr "დასასრული"
 
 #: conozco.py:1329
 msgid "Show all"
@@ -1019,7 +1019,7 @@ msgstr ""
 #: recursos/0india/datos/0india.py:203 recursos/4goa/datos/4goa.py:49
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:45
 msgid "Capital:"
-msgstr ""
+msgstr "დედაქალაქი:"
 
 #: recursos/0india/datos/0india.py:203
 msgid "(28°36.8′ N - 77°12.5′ E)"
@@ -1027,7 +1027,7 @@ msgstr ""
 
 #: recursos/0india/datos/0india.py:204
 msgid "Language:"
-msgstr ""
+msgstr "ენა:"
 
 #: recursos/0india/datos/0india.py:204
 msgid "Hindi"
@@ -1039,7 +1039,7 @@ msgstr "ინგლისური"
 
 #: recursos/0india/datos/0india.py:205
 msgid "Government:"
-msgstr ""
+msgstr "მთავრობა:"
 
 #: recursos/0india/datos/0india.py:205
 msgid "Federal parliamentary republic"
@@ -1047,7 +1047,7 @@ msgstr ""
 
 #: recursos/0india/datos/0india.py:206
 msgid "President:"
-msgstr ""
+msgstr "პრეზიდენტი:"
 
 #: recursos/0india/datos/0india.py:206
 msgid "Pratibha Patil"
@@ -1063,7 +1063,7 @@ msgstr ""
 
 #: recursos/0india/datos/0india.py:208
 msgid "Independence:"
-msgstr ""
+msgstr "თავისუფლება:"
 
 #: recursos/0india/datos/0india.py:208
 msgid "from the United Kingdom "
@@ -1090,7 +1090,7 @@ msgstr ""
 #: recursos/0india/datos/0india.py:211 recursos/4goa/datos/4goa.py:52
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:48
 msgid "Area:"
-msgstr ""
+msgstr "არე:"
 
 #: recursos/0india/datos/0india.py:211
 msgid "3.287.263 km² (7th)"
@@ -1099,7 +1099,7 @@ msgstr ""
 #: recursos/0india/datos/0india.py:212 recursos/4goa/datos/4goa.py:53
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:49
 msgid "Population:"
-msgstr ""
+msgstr "პოპულაცია:"
 
 #: recursos/0india/datos/0india.py:212
 msgid "1.210.193.422 (2nd)"
@@ -1107,7 +1107,7 @@ msgstr ""
 
 #: recursos/0india/datos/0india.py:213
 msgid "GDP:"
-msgstr ""
+msgstr "მშპ:"
 
 #: recursos/0india/datos/0india.py:213
 msgid "USD 1.676 trillion (11th)"
@@ -1116,7 +1116,7 @@ msgstr ""
 #: recursos/0india/datos/0india.py:214 recursos/4goa/datos/4goa.py:54
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:50
 msgid "HDI:"
-msgstr ""
+msgstr "აგი:"
 
 #: recursos/0india/datos/0india.py:214
 msgid "Medium - 0,547 (134th)"
@@ -1124,7 +1124,7 @@ msgstr ""
 
 #: recursos/0india/datos/0india.py:215
 msgid "Currency:"
-msgstr ""
+msgstr "ვალუტა:"
 
 #: recursos/0india/datos/0india.py:215
 msgid "Indian rupee"
@@ -1143,19 +1143,19 @@ msgstr ""
 #: recursos/4uttarpradesh/datos/explorations.py:20
 #: recursos/4uttarpradesh/datos/levels.py:46
 msgid "Cities"
-msgstr ""
+msgstr "ქალაქები"
 
 #: recursos/0india/datos/explorations.py:27
 #: recursos/4goa/datos/explorations.py:27
 #: recursos/4uttarpradesh/datos/explorations.py:27
 msgid "Waterways"
-msgstr ""
+msgstr "წყალსავალი გზები"
 
 #: recursos/0india/datos/explorations.py:34
 #: recursos/4goa/datos/explorations.py:34
 #: recursos/4uttarpradesh/datos/explorations.py:34
 msgid "Routes"
-msgstr ""
+msgstr "გზები"
 
 #: recursos/0india/datos/levels.py:11 recursos/0india/datos/levels.py:23
 #: recursos/0india/datos/levels.py:34 recursos/4goa/datos/levels.py:20
