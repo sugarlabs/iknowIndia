@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-28 00:34-0400\n"
-"PO-Revision-Date: 2026-06-15 04:31+0000\n"
+"PO-Revision-Date: 2026-06-15 04:38+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/iknowindia/ka/>\n"
@@ -1596,7 +1596,7 @@ msgstr ""
 
 #: recursos/comun/datos/commons.py:31
 msgid "Brilliant!"
-msgstr ""
+msgstr "გადასარევია!"
 
 #: recursos/comun/datos/commons.py:32
 msgid "You found it!"
@@ -1604,7 +1604,7 @@ msgstr ""
 
 #: recursos/comun/datos/commons.py:33
 msgid "Yes!"
-msgstr ""
+msgstr "დიახ!"
 
 #: recursos/comun/datos/commons.py:37
 msgid "No, that is not correct"
