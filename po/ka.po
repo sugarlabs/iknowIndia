@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-28 00:34-0400\n"
-"PO-Revision-Date: 2026-06-29 12:13+0000\n"
+"PO-Revision-Date: 2026-06-29 12:18+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/iknowindia/ka/>\n"
@@ -482,57 +482,57 @@ msgstr "რანჩი"
 #: recursos/0india/datos/0india.py:65 recursos/0india/datos/levels.py:65
 #: recursos/0india/datos/levels.py:108
 msgid "Bengalooru"
-msgstr ""
+msgstr "ბენგალურუ"
 
 #: recursos/0india/datos/0india.py:66 recursos/0india/datos/levels.py:66
 #: recursos/0india/datos/levels.py:109
 msgid "Thiruvananthapuram"
-msgstr ""
+msgstr "ტირუვანანტაპურამი"
 
 #: recursos/0india/datos/0india.py:67 recursos/0india/datos/levels.py:67
 #: recursos/0india/datos/levels.py:110
 msgid "Bhopal"
-msgstr ""
+msgstr "ბჰოპალი"
 
 #: recursos/0india/datos/0india.py:68 recursos/0india/datos/levels.py:68
 #: recursos/0india/datos/levels.py:111
 msgid "Mumbai"
-msgstr ""
+msgstr "მუმბაი"
 
 #: recursos/0india/datos/0india.py:69 recursos/0india/datos/levels.py:69
 #: recursos/0india/datos/levels.py:112
 msgid "Imphal"
-msgstr ""
+msgstr "იმპჰალი"
 
 #: recursos/0india/datos/0india.py:70 recursos/0india/datos/levels.py:70
 #: recursos/0india/datos/levels.py:113
 msgid "Shillong"
-msgstr ""
+msgstr "შილონგი"
 
 #: recursos/0india/datos/0india.py:71 recursos/0india/datos/levels.py:71
 #: recursos/0india/datos/levels.py:114
 msgid "Aizawl"
-msgstr ""
+msgstr "აიჯალი"
 
 #: recursos/0india/datos/0india.py:72 recursos/0india/datos/levels.py:72
 #: recursos/0india/datos/levels.py:115
 msgid "Kohima"
-msgstr ""
+msgstr "კოჰიმა"
 
 #: recursos/0india/datos/0india.py:73 recursos/0india/datos/levels.py:73
 #: recursos/0india/datos/levels.py:116
 msgid "Bhubaneswar"
-msgstr ""
+msgstr "ბჰუბანესვარი"
 
 #: recursos/0india/datos/0india.py:74 recursos/0india/datos/levels.py:74
 #: recursos/0india/datos/levels.py:117
 msgid "Jaipur"
-msgstr ""
+msgstr "ჯაიპური"
 
 #: recursos/0india/datos/0india.py:75 recursos/0india/datos/levels.py:75
 #: recursos/0india/datos/levels.py:118
 msgid "Gangtok"
-msgstr ""
+msgstr "განგტოკი"
 
 #: recursos/0india/datos/0india.py:76 recursos/0india/datos/levels.py:76
 #: recursos/0india/datos/levels.py:119
