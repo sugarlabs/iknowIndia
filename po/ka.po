@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-28 00:34-0400\n"
-"PO-Revision-Date: 2026-06-29 16:38+0000\n"
+"PO-Revision-Date: 2026-06-29 17:39+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/iknowindia/ka/>\n"
@@ -1328,73 +1328,73 @@ msgstr "ვიშაქაპატნამი"
 #: recursos/4goa/datos/4goa.py:8 recursos/4goa/datos/4goa.py:26
 #: recursos/4goa/datos/levels.py:11 recursos/4goa/datos/levels.py:32
 msgid "Pernem"
-msgstr ""
+msgstr "პერნე"
 
 #: recursos/4goa/datos/4goa.py:9 recursos/4goa/datos/levels.py:12
 #: recursos/4goa/datos/levels.py:33
 msgid "Bardez"
-msgstr ""
+msgstr "ბარდეზი"
 
 #: recursos/4goa/datos/4goa.py:10 recursos/4goa/datos/4goa.py:28
 #: recursos/4goa/datos/levels.py:13 recursos/4goa/datos/levels.py:34
 msgid "Bicholim"
-msgstr ""
+msgstr "ბიჩოლიმი"
 
 #: recursos/4goa/datos/4goa.py:11 recursos/4goa/datos/levels.py:14
 #: recursos/4goa/datos/levels.py:36
 msgid "Sattari"
-msgstr ""
+msgstr "სატარი"
 
 #: recursos/4goa/datos/4goa.py:12 recursos/4goa/datos/levels.py:15
 #: recursos/4goa/datos/levels.py:31
 msgid "Tiswadi"
-msgstr ""
+msgstr "ტისვალდი"
 
 #: recursos/4goa/datos/4goa.py:13 recursos/4goa/datos/4goa.py:35
 #: recursos/4goa/datos/levels.py:16 recursos/4goa/datos/levels.py:41
 msgid "Ponda"
-msgstr ""
+msgstr "პონდა"
 
 #: recursos/4goa/datos/4goa.py:14 recursos/4goa/datos/levels.py:17
 #: recursos/4goa/datos/levels.py:35
 msgid "Mormugao"
-msgstr ""
+msgstr "მორმუგაო"
 
 #: recursos/4goa/datos/4goa.py:15 recursos/4goa/datos/levels.py:18
 #: recursos/4goa/datos/levels.py:38
 msgid "Salcete"
-msgstr ""
+msgstr "სალცეტე"
 
 #: recursos/4goa/datos/4goa.py:16 recursos/4goa/datos/4goa.py:31
 #: recursos/4goa/datos/levels.py:19 recursos/4goa/datos/levels.py:37
 msgid "Sanguem"
-msgstr ""
+msgstr "სანგუემი"
 
 #: recursos/4goa/datos/4goa.py:17 recursos/4goa/datos/4goa.py:33
 #: recursos/4goa/datos/levels.py:20 recursos/4goa/datos/levels.py:39
 msgid "Quepem"
-msgstr ""
+msgstr "ქვეპემი"
 
 #: recursos/4goa/datos/4goa.py:18 recursos/4goa/datos/levels.py:21
 #: recursos/4goa/datos/levels.py:40
 msgid "Canacona"
-msgstr ""
+msgstr "კანაკონა"
 
 #: recursos/4goa/datos/4goa.py:27 recursos/4goa/datos/levels.py:33
 msgid "Mapusa"
-msgstr ""
+msgstr "მაპუსა"
 
 #: recursos/4goa/datos/4goa.py:30 recursos/4goa/datos/levels.py:36
 msgid "Valpoi"
-msgstr ""
+msgstr "ვალპოი"
 
 #: recursos/4goa/datos/4goa.py:32 recursos/4goa/datos/levels.py:38
 msgid "Margao"
-msgstr ""
+msgstr "მარგაო"
 
 #: recursos/4goa/datos/4goa.py:34 recursos/4goa/datos/levels.py:40
 msgid "Chaudi"
-msgstr ""
+msgstr "ჩაუდი"
 
 #: recursos/4goa/datos/4goa.py:50
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:46
@@ -1428,7 +1428,7 @@ msgstr ""
 
 #: recursos/4goa/datos/explorations.py:6 recursos/4goa/datos/levels.py:7
 msgid "Talukas"
-msgstr ""
+msgstr "ტალუკასი"
 
 #: recursos/4goa/datos/explorations.py:13 recursos/4goa/datos/levels.py:27
 #: recursos/4uttarpradesh/datos/explorations.py:13
@@ -1449,32 +1449,32 @@ msgstr ""
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:8
 #: recursos/4uttarpradesh/datos/levels.py:11
 msgid "Saharanpur"
-msgstr ""
+msgstr "საჰარანპური"
 
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:9
 #: recursos/4uttarpradesh/datos/levels.py:12
 msgid "Moradabad"
-msgstr ""
+msgstr "მორადაბადი"
 
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:10
 #: recursos/4uttarpradesh/datos/levels.py:13
 msgid "Bareilly"
-msgstr ""
+msgstr "ბარეილი"
 
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:12
 #: recursos/4uttarpradesh/datos/levels.py:15
 msgid "Devipatan"
-msgstr ""
+msgstr "დევიპატანი"
 
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:13
 #: recursos/4uttarpradesh/datos/levels.py:16
 msgid "Basti"
-msgstr ""
+msgstr "ბასტი"
 
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:14
 #: recursos/4uttarpradesh/datos/levels.py:17
 msgid "Gorakhpur"
-msgstr ""
+msgstr "გორაკჰპური"
 
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:15
 #: recursos/4uttarpradesh/datos/levels.py:18
@@ -1534,7 +1534,7 @@ msgstr ""
 #: recursos/4uttarpradesh/datos/explorations.py:6
 #: recursos/4uttarpradesh/datos/levels.py:7
 msgid "Divisions"
-msgstr ""
+msgstr "დივიზიები"
 
 #: recursos/comun/datos/commons.py:8
 msgid "Hello friends..."
@@ -1774,3 +1774,94 @@ msgstr "ხამამი"
 #: recursos/4andhrapradesh/datos/levels.py:54
 msgid "Chittoor"
 msgstr "ჩიტური"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:21
+#: recursos/4andhrapradesh/datos/levels.py:24
+msgid "Nelluru"
+msgstr "ნელურუ"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:22
+#: recursos/4andhrapradesh/datos/levels.py:25
+msgid "Prakasam"
+msgstr "პრაკასამი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:23
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:54
+#: recursos/4andhrapradesh/datos/levels.py:26
+#: recursos/4andhrapradesh/datos/levels.py:56
+msgid "Guntur"
+msgstr "გუნტური"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:24
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:57
+#: recursos/4andhrapradesh/datos/levels.py:27
+#: recursos/4andhrapradesh/datos/levels.py:59
+msgid "Krishna"
+msgstr "კრიშნა"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:28
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:60
+#: recursos/4andhrapradesh/datos/levels.py:31
+#: recursos/4andhrapradesh/datos/levels.py:62
+msgid "Vijayanagaram"
+msgstr "ვიჯაიანაგარამი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:29
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:61
+#: recursos/4andhrapradesh/datos/levels.py:32
+#: recursos/4andhrapradesh/datos/levels.py:63
+msgid "Srikakulam"
+msgstr "სრიკაკულამი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:31
+msgid "Orissa"
+msgstr "ორისა"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:42
+#: recursos/4andhrapradesh/datos/levels.py:44
+msgid "Nizamabab"
+msgstr "ნიზამაბაბი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:44
+#: recursos/4andhrapradesh/datos/levels.py:46
+msgid "Sangareddi"
+msgstr "სანგერედი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:48
+#: recursos/4andhrapradesh/datos/levels.py:50
+msgid "Kurnool"
+msgstr "კურნული"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:49
+#: recursos/4andhrapradesh/datos/levels.py:51
+msgid "Anantapur"
+msgstr "ანანტაპური"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:50
+#: recursos/4andhrapradesh/datos/levels.py:52
+msgid "Cuddapah"
+msgstr "ქადაპა"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:51
+#: recursos/4andhrapradesh/datos/levels.py:53
+msgid "Nellore"
+msgstr "ნელორი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:53
+#: recursos/4andhrapradesh/datos/levels.py:55
+msgid "Ongole"
+msgstr "ონგოლე"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:56
+#: recursos/4andhrapradesh/datos/levels.py:58
+msgid "Mangiripudi"
+msgstr "მანგირიპუდი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:58
+#: recursos/4andhrapradesh/datos/levels.py:60
+msgid "Kakinada"
+msgstr "კაკინადა"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:73
+msgid "75.727.541"
+msgstr "75.727.541"
