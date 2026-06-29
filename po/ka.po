@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-28 00:34-0400\n"
-"PO-Revision-Date: 2026-06-29 14:14+0000\n"
+"PO-Revision-Date: 2026-06-29 16:38+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/iknowindia/ka/>\n"
@@ -781,7 +781,7 @@ msgstr "ამარკანტაკი"
 
 #: recursos/0india/datos/0india.py:136 recursos/0india/datos/levels.py:175
 msgid "Ambikapur"
-msgstr ""
+msgstr "ამბიკაპური"
 
 #: recursos/0india/datos/0india.py:137 recursos/0india/datos/levels.py:176
 msgid "Chitrakote Falls"
@@ -793,139 +793,139 @@ msgstr ""
 
 #: recursos/0india/datos/0india.py:139 recursos/0india/datos/levels.py:178
 msgid "Cuttack"
-msgstr ""
+msgstr "კატაკი"
 
 #: recursos/0india/datos/0india.py:140 recursos/0india/datos/levels.py:179
 msgid "Paradip"
-msgstr ""
+msgstr "პარადიპი"
 
 #: recursos/0india/datos/0india.py:141 recursos/0india/datos/levels.py:180
 msgid "Konarak"
-msgstr ""
+msgstr "კონარაკი"
 
 #: recursos/0india/datos/0india.py:142 recursos/0india/datos/levels.py:181
 msgid "Puri"
-msgstr ""
+msgstr "პური"
 
 #: recursos/0india/datos/0india.py:143 recursos/0india/datos/levels.py:182
 msgid "Gopalpur"
-msgstr ""
+msgstr "გოპალპური"
 
 #: recursos/0india/datos/0india.py:144 recursos/0india/datos/levels.py:183
 msgid "Bhuj"
-msgstr ""
+msgstr "ბჰუჯი"
 
 #: recursos/0india/datos/0india.py:145 recursos/0india/datos/levels.py:184
 msgid "Lothal"
-msgstr ""
+msgstr "ლოტჰალი"
 
 #: recursos/0india/datos/0india.py:146 recursos/0india/datos/levels.py:185
 msgid "Vadodara"
-msgstr ""
+msgstr "ვადოდარა"
 
 #: recursos/0india/datos/0india.py:147 recursos/0india/datos/levels.py:186
 msgid "Dwarka"
-msgstr ""
+msgstr "დუარკა"
 
 #: recursos/0india/datos/0india.py:148 recursos/0india/datos/levels.py:187
 msgid "Rajkot"
-msgstr ""
+msgstr "რაჯკოტი"
 
 #: recursos/0india/datos/0india.py:149 recursos/0india/datos/levels.py:188
 msgid "Porbandar"
-msgstr ""
+msgstr "პორბანდარი"
 
 #: recursos/0india/datos/0india.py:150 recursos/0india/datos/levels.py:189
 msgid "Somnath"
-msgstr ""
+msgstr "სომნატჰი"
 
 #: recursos/0india/datos/0india.py:151 recursos/0india/datos/levels.py:190
 msgid "Diu"
-msgstr ""
+msgstr "დიუ"
 
 #: recursos/0india/datos/0india.py:152 recursos/0india/datos/levels.py:191
 msgid "Bhavnagar"
-msgstr ""
+msgstr "ბჰავნაგარი"
 
 #: recursos/0india/datos/0india.py:153 recursos/0india/datos/levels.py:192
 msgid "Saputara"
-msgstr ""
+msgstr "საპუტარა"
 
 #: recursos/0india/datos/0india.py:154 recursos/0india/datos/levels.py:193
 msgid "Melghat"
-msgstr ""
+msgstr "მელგჰატი"
 
 #: recursos/0india/datos/0india.py:155 recursos/0india/datos/levels.py:194
 msgid "Wardha"
-msgstr ""
+msgstr "ვარდჰა"
 
 #: recursos/0india/datos/0india.py:156 recursos/0india/datos/levels.py:195
 msgid "Chandrapur"
-msgstr ""
+msgstr "ჩანდრაპური"
 
 #: recursos/0india/datos/0india.py:157 recursos/0india/datos/levels.py:196
 msgid "Ajanta"
-msgstr ""
+msgstr "აჯანტა"
 
 #: recursos/0india/datos/0india.py:158 recursos/0india/datos/levels.py:197
 msgid "Ellora"
-msgstr ""
+msgstr "ელორა"
 
 #: recursos/0india/datos/0india.py:159 recursos/0india/datos/levels.py:198
 msgid "Aurangabad"
-msgstr ""
+msgstr "აურანგაბადი"
 
 #: recursos/0india/datos/0india.py:160 recursos/0india/datos/levels.py:199
 msgid "Shirdi"
-msgstr ""
+msgstr "შირდი"
 
 #: recursos/0india/datos/0india.py:161 recursos/0india/datos/levels.py:200
 msgid "Pune"
-msgstr ""
+msgstr "პუნე"
 
 #: recursos/0india/datos/0india.py:162 recursos/0india/datos/levels.py:201
 msgid "Murud"
-msgstr ""
+msgstr "მურუდი"
 
 #: recursos/0india/datos/0india.py:163 recursos/0india/datos/levels.py:202
 msgid "Mahabaleshwar"
-msgstr ""
+msgstr "მაჰაბელეშვარი"
 
 #: recursos/0india/datos/0india.py:164 recursos/0india/datos/levels.py:203
 msgid "Ganpatipule"
-msgstr ""
+msgstr "განატიპულე"
 
 #: recursos/0india/datos/0india.py:165 recursos/0india/datos/levels.py:204
 msgid "Panhala"
-msgstr ""
+msgstr "პანჰალა"
 
 #: recursos/0india/datos/0india.py:166 recursos/0india/datos/levels.py:205
 msgid "Warangal"
-msgstr ""
+msgstr "ვარანგალი"
 
 #: recursos/0india/datos/0india.py:167
 msgid "Visakhapatnam"
-msgstr ""
+msgstr "ვისახაპატნამი"
 
 #: recursos/0india/datos/0india.py:168 recursos/0india/datos/levels.py:207
 msgid "Bhadrachalam"
-msgstr ""
+msgstr "ბჰადრაჩალამი"
 
 #: recursos/0india/datos/0india.py:169 recursos/0india/datos/levels.py:208
 msgid "Amaravati"
-msgstr ""
+msgstr "ამარავატი"
 
 #: recursos/0india/datos/0india.py:170 recursos/0india/datos/levels.py:209
 msgid "Srisailam"
-msgstr ""
+msgstr "სრისაილამი"
 
 #: recursos/0india/datos/0india.py:171 recursos/0india/datos/levels.py:210
 msgid "Lepakshi"
-msgstr ""
+msgstr "ლეპაკში"
 
 #: recursos/0india/datos/0india.py:172 recursos/0india/datos/levels.py:211
 msgid "Tirupati"
-msgstr ""
+msgstr "ტირუპატი"
 
 #: recursos/0india/datos/0india.py:173 recursos/0india/datos/levels.py:212
 #: recursos/4goa/datos/4goa.py:29 recursos/4goa/datos/levels.py:35
@@ -934,23 +934,23 @@ msgstr ""
 
 #: recursos/0india/datos/0india.py:174 recursos/0india/datos/levels.py:213
 msgid "Bider"
-msgstr ""
+msgstr "ბიდერი"
 
 #: recursos/0india/datos/0india.py:175 recursos/0india/datos/levels.py:214
 msgid "Gulbarga"
-msgstr ""
+msgstr "გულბარგა"
 
 #: recursos/0india/datos/0india.py:176 recursos/0india/datos/levels.py:215
 msgid "Bijapur"
-msgstr ""
+msgstr "ბიჯაპური"
 
 #: recursos/0india/datos/0india.py:177 recursos/0india/datos/levels.py:216
 msgid "Raichur"
-msgstr ""
+msgstr "რაიჩური"
 
 #: recursos/0india/datos/0india.py:178 recursos/0india/datos/levels.py:217
 msgid "Hampi"
-msgstr ""
+msgstr "ჰამპი"
 
 #: recursos/0india/datos/0india.py:179 recursos/0india/datos/levels.py:218
 msgid "Jog Falls"
@@ -958,63 +958,63 @@ msgstr ""
 
 #: recursos/0india/datos/0india.py:180 recursos/0india/datos/levels.py:219
 msgid "Chitradurga"
-msgstr ""
+msgstr "ჩიტრადურგა"
 
 #: recursos/0india/datos/0india.py:181 recursos/0india/datos/levels.py:220
 msgid "Udupi"
-msgstr ""
+msgstr "უდუპი"
 
 #: recursos/0india/datos/0india.py:182 recursos/0india/datos/levels.py:221
 msgid "Mangalore"
-msgstr ""
+msgstr "მანგალორი"
 
 #: recursos/0india/datos/0india.py:183 recursos/0india/datos/levels.py:222
 msgid "Belur"
-msgstr ""
+msgstr "ბელური"
 
 #: recursos/0india/datos/0india.py:184 recursos/0india/datos/levels.py:223
 msgid "Kozhikode"
-msgstr ""
+msgstr "კოჯიკოდე"
 
 #: recursos/0india/datos/0india.py:185 recursos/0india/datos/levels.py:224
 msgid "Kochi"
-msgstr ""
+msgstr "კოჩი"
 
 #: recursos/0india/datos/0india.py:186 recursos/0india/datos/levels.py:225
 msgid "Alappuzha"
-msgstr ""
+msgstr "ალაპუჟა"
 
 #: recursos/0india/datos/0india.py:187 recursos/0india/datos/levels.py:226
 msgid "Mamallapuram"
-msgstr ""
+msgstr "მამალაპურამი"
 
 #: recursos/0india/datos/0india.py:188 recursos/0india/datos/levels.py:227
 msgid "Chidambaram"
-msgstr ""
+msgstr "ჩიდამბარამი"
 
 #: recursos/0india/datos/0india.py:189 recursos/0india/datos/levels.py:228
 msgid "Mudumalai"
-msgstr ""
+msgstr "მუმუმალაი"
 
 #: recursos/0india/datos/0india.py:190 recursos/0india/datos/levels.py:229
 msgid "Thanjavur"
-msgstr ""
+msgstr "ტანჯავური"
 
 #: recursos/0india/datos/0india.py:191 recursos/0india/datos/levels.py:230
 msgid "Kodaikanal"
-msgstr ""
+msgstr "კოდაიკანალი"
 
 #: recursos/0india/datos/0india.py:192 recursos/0india/datos/levels.py:231
 msgid "Madurai"
-msgstr ""
+msgstr "მადურაი"
 
 #: recursos/0india/datos/0india.py:193 recursos/0india/datos/levels.py:232
 msgid "Kanniyakumari"
-msgstr ""
+msgstr "კანიაკუმარი"
 
 #: recursos/0india/datos/0india.py:194 recursos/0india/datos/levels.py:233
 msgid "Rameswaram"
-msgstr ""
+msgstr "რამესვარამი"
 
 #: recursos/0india/datos/0india.py:203 recursos/4goa/datos/4goa.py:49
 #: recursos/4uttarpradesh/datos/4uttarpradesh.py:45
@@ -1323,7 +1323,7 @@ msgstr ""
 
 #: recursos/0india/datos/levels.py:206
 msgid "Vishakhapatnam"
-msgstr ""
+msgstr "ვიშაქაპატნამი"
 
 #: recursos/4goa/datos/4goa.py:8 recursos/4goa/datos/4goa.py:26
 #: recursos/4goa/datos/levels.py:11 recursos/4goa/datos/levels.py:32
@@ -1702,3 +1702,75 @@ msgstr ""
 #: conozco.py:730 conozco.py:891
 msgid "Stats"
 msgstr "სტატისტიკა"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:14
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:46
+#: recursos/4andhrapradesh/datos/levels.py:17
+#: recursos/4andhrapradesh/datos/levels.py:48
+msgid "Nalgonda"
+msgstr "ნალგონდა"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:8
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:41
+#: recursos/4andhrapradesh/datos/levels.py:11
+#: recursos/4andhrapradesh/datos/levels.py:43
+msgid "Adilabad"
+msgstr "ადილაბადი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:9
+#: recursos/4andhrapradesh/datos/levels.py:12
+msgid "Nizamabad"
+msgstr "ნიზამაბადი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:11
+#: recursos/4andhrapradesh/datos/levels.py:14
+msgid "Medak"
+msgstr "მედაკი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:13
+#: recursos/4andhrapradesh/datos/levels.py:16
+msgid "Rangareddy"
+msgstr "რანგარედდი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:16
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:47
+#: recursos/4andhrapradesh/datos/levels.py:19
+#: recursos/4andhrapradesh/datos/levels.py:49
+msgid "Mahabubnagar"
+msgstr "მაჰაბუბნაგარი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:17
+#: recursos/4andhrapradesh/datos/levels.py:20
+msgid "Kamulu"
+msgstr "კამულუ"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:18
+#: recursos/4andhrapradesh/datos/levels.py:21
+msgid "Ananthapur"
+msgstr "ანანტჰაპური"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:19
+#: recursos/4andhrapradesh/datos/levels.py:22
+msgid "Kadapa"
+msgstr "კადაპა"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:10
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:43
+#: recursos/4andhrapradesh/datos/levels.py:13
+#: recursos/4andhrapradesh/datos/levels.py:45
+msgid "Karimnagar"
+msgstr "კარიმნაგარი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:15
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:55
+#: recursos/4andhrapradesh/datos/levels.py:18
+#: recursos/4andhrapradesh/datos/levels.py:57
+msgid "Khammam"
+msgstr "ხამამი"
+
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:20
+#: recursos/4andhrapradesh/datos/4andhrapradesh.py:52
+#: recursos/4andhrapradesh/datos/levels.py:23
+#: recursos/4andhrapradesh/datos/levels.py:54
+msgid "Chittoor"
+msgstr "ჩიტური"
